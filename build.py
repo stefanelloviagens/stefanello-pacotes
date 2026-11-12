@@ -210,6 +210,20 @@ footer a{color:#fff}
 .lb img{max-width:100%;max-height:85vh;border-radius:10px}
 .lb button{position:absolute;background:rgba(255,255,255,.15);color:#fff;border:0;width:48px;height:48px;border-radius:50%;font-size:26px;cursor:pointer}
 .lb-x{top:16px;right:16px}.lb-p{left:12px;top:50%}.lb-n{right:12px;top:50%}
+.navdet{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0 4px;padding:12px;background:#FFF4BF;border:1px solid #F1DC6A;border-radius:14px}
+.navdet span{font-weight:700;font-size:14px;width:100%}
+.navdet a{background:var(--card);border:1.5px solid var(--ink);border-radius:999px;padding:7px 12px;font-weight:700;font-size:13.5px;text-decoration:none}
+.navdet a:hover{background:var(--ink);color:#fff}
+.role{display:block;text-align:center;margin-top:16px;padding:12px;border-radius:12px;background:var(--ink);color:var(--sun);font-weight:800;text-decoration:none}
+html{scroll-behavior:smooth}.det{scroll-margin-top:80px}
+.srvs{display:grid;gap:14px}
+@media(min-width:900px){.srvs{grid-template-columns:1fr 1fr}}
+.srv{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.srv-h{display:flex;gap:12px;align-items:flex-start;margin-bottom:8px}
+.srv-i{font-size:28px;line-height:1;width:48px;height:48px;border-radius:12px;background:#F2EDE2;display:grid;place-items:center;flex:none}
+.srv h3{font-size:18px;margin:6px 0 2px}
+.quando{font-size:13.5px;color:var(--muted)}
+.srv-l{margin:10px 0 0 18px;font-size:14px;color:var(--muted);display:grid;gap:4px}
 .empty{background:var(--card);border:1px dashed var(--line);border-radius:20px;padding:28px;text-align:center;color:var(--muted)}
 """
 
@@ -409,21 +423,36 @@ def galeria(fotos, alt, gid):
     return f'<div class="gal" data-fotos="{e(json.dumps(fotos))}" id="{gid}">{itens}</div>'
 
 
+def nav_det(p):
+    itens = []
+    if p.get("voos"): itens.append('<a href="#voos">✈️ Voos</a>')
+    if p.get("hotel"): itens.append('<a href="#hotel">🏨 Hotel e quarto</a>')
+    if p.get("servicos"): itens.append('<a href="#servicos">🚐 Transfer e passeios</a>')
+    if not itens: return ""
+    return '<div class="navdet"><span>Veja os detalhes abaixo:</span>' + "".join(itens) + '</div>'
+
+
 def detalhes(p):
     out = []
     if p.get("voos"):
-        out.append('<section class="det"><h2>✈️ Voos do pacote</h2><div class="voos">' + "".join(bloco_voo(v) for v in p["voos"]) + '</div><p class="aviso">Horários e números de voo da cotação atual. A companhia pode alterar até o embarque; a gente te avisa qualquer mudança.</p></section>')
+        out.append('<section class="det" id="voos"><h2>✈️ Voos do pacote</h2><div class="voos">' + "".join(bloco_voo(v) for v in p["voos"]) + '</div><p class="aviso">Horários e números de voo da cotação atual. A companhia pode alterar até o embarque; a gente te avisa qualquer mudança.</p></section>')
     h = p.get("hotel")
     if h:
         q = h.get("quarto") or {}
         com = "".join(f"<li>{e(c)}</li>" for c in q.get("comodidades", []))
-        out.append(f"""<section class="det"><h2>🏨 Hospedagem</h2>
+        out.append(f"""<section class="det" id="hotel"><h2>🏨 Hospedagem</h2>
 <div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}</p>
 <div class="hfacts"><span><b>{h.get('noites','')}</b> noites</span><span>🍽️ {e(h.get('regime',''))}</span><span>Check-in {e(h.get('checkin',''))}</span><span>Check-out {e(h.get('checkout',''))}</span></div>
 <p>{e(h.get('descricao',''))}</p></div></div>
 {galeria(h.get('fotos', []), h['nome'], 'gh')}
 <div class="quarto"><div><span class="tag-voo">Quarto</span><h3>{e(q.get('nome',''))}</h3><p>{e(q.get('descricao',''))}</p><ul class="com">{com}</ul></div>
 {galeria(q.get('fotos', []), q.get('nome','quarto'), 'gq')}</div></section>""")
+    if p.get("servicos"):
+        cards = []
+        for sv in p["servicos"]:
+            info = "".join(f"<li>{e(x)}</li>" for x in sv.get("info", []))
+            cards.append(f"""<article class="srv"><div class="srv-h"><span class="srv-i">{sv.get('icone','')}</span><div><span class="tag-voo">{e(sv['tipo'])}</span><h3>{e(sv['nome'])}</h3>{f'<p class="quando">🗓️ {e(sv["quando"])}</p>' if sv.get('quando') else ''}</div></div><p>{e(sv.get('descricao',''))}</p>{f'<ul class="srv-l">{info}</ul>' if info else ''}</article>""")
+        out.append('<section class="det" id="servicos"><h2>🚐 Transfer, passeios e mais</h2><div class="srvs">' + "".join(cards) + '</div><p class="aviso">Dias e horários dos passeios conforme a programação do receptivo. Confirmamos tudo contigo antes da viagem.</p></section>')
     if out:
         out.append('<div id="lb" class="lb" hidden><button type="button" class="lb-x" aria-label="Fechar">✕</button><button type="button" class="lb-p" aria-label="Foto anterior">‹</button><img alt=""><button type="button" class="lb-n" aria-label="Próxima foto">›</button></div>')
     return "".join(out)
@@ -454,7 +483,7 @@ def pagina(p):
 <main class="wrap"><a class="back" href="/">← Todos os pacotes</a>
 <div class="pk"><div class="media">{media}</div>
 <div><span class="chip bf">{'🖤💛 BLACK FRIDAY' if p.get('black') else 'PACOTE'}</span>{selo}
-<h1>{e(p['titulo'])}</h1><p class="lead">{e(p['chamada'])}</p>
+<h1>{e(p['titulo'])}</h1><p class="lead">{e(p['chamada'])}</p>{nav_det(p)}
 <div class="facts"><div class="fact"><b>{p['pessoas']}</b><span>pessoas</span></div><div class="fact"><b>{p['dias']} dias</b><span>{p['noites']} noites</span></div><div class="fact"><b>Saída</b><span>Porto Alegre</span></div></div>
 <div class="box datas"><h2>Datas</h2><p>📅 <span><b>Ida:</b> {e(p['idaTxt'])}</span></p><p>📅 <span><b>Retorno:</b> {e(p['voltaTxt'])}</span></p></div>
 <div class="box"><h2>O pacote inclui</h2><ul class="inc">{inc}</ul></div>
@@ -462,7 +491,7 @@ def pagina(p):
 {outras}
 <div class="ctas"><a class="btn btn-wa" data-wa="{e(p['slug'])}" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero esse pacote</a>
 <a class="btn btn-ghost" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo de promoções</a></div>
-<p class="aviso">*Valores sujeitos a disponibilidade e alteração a qualquer momento. O valor só fica garantido na reserva.</p></div></div>{detalhes(p)}</main>
+<p class="aviso">*Valores sujeitos a disponibilidade e alteração a qualquer momento. O valor só fica garantido na reserva.</p><a class="role" href="#voos">👇 Role pra baixo: tem todos os detalhes do pacote</a></div></div>{detalhes(p)}</main>
 <div class="sticky"><div class="t">{e(p['destino'])}<br><b>R$ {e(p['pix'])}</b> no PIX</div><a class="btn btn-wa" data-wa="{e(p['slug'])}-barra" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero</a></div>
 {rodape()}{JS}{LB_JS}</body></html>"""
     return head(f"{p['titulo']} | Stefanello Viagens", desc, url, p.get("img", "")) + pixel(vc) + "</head>" + body

@@ -153,7 +153,45 @@
             "https://media.omnibees.com/Images/3154/RoomTypes/246166.jpg"
           ]
         }
-      }
+      },
+      "servicos": [
+        {
+          "tipo": "Transfer",
+          "icone": "🚐",
+          "nome": "Transfer aeroporto → hotel → aeroporto",
+          "quando": "Na chegada e na volta",
+          "descricao": "Transfer em grupo (shuttle) do aeroporto Santos Dumont ou Galeão até o hotel na Zona Sul, e de volta no último dia.",
+          "info": [
+            "A equipe te espera no desembarque com uma placa no nome do titular",
+            "Saídas entre 8h e 21h, a cada 1h30",
+            "Na volta, o motorista te busca na recepção do hotel no horário combinado"
+          ]
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "⛪",
+          "nome": "Cristo Redentor + Floresta da Tijuca + City Tour",
+          "quando": "Dia inteiro · todos os dias",
+          "descricao": "Subida de van ao Corcovado pela Floresta da Tijuca, com ingresso pro Cristo Redentor incluso. Depois, city tour panorâmico pelos cartões-postais do Rio.",
+          "info": [
+            "Ingresso do Cristo incluso",
+            "Passa pelo Maracanã, Sambódromo, Escadaria Selarón e Catedral Metropolitana",
+            "Busca e volta no hotel (Zona Sul e Centro)"
+          ]
+        },
+        {
+          "tipo": "Experiência",
+          "icone": "☕",
+          "nome": "Chá do Forte na Confeitaria Colombo · GRÁTIS",
+          "quando": "Café da manhã ou café da tarde",
+          "descricao": "Café da manhã ou da tarde na Confeitaria Colombo do Forte de Copacabana, de frente pro mar, pra 2 pessoas.",
+          "info": [
+            "Cesta com minibrioches, croissant, pão de queijo, torrada Petrópolis, bolo e queijadinha",
+            "Café, chá, chocolate quente ou café com leite + suco de laranja",
+            "Entrada no Forte: R$ 10 por pessoa, paga no local (dinheiro ou Pix)"
+          ]
+        }
+      ]
     },
     {
       "slug": "ilheus-itacare-black-friday",
@@ -345,7 +383,41 @@
             "https://media.omnibees.com/Images/19406/RoomTypes/1276142.png"
           ]
         }
-      }
+      },
+      "servicos": [
+        {
+          "tipo": "Transfer",
+          "icone": "🚐",
+          "nome": "Transfer aeroporto → hotel → aeroporto",
+          "quando": "Na chegada e na volta",
+          "descricao": "Transfer regular entre o Aeroporto Jorge Amado e o hotel, na ida e na volta.",
+          "info": []
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "🏛️",
+          "nome": "City Tour Histórico e Panorâmico em Ilhéus",
+          "quando": "Seg, qua e sex · 8h às 12h",
+          "descricao": "Um passeio pela Ilhéus de Jorge Amado: Catedral de São Sebastião, o famoso Bar Vesúvio e o centro histórico, com as histórias dos romances do escritor.",
+          "info": []
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "🍫",
+          "nome": "Fazenda de Cacau e seus derivados",
+          "quando": "Ter e qui · 8h às 13h",
+          "descricao": "Visita a uma fazenda de cacau: da plantação e do fruto até o chocolate de origem, com as histórias e causos da época dos coronéis do cacau.",
+          "info": []
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "🏝️",
+          "nome": "Itacaré com praias urbanas",
+          "quando": "Sábados · 8h às 17h (ou conforme programação)",
+          "descricao": "Estrada pela BA-001 no meio da Mata Atlântica até Itacaré, com paradas nas praias do Resende, Tiririca e da Concha.",
+          "info": []
+        }
+      ]
     },
     {
       "slug": "punta-cana-all-inclusive-black-friday",
@@ -527,7 +599,31 @@
             "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/f6db6917_z.jpg"
           ]
         }
-      }
+      },
+      "servicos": [
+        {
+          "tipo": "Transfer",
+          "icone": "🚐",
+          "nome": "Transfer aeroporto → resort → aeroporto · GRÁTIS",
+          "quando": "Na chegada e na volta",
+          "descricao": "Transfer regular entre o Aeroporto Internacional de Punta Cana e o resort, na ida e na volta, cortesia da promoção.",
+          "info": [
+            "A equipe da Brasil Passeios te espera na área dos operadores turísticos",
+            "Leva 1 mala grande e 1 bolsa de mão por pessoa"
+          ]
+        },
+        {
+          "tipo": "Seguro",
+          "icone": "🛡️",
+          "nome": "Seguro viagem GTA · plano Bronze AL",
+          "quando": "Toda a viagem",
+          "descricao": "Seguro viagem internacional com assistência médica e hospitalar durante a viagem.",
+          "info": [
+            "Cobertura médica inclui gravidez, prática de esportes e doenças preexistentes",
+            "Para viajantes até 85 anos"
+          ]
+        }
+      ]
     }
   ]
 }
