@@ -211,8 +211,8 @@ footer a{color:#fff}
 .lb button{position:absolute;background:rgba(255,255,255,.15);color:#fff;border:0;width:48px;height:48px;border-radius:50%;font-size:26px;cursor:pointer}
 .lb-x{top:16px;right:16px}.lb-p{left:12px;top:50%}.lb-n{right:12px;top:50%}
 @media(max-width:899px){.pk .media .fake-art{aspect-ratio:16/10;padding:16px}.pk .media .fake-art .d{font-size:36px}.pk .media .fake-art .pr{padding:10px}.pk .media .fake-art .pr b{font-size:24px}.pk{gap:18px;padding-top:16px}}
-.mq{background:var(--ink);color:var(--sun);overflow:hidden;margin:6px calc(50% - 50vw) 30px;width:100vw;border-top:3px solid var(--sun);border-bottom:3px solid var(--sun)}
-.mq-t{display:flex;width:max-content;gap:22px;padding:14px 0;font-family:Archivo,sans-serif;font-weight:800;font-size:clamp(18px,3vw,26px);letter-spacing:.04em;white-space:nowrap;animation:mq 40s linear infinite}
+.mq{background:var(--ink);color:var(--sun);overflow:hidden;margin:6px calc(50% - 50vw) 26px;width:100vw;border-top:2px solid var(--sun);border-bottom:2px solid var(--sun)}
+.mq-t{display:flex;width:max-content;gap:16px;padding:8px 0;font-family:Archivo,sans-serif;font-weight:800;font-size:clamp(13px,1.8vw,17px);letter-spacing:.04em;white-space:nowrap;animation:mq 40s linear infinite}
 .mq-t span:nth-of-type(even){color:#fff}
 .mq-t i{font-style:normal;color:var(--sun)}
 @keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
