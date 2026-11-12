@@ -212,7 +212,7 @@ footer a{color:#fff}
 .lb-x{top:16px;right:16px}.lb-p{left:12px;top:50%}.lb-n{right:12px;top:50%}
 @media(max-width:899px){.pk .media .fake-art{aspect-ratio:16/10;padding:16px}.pk .media .fake-art .d{font-size:36px}.pk .media .fake-art .pr{padding:10px}.pk .media .fake-art .pr b{font-size:24px}.pk{gap:18px;padding-top:16px}}
 .mq{background:var(--ink);color:var(--sun);overflow:hidden;margin:6px calc(50% - 50vw) 26px;width:100vw;border-top:2px solid var(--sun);border-bottom:2px solid var(--sun)}
-.mq-t{display:flex;width:max-content;gap:16px;padding:8px 0;font-family:Archivo,sans-serif;font-weight:800;font-size:clamp(13px,1.8vw,17px);letter-spacing:.04em;white-space:nowrap;animation:mq 40s linear infinite}
+.mq-t{display:flex;width:max-content;gap:12px;padding:6px 0;font-family:Archivo,sans-serif;font-weight:800;font-size:clamp(11px,1.4vw,14px);letter-spacing:.04em;white-space:nowrap;animation:mq 80s linear infinite}
 .mq-t span:nth-of-type(even){color:#fff}
 .mq-t i{font-style:normal;color:var(--sun)}
 @keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
