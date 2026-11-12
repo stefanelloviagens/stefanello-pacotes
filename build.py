@@ -398,7 +398,7 @@ def index():
 <p>Aéreo, hotel e transfer no mesmo pacote, com preço no PIX ou parcelado em até 15x sem juros. Tu escolhe, me chama no WhatsApp e eu cuido do resto.</p>
 <div class="cta"><a class="btn btn-wa" data-wa="hero" href="{e(wa_link('Oi! Vi os pacotes no site da Stefanello Viagens e quero saber mais.'))}" target="_blank" rel="noopener">{WA_ICON}Falar no WhatsApp</a><a class="btn btn-ghost" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo de promoções</a></div>
 <div class="trust"><span>✔ <b>CNPJ</b> 54.630.293/0001-10</span><span>✔ Agência do <b>RS</b></span><span>✔ Atendimento <b>humano</b> do começo ao fim</span></div></div></section>
-<main><section class="sec"><div class="wrap"><h2>Pacotes da semana</h2><p class="sub">Valores para o número de pessoas indicado em cada pacote. Tem outras datas? Me pergunta.</p>
+<main>{marquee() if tem_black else ""}<section class="sec"><div class="wrap"><h2>Pacotes com desconto</h2><p class="sub">Valores para o número de pessoas indicado em cada pacote. Tem outras datas? Me pergunta.</p>
 {filtros}
 <div class="grid" id="grade">{cards}</div><div class="empty" id="vazio" hidden>Nenhum pacote com esse filtro. <a href="#" id="limpar2">Limpar filtros</a> ou me chama no WhatsApp que eu procuro pra ti.</div></div></section>
 <section class="sec" style="padding-top:0"><div class="wrap"><div class="band"><div><h2>Quer receber as promoções primeiro?</h2><p>Entra no grupo de WhatsApp da Stefanello Viagens. Só ofertas, sem spam.</p></div><a class="btn" style="background:var(--ink);color:#fff" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo</a></div></div></section></main>
@@ -431,6 +431,11 @@ def galeria(fotos, alt, gid):
     return f'<div class="gal" data-fotos="{e(json.dumps(fotos))}" id="{gid}">{itens}</div>'
 
 
+def marquee():
+    item = '<span>BLACK FRIDAY</span><i>✦</i><span>STEFANELLO VIAGENS</span><i>✦</i>'
+    return '<div class="mq" aria-label="Black Friday Stefanello Viagens"><div class="mq-t" aria-hidden="true">' + item * 12 + '</div></div>'
+
+
 def nav_det(p):
     itens = []
     if p.get("voos"): itens.append('<a href="#voos">✈️ Voos</a>')
@@ -443,8 +448,7 @@ def nav_det(p):
 def detalhes(p):
     out = []
     if p.get("black"):
-        item = '<span>BLACK FRIDAY</span><i>✦</i><span>STEFANELLO VIAGENS</span><i>✦</i>'
-        out.append('<div class="mq" aria-label="Black Friday Stefanello Viagens"><div class="mq-t" aria-hidden="true">' + item * 12 + '</div></div>')
+        out.append(marquee())
     if p.get("voos"):
         out.append('<section class="det" id="voos"><h2>✈️ Voos do pacote</h2><div class="voos">' + "".join(bloco_voo(v) for v in p["voos"]) + '</div><p class="aviso">Horários e números de voo da cotação atual. A companhia pode alterar até o embarque; a gente te avisa qualquer mudança.</p></section>')
     h = p.get("hotel")
