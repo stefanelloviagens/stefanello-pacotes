@@ -322,7 +322,6 @@ def card(p):
 def index():
     cards = "".join(card(p) for p in ativos) or '<div class="empty">Novos pacotes chegando. Me chama no WhatsApp que eu te mando as ofertas de hoje.</div>'
     tem_black = any(p.get("black") for p in ativos)
-    ultimos = sorted(ativos, key=pub_key, reverse=True)[:2]
     meses = sorted({p["ida"][:7] for p in ativos})
     chips_mes = "".join(f'<button type="button" class="fchip" data-mes="{m}">{MESES[int(m[5:7])-1]}/{m[2:4]}</button>' for m in meses)
     filtros = f"""<form class="filtros" id="filtros" onsubmit="return false" role="search">
@@ -336,8 +335,8 @@ def index():
     body = f"""<body>{topo()}
 <section class="hero"><div class="wrap">{'<span class="tag">🖤💛 Black Friday</span>' if tem_black else ''}
 <h1>Pacotes de viagem saindo de <em>Porto Alegre</em></h1>
-<p>Aéreo, hotel e transfer no mesmo pacote, com preço no PIX ou em até 15x sem juros. Os últimos que entraram:</p>
-{banner(ultimos)}
+<p>Aéreo, hotel e transfer no mesmo pacote, com preço no PIX ou parcelado em até 15x sem juros. Tu escolhe, me chama no WhatsApp e eu cuido do resto.</p>
+<div class="cta"><a class="btn btn-wa" data-wa="hero" href="{e(wa_link('Oi! Vi os pacotes no site da Stefanello Viagens e quero saber mais.'))}" target="_blank" rel="noopener">{WA_ICON}Falar no WhatsApp</a><a class="btn btn-ghost" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo de promoções</a></div>
 <div class="trust"><span>✔ <b>CNPJ</b> 54.630.293/0001-10</span><span>✔ Agência do <b>RS</b></span><span>✔ Atendimento <b>humano</b> do começo ao fim</span></div></div></section>
 <main><section class="sec"><div class="wrap"><h2>Pacotes da semana</h2><p class="sub">Valores para o número de pessoas indicado em cada pacote. Tem outras datas? Me pergunta.</p>
 {filtros}
