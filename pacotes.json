@@ -51,7 +51,109 @@
       "parcela": "440,00",
       "outrasDatas": "Várias outras datas em janeiro, fevereiro e março.",
       "publicado": "2026-11-12",
-      "foto": "10322305"
+      "foto": "10322305",
+      "voos": [
+        {
+          "tipo": "Ida",
+          "data": "sex, 8 de jan",
+          "cia": "LATAM",
+          "resumo": "Voo direto · 1h55",
+          "bagagem": [
+            "1 mala despachada de 23 kg",
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "sex, 8 de jan",
+                "hora": "09:10",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "chegada": {
+                "data": "sex, 8 de jan",
+                "hora": "11:05",
+                "iata": "SDU",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Aeroporto Santos Dumont"
+              },
+              "voo": "LA 3961",
+              "duracao": "1h55"
+            }
+          ],
+          "conexoes": []
+        },
+        {
+          "tipo": "Volta",
+          "data": "ter, 12 de jan",
+          "cia": "LATAM",
+          "resumo": "Voo direto · 2h",
+          "bagagem": [
+            "1 mala despachada de 23 kg",
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "ter, 12 de jan",
+                "hora": "17:15",
+                "iata": "SDU",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Aeroporto Santos Dumont"
+              },
+              "chegada": {
+                "data": "ter, 12 de jan",
+                "hora": "19:15",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "voo": "LA 3972",
+              "duracao": "2h"
+            }
+          ],
+          "conexoes": []
+        }
+      ],
+      "hotel": {
+        "nome": "Hotel Mar Palace Copacabana",
+        "regime": "Café da manhã",
+        "noites": 4,
+        "checkin": "08/01, a partir das 14h",
+        "checkout": "12/01, até 12h",
+        "endereco": "Copacabana, Rio de Janeiro",
+        "descricao": "Hotel em Copacabana, a cerca de 1 km da praia e a 50 metros da estação Siqueira Campos do metrô. Tem 88 quartos em 12 andares, recepção 24 horas, restaurante climatizado e Wi-Fi. Pertinho de comércio, bares e restaurantes do bairro.",
+        "fotos": [
+          "https://media.infotravel.com.br/image/upload/ded2558df287bbe98c234ceb1bbd1fe6.jpg",
+          "https://media.infotravel.com.br/image/upload/792ef776e96dec6a8fc75bb43b0be94e.jpg",
+          "https://media.infotravel.com.br/image/upload/3277f19bd5cfaa06de70882d02cd474.jpg",
+          "https://media.infotravel.com.br/image/upload/34ea7d3c354440936be3f36bd6b3c176.jpg",
+          "https://media.infotravel.com.br/image/upload/b166b354f5a38f7feec2aa0521011bec.jpg",
+          "https://media.infotravel.com.br/image/upload/f389f0f0c50b979156c149782c5d18a7.jpg"
+        ],
+        "quarto": {
+          "nome": "Superior Duplo",
+          "descricao": "Quarto pra casal com cama de casal e vista pra cidade (do 2º ao 6º andar), banheiro em granito, TV LCD 32\" com canais a cabo, frigobar, ar-condicionado e Wi-Fi grátis.",
+          "comodidades": [
+            "Ar-condicionado",
+            "Wi-Fi grátis",
+            "Frigobar",
+            "TV a cabo",
+            "Cofre",
+            "Secador de cabelo",
+            "Banheiro privativo",
+            "Kit de amenities"
+          ],
+          "fotos": [
+            "https://media.omnibees.com/Images/3154/RoomTypes/433805.jpg",
+            "https://media.omnibees.com/Images/3154/RoomTypes/343437.jpg",
+            "https://media.omnibees.com/Images/3154/RoomTypes/246166.jpg"
+          ]
+        }
+      }
     },
     {
       "slug": "ilheus-itacare-black-friday",
@@ -99,7 +201,151 @@
       "parcela": "516,00",
       "outrasDatas": "Várias outras datas em janeiro, fevereiro e março.",
       "publicado": "2026-11-12",
-      "foto": "30096921"
+      "foto": "30096921",
+      "voos": [
+        {
+          "tipo": "Ida",
+          "data": "sáb, 9 de jan",
+          "cia": "GOL",
+          "resumo": "1 conexão em São Paulo (Congonhas) · 5h30",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "sáb, 9 de jan",
+                "hora": "09:25",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "chegada": {
+                "data": "sáb, 9 de jan",
+                "hora": "11:00",
+                "iata": "CGH",
+                "cidade": "São Paulo",
+                "aeroporto": "Aeroporto de Congonhas"
+              },
+              "voo": "G3 1275",
+              "duracao": "1h35"
+            },
+            {
+              "saida": {
+                "data": "sáb, 9 de jan",
+                "hora": "12:45",
+                "iata": "CGH",
+                "cidade": "São Paulo",
+                "aeroporto": "Aeroporto de Congonhas"
+              },
+              "chegada": {
+                "data": "sáb, 9 de jan",
+                "hora": "14:55",
+                "iata": "IOS",
+                "cidade": "Ilhéus",
+                "aeroporto": "Aeroporto Jorge Amado"
+              },
+              "voo": "G3 1528",
+              "duracao": "2h10"
+            }
+          ],
+          "conexoes": [
+            "Espera de 1h45 em Congonhas"
+          ]
+        },
+        {
+          "tipo": "Volta",
+          "data": "qui, 14 de jan",
+          "cia": "GOL",
+          "resumo": "1 conexão em São Paulo (Congonhas) · 5h",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "qui, 14 de jan",
+                "hora": "13:55",
+                "iata": "IOS",
+                "cidade": "Ilhéus",
+                "aeroporto": "Aeroporto Jorge Amado"
+              },
+              "chegada": {
+                "data": "qui, 14 de jan",
+                "hora": "16:20",
+                "iata": "CGH",
+                "cidade": "São Paulo",
+                "aeroporto": "Aeroporto de Congonhas"
+              },
+              "voo": "G3 1529",
+              "duracao": "2h25"
+            },
+            {
+              "saida": {
+                "data": "qui, 14 de jan",
+                "hora": "17:05",
+                "iata": "CGH",
+                "cidade": "São Paulo",
+                "aeroporto": "Aeroporto de Congonhas"
+              },
+              "chegada": {
+                "data": "qui, 14 de jan",
+                "hora": "18:55",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "voo": "G3 1282",
+              "duracao": "1h50"
+            }
+          ],
+          "conexoes": [
+            "Espera de 45 min em Congonhas"
+          ]
+        }
+      ],
+      "hotel": {
+        "nome": "Ilhéus Praia Hotel",
+        "regime": "Café da manhã",
+        "noites": 5,
+        "checkin": "09/01",
+        "checkout": "14/01",
+        "endereco": "Praça Dom Eduardo, esquina com a Av. Soares Lopes, Centro de Ilhéus",
+        "descricao": "Hotel no centro histórico de Ilhéus, de frente pra Catedral de São Sebastião e pertinho da Avenida Soares Lopes e da orla. Dá pra fazer o centro, o Bar Vesúvio e a Casa de Jorge Amado a pé.",
+        "fotos": [
+          "https://media.omnibees.com/Images/19406/Property/1276866.png",
+          "https://media.omnibees.com/Images/19406/Property/1276867.png",
+          "https://media.omnibees.com/Images/19406/Property/1276868.png",
+          "https://media.omnibees.com/Images/19406/Property/1276871.png",
+          "https://media.omnibees.com/Images/19406/Property/1276872.png",
+          "https://media.omnibees.com/Images/19406/Property/1276873.png",
+          "https://media.omnibees.com/Images/19406/Property/1276874.png",
+          "https://media.omnibees.com/Images/19406/Property/1276876.jpg",
+          "https://media.omnibees.com/Images/19406/Property/1282364.jpg",
+          "https://media.omnibees.com/Images/19406/Property/1282365.jpg"
+        ],
+        "quarto": {
+          "nome": "Suíte Standard",
+          "descricao": "Com vista pra Catedral de São Sebastião, cama queen, ar-condicionado, cozinha compacta, smart TV e banheiro completo com secador de cabelo.",
+          "comodidades": [
+            "Ar-condicionado",
+            "Wi-Fi",
+            "Frigobar",
+            "Cozinha compacta",
+            "Smart TV",
+            "TV a cabo",
+            "Secador de cabelo",
+            "Banheiro privativo"
+          ],
+          "fotos": [
+            "https://media.omnibees.com/Images/19406/RoomTypes/1276881.jpg",
+            "https://media.omnibees.com/Images/19406/RoomTypes/1276141.png",
+            "https://media.omnibees.com/Images/19406/RoomTypes/1276142.png"
+          ]
+        }
+      }
     },
     {
       "slug": "punta-cana-all-inclusive-black-friday",
@@ -139,7 +385,149 @@
       "parcela": "1.498,00",
       "outrasDatas": "",
       "publicado": "2026-11-12",
-      "foto": "2646067"
+      "foto": "2646067",
+      "voos": [
+        {
+          "tipo": "Ida",
+          "data": "dom, 24 de jan",
+          "cia": "LATAM",
+          "resumo": "1 conexão em São Paulo (Guarulhos) · 11h55",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "dom, 24 de jan",
+                "hora": "09:15",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "chegada": {
+                "data": "dom, 24 de jan",
+                "hora": "11:05",
+                "iata": "GRU",
+                "cidade": "São Paulo",
+                "aeroporto": "Aeroporto de Guarulhos"
+              },
+              "voo": "LA 3503",
+              "duracao": "1h50"
+            },
+            {
+              "saida": {
+                "data": "dom, 24 de jan",
+                "hora": "14:00",
+                "iata": "GRU",
+                "cidade": "São Paulo",
+                "aeroporto": "Aeroporto de Guarulhos"
+              },
+              "chegada": {
+                "data": "dom, 24 de jan",
+                "hora": "20:10",
+                "iata": "PUJ",
+                "cidade": "Punta Cana",
+                "aeroporto": "Aeroporto Internacional de Punta Cana"
+              },
+              "voo": "LA 8082",
+              "duracao": "7h10"
+            }
+          ],
+          "conexoes": [
+            "Espera de 2h55 em Guarulhos"
+          ]
+        },
+        {
+          "tipo": "Volta",
+          "data": "dom, 31 de jan",
+          "cia": "LATAM",
+          "resumo": "1 conexão em Lima · 12h25 · chega seg, 1º de fev",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "dom, 31 de jan",
+                "hora": "17:15",
+                "iata": "PUJ",
+                "cidade": "Punta Cana",
+                "aeroporto": "Aeroporto Internacional de Punta Cana"
+              },
+              "chegada": {
+                "data": "dom, 31 de jan",
+                "hora": "21:25",
+                "iata": "LIM",
+                "cidade": "Lima",
+                "aeroporto": "Aeroporto Jorge Chávez"
+              },
+              "voo": "LA 2453",
+              "duracao": "5h10"
+            },
+            {
+              "saida": {
+                "data": "dom, 31 de jan",
+                "hora": "23:55",
+                "iata": "LIM",
+                "cidade": "Lima",
+                "aeroporto": "Aeroporto Jorge Chávez"
+              },
+              "chegada": {
+                "data": "seg, 1º de fev",
+                "hora": "06:40",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "voo": "LA 2422",
+              "duracao": "4h45"
+            }
+          ],
+          "conexoes": [
+            "Espera de 2h30 em Lima"
+          ]
+        }
+      ],
+      "hotel": {
+        "nome": "Grand Sirenis Punta Cana Resort",
+        "regime": "All inclusive (refeições, bebidas e lanches)",
+        "noites": 7,
+        "checkin": "24/01",
+        "checkout": "31/01",
+        "endereco": "Uvero Alto, Punta Cana, República Dominicana",
+        "descricao": "Resort all inclusive de frente pro mar em Uvero Alto, uma das praias mais tranquilas de Punta Cana. Comida, bebida e lanches à vontade durante a estadia, com Wi-Fi grátis.",
+        "fotos": [
+          "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/b5afe8a6_z.jpg",
+          "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/94d4ab07_z.jpg",
+          "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/543a22b3_z.jpg",
+          "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/8a6e9dd0_z.jpg",
+          "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/b6943b89_z.jpg",
+          "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/c39d4328_z.jpg",
+          "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/22d39341_z.jpg",
+          "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/801c22d7_z.jpg"
+        ],
+        "quarto": {
+          "nome": "Family Suite com vista pro mar",
+          "descricao": "Suíte de 45 m² com vista pro mar, 1 cama king e 1 sofá-cama de casal, sacada, minibar, máquina de café, TV e Wi-Fi grátis.",
+          "comodidades": [
+            "Vista pro mar",
+            "Sacada",
+            "45 m²",
+            "Minibar",
+            "Máquina de café/chá",
+            "Cofre",
+            "TV",
+            "Wi-Fi grátis"
+          ],
+          "fotos": [
+            "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/008114d4_z.jpg",
+            "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/b49526fc_z.jpg",
+            "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/f6db6917_z.jpg"
+          ]
+        }
+      }
     }
   ]
 }

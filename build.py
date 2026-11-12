@@ -172,6 +172,44 @@ footer a{color:#fff}
 .bn-ctas .btn{min-height:46px;padding:0 16px;font-size:14.5px}
 .btn-sun{background:var(--sun);color:var(--ink)}.btn-sun:hover{background:#ffe34d}
 .btn-glass{background:rgba(255,255,255,.14);color:#fff;border:1.5px solid rgba(255,255,255,.7);backdrop-filter:blur(6px)}.btn-glass:hover{background:#fff;color:var(--ink)}
+.det{margin:8px 0 34px}
+.det>h2{font-size:clamp(22px,3.4vw,28px);margin-bottom:14px}
+.voos{display:grid;gap:16px}
+@media(min-width:900px){.voos{grid-template-columns:1fr 1fr}}
+.voo{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.voo header{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.tag-voo{background:var(--ink);color:var(--sun);font-weight:800;font-size:12.5px;border-radius:999px;padding:4px 12px;text-transform:uppercase;letter-spacing:.04em}
+.voo .cia{margin-left:auto;font-weight:700;font-size:14px;color:var(--muted)}
+.resumo{color:var(--muted);font-size:14px;margin:6px 0 12px}
+.trecho{display:grid;grid-template-columns:1fr 90px 1fr;gap:8px;align-items:center;padding:12px 0;border-top:1px dashed var(--line)}
+.pt{display:flex;flex-direction:column;min-width:0}.pt.fim{text-align:right;align-items:flex-end}
+.pt b{font-family:Archivo,sans-serif;font-size:24px;line-height:1}
+.pt .iata{font-weight:800;color:var(--sea);font-size:14px;margin-top:2px}
+.pt span{font-size:14px}.pt small{font-size:12px;color:var(--muted);line-height:1.3}
+.linha{text-align:center;color:var(--muted);font-size:11.5px;line-height:1.3;position:relative}
+.linha span{display:block;border-top:2px dotted var(--line);margin:0 4px 6px;position:relative;height:0}
+.linha svg{width:20px;height:20px;fill:var(--ink);position:absolute;left:50%;top:-11px;transform:translateX(-50%) rotate(90deg);background:var(--card)}
+.conex{background:#FFF4BF;border-radius:10px;padding:8px 12px;font-size:13.5px;font-weight:600;margin:4px 0}
+.bag{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.bag li{background:#F2EDE2;border-radius:999px;padding:4px 10px;font-size:12.5px;font-weight:600}
+.hot h3,.quarto h3{font-size:22px;margin:4px 0}
+.hmeta{color:var(--muted);font-size:14px}
+.hfacts{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.hfacts span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13.5px}
+.hot p{max-width:70ch}
+.gal{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding:12px 0 6px;margin:0 -16px;padding-left:16px;padding-right:16px}
+.ft{flex:0 0 auto;width:min(78vw,340px);aspect-ratio:4/3;border:0;padding:0;border-radius:14px;overflow:hidden;cursor:zoom-in;scroll-snap-align:start;background:#eee}
+.ft img{width:100%;height:100%;object-fit:cover}
+.quarto{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;margin-top:16px}
+.quarto .gal{margin:6px -18px 0;padding-left:18px;padding-right:18px}
+.quarto .ft{width:min(70vw,280px)}
+.com{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.com li{background:#F2EDE2;border-radius:999px;padding:4px 10px;font-size:12.5px}
+.lb{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.9);display:flex;align-items:center;justify-content:center;padding:16px}
+.lb[hidden]{display:none}
+.lb img{max-width:100%;max-height:85vh;border-radius:10px}
+.lb button{position:absolute;background:rgba(255,255,255,.15);color:#fff;border:0;width:48px;height:48px;border-radius:50%;font-size:26px;cursor:pointer}
+.lb-x{top:16px;right:16px}.lb-p{left:12px;top:50%}.lb-n{right:12px;top:50%}
 .empty{background:var(--card);border:1px dashed var(--line);border-radius:20px;padding:28px;text-align:center;color:var(--muted)}
 """
 
@@ -346,6 +384,63 @@ def index():
     return head("Pacotes de viagem saindo de Porto Alegre | Stefanello Viagens", desc, SITE + "/", ativos[0]["img"] if ativos and ativos[0].get("img") else "") + pixel() + "</head>" + body
 
 
+PLANE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5Z"/></svg>'
+
+
+def bloco_voo(v):
+    trechos = []
+    for i, t in enumerate(v["trechos"]):
+        if i > 0 and i - 1 < len(v.get("conexoes", [])):
+            trechos.append(f'<div class="conex">⏱ {e(v["conexoes"][i-1])}</div>')
+        s, c = t["saida"], t["chegada"]
+        dia = f' <small>({e(c["data"])})</small>' if c.get("data") and c["data"] != s.get("data") else ""
+        trechos.append(f"""<div class="trecho"><div class="pt"><b>{e(s['hora'])}</b><span class="iata">{e(s['iata'])}</span><span>{e(s['cidade'])}</span><small>{e(s['aeroporto'])}</small></div>
+<div class="linha"><span>{PLANE}</span><small>{e(t['duracao'])}<br>{e(t.get('voo',''))}</small></div>
+<div class="pt fim"><b>{e(c['hora'])}</b>{dia}<span class="iata">{e(c['iata'])}</span><span>{e(c['cidade'])}</span><small>{e(c['aeroporto'])}</small></div></div>""")
+    bag = "".join(f"<li>🧳 {e(b)}</li>" for b in v.get("bagagem", []))
+    return f"""<article class="voo"><header><span class="tag-voo">{e(v['tipo'])}</span><b>{e(v['data'])}</b><span class="cia">{e(v['cia'])}</span></header>
+<p class="resumo">{e(v.get('resumo',''))}</p>{''.join(trechos)}<ul class="bag">{bag}</ul></article>"""
+
+
+def galeria(fotos, alt, gid):
+    if not fotos:
+        return ""
+    itens = "".join(f'<button type="button" class="ft" data-g="{gid}" data-i="{i}" aria-label="Ver foto {i+1} de {e(alt)}"><img src="{e(u)}" alt="{e(alt)} - foto {i+1}" loading="lazy"></button>' for i, u in enumerate(fotos))
+    return f'<div class="gal" data-fotos="{e(json.dumps(fotos))}" id="{gid}">{itens}</div>'
+
+
+def detalhes(p):
+    out = []
+    if p.get("voos"):
+        out.append('<section class="det"><h2>✈️ Voos do pacote</h2><div class="voos">' + "".join(bloco_voo(v) for v in p["voos"]) + '</div><p class="aviso">Horários e números de voo da cotação atual. A companhia pode alterar até o embarque; a gente te avisa qualquer mudança.</p></section>')
+    h = p.get("hotel")
+    if h:
+        q = h.get("quarto") or {}
+        com = "".join(f"<li>{e(c)}</li>" for c in q.get("comodidades", []))
+        out.append(f"""<section class="det"><h2>🏨 Hospedagem</h2>
+<div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}</p>
+<div class="hfacts"><span><b>{h.get('noites','')}</b> noites</span><span>🍽️ {e(h.get('regime',''))}</span><span>Check-in {e(h.get('checkin',''))}</span><span>Check-out {e(h.get('checkout',''))}</span></div>
+<p>{e(h.get('descricao',''))}</p></div></div>
+{galeria(h.get('fotos', []), h['nome'], 'gh')}
+<div class="quarto"><div><span class="tag-voo">Quarto</span><h3>{e(q.get('nome',''))}</h3><p>{e(q.get('descricao',''))}</p><ul class="com">{com}</ul></div>
+{galeria(q.get('fotos', []), q.get('nome','quarto'), 'gq')}</div></section>""")
+    if out:
+        out.append('<div id="lb" class="lb" hidden><button type="button" class="lb-x" aria-label="Fechar">✕</button><button type="button" class="lb-p" aria-label="Foto anterior">‹</button><img alt=""><button type="button" class="lb-n" aria-label="Próxima foto">›</button></div>')
+    return "".join(out)
+
+
+LB_JS = """<script>
+(function(){var lb=document.getElementById('lb');if(!lb)return;var img=lb.querySelector('img'),fotos=[],i=0;
+function show(){img.src=fotos[i];}
+document.addEventListener('click',function(ev){var b=ev.target.closest('.ft');if(b){fotos=JSON.parse(document.getElementById(b.dataset.g).dataset.fotos);i=+b.dataset.i;show();lb.hidden=false;return;}
+if(ev.target.closest('.lb-x')||ev.target===lb){lb.hidden=true;img.src='';}
+if(ev.target.closest('.lb-n')){i=(i+1)%fotos.length;show();}
+if(ev.target.closest('.lb-p')){i=(i-1+fotos.length)%fotos.length;show();}});
+document.addEventListener('keydown',function(ev){if(lb.hidden)return;if(ev.key==='Escape'){lb.hidden=true}if(ev.key==='ArrowRight'){i=(i+1)%fotos.length;show()}if(ev.key==='ArrowLeft'){i=(i-1+fotos.length)%fotos.length;show()}});
+})();
+</script>"""
+
+
 def pagina(p):
     url = f"{SITE}/{p['slug']}"
     msg = msg_pacote(p)
@@ -367,9 +462,9 @@ def pagina(p):
 {outras}
 <div class="ctas"><a class="btn btn-wa" data-wa="{e(p['slug'])}" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero esse pacote</a>
 <a class="btn btn-ghost" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo de promoções</a></div>
-<p class="aviso">*Valores sujeitos a disponibilidade e alteração a qualquer momento. O valor só fica garantido na reserva.</p></div></div></main>
+<p class="aviso">*Valores sujeitos a disponibilidade e alteração a qualquer momento. O valor só fica garantido na reserva.</p></div></div>{detalhes(p)}</main>
 <div class="sticky"><div class="t">{e(p['destino'])}<br><b>R$ {e(p['pix'])}</b> no PIX</div><a class="btn btn-wa" data-wa="{e(p['slug'])}-barra" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero</a></div>
-{rodape()}{JS}</body></html>"""
+{rodape()}{JS}{LB_JS}</body></html>"""
     return head(f"{p['titulo']} | Stefanello Viagens", desc, url, p.get("img", "")) + pixel(vc) + "</head>" + body
 
 
