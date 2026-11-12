@@ -219,6 +219,17 @@ footer a{color:#fff}
 @keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media(prefers-reduced-motion:reduce){.mq-t{animation:none}}
 html,body{overflow-x:clip}
+.hero{position:relative;overflow:hidden;isolation:isolate}
+.hero .wrap{position:relative;z-index:2}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,10,12,.92) 0%,rgba(10,10,12,.72) 45%,rgba(10,10,12,.35) 100%),linear-gradient(0deg,rgba(10,10,12,.6),transparent 40%)}
+.hs{position:absolute;inset:0;background:#1d2a33 center/cover no-repeat;opacity:0;transition:opacity 1.8s ease}
+.hs.on{opacity:1;animation:kb 9s ease-out forwards}
+@keyframes kb{from{transform:scale(1)}to{transform:scale(1.08)}}
+@media(prefers-reduced-motion:reduce){.hs.on{animation:none}.hs{transition:none}}
+.hero-cap{position:absolute;z-index:3;right:max(16px,env(safe-area-inset-right,0px));bottom:14px;background:rgba(0,0,0,.55);color:#fff;text-decoration:none;font-size:13px;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:6px 12px;backdrop-filter:blur(6px)}
+.hero-cap:hover{background:#fff;color:var(--ink)}
+@media(max-width:600px){.hero{padding-bottom:56px}}
 .navdet{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0 4px;padding:12px;background:#FFF4BF;border:1px solid #F1DC6A;border-radius:14px}
 .navdet span{font-weight:700;font-size:14px;width:100%}
 .navdet a{background:var(--card);border:1.5px solid var(--ink);border-radius:999px;padding:7px 12px;font-weight:700;font-size:13.5px;text-decoration:none}
@@ -380,9 +391,34 @@ def card(p):
 <div class="price"><div class="p1"><b>R$ {e(p['pix'])}</b> no PIX</div><div class="p2">ou {p['parcelas']}x de R$ {e(p['parcela'])} sem juros</div></div><div class="foot"><span class="more">Ver o pacote →</span>{f'<span class="pub">Postado em {pub_txt}</span>' if pub_txt else ''}</div></div></a>"""
 
 
+def hero_bg(ps):
+    if not ps:
+        return ""
+    slides = []
+    for i, p in enumerate(ps):
+        u = foto_url(p, 1600)
+        attr = f' style="background-image:url(\'{e(u)}\')"' if i == 0 else f' data-bg="{e(u)}"'
+        slides.append(f'<div class="hs{" on" if i == 0 else ""}"{attr} data-dest="{e(p["destino"])}" data-href="/{e(p["slug"])}"></div>')
+    first = ps[0]
+    cap = f'<a class="hero-cap" id="hcap" href="/{e(first["slug"])}">📍 <b>{e(first["destino"])}</b> · ver pacote →</a>'
+    return '<div class="hero-bg" aria-hidden="true">' + "".join(slides) + '</div>' + cap
+
+
+HERO_JS = """<script>
+(function(){var s=[].slice.call(document.querySelectorAll('.hero .hs'));if(s.length<2)return;
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+addEventListener('load',function(){s.forEach(function(d){if(d.dataset.bg){d.style.backgroundImage="url('"+d.dataset.bg+"')"}})});
+var i=0,cap=document.getElementById('hcap');
+setInterval(function(){s[i].classList.remove('on');i=(i+1)%s.length;var d=s[i];d.classList.remove('on');void d.offsetWidth;d.classList.add('on');
+if(cap){cap.href=d.dataset.href;cap.querySelector('b').textContent=d.dataset.dest}},6500);
+})();
+</script>"""
+
+
 def index():
     cards = "".join(card(p) for p in ativos) or '<div class="empty">Novos pacotes chegando. Me chama no WhatsApp que eu te mando as ofertas de hoje.</div>'
     tem_black = any(p.get("black") for p in ativos)
+    ultimos = [x for x in sorted(ativos, key=pub_key, reverse=True) if x.get("foto")][:3]
     meses = sorted({p["ida"][:7] for p in ativos})
     chips_mes = "".join(f'<button type="button" class="fchip" data-mes="{m}">{MESES[int(m[5:7])-1]}/{m[2:4]}</button>' for m in meses)
     filtros = f"""<form class="filtros" id="filtros" onsubmit="return false" role="search">
@@ -394,7 +430,7 @@ def index():
 <p class="f-res" id="res" aria-live="polite"></p></form>"""
     desc = "Pacotes com aéreo, hotel e transfer saindo de Porto Alegre, com preço no PIX e até 15x sem juros. Atendimento direto pelo WhatsApp."
     body = f"""<body>{topo()}
-<section class="hero"><div class="wrap">{'<span class="tag">🖤💛 Black Friday</span>' if tem_black else ''}
+<section class="hero">{hero_bg(ultimos)}<div class="wrap">{'<span class="tag">🖤💛 Black Friday</span>' if tem_black else ''}
 <h1>Pacotes de viagem saindo de <em>Porto Alegre</em></h1>
 <p>Aéreo, hotel e transfer no mesmo pacote, com preço no PIX ou parcelado em até 15x sem juros. Tu escolhe, me chama no WhatsApp e eu cuido do resto.</p>
 <div class="cta"><a class="btn btn-wa" data-wa="hero" href="{e(wa_link('Oi! Vi os pacotes no site da Stefanello Viagens e quero saber mais.'))}" target="_blank" rel="noopener">{WA_ICON}Falar no WhatsApp</a><a class="btn btn-ghost" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo de promoções</a></div>
@@ -403,7 +439,7 @@ def index():
 {filtros}
 <div class="grid" id="grade">{cards}</div><div class="empty" id="vazio" hidden>Nenhum pacote com esse filtro. <a href="#" id="limpar2">Limpar filtros</a> ou me chama no WhatsApp que eu procuro pra ti.</div></div></section>
 <section class="sec" style="padding-top:0"><div class="wrap"><div class="band"><div><h2>Quer receber as promoções primeiro?</h2><p>Entra no grupo de WhatsApp da Stefanello Viagens. Só ofertas, sem spam.</p></div><a class="btn" style="background:var(--ink);color:#fff" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo</a></div></div></section></main>
-{rodape()}{JS}{FILTRO_JS}</body></html>"""
+{rodape()}{JS}{FILTRO_JS}{HERO_JS}</body></html>"""
     return head("Pacotes de viagem saindo de Porto Alegre | Stefanello Viagens", desc, SITE + "/", ativos[0]["img"] if ativos and ativos[0].get("img") else "") + pixel() + "</head>" + body
 
 
