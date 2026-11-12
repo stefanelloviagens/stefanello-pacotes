@@ -20,6 +20,12 @@ ativos.sort(key=lambda p: p["ida"])
 
 e = lambda s: html.escape(str(s), quote=True)
 
+import unicodedata
+def sem_acento(t):
+    return "".join(c for c in unicodedata.normalize("NFD", t) if unicodedata.category(c) != "Mn")
+
+MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
+
 
 def wa_link(msg):
     return f"https://wa.me/{WA}?text=" + urllib.parse.quote(msg)
@@ -131,6 +137,22 @@ h1,h2,h3,.display{font-family:'Archivo',Inter,sans-serif;letter-spacing:-.01em;l
 footer{background:var(--ink);color:#bdb9b0;padding:32px 0;font-size:14px;margin-top:20px}
 footer .wrap{display:grid;gap:10px}
 footer a{color:#fff}
+.filtros{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:16px;margin-bottom:22px;display:grid;gap:14px}
+.f-busca{display:flex;align-items:center;gap:10px;border:2px solid var(--ink);border-radius:999px;padding:0 16px;min-height:52px;background:#fff}
+.f-busca svg{width:20px;height:20px;fill:var(--muted);flex:none}
+.f-busca input{border:0;outline:0;font:inherit;font-size:16px;width:100%;background:transparent;min-height:48px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.f-linha{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:flex-end}
+.f-rot{display:block;font-size:12.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px;width:100%}
+.fchips{display:flex;flex-wrap:wrap;gap:8px}
+.fchip{border:1.5px solid var(--line);background:#F7F3EA;border-radius:999px;padding:8px 14px;font:600 14px Inter,sans-serif;cursor:pointer;min-height:40px}
+.fchip.on{background:var(--ink);color:var(--sun);border-color:var(--ink)}
+.f-datas label{display:flex;flex-direction:column;flex:1 1 150px}
+.f-datas input,.f-datas select{font:inherit;font-size:15px;border:1.5px solid var(--line);border-radius:12px;padding:0 12px;min-height:44px;background:#fff;color:var(--ink)}
+.f-datas .btn{flex:0 0 auto}
+.f-res{font-size:14px;color:var(--muted)}
+.card .foot{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.card .pub{font-size:12px;color:var(--muted)}
 .empty{background:var(--card);border:1px dashed var(--line);border-radius:20px;padding:28px;text-align:center;color:var(--muted)}
 """
 
@@ -155,6 +177,51 @@ JS = """<script>
   document.querySelectorAll('a[data-grupo]').forEach(function(a){a.addEventListener('click',function(){if(window.fbq){fbq('trackCustom','EntrarGrupo');}});});
   var hoje=new Date().toISOString().slice(0,10);
   document.querySelectorAll('[data-ida]').forEach(function(c){if(c.getAttribute('data-ida')<hoje){c.remove();}});
+})();
+</script>"""
+
+
+FILTRO_JS = r"""<script>
+(function(){
+  var g=document.getElementById('grade');if(!g)return;
+  var cards=[].slice.call(g.querySelectorAll('.card'));
+  var q=document.getElementById('q'),de=document.getElementById('de'),ate=document.getElementById('ate'),ord=document.getElementById('ord'),res=document.getElementById('res'),vazio=document.getElementById('vazio');
+  var mes='';
+  function norm(t){return (t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();}
+  function aplica(){
+    var termos=norm(q.value).split(/\s+/).filter(Boolean),n=0;
+    cards.forEach(function(c){
+      var ida=c.dataset.ida,volta=c.dataset.volta,ok=true;
+      termos.forEach(function(t){if(c.dataset.busca.indexOf(t)<0)ok=false;});
+      if(mes&&ida.slice(0,7)!==mes)ok=false;
+      if(de.value&&ida<de.value)ok=false;
+      if(ate.value&&volta>ate.value)ok=false;
+      c.hidden=!ok;if(ok)n++;
+    });
+    var k=ord.value;
+    cards.slice().sort(function(a,b){
+      if(k==='pub')return (b.dataset.pub||'').localeCompare(a.dataset.pub||'')||a.dataset.ida.localeCompare(b.dataset.ida);
+      if(k==='preco')return parseFloat(a.dataset.preco)-parseFloat(b.dataset.preco);
+      return a.dataset.ida.localeCompare(b.dataset.ida);
+    }).forEach(function(c){g.appendChild(c);});
+    var filtrando=termos.length||mes||de.value||ate.value;
+    res.textContent=filtrando?(n+(n===1?' pacote encontrado':' pacotes encontrados')):'';
+    vazio.hidden=n>0;
+    try{var u=new URL(location.href);['q','mes','de','ate','ord'].forEach(function(p){u.searchParams.delete(p);});
+      if(q.value)u.searchParams.set('q',q.value);if(mes)u.searchParams.set('mes',mes);if(de.value)u.searchParams.set('de',de.value);if(ate.value)u.searchParams.set('ate',ate.value);if(k!=='ida')u.searchParams.set('ord',k);
+      history.replaceState(null,'',u.toString());}catch(e){}
+  }
+  function setMes(m){mes=m;document.querySelectorAll('.fchip').forEach(function(b){b.classList.toggle('on',b.dataset.mes===m);});}
+  document.querySelectorAll('.fchip').forEach(function(b){b.addEventListener('click',function(){setMes(b.dataset.mes===mes?'':b.dataset.mes);if(mes){de.value='';ate.value='';}aplica();});});
+  [de,ate].forEach(function(i){i.addEventListener('change',function(){if(i.value)setMes('');aplica();});});
+  q.addEventListener('input',aplica);ord.addEventListener('change',aplica);
+  function limpar(ev){if(ev)ev.preventDefault();q.value='';de.value='';ate.value='';ord.value='ida';setMes('');aplica();}
+  document.getElementById('limpar').addEventListener('click',limpar);document.getElementById('limpar2').addEventListener('click',limpar);
+  var p=new URLSearchParams(location.search);
+  if(p.get('q'))q.value=p.get('q');if(p.get('de'))de.value=p.get('de');if(p.get('ate'))ate.value=p.get('ate');if(p.get('ord'))ord.value=p.get('ord');
+  if(p.get('mes'))setMes(p.get('mes'));
+  if(p.get('destino'))q.value=p.get('destino');
+  aplica();
 })();
 </script>"""
 
@@ -187,14 +254,26 @@ def fake_art(p):
 def card(p):
     art = f'<img class="art" src="/{e(p["img"])}" alt="{e(p["titulo"])}" loading="lazy" width="960" height="1200">' if p.get("img") else fake_art(p)
     chips = (['<span class="chip bf">BLACK FRIDAY</span>'] if p.get("black") else []) + [f'<span class="chip">{p["dias"]} dias / {p["noites"]} noites</span>', f'<span class="chip">{p["pessoas"]} pessoas</span>']
-    return f"""<a class="card" href="/{e(p['slug'])}" data-ida="{e(p['ida'])}">{art}<div class="body"><div class="meta">{''.join(chips)}</div><h3>{e(p['titulo'])}</h3>
+    busca = sem_acento(" ".join([p["destino"], p["titulo"], p.get("chamada", "")] + [t for _, t in p["inclui"]])).lower()
+    pub = p.get("publicado", "")
+    pub_txt = f"{pub[8:10]}/{pub[5:7]}" if pub else ""
+    return f"""<a class="card" href="/{e(p['slug'])}" data-ida="{e(p['ida'])}" data-volta="{e(p['volta'])}" data-pub="{e(pub)}" data-busca="{e(busca)}" data-preco="{e(p['pix'].replace('.','').replace(',','.'))}">{art}<div class="body"><div class="meta">{''.join(chips)}</div><h3>{e(p['titulo'])}</h3>
 <p style="font-size:14px;color:var(--muted)">📅 {e(p['idaTxt'])} → {e(p['voltaTxt'].split(' (')[0])}</p>
-<div class="price"><div class="p1"><b>R$ {e(p['pix'])}</b> no PIX</div><div class="p2">ou {p['parcelas']}x de R$ {e(p['parcela'])} sem juros</div></div><span class="more">Ver o pacote →</span></div></a>"""
+<div class="price"><div class="p1"><b>R$ {e(p['pix'])}</b> no PIX</div><div class="p2">ou {p['parcelas']}x de R$ {e(p['parcela'])} sem juros</div></div><div class="foot"><span class="more">Ver o pacote →</span>{f'<span class="pub">Postado em {pub_txt}</span>' if pub_txt else ''}</div></div></a>"""
 
 
 def index():
     cards = "".join(card(p) for p in ativos) or '<div class="empty">Novos pacotes chegando. Me chama no WhatsApp que eu te mando as ofertas de hoje.</div>'
     tem_black = any(p.get("black") for p in ativos)
+    meses = sorted({p["ida"][:7] for p in ativos})
+    chips_mes = "".join(f'<button type="button" class="fchip" data-mes="{m}">{MESES[int(m[5:7])-1]}/{m[2:4]}</button>' for m in meses)
+    filtros = f"""<form class="filtros" id="filtros" onsubmit="return false" role="search">
+<label class="f-busca"><span class="sr">Buscar destino</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 0 1 6.3 12.9l5.4 5.4-1.4 1.4-5.4-5.4A8 8 0 1 1 10 2Zm0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12Z"/></svg><input id="q" type="search" placeholder="Pra onde tu quer ir? (ex.: Maceió)" autocomplete="off"></label>
+<div class="f-linha"><span class="f-rot">Mês da viagem</span><div class="fchips"><button type="button" class="fchip on" data-mes="">Todos</button>{chips_mes}</div></div>
+<div class="f-linha f-datas"><label><span class="f-rot">Viajar a partir de</span><input id="de" type="date"></label><label><span class="f-rot">Voltar até</span><input id="ate" type="date"></label>
+<label><span class="f-rot">Ordenar por</span><select id="ord"><option value="ida">Data da viagem</option><option value="pub">Postados mais recentes</option><option value="preco">Menor preço</option></select></label>
+<button type="button" class="btn btn-ghost btn-sm" id="limpar">Limpar</button></div>
+<p class="f-res" id="res" aria-live="polite"></p></form>"""
     desc = "Pacotes com aéreo, hotel e transfer saindo de Porto Alegre, com preço no PIX e até 15x sem juros. Atendimento direto pelo WhatsApp."
     body = f"""<body>{topo()}
 <section class="hero"><div class="wrap">{'<span class="tag">🖤💛 Black Friday</span>' if tem_black else ''}
@@ -203,9 +282,10 @@ def index():
 <div class="cta"><a class="btn btn-wa" data-wa="hero" href="{e(wa_link('Oi! Vi os pacotes no site da Stefanello Viagens e quero saber mais.'))}" target="_blank" rel="noopener">{WA_ICON}Falar no WhatsApp</a><a class="btn btn-ghost" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo de promoções</a></div>
 <div class="trust"><span>✔ <b>CNPJ</b> 54.630.293/0001-10</span><span>✔ Agência do <b>RS</b></span><span>✔ Atendimento <b>humano</b> do começo ao fim</span></div></div></section>
 <main><section class="sec"><div class="wrap"><h2>Pacotes da semana</h2><p class="sub">Valores para o número de pessoas indicado em cada pacote. Tem outras datas? Me pergunta.</p>
-<div class="grid">{cards}</div></div></section>
+{filtros}
+<div class="grid" id="grade">{cards}</div><div class="empty" id="vazio" hidden>Nenhum pacote com esse filtro. <a href="#" id="limpar2">Limpar filtros</a> ou me chama no WhatsApp que eu procuro pra ti.</div></div></section>
 <section class="sec" style="padding-top:0"><div class="wrap"><div class="band"><div><h2>Quer receber as promoções primeiro?</h2><p>Entra no grupo de WhatsApp da Stefanello Viagens. Só ofertas, sem spam.</p></div><a class="btn" style="background:var(--ink);color:#fff" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo</a></div></div></section></main>
-{rodape()}{JS}</body></html>"""
+{rodape()}{JS}{FILTRO_JS}</body></html>"""
     return head("Pacotes de viagem saindo de Porto Alegre | Stefanello Viagens", desc, SITE + "/", ativos[0]["img"] if ativos and ativos[0].get("img") else "") + pixel() + "</head>" + body
 
 
