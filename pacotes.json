@@ -6,33 +6,6 @@
   "site": "https://pacotes.stefanelloviagens.com.br",
   "pacotes": [
     {
-      "slug": "punta-cana-all-inclusive-black-friday",
-      "destino": "Punta Cana",
-      "titulo": "Punta Cana com Resort All Inclusive",
-      "chamada": "Caribe, mar azul-turquesa e comida e bebida à vontade o dia inteiro.",
-      "black": true,
-      "selo": "Ainda pra janeiro de 2027",
-      "img": "img/punta-cana-all-inclusive-black-friday.jpg",
-      "pessoas": 2,
-      "dias": 9,
-      "noites": 7,
-      "ida": "2027-01-24",
-      "volta": "2027-02-01",
-      "idaTxt": "dom, 24 de jan",
-      "voltaTxt": "dom, 31 de jan (chegada em POA na seg, 1º de fev)",
-      "inclui": [
-        ["✈️", "Passagens aéreas de ida e volta (LATAM saindo de Porto Alegre)"],
-        ["🏨", "Grand Sirenis Punta Cana Resort, ALL INCLUSIVE (7 noites)"],
-        ["🚐", "Transfer aeroporto / hotel / aeroporto GRÁTIS"],
-        ["🛡️", "Seguro viagem"]
-      ],
-      "pix": "21.195,76",
-      "parcelas": 15,
-      "parcela": "1.498,00",
-      "outrasDatas": "",
-      "publicado": "2026-11-12"
-    },
-    {
       "slug": "rio-de-janeiro-black-friday",
       "destino": "Rio de Janeiro",
       "titulo": "Rio de Janeiro com Cristo Redentor + Chá no Forte GRÁTIS",
@@ -48,18 +21,37 @@
       "idaTxt": "sex, 8 de jan",
       "voltaTxt": "ter, 12 de jan",
       "inclui": [
-        ["✈️", "Passagens aéreas de ida e volta (LATAM direto de Porto Alegre)"],
-        ["🏨", "Hotel Mar Palace Copacabana (café da manhã)"],
-        ["🚐", "Transfer aeroporto / hotel / aeroporto"],
-        ["⛪", "Cristo Redentor com city tour panorâmico"],
-        ["🌳", "Floresta da Tijuca"],
-        ["☕", "Chá do Forte na Confeitaria Colombo GRÁTIS"]
+        [
+          "✈️",
+          "Passagens aéreas de ida e volta (LATAM direto de Porto Alegre)"
+        ],
+        [
+          "🏨",
+          "Hotel Mar Palace Copacabana (café da manhã)"
+        ],
+        [
+          "🚐",
+          "Transfer aeroporto / hotel / aeroporto"
+        ],
+        [
+          "⛪",
+          "Cristo Redentor com city tour panorâmico"
+        ],
+        [
+          "🌳",
+          "Floresta da Tijuca"
+        ],
+        [
+          "☕",
+          "Chá do Forte na Confeitaria Colombo GRÁTIS"
+        ]
       ],
       "pix": "6.183,44",
       "parcelas": 15,
       "parcela": "440,00",
       "outrasDatas": "Várias outras datas em janeiro, fevereiro e março.",
-      "publicado": "2026-11-12"
+      "publicado": "2026-11-12",
+      "foto": "10322305"
     },
     {
       "slug": "ilheus-itacare-black-friday",
@@ -77,18 +69,77 @@
       "idaTxt": "sáb, 9 de jan",
       "voltaTxt": "qui, 14 de jan",
       "inclui": [
-        ["✈️", "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"],
-        ["🏨", "Ilhéus Praia Hotel (café da manhã)"],
-        ["🚐", "Transfer aeroporto / hotel / aeroporto"],
-        ["🏛️", "City Tour Histórico e Panorâmico em Ilhéus"],
-        ["🍫", "Passeio a Fazenda de Cacau"],
-        ["🏝️", "Passeio a Itacaré"]
+        [
+          "✈️",
+          "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+        ],
+        [
+          "🏨",
+          "Ilhéus Praia Hotel (café da manhã)"
+        ],
+        [
+          "🚐",
+          "Transfer aeroporto / hotel / aeroporto"
+        ],
+        [
+          "🏛️",
+          "City Tour Histórico e Panorâmico em Ilhéus"
+        ],
+        [
+          "🍫",
+          "Passeio a Fazenda de Cacau"
+        ],
+        [
+          "🏝️",
+          "Passeio a Itacaré"
+        ]
       ],
       "pix": "7.225,71",
       "parcelas": 15,
       "parcela": "516,00",
       "outrasDatas": "Várias outras datas em janeiro, fevereiro e março.",
-      "publicado": "2026-11-12"
+      "publicado": "2026-11-12",
+      "foto": "30096921"
+    },
+    {
+      "slug": "punta-cana-all-inclusive-black-friday",
+      "destino": "Punta Cana",
+      "titulo": "Punta Cana com Resort All Inclusive",
+      "chamada": "Caribe, mar azul-turquesa e comida e bebida à vontade o dia inteiro.",
+      "black": true,
+      "selo": "Ainda pra janeiro de 2027",
+      "img": "img/punta-cana-all-inclusive-black-friday.jpg",
+      "pessoas": 2,
+      "dias": 9,
+      "noites": 7,
+      "ida": "2027-01-24",
+      "volta": "2027-02-01",
+      "idaTxt": "dom, 24 de jan",
+      "voltaTxt": "dom, 31 de jan (chegada em POA na seg, 1º de fev)",
+      "inclui": [
+        [
+          "✈️",
+          "Passagens aéreas de ida e volta (LATAM saindo de Porto Alegre)"
+        ],
+        [
+          "🏨",
+          "Grand Sirenis Punta Cana Resort, ALL INCLUSIVE (7 noites)"
+        ],
+        [
+          "🚐",
+          "Transfer aeroporto / hotel / aeroporto GRÁTIS"
+        ],
+        [
+          "🛡️",
+          "Seguro viagem"
+        ]
+      ],
+      "pix": "21.195,76",
+      "parcelas": 15,
+      "parcela": "1.498,00",
+      "outrasDatas": "",
+      "publicado": "2026-11-12",
+      "foto": "2646067"
     }
   ]
 }

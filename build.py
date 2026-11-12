@@ -78,11 +78,12 @@ h1,h2,h3,.display{font-family:'Archivo',Inter,sans-serif;letter-spacing:-.01em;l
 .card{background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;transition:transform .2s,box-shadow .2s}
 .card:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(17,17,17,.10)}
 .card .art{aspect-ratio:4/5;background:#eee;object-fit:cover;width:100%;height:auto}
-.fake-art{aspect-ratio:4/5;background:radial-gradient(120% 80% at 80% 0%,#1d5f6b 0%,#111 70%);color:#fff;display:flex;flex-direction:column;justify-content:space-between;padding:22px}
+.fake-art{aspect-ratio:4/5;background:radial-gradient(120% 80% at 80% 0%,#1d5f6b 0%,#111 70%);background-size:cover;background-position:center;color:#fff;display:flex;flex-direction:column;justify-content:space-between;padding:22px}
 .fake-art .bf{align-self:center;background:var(--sun);color:var(--ink);font-weight:800;font-size:14px;padding:6px 16px;border-radius:999px}
 .fake-art .d{font-family:Archivo,sans-serif;font-weight:800;font-size:44px;color:var(--sun);text-align:center;line-height:1}
 .fake-art .s{text-align:center;font-weight:700;font-size:15px;margin-top:10px}
-.fake-art .pr{background:#000;border:1px solid #333;border-radius:16px;padding:14px;text-align:center}
+.fake-art.has-foto .d,.fake-art.has-foto .s{text-shadow:0 2px 14px rgba(0,0,0,.55)}
+.fake-art .pr{background:rgba(0,0,0,.72);backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:14px;text-align:center}
 .fake-art .pr b{font-family:Archivo,sans-serif;font-size:30px;color:var(--sun);display:block}
 .fake-art .pr span{font-size:13px;color:#ddd}
 .card .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
@@ -153,6 +154,24 @@ footer a{color:#fff}
 .f-res{font-size:14px;color:var(--muted)}
 .card .foot{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .card .pub{font-size:12px;color:var(--muted)}
+.banner{display:grid;gap:16px;margin-top:22px}
+@media(min-width:900px){.banner{grid-template-columns:1fr 1fr}}
+.bn{position:relative;border-radius:24px;overflow:hidden;min-height:440px;background:#1d2a33 center/cover no-repeat;display:flex;flex-direction:column;justify-content:space-between;padding:20px;color:#fff;box-shadow:0 18px 40px rgba(0,0,0,.35)}
+.bn-link{position:absolute;inset:0;z-index:1}
+.bn-top,.bn-info{position:relative;z-index:2;pointer-events:none}
+.bn-top{display:flex;flex-wrap:wrap;gap:8px}
+.bn-top span{font-size:12.5px;font-weight:800;border-radius:999px;padding:5px 12px;letter-spacing:.02em}
+.b-novo{background:#fff;color:var(--ink)}.b-bf{background:var(--sun);color:var(--ink)}.b-selo{background:#E53935;color:#fff}
+.hero .bn-dest{max-width:none;font-family:Archivo,sans-serif;font-weight:800;font-size:clamp(34px,6vw,48px);color:var(--sun);line-height:1;text-transform:uppercase;text-shadow:0 2px 16px rgba(0,0,0,.5)}
+.bn h2{font-size:clamp(18px,2.4vw,22px);font-weight:800;margin:8px 0 6px;text-shadow:0 2px 10px rgba(0,0,0,.5)}
+.hero .bn-meta{max-width:none;font-size:14px;color:#eee}
+.hero .bn-preco{max-width:none;margin:10px 0 14px;font-size:14px;color:#eee}
+.bn-preco b{font-family:Archivo,sans-serif;font-size:26px;color:#fff}
+.bn-preco span{display:block}
+.bn-ctas{display:flex;flex-wrap:wrap;gap:8px;pointer-events:auto}
+.bn-ctas .btn{min-height:46px;padding:0 16px;font-size:14.5px}
+.btn-sun{background:var(--sun);color:var(--ink)}.btn-sun:hover{background:#ffe34d}
+.btn-glass{background:rgba(255,255,255,.14);color:#fff;border:1.5px solid rgba(255,255,255,.7);backdrop-filter:blur(6px)}.btn-glass:hover{background:#fff;color:var(--ink)}
 .empty{background:var(--card);border:1px dashed var(--line);border-radius:20px;padding:28px;text-align:center;color:var(--muted)}
 """
 
@@ -247,12 +266,50 @@ def rodape():
 <p>*Valores sujeitos a disponibilidade e alteração a qualquer momento.</p></div></footer>"""
 
 
-def fake_art(p):
-    return f"""<div class="fake-art" role="img" aria-label="{e(p['titulo'])}"><span class="bf">🔥 BLACK FRIDAY</span><div><div class="d">{e(p['destino'].upper())}</div><div class="s">{p['dias']} dias · {p['noites']} noites · {p['pessoas']} pessoas</div></div><div class="pr"><b>R$ {e(p['pix'])}</b><span>no PIX ou {p['parcelas']}x de R$ {e(p['parcela'])}</span></div></div>"""
+def foto_url(p, w=1200):
+    f = str(p.get("foto", "")).strip()
+    if not f:
+        return ""
+    if f.startswith("http"):
+        return f
+    return f"https://images.pexels.com/photos/{f}/pexels-photo-{f}.jpeg?auto=compress&cs=tinysrgb&w={w}"
+
+
+def bg_style(p, w=1200):
+    u = foto_url(p, w)
+    return f' style="background-image:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,.15) 38%,rgba(0,0,0,.55) 70%,rgba(0,0,0,.88) 100%),url(\'{e(u)}\')"' if u else ""
+
+
+def fake_art(p, w=900):
+    selo = f'<span class="bf">🔥 BLACK FRIDAY</span>' if p.get("black") else '<span class="bf">PACOTE</span>'
+    return f"""<div class="fake-art{' has-foto' if p.get('foto') else ''}" role="img" aria-label="{e(p['titulo'])}"{bg_style(p, w)}>{selo}<div><div class="d">{e(p['destino'].upper())}</div><div class="s">{p['dias']} dias · {p['noites']} noites · {p['pessoas']} pessoas</div></div><div class="pr"><b>R$ {e(p['pix'])}</b><span>no PIX ou {p['parcelas']}x de R$ {e(p['parcela'])}</span></div></div>"""
+
+
+def pub_key(p):
+    return (p.get("publicado", ""), cfg["pacotes"].index(p))
+
+
+def banner(ps):
+    if not ps:
+        return ""
+    itens = []
+    for p in ps:
+        pub = p.get("publicado", "")
+        quando = f"Postado em {pub[8:10]}/{pub[5:7]}" if pub else "Novo"
+        datas = f"{p['idaTxt'].split(' (')[0]} → {p['voltaTxt'].split(' (')[0]}"
+        selo = f'<span class="b-selo">{e(p["selo"])}</span>' if p.get("selo") else ""
+        itens.append(f"""<article class="bn"{bg_style(p, 1600)}>
+<a class="bn-link" href="/{e(p['slug'])}" aria-label="Ver o pacote {e(p['titulo'])}"></a>
+<div class="bn-top"><span class="b-novo">✨ {quando}</span>{'<span class="b-bf">BLACK FRIDAY</span>' if p.get('black') else ''}{selo}</div>
+<div class="bn-info"><p class="bn-dest">{e(p['destino'])}</p><h2>{e(p['titulo'])}</h2>
+<p class="bn-meta">📅 {e(datas)} · {p['dias']} dias / {p['noites']} noites · {p['pessoas']} pessoas</p>
+<p class="bn-preco"><b>R$ {e(p['pix'])}</b> no PIX <span>ou {p['parcelas']}x de R$ {e(p['parcela'])} sem juros</span></p>
+<div class="bn-ctas"><a class="btn btn-sun" href="/{e(p['slug'])}">Ver o pacote →</a><a class="btn btn-wa" data-wa="banner-{e(p['slug'])}" href="{e(wa_link(msg_pacote(p)))}" target="_blank" rel="noopener">{WA_ICON}WhatsApp</a><a class="btn btn-glass" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo</a></div></div></article>""")
+    return '<div class="banner">' + "".join(itens) + "</div>"
 
 
 def card(p):
-    art = f'<img class="art" src="/{e(p["img"])}" alt="{e(p["titulo"])}" loading="lazy" width="960" height="1200">' if p.get("img") else fake_art(p)
+    art = fake_art(p)
     chips = (['<span class="chip bf">BLACK FRIDAY</span>'] if p.get("black") else []) + [f'<span class="chip">{p["dias"]} dias / {p["noites"]} noites</span>', f'<span class="chip">{p["pessoas"]} pessoas</span>']
     busca = sem_acento(" ".join([p["destino"], p["titulo"], p.get("chamada", "")] + [t for _, t in p["inclui"]])).lower()
     pub = p.get("publicado", "")
@@ -265,6 +322,7 @@ def card(p):
 def index():
     cards = "".join(card(p) for p in ativos) or '<div class="empty">Novos pacotes chegando. Me chama no WhatsApp que eu te mando as ofertas de hoje.</div>'
     tem_black = any(p.get("black") for p in ativos)
+    ultimos = sorted(ativos, key=pub_key, reverse=True)[:2]
     meses = sorted({p["ida"][:7] for p in ativos})
     chips_mes = "".join(f'<button type="button" class="fchip" data-mes="{m}">{MESES[int(m[5:7])-1]}/{m[2:4]}</button>' for m in meses)
     filtros = f"""<form class="filtros" id="filtros" onsubmit="return false" role="search">
@@ -278,8 +336,8 @@ def index():
     body = f"""<body>{topo()}
 <section class="hero"><div class="wrap">{'<span class="tag">🖤💛 Black Friday</span>' if tem_black else ''}
 <h1>Pacotes de viagem saindo de <em>Porto Alegre</em></h1>
-<p>Aéreo, hotel e transfer no mesmo pacote, com preço no PIX ou parcelado em até 15x sem juros. Tu escolhe, me chama no WhatsApp e eu cuido do resto.</p>
-<div class="cta"><a class="btn btn-wa" data-wa="hero" href="{e(wa_link('Oi! Vi os pacotes no site da Stefanello Viagens e quero saber mais.'))}" target="_blank" rel="noopener">{WA_ICON}Falar no WhatsApp</a><a class="btn btn-ghost" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo de promoções</a></div>
+<p>Aéreo, hotel e transfer no mesmo pacote, com preço no PIX ou em até 15x sem juros. Os últimos que entraram:</p>
+{banner(ultimos)}
 <div class="trust"><span>✔ <b>CNPJ</b> 54.630.293/0001-10</span><span>✔ Agência do <b>RS</b></span><span>✔ Atendimento <b>humano</b> do começo ao fim</span></div></div></section>
 <main><section class="sec"><div class="wrap"><h2>Pacotes da semana</h2><p class="sub">Valores para o número de pessoas indicado em cada pacote. Tem outras datas? Me pergunta.</p>
 {filtros}
@@ -292,7 +350,7 @@ def index():
 def pagina(p):
     url = f"{SITE}/{p['slug']}"
     msg = msg_pacote(p)
-    media = f'<img src="/{e(p["img"])}" alt="{e(p["titulo"])}" width="960" height="1200">' if p.get("img") else fake_art(p)
+    media = fake_art(p, 1400)
     inc = "".join(f"<li><span>{i}</span><span>{e(t)}</span></li>" for i, t in p["inclui"])
     selo = f'<span class="selo">{e(p["selo"])}</span>' if p.get("selo") else ""
     outras = f'<div class="outras">📆 {e(p["outrasDatas"])} Me chama que eu te mando as opções.</div>' if p.get("outrasDatas") else ""
