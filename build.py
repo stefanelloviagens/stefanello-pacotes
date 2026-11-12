@@ -45,7 +45,7 @@ h1,h2,h3,.display{font-family:'Archivo',Inter,sans-serif;letter-spacing:-.01em;l
 .top{position:sticky;top:0;z-index:20;background:rgba(250,247,240,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
 .brand{display:flex;align-items:center;gap:8px;text-decoration:none;font-family:'Archivo',sans-serif;font-weight:800;font-size:18px}
-.brand svg{width:22px;height:22px;fill:var(--ink)}
+.logo{height:40px;width:auto}.logo-ft{height:36px;width:auto;margin-bottom:4px}
 .brand small{display:block;font:500 11px Inter,sans-serif;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;border-radius:999px;font-weight:700;text-decoration:none;font-size:15px;border:0;cursor:pointer;transition:transform .15s,background .15s}
 .btn:active{transform:scale(.98)}
@@ -164,17 +164,17 @@ def head(title, desc, url, img):
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{e(url)}">
 <meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{e(url)}"><meta property="og:image" content="{e(og_img)}"><meta property="og:locale" content="pt_BR">
-<meta name="theme-color" content="#111111"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 0C50 27.6 72.4 50 100 50 72.4 50 50 72.4 50 100 50 72.4 27.6 50 0 50 27.6 50 50 27.6 50 0Z' fill='%23111'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#111111"><link rel="icon" type="image/png" href="/img/icone.png"><link rel="apple-touch-icon" href="/img/icone.png">
 {FONTS}<style>{CSS}</style>"""
 
 
 def topo():
-    return f"""<header class="top"><div class="wrap"><a class="brand" href="/">{STAR}<span>Stefanello Viagens<small>Pacotes e promoções</small></span></a>
+    return f"""<header class="top"><div class="wrap"><a class="brand" href="/" aria-label="Stefanello Viagens - início"><img src="/img/logo.png" alt="Stefanello Viagens" width="178" height="40" class="logo"></a>
 <a class="btn btn-wa btn-sm" data-wa="topo" href="{e(wa_link('Oi! Vim pelo site de pacotes da Stefanello Viagens e quero ajuda com uma viagem.'))}" target="_blank" rel="noopener">{WA_ICON}<span>WhatsApp</span></a></div></header>"""
 
 
 def rodape():
-    return f"""<footer><div class="wrap"><div class="brand" style="color:#fff">{STAR.replace('<svg','<svg style="fill:#fff"')}<span>Stefanello Viagens</span></div>
+    return f"""<footer><div class="wrap"><img src="/img/logo-branca.png" alt="Stefanello Viagens" width="160" height="36" class="logo-ft">
 <p>Stefanello Viagens LTDA · CNPJ 54.630.293/0001-10 · Rua José Felice, nº 30, Centro, São João do Polêsine - RS</p>
 <p><a href="{e(INSTA)}" target="_blank" rel="noopener">Instagram @stefanelloviagens</a> · <a href="https://stefanelloviagens.com.br/">stefanelloviagens.com.br</a> · <a href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Grupo de promoções</a></p>
 <p>*Valores sujeitos a disponibilidade e alteração a qualquer momento.</p></div></footer>"""
