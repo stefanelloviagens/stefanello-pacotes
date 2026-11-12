@@ -6,6 +6,232 @@
   "site": "https://pacotes.stefanelloviagens.com.br",
   "pacotes": [
     {
+      "slug": "porto-seguro-trancoso-arraial-black-friday",
+      "destino": "Porto Seguro",
+      "titulo": "Porto Seguro + Trancoso + Arraial d'Ajuda",
+      "chamada": "Três joias da Bahia numa viagem só: praia, história e clima baiano o dia inteiro.",
+      "black": true,
+      "selo": "",
+      "foto": "34722367",
+      "pessoas": 2,
+      "dias": 7,
+      "noites": 6,
+      "ida": "2027-03-07",
+      "volta": "2027-03-13",
+      "idaTxt": "dom, 7 de mar",
+      "voltaTxt": "sáb, 13 de mar",
+      "inclui": [
+        [
+          "✈️",
+          "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+        ],
+        [
+          "🏨",
+          "Porto Geraes Praia Hotel (café da manhã)"
+        ],
+        [
+          "🚐",
+          "Transfer aeroporto / hotel / aeroporto"
+        ],
+        [
+          "🏛️",
+          "City Tour em Porto Seguro"
+        ],
+        [
+          "🏖️",
+          "Passeio a Trancoso"
+        ],
+        [
+          "🌊",
+          "Passeio a Arraial d'Ajuda"
+        ]
+      ],
+      "pix": "5.689,24",
+      "parcelas": 15,
+      "parcela": "406,00",
+      "outrasDatas": "Várias outras datas em março, abril e maio.",
+      "voos": [
+        {
+          "tipo": "Ida",
+          "data": "dom, 7 de mar",
+          "cia": "GOL",
+          "resumo": "1 conexão no Rio de Janeiro (Galeão) · 4h05",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "07/03",
+                "hora": "10:10",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "chegada": {
+                "data": "07/03",
+                "hora": "12:05",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "voo": "G3 2085",
+              "duracao": "1h55"
+            },
+            {
+              "saida": {
+                "data": "07/03",
+                "hora": "12:40",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "chegada": {
+                "data": "07/03",
+                "hora": "14:15",
+                "iata": "BPS",
+                "cidade": "Porto Seguro",
+                "aeroporto": "Aeroporto de Porto Seguro"
+              },
+              "voo": "G3 2038",
+              "duracao": "1h35"
+            }
+          ],
+          "conexoes": [
+            "Espera de 35min no Galeão"
+          ]
+        },
+        {
+          "tipo": "Volta",
+          "data": "sáb, 13 de mar",
+          "cia": "GOL",
+          "resumo": "1 conexão no Rio de Janeiro (Galeão) · 8h55",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "13/03",
+                "hora": "14:45",
+                "iata": "BPS",
+                "cidade": "Porto Seguro",
+                "aeroporto": "Aeroporto de Porto Seguro"
+              },
+              "chegada": {
+                "data": "13/03",
+                "hora": "16:25",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "voo": "G3 2039",
+              "duracao": "1h40"
+            },
+            {
+              "saida": {
+                "data": "13/03",
+                "hora": "21:25",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "chegada": {
+                "data": "13/03",
+                "hora": "23:40",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "voo": "G3 2092",
+              "duracao": "2h15"
+            }
+          ],
+          "conexoes": [
+            "Espera de 5h no Galeão"
+          ]
+        }
+      ],
+      "hotel": {
+        "nome": "Porto Geraes Praia Hotel",
+        "regime": "Café da manhã",
+        "noites": 6,
+        "checkin": "07/03, 14:00",
+        "checkout": "13/03, 12:00",
+        "endereco": "Rua dos Hibiscos, 260 · Praia de Taperapuã, Porto Seguro (BA)",
+        "descricao": "Hotel na Praia de Taperapuã, perto das barracas Axé Moi e Tôa Tôa e da Praia de Ponta Grande. Tem piscina externa, jardim, Wi-Fi grátis e ajuda pra organizar passeios.",
+        "fotos": [
+          "https://i.travelapi.com/lodging/7000000/6480000/6473300/6473203/c6906748_z.jpg"
+        ],
+        "quarto": {
+          "nome": "Duplo Econômico",
+          "descricao": "Quarto pra até 2 pessoas, com ar-condicionado split, Smart TV, frigobar e Wi-Fi.",
+          "comodidades": [
+            "Ar-condicionado",
+            "Smart TV",
+            "Frigobar",
+            "Wi-Fi",
+            "Cofre",
+            "Banheiro privativo",
+            "Tomada 220V",
+            "Não fumantes"
+          ],
+          "fotos": [
+            "https://media.omnibees.com/Images/18559/RoomTypes/1184165.jpg",
+            "https://media.omnibees.com/Images/18559/RoomTypes/1177128.jpg",
+            "https://media.omnibees.com/Images/18559/RoomTypes/1177129.jpg"
+          ]
+        }
+      },
+      "servicos": [
+        {
+          "tipo": "Transfer",
+          "icone": "🚐",
+          "nome": "Transfer aeroporto / hotel / aeroporto",
+          "quando": "Na chegada e na saída",
+          "descricao": "Serviço regular do aeroporto de Porto Seguro até o hotel e de volta.",
+          "info": [
+            "Sai cerca de 40 min depois do pouso",
+            "Válido para hotéis em Porto Seguro"
+          ]
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "🏛️",
+          "nome": "City Tour em Porto Seguro",
+          "quando": "Retorno por volta das 15h",
+          "descricao": "Passeio pela Cidade Alta, berço do Brasil, com igrejas do século XVI e vista do mar.",
+          "info": [
+            "Saída do hotel"
+          ]
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "🏖️",
+          "nome": "Passeio a Trancoso",
+          "quando": "Saída entre 8h e 9h · retorno por volta das 15h30",
+          "descricao": "Dia em Trancoso, a 68 km, com o famoso Quadrado e praias de água clara.",
+          "info": [
+            "Saída do hotel"
+          ]
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "🌊",
+          "nome": "Passeio a Arraial d'Ajuda",
+          "quando": "Dia inteiro",
+          "descricao": "Visita ao charmoso vilarejo de Arraial d'Ajuda, com até 4h livres nas praias.",
+          "info": [
+            "Saída do hotel"
+          ]
+        }
+      ],
+      "img": "",
+      "publicado": "2026-11-12"
+    },
+    {
       "slug": "rio-de-janeiro-black-friday",
       "destino": "Rio de Janeiro",
       "titulo": "Rio de Janeiro com Cristo Redentor + Chá no Forte GRÁTIS",
