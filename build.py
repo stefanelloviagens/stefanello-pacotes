@@ -123,6 +123,7 @@ h1,h2,h3,.display{font-family:'Archivo',Inter,sans-serif;letter-spacing:-.01em;l
 .pbox .row{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;text-align:center}
 .pbox .v{font-family:Archivo,sans-serif;font-weight:800;font-size:clamp(19px,5.2vw,30px);color:var(--sun);line-height:1.1;white-space:nowrap}
 .pbox small{display:block;font-size:12.5px;color:#cfcac0;margin-top:4px}
+.pg-link{display:block;text-align:center;margin-top:14px;color:var(--sun);font-weight:700;font-size:14px;text-decoration:underline}
 .pbox .ou{width:40px;height:40px;border-radius:50%;background:var(--sun);color:var(--ink);font-weight:800;display:grid;place-items:center;font-size:14px}
 .outras{background:#FFF4BF;border:1px solid #F1DC6A;border-radius:14px;padding:12px 14px;font-weight:600;margin-bottom:16px}
 .ctas{display:grid;gap:10px}
@@ -241,6 +242,30 @@ html,body{overflow-x:clip}
 .role{display:block;text-align:center;margin-top:16px;padding:12px;border-radius:12px;background:var(--ink);color:var(--sun);font-weight:800;text-decoration:none}
 html{scroll-behavior:smooth}.det{scroll-margin-top:80px}
 .srvs{display:grid;gap:14px}
+.srv.com-foto{padding-top:0;overflow:hidden}
+.srv-capa{margin:0 -18px 14px}
+.srv-capa .ft{display:block;width:100%;padding:0;border:0;cursor:zoom-in;position:relative;background:#eee}
+.srv-capa img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;height:auto}
+.srv-n{position:absolute;right:10px;bottom:10px;background:rgba(17,17,17,.78);color:#fff;font-size:12.5px;font-weight:700;padding:5px 10px;border-radius:999px}
+.pgs{display:grid;gap:14px}
+@media(min-width:900px){.pgs{grid-template-columns:1fr 1fr}}
+.pg{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.pg-pix{background:var(--ink);color:#fff;border-color:var(--ink)}
+.pg-pix h3{color:var(--sun)}.pg-pix h3 s{color:#9b968c;font-size:.7em;font-weight:600}.pg-pix p{color:#d8d3c9}
+.pg-h{display:flex;gap:12px;align-items:flex-start;margin-bottom:6px}
+.pg-i{font-size:24px;width:48px;height:48px;border-radius:12px;background:#F2EDE2;display:grid;place-items:center;flex:none}
+.pg-pix .pg-i{background:var(--sun)}
+.pg h3{font-size:20px;margin:6px 0 0;font-family:Archivo,sans-serif}
+.bands{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 4px}
+.band{border:1.5px solid var(--line);border-radius:8px;padding:4px 10px;font-size:13px;font-weight:700;background:#fff}
+.pg-tab{margin-top:10px}.pg-tab summary{cursor:pointer;font-weight:700;font-size:14px;color:var(--ink);padding:6px 0}
+.pg-tab table{width:100%;border-collapse:collapse;font-size:14px;margin-top:6px}
+.pg-tab th,.pg-tab td{text-align:left;padding:7px 6px;border-bottom:1px solid var(--line)}
+.pg-tab th{font-size:12px;text-transform:uppercase;color:var(--muted);letter-spacing:.04em}
+.pg-tab td:nth-child(3){color:var(--muted);font-size:12.5px}
+@media(max-width:520px){.pg-tab td:nth-child(3),.pg-tab th:nth-child(3){display:none}}
+.srvs{align-items:start}
+.pg-info{margin:14px 0 0 18px;font-size:14px;color:var(--muted);display:grid;gap:4px}
 @media(min-width:900px){.srvs{grid-template-columns:1fr 1fr}}
 .srv{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
 .srv-h{display:flex;gap:12px;align-items:flex-start;margin-bottom:8px}
@@ -488,8 +513,28 @@ def nav_det(p):
     if p.get("voos"): itens.append('<a href="#voos">✈️ Voos</a>')
     if p.get("hotel"): itens.append('<a href="#hotel">🏨 Hotel e quarto</a>')
     if p.get("servicos"): itens.append('<a href="#servicos">🚐 Transfer e passeios</a>')
+    if p.get("pagamento"): itens.append('<a href="#pagamento">💳 Pagamento</a>')
     if not itens: return ""
     return '<div class="navdet"><span>Veja os detalhes abaixo:</span>' + "".join(itens) + '</div>'
+
+
+def bloco_pagamento(pg):
+    partes = []
+    px = pg.get("pix")
+    if px:
+        de = f'<s>R$ {e(px["de"])}</s> ' if px.get("de") else ""
+        partes.append(f"""<article class="pg pg-pix"><div class="pg-h"><span class="pg-i">⚡</span><div><span class="tag-voo">PIX à vista</span><h3>{de}R$ {e(px['por'])}</h3></div></div>{f'<p>{e(px["texto"])}</p>' if px.get('texto') else ''}</article>""")
+    for c in pg.get("cartoes", []):
+        bands = "".join(f'<span class="band">{e(b)}</span>' for b in c.get("bandeiras", []))
+        linhas = "".join(f'<tr><td>{x["n"]}x</td><td>R$ {e(x["valor"])}</td><td>{e(x.get("obs",""))}</td><td>R$ {e(x.get("total",""))}</td></tr>' for x in c.get("parcelas", []))
+        tabela = f'<details class="pg-tab"><summary>Ver todas as parcelas</summary><table><thead><tr><th>Parcelas</th><th>Valor</th><th></th><th>Total</th></tr></thead><tbody>{linhas}</tbody></table></details>' if linhas else ""
+        partes.append(f"""<article class="pg"><div class="pg-h"><span class="pg-i">💳</span><div><span class="tag-voo">{e(c.get('nome','Cartão de crédito'))}</span><h3>{e(c.get('resumo',''))}</h3></div></div>{f'<div class="bands">{bands}</div>' if bands else ''}{tabela}</article>""")
+    for o in pg.get("outras", []):
+        partes.append(f"""<article class="pg"><div class="pg-h"><span class="pg-i">{o.get('icone','💰')}</span><div><span class="tag-voo">{e(o.get('nome',''))}</span><h3>{e(o.get('resumo',''))}</h3></div></div>{f'<p>{e(o["texto"])}</p>' if o.get('texto') else ''}</article>""")
+    info = "".join(f"<li>{e(x)}</li>" for x in pg.get("info", []))
+    return ('<section class="det" id="pagamento"><h2>💳 Formas de pagamento</h2><div class="pgs">' + "".join(partes) + '</div>'
+            + (f'<ul class="pg-info">{info}</ul>' if info else '')
+            + '<p class="aviso">Condições da cotação atual. Na hora da reserva eu te confirmo tudo pelo WhatsApp.</p></section>')
 
 
 def detalhes(p):
@@ -511,10 +556,18 @@ def detalhes(p):
 {galeria(q.get('fotos', []), q.get('nome','quarto'), 'gq')}</div></section>""")
     if p.get("servicos"):
         cards = []
-        for sv in p["servicos"]:
+        for si, sv in enumerate(p["servicos"]):
             info = "".join(f"<li>{e(x)}</li>" for x in sv.get("info", []))
-            cards.append(f"""<article class="srv"><div class="srv-h"><span class="srv-i">{sv.get('icone','')}</span><div><span class="tag-voo">{e(sv['tipo'])}</span><h3>{e(sv['nome'])}</h3>{f'<p class="quando">🗓️ {e(sv["quando"])}</p>' if sv.get('quando') else ''}</div></div><p>{e(sv.get('descricao',''))}</p>{f'<ul class="srv-l">{info}</ul>' if info else ''}</article>""")
+            fts = sv.get("fotos") or []
+            capa = ""
+            if fts:
+                mais = f'<span class="srv-n">📷 {len(fts)} fotos</span>' if len(fts) > 1 else ""
+                capa = f'<div class="srv-capa" id="gs{si}" data-fotos="{e(json.dumps(fts))}"><button type="button" class="ft" data-g="gs{si}" data-i="0" aria-label="Ver fotos de {e(sv["nome"])}"><img src="{e(fts[0])}" alt="{e(sv["nome"])}" loading="lazy">{mais}</button></div>'
+            cards.append(f"""<article class="srv{' com-foto' if fts else ''}">{capa}<div class="srv-h"><span class="srv-i">{sv.get('icone','')}</span><div><span class="tag-voo">{e(sv['tipo'])}</span><h3>{e(sv['nome'])}</h3>{f'<p class="quando">🗓️ {e(sv["quando"])}</p>' if sv.get('quando') else ''}</div></div><p>{e(sv.get('descricao',''))}</p>{f'<ul class="srv-l">{info}</ul>' if info else ''}</article>""")
         out.append('<section class="det" id="servicos"><h2>🚐 Transfer, passeios e mais</h2><div class="srvs">' + "".join(cards) + '</div><p class="aviso">Dias e horários dos passeios conforme a programação do receptivo. Confirmamos tudo contigo antes da viagem.</p></section>')
+    pg = p.get("pagamento")
+    if pg:
+        out.append(bloco_pagamento(pg))
     if out:
         out.append('<div id="lb" class="lb" hidden><button type="button" class="lb-x" aria-label="Fechar">✕</button><button type="button" class="lb-p" aria-label="Foto anterior">‹</button><img alt=""><button type="button" class="lb-n" aria-label="Próxima foto">›</button></div>')
     return "".join(out)
@@ -549,7 +602,7 @@ def pagina(p):
 <div class="facts"><div class="fact"><b>{p['pessoas']}</b><span>pessoas</span></div><div class="fact"><b>{p['dias']} dias</b><span>{p['noites']} noites</span></div><div class="fact"><b>Saída</b><span>Porto Alegre</span></div></div>
 <div class="box datas"><h2>Datas</h2><p>📅 <span><b>Ida:</b> {e(p['idaTxt'])}</span></p><p>📅 <span><b>Retorno:</b> {e(p['voltaTxt'])}</span></p></div>
 <div class="box"><h2>O pacote inclui</h2><ul class="inc">{inc}</ul></div>
-<div class="pbox"><span class="lbl">{'PREÇO BLACK FRIDAY' if p.get('black') else 'INVESTIMENTO'}</span><div class="row"><div><div class="v">R$ {e(p['pix'])}</div><small>já com desconto no PIX</small></div><div class="ou">OU</div><div><div class="v">{p['parcelas']}x R$ {e(p['parcela'])}</div><small>sem juros no cartão</small></div></div></div>
+<div class="pbox"><span class="lbl">{'PREÇO BLACK FRIDAY' if p.get('black') else 'INVESTIMENTO'}</span><div class="row"><div><div class="v">R$ {e(p['pix'])}</div><small>já com desconto no PIX</small></div><div class="ou">OU</div><div><div class="v">{p['parcelas']}x R$ {e(p['parcela'])}</div><small>sem juros no cartão</small></div></div>{'<a class="pg-link" href="#pagamento">Ver todas as formas de pagamento →</a>' if p.get('pagamento') else ''}</div>
 {outras}
 <div class="ctas"><a class="btn btn-wa" data-wa="{e(p['slug'])}" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero esse pacote</a>
 <a class="btn btn-ghost" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo de promoções</a></div>
