@@ -458,7 +458,7 @@
         "outras": [
           {
             "icone": "🏦",
-            "nome": "Financiamento",
+            "nome": "Financiamento (Boleto)",
             "resumo": "Entrada + 14x sem juros",
             "texto": "Pelo Multicrédito ou Santander."
           }
@@ -888,7 +888,7 @@
         "outras": [
           {
             "icone": "🏦",
-            "nome": "Financiamento",
+            "nome": "Financiamento (Boleto)",
             "resumo": "Entrada + 14x sem juros",
             "texto": "Pelo Multicrédito ou Santander."
           }
@@ -1559,7 +1559,7 @@
         "outras": [
           {
             "icone": "🏦",
-            "nome": "Financiamento",
+            "nome": "Financiamento (Boleto)",
             "resumo": "Entrada + 14x sem juros",
             "texto": "Pelo Multicrédito ou Santander."
           }
