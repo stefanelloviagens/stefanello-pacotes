@@ -248,7 +248,14 @@ html{scroll-behavior:smooth}.det{scroll-margin-top:80px}
 .srv-capa img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;height:auto}
 .srv-n{position:absolute;right:10px;bottom:10px;background:rgba(17,17,17,.78);color:#fff;font-size:12.5px;font-weight:700;padding:5px 10px;border-radius:999px}
 .pgs{display:grid;gap:14px}
-@media(min-width:900px){.pgs{grid-template-columns:1fr 1fr}}
+.parc{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:6px;margin:12px 0 0;padding:0}
+.parc li{background:#F7F3EA;border-radius:10px;padding:7px 10px;font-size:14px;line-height:1.25}
+.parc li b{display:inline-block;min-width:28px}
+.parc li.ac{background:#FFF1D6;border:1px dashed #E0B44A}
+.parc li small{display:block;font-size:11.5px;color:var(--muted)}
+.parc-leg{font-size:12.5px;color:var(--muted);margin:8px 0 0;display:flex;align-items:center;gap:6px}
+.parc-leg span{width:14px;height:14px;border-radius:4px;background:#FFF1D6;border:1px dashed #E0B44A;display:inline-block}
+@media(min-width:900px){.pgs{grid-template-columns:1fr 1fr;align-items:start}}
 .pg{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
 .pg-pix{background:var(--ink);color:#fff;border-color:var(--ink)}
 .pg-pix h3{color:var(--sun)}.pg-pix h3 s{color:#9b968c;font-size:.7em;font-weight:600}.pg-pix p{color:#d8d3c9}
@@ -526,8 +533,9 @@ def bloco_pagamento(pg):
         partes.append(f"""<article class="pg pg-pix"><div class="pg-h"><span class="pg-i">⚡</span><div><span class="tag-voo">PIX à vista</span><h3>{de}R$ {e(px['por'])}</h3></div></div>{f'<p>{e(px["texto"])}</p>' if px.get('texto') else ''}</article>""")
     for c in pg.get("cartoes", []):
         bands = "".join(f'<span class="band">{e(b)}</span>' for b in c.get("bandeiras", []))
-        linhas = "".join(f'<tr><td>{x["n"]}x</td><td>R$ {e(x["valor"])}</td><td>{e(x.get("obs",""))}</td><td>R$ {e(x.get("total",""))}</td></tr>' for x in c.get("parcelas", []))
-        tabela = f'<details class="pg-tab"><summary>Ver todas as parcelas</summary><table><thead><tr><th>Parcelas</th><th>Valor</th><th></th><th>Total</th></tr></thead><tbody>{linhas}</tbody></table></details>' if linhas else ""
+        celulas = "".join(f'<li class="{"ac" if x.get("obs","").startswith("com") else ""}"><b>{x["n"]}x</b> R$ {e(x["valor"])}{"<small>total R$ " + e(x["total"]) + "</small>" if x.get("obs","").startswith("com") else ""}</li>' for x in c.get("parcelas", []))
+        tem_ac = any(x.get("obs","").startswith("com") for x in c.get("parcelas", []))
+        tabela = (f'<ul class="parc">{celulas}</ul>' + ('<p class="parc-leg"><span></span> com acréscimo</p>' if tem_ac else '')) if celulas else ""
         partes.append(f"""<article class="pg"><div class="pg-h"><span class="pg-i">💳</span><div><span class="tag-voo">{e(c.get('nome','Cartão de crédito'))}</span><h3>{e(c.get('resumo',''))}</h3></div></div>{f'<div class="bands">{bands}</div>' if bands else ''}{tabela}</article>""")
     for o in pg.get("outras", []):
         partes.append(f"""<article class="pg"><div class="pg-h"><span class="pg-i">{o.get('icone','💰')}</span><div><span class="tag-voo">{e(o.get('nome',''))}</span><h3>{e(o.get('resumo',''))}</h3></div></div>{f'<p>{e(o["texto"])}</p>' if o.get('texto') else ''}</article>""")

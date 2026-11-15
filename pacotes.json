@@ -230,7 +230,245 @@
       ],
       "img": "",
       "publicado": "2026-11-12",
-      "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNTEyNDR8MMhB6gZvezBPhIFY8VdKkzU"
+      "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNTEyNDR8MMhB6gZvezBPhIFY8VdKkzU",
+      "pagamento": {
+        "pix": {
+          "de": "6.087,20",
+          "por": "5.689,24",
+          "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+        },
+        "cartoes": [
+          {
+            "nome": "Visa e Mastercard",
+            "resumo": "Até 15x de R$ 405,81 sem acréscimo",
+            "bandeiras": [
+              "Visa",
+              "Mastercard"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "6.087,20",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 2,
+                "valor": "3.043,60",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 3,
+                "valor": "2.029,07",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 4,
+                "valor": "1.521,80",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 5,
+                "valor": "1.217,44",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 6,
+                "valor": "1.014,53",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 7,
+                "valor": "869,60",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 8,
+                "valor": "760,90",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 9,
+                "valor": "676,36",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 10,
+                "valor": "608,72",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 11,
+                "valor": "553,38",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 12,
+                "valor": "507,27",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 13,
+                "valor": "468,25",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 14,
+                "valor": "434,80",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 15,
+                "valor": "405,81",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              }
+            ]
+          },
+          {
+            "nome": "Amex e Elo",
+            "resumo": "Até 6x de R$ 1.014,53 sem acréscimo ou até 10x com acréscimo",
+            "bandeiras": [
+              "Amex",
+              "Elo"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "6.087,20",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 2,
+                "valor": "3.043,60",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 3,
+                "valor": "2.029,07",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 4,
+                "valor": "1.521,80",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 5,
+                "valor": "1.217,44",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 6,
+                "valor": "1.014,53",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 7,
+                "valor": "886,99",
+                "obs": "com acréscimo",
+                "total": "6.208,94"
+              },
+              {
+                "n": 8,
+                "valor": "779,92",
+                "obs": "com acréscimo",
+                "total": "6.239,38"
+              },
+              {
+                "n": 9,
+                "valor": "696,65",
+                "obs": "com acréscimo",
+                "total": "6.269,82"
+              },
+              {
+                "n": 10,
+                "valor": "630,03",
+                "obs": "com acréscimo",
+                "total": "6.300,25"
+              }
+            ]
+          },
+          {
+            "nome": "Hipercard e Diners",
+            "resumo": "Até 6x de R$ 1.014,53 sem acréscimo",
+            "bandeiras": [
+              "Hipercard",
+              "Diners"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "6.087,20",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 2,
+                "valor": "3.043,60",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 3,
+                "valor": "2.029,07",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 4,
+                "valor": "1.521,80",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 5,
+                "valor": "1.217,44",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              },
+              {
+                "n": 6,
+                "valor": "1.014,53",
+                "obs": "sem acréscimo",
+                "total": "6.087,20"
+              }
+            ]
+          }
+        ],
+        "outras": [
+          {
+            "icone": "🏦",
+            "nome": "Financiamento",
+            "resumo": "Entrada + 14x sem juros",
+            "texto": "Pelo Multicrédito ou Santander."
+          }
+        ],
+        "info": [
+          "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+          "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+          "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+        ]
+      }
     },
     {
       "slug": "rio-de-janeiro-black-friday",
@@ -416,10 +654,251 @@
             "Cesta com minibrioches, croissant, pão de queijo, torrada Petrópolis, bolo e queijadinha",
             "Café, chá, chocolate quente ou café com leite + suco de laranja",
             "Entrada no Forte: R$ 10 por pessoa, paga no local (dinheiro ou Pix)"
+          ],
+          "fotos": [
+            "https://media.infotravel.com.br/image/upload/1F2BD0AED3FE05AFB0EBD4770A372DCC.jpg"
           ]
         }
       ],
-      "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNDYxNDB8MGb-D55c8Sd25kWfb7W3JQE"
+      "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNDYxNDB8MGb-D55c8Sd25kWfb7W3JQE",
+      "pagamento": {
+        "pix": {
+          "de": "6.588,55",
+          "por": "6.183,44",
+          "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+        },
+        "cartoes": [
+          {
+            "nome": "Visa e Mastercard",
+            "resumo": "Até 15x de R$ 439,24 sem acréscimo",
+            "bandeiras": [
+              "Visa",
+              "Mastercard"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "6.588,55",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 2,
+                "valor": "3.294,28",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 3,
+                "valor": "2.196,18",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 4,
+                "valor": "1.647,14",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 5,
+                "valor": "1.317,71",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 6,
+                "valor": "1.098,09",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 7,
+                "valor": "941,22",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 8,
+                "valor": "823,57",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 9,
+                "valor": "732,06",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 10,
+                "valor": "658,86",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 11,
+                "valor": "598,96",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 12,
+                "valor": "549,05",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 13,
+                "valor": "506,81",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 14,
+                "valor": "470,61",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 15,
+                "valor": "439,24",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              }
+            ]
+          },
+          {
+            "nome": "Amex e Elo",
+            "resumo": "Até 6x de R$ 1.098,09 sem acréscimo ou até 10x com acréscimo",
+            "bandeiras": [
+              "Amex",
+              "Elo"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "6.588,55",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 2,
+                "valor": "3.294,28",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 3,
+                "valor": "2.196,18",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 4,
+                "valor": "1.647,14",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 5,
+                "valor": "1.317,71",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 6,
+                "valor": "1.098,09",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 7,
+                "valor": "960,05",
+                "obs": "com acréscimo",
+                "total": "6.720,32"
+              },
+              {
+                "n": 8,
+                "valor": "844,16",
+                "obs": "com acréscimo",
+                "total": "6.753,26"
+              },
+              {
+                "n": 9,
+                "valor": "754,02",
+                "obs": "com acréscimo",
+                "total": "6.786,21"
+              },
+              {
+                "n": 10,
+                "valor": "681,91",
+                "obs": "com acréscimo",
+                "total": "6.819,15"
+              }
+            ]
+          },
+          {
+            "nome": "Hipercard e Diners",
+            "resumo": "Até 6x de R$ 1.098,09 sem acréscimo",
+            "bandeiras": [
+              "Hipercard",
+              "Diners"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "6.588,55",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 2,
+                "valor": "3.294,28",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 3,
+                "valor": "2.196,18",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 4,
+                "valor": "1.647,14",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 5,
+                "valor": "1.317,71",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              },
+              {
+                "n": 6,
+                "valor": "1.098,09",
+                "obs": "sem acréscimo",
+                "total": "6.588,55"
+              }
+            ]
+          }
+        ],
+        "outras": [
+          {
+            "icone": "🏦",
+            "nome": "Financiamento",
+            "resumo": "Entrada + 14x sem juros",
+            "texto": "Pelo Multicrédito ou Santander."
+          }
+        ],
+        "info": [
+          "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+          "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+          "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+        ]
+      }
     },
     {
       "slug": "ilheus-itacare-black-friday",
@@ -852,7 +1331,245 @@
           ]
         }
       ],
-      "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNDY1NDF8MHHGZ4hvhNdwtj1n1jWy3_8"
+      "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNDY1NDF8MHHGZ4hvhNdwtj1n1jWy3_8",
+      "pagamento": {
+        "pix": {
+          "de": "22.455,50",
+          "por": "21.195,76",
+          "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+        },
+        "cartoes": [
+          {
+            "nome": "Visa e Mastercard",
+            "resumo": "Até 15x de R$ 1.497,03 sem acréscimo",
+            "bandeiras": [
+              "Visa",
+              "Mastercard"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "22.455,50",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 2,
+                "valor": "11.227,75",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 3,
+                "valor": "7.485,17",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 4,
+                "valor": "5.613,88",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 5,
+                "valor": "4.491,10",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 6,
+                "valor": "3.742,58",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 7,
+                "valor": "3.207,93",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 8,
+                "valor": "2.806,94",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 9,
+                "valor": "2.495,06",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 10,
+                "valor": "2.245,55",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 11,
+                "valor": "2.041,41",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 12,
+                "valor": "1.871,29",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 13,
+                "valor": "1.727,35",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 14,
+                "valor": "1.603,96",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 15,
+                "valor": "1.497,03",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              }
+            ]
+          },
+          {
+            "nome": "Amex e Elo",
+            "resumo": "Até 6x de R$ 3.742,58 sem acréscimo ou até 10x com acréscimo",
+            "bandeiras": [
+              "Amex",
+              "Elo"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "22.455,50",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 2,
+                "valor": "11.227,75",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 3,
+                "valor": "7.485,17",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 4,
+                "valor": "5.613,88",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 5,
+                "valor": "4.491,10",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 6,
+                "valor": "3.742,58",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 7,
+                "valor": "3.272,09",
+                "obs": "com acréscimo",
+                "total": "22.904,61"
+              },
+              {
+                "n": 8,
+                "valor": "2.877,11",
+                "obs": "com acréscimo",
+                "total": "23.016,89"
+              },
+              {
+                "n": 9,
+                "valor": "2.569,91",
+                "obs": "com acréscimo",
+                "total": "23.129,17"
+              },
+              {
+                "n": 10,
+                "valor": "2.324,14",
+                "obs": "com acréscimo",
+                "total": "23.241,44"
+              }
+            ]
+          },
+          {
+            "nome": "Hipercard e Diners",
+            "resumo": "Até 6x de R$ 3.742,58 sem acréscimo",
+            "bandeiras": [
+              "Hipercard",
+              "Diners"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "22.455,50",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 2,
+                "valor": "11.227,75",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 3,
+                "valor": "7.485,17",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 4,
+                "valor": "5.613,88",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 5,
+                "valor": "4.491,10",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              },
+              {
+                "n": 6,
+                "valor": "3.742,58",
+                "obs": "sem acréscimo",
+                "total": "22.455,50"
+              }
+            ]
+          }
+        ],
+        "outras": [
+          {
+            "icone": "🏦",
+            "nome": "Financiamento",
+            "resumo": "Entrada + 14x sem juros",
+            "texto": "Pelo Multicrédito ou Santander."
+          }
+        ],
+        "info": [
+          "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+          "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+          "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+        ]
+      }
     }
   ]
 }
