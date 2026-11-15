@@ -212,6 +212,11 @@ html{scroll-behavior:smooth}.det{scroll-margin-top:80px}
 .srv-capa img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;height:auto}
 .srv-n{position:absolute;right:10px;bottom:10px;background:rgba(17,17,17,.78);color:#fff;font-size:12.5px;font-weight:700;padding:5px 10px;border-radius:999px}
 .pgs{display:grid;gap:14px}
+.ptabs{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 10px;margin-bottom:4px;scrollbar-width:none}
+.ptabs::-webkit-scrollbar{display:none}
+.ptab{flex:none;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:9px 16px;font:700 14px Inter,sans-serif;cursor:pointer;min-height:42px;white-space:nowrap;color:var(--ink)}
+.ptab.on{background:var(--ink);color:var(--sun);border-color:var(--ink)}
+.pp .pg{max-width:760px}
 .parc{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:6px;margin:12px 0 0;padding:0}
 .parc li{background:#F7F3EA;border-radius:10px;padding:7px 10px;font-size:14px;line-height:1.25}
 .parc li b{display:inline-block;min-width:28px}
@@ -301,5 +306,10 @@ if(ev.target.closest('.lb-x')||ev.target===lb){lb.hidden=true;img.src='';}
 if(ev.target.closest('.lb-n')){i=(i+1)%fotos.length;show();}
 if(ev.target.closest('.lb-p')){i=(i-1+fotos.length)%fotos.length;show();}});
 document.addEventListener('keydown',function(ev){if(lb.hidden)return;if(ev.key==='Escape'){lb.hidden=true}if(ev.key==='ArrowRight'){i=(i+1)%fotos.length;show()}if(ev.key==='ArrowLeft'){i=(i-1+fotos.length)%fotos.length;show()}});
+})();
+</script><script>
+(function(){var ts=[].slice.call(document.querySelectorAll('.ptab'));if(!ts.length)return;
+function sel(t){ts.forEach(function(x){var on=x===t;x.classList.toggle('on',on);x.setAttribute('aria-selected',on);document.getElementById(x.getAttribute('aria-controls')).hidden=!on;});}
+ts.forEach(function(t,i){t.addEventListener('click',function(){sel(t);});t.addEventListener('keydown',function(ev){var k=ev.key==='ArrowRight'?1:ev.key==='ArrowLeft'?-1:0;if(k){var n=ts[(i+k+ts.length)%ts.length];n.focus();sel(n);}});});
 })();
 </script></body></html>

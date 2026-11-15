@@ -248,6 +248,11 @@ html{scroll-behavior:smooth}.det{scroll-margin-top:80px}
 .srv-capa img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;height:auto}
 .srv-n{position:absolute;right:10px;bottom:10px;background:rgba(17,17,17,.78);color:#fff;font-size:12.5px;font-weight:700;padding:5px 10px;border-radius:999px}
 .pgs{display:grid;gap:14px}
+.ptabs{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 10px;margin-bottom:4px;scrollbar-width:none}
+.ptabs::-webkit-scrollbar{display:none}
+.ptab{flex:none;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:9px 16px;font:700 14px Inter,sans-serif;cursor:pointer;min-height:42px;white-space:nowrap;color:var(--ink)}
+.ptab.on{background:var(--ink);color:var(--sun);border-color:var(--ink)}
+.pp .pg{max-width:760px}
 .parc{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:6px;margin:12px 0 0;padding:0}
 .parc li{background:#F7F3EA;border-radius:10px;padding:7px 10px;font-size:14px;line-height:1.25}
 .parc li b{display:inline-block;min-width:28px}
@@ -526,21 +531,27 @@ def nav_det(p):
 
 
 def bloco_pagamento(pg):
-    partes = []
+    tabs, paineis = [], []
+    def add(rotulo, html):
+        i = len(tabs)
+        tabs.append(f'<button type="button" role="tab" class="ptab{" on" if i == 0 else ""}" id="pt{i}" aria-controls="pp{i}" aria-selected="{"true" if i == 0 else "false"}">{rotulo}</button>')
+        paineis.append(f'<div class="pp" role="tabpanel" id="pp{i}" aria-labelledby="pt{i}"{"" if i == 0 else " hidden"}>{html}</div>')
     px = pg.get("pix")
     if px:
         de = f'<s>R$ {e(px["de"])}</s> ' if px.get("de") else ""
-        partes.append(f"""<article class="pg pg-pix"><div class="pg-h"><span class="pg-i">⚡</span><div><span class="tag-voo">PIX à vista</span><h3>{de}R$ {e(px['por'])}</h3></div></div>{f'<p>{e(px["texto"])}</p>' if px.get('texto') else ''}</article>""")
+        add("⚡ PIX", f"""<div class="pg pg-pix"><div class="pg-h"><span class="pg-i">⚡</span><div><span class="tag-voo">PIX à vista</span><h3>{de}R$ {e(px['por'])}</h3></div></div>{f'<p>{e(px["texto"])}</p>' if px.get('texto') else ''}</div>""")
     for c in pg.get("cartoes", []):
         bands = "".join(f'<span class="band">{e(b)}</span>' for b in c.get("bandeiras", []))
-        celulas = "".join(f'<li class="{"ac" if x.get("obs","").startswith("com") else ""}"><b>{x["n"]}x</b> R$ {e(x["valor"])}{"<small>total R$ " + e(x["total"]) + "</small>" if x.get("obs","").startswith("com") else ""}</li>' for x in c.get("parcelas", []))
-        tem_ac = any(x.get("obs","").startswith("com") for x in c.get("parcelas", []))
+        ps = c.get("parcelas", [])
+        celulas = "".join(f'<li class="{"ac" if x.get("obs","").startswith("com") else ""}"><b>{x["n"]}x</b> R$ {e(x["valor"])}{"<small>total R$ " + e(x["total"]) + "</small>" if x.get("obs","").startswith("com") else ""}</li>' for x in ps)
+        tem_ac = any(x.get("obs","").startswith("com") for x in ps)
         tabela = (f'<ul class="parc">{celulas}</ul>' + ('<p class="parc-leg"><span></span> com acréscimo</p>' if tem_ac else '')) if celulas else ""
-        partes.append(f"""<article class="pg"><div class="pg-h"><span class="pg-i">💳</span><div><span class="tag-voo">{e(c.get('nome','Cartão de crédito'))}</span><h3>{e(c.get('resumo',''))}</h3></div></div>{f'<div class="bands">{bands}</div>' if bands else ''}{tabela}</article>""")
+        rot = c.get("nome", "Cartão").replace(" e ", " / ")
+        add(f"💳 {e(rot)}", f"""<div class="pg"><div class="pg-h"><span class="pg-i">💳</span><div><span class="tag-voo">{e(c.get('nome','Cartão de crédito'))}</span><h3>{e(c.get('resumo',''))}</h3></div></div>{f'<div class="bands">{bands}</div>' if bands else ''}{tabela}</div>""")
     for o in pg.get("outras", []):
-        partes.append(f"""<article class="pg"><div class="pg-h"><span class="pg-i">{o.get('icone','💰')}</span><div><span class="tag-voo">{e(o.get('nome',''))}</span><h3>{e(o.get('resumo',''))}</h3></div></div>{f'<p>{e(o["texto"])}</p>' if o.get('texto') else ''}</article>""")
+        add(f"{o.get('icone','💰')} {e(o.get('nome',''))}", f"""<div class="pg"><div class="pg-h"><span class="pg-i">{o.get('icone','💰')}</span><div><span class="tag-voo">{e(o.get('nome',''))}</span><h3>{e(o.get('resumo',''))}</h3></div></div>{f'<p>{e(o["texto"])}</p>' if o.get('texto') else ''}</div>""")
     info = "".join(f"<li>{e(x)}</li>" for x in pg.get("info", []))
-    return ('<section class="det" id="pagamento"><h2>💳 Formas de pagamento</h2><div class="pgs">' + "".join(partes) + '</div>'
+    return ('<section class="det" id="pagamento"><h2>💳 Formas de pagamento</h2><div class="ptabs" role="tablist" aria-label="Formas de pagamento">' + "".join(tabs) + '</div>' + "".join(paineis)
             + (f'<ul class="pg-info">{info}</ul>' if info else '')
             + '<p class="aviso">Condições da cotação atual. Na hora da reserva eu te confirmo tudo pelo WhatsApp.</p></section>')
 
@@ -581,6 +592,14 @@ def detalhes(p):
     return "".join(out)
 
 
+PT_JS = """<script>
+(function(){var ts=[].slice.call(document.querySelectorAll('.ptab'));if(!ts.length)return;
+function sel(t){ts.forEach(function(x){var on=x===t;x.classList.toggle('on',on);x.setAttribute('aria-selected',on);document.getElementById(x.getAttribute('aria-controls')).hidden=!on;});}
+ts.forEach(function(t,i){t.addEventListener('click',function(){sel(t);});t.addEventListener('keydown',function(ev){var k=ev.key==='ArrowRight'?1:ev.key==='ArrowLeft'?-1:0;if(k){var n=ts[(i+k+ts.length)%ts.length];n.focus();sel(n);}});});
+})();
+</script>"""
+
+
 LB_JS = """<script>
 (function(){var lb=document.getElementById('lb');if(!lb)return;var img=lb.querySelector('img'),fotos=[],i=0;
 function show(){img.src=fotos[i];}
@@ -616,7 +635,7 @@ def pagina(p):
 <a class="btn btn-ghost" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo de promoções</a></div>
 <p class="aviso">*Valores sujeitos a disponibilidade e alteração a qualquer momento. O valor só fica garantido na reserva.</p><a class="role" href="#voos">👇 Role pra baixo: tem todos os detalhes do pacote</a></div></div>{detalhes(p)}</main>
 <div class="sticky"><div class="t">{e(p['destino'])}<br><b>R$ {e(p['pix'])}</b> no PIX</div><a class="btn btn-wa" data-wa="{e(p['slug'])}-barra" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero</a></div>
-{rodape()}{JS}{LB_JS}</body></html>"""
+{rodape()}{JS}{LB_JS}{PT_JS}</body></html>"""
     return head(f"{p['titulo']} | Stefanello Viagens", desc, url, p.get("img", "")) + pixel(vc) + "</head>" + body
 
 
