@@ -6,6 +6,442 @@
   "site": "https://pacotes.stefanelloviagens.com.br",
   "pacotes": [
     {
+      "slug": "rio-de-janeiro-windsor-asturias-janeiro",
+      "destino": "Rio de Janeiro",
+      "titulo": "Rio de Janeiro com Cristo Redentor + Chá no Forte GRÁTIS",
+      "chamada": "Cristo, Floresta da Tijuca e um chá da tarde no Forte de Copacabana de presente.",
+      "black": false,
+      "selo": "",
+      "img": "",
+      "foto": "10322305",
+      "pessoas": 2,
+      "dias": 5,
+      "noites": 4,
+      "ida": "2027-01-13",
+      "volta": "2027-01-17",
+      "idaTxt": "qua, 13 de jan",
+      "voltaTxt": "dom, 17 de jan",
+      "inclui": [
+        [
+          "✈️",
+          "Passagens aéreas de ida e volta (GOL direto de Porto Alegre)"
+        ],
+        [
+          "🏨",
+          "Windsor Asturias Hotel, no Centro (café da manhã)"
+        ],
+        [
+          "🚐",
+          "Transfer aeroporto / hotel / aeroporto"
+        ],
+        [
+          "⛪",
+          "Cristo Redentor com city tour panorâmico"
+        ],
+        [
+          "🌳",
+          "Floresta da Tijuca"
+        ],
+        [
+          "☕",
+          "Chá do Forte na Confeitaria Colombo GRÁTIS"
+        ]
+      ],
+      "pix": "5.777,53",
+      "parcelas": 15,
+      "parcela": "412,00",
+      "outrasDatas": "",
+      "publicado": "2026-11-15",
+      "inicial": false,
+      "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNjQ4ODh8MMNewf8RaNxJgZDWdaH9zY8",
+      "voos": [
+        {
+          "tipo": "Ida",
+          "data": "qua, 13 de jan",
+          "cia": "GOL",
+          "resumo": "Voo direto · 1h55",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "13/01",
+                "hora": "11:30",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "chegada": {
+                "data": "13/01",
+                "hora": "13:25",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "voo": "G3 2085",
+              "duracao": "1h55"
+            }
+          ],
+          "conexoes": []
+        },
+        {
+          "tipo": "Volta",
+          "data": "dom, 17 de jan",
+          "cia": "GOL",
+          "resumo": "Voo direto · 2h10",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "17/01",
+                "hora": "21:15",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "chegada": {
+                "data": "17/01",
+                "hora": "23:25",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "voo": "G3 2092",
+              "duracao": "2h10"
+            }
+          ],
+          "conexoes": []
+        }
+      ],
+      "hotel": {
+        "nome": "Windsor Asturias Hotel",
+        "regime": "Café da manhã",
+        "noites": 4,
+        "checkin": "13/01",
+        "checkout": "17/01, 12:00",
+        "endereco": "Rua Senador Dantas, 14 · Centro (Cinelândia), Rio de Janeiro",
+        "descricao": "Na Cinelândia, perto do Theatro Municipal e a 5 minutos a pé da Lapa e da Escadaria Selarón. Tem piscina, sauna, academia e estação de metrô ao lado.",
+        "fotos": [
+          "https://media.omnibees.com/Images/2010/Property/734623.jpg",
+          "https://media.omnibees.com/Images/2010/Property/80159.jpg",
+          "https://media.omnibees.com/Images/2010/Property/80160.jpg",
+          "https://media.omnibees.com/Images/2010/Property/80161.jpg",
+          "https://media.omnibees.com/Images/2010/Property/87886.jpg",
+          "https://media.omnibees.com/Images/2010/Property/87887.jpg",
+          "https://media.omnibees.com/Images/2010/Property/725936.jpg",
+          "https://media.omnibees.com/Images/2010/Property/725937.jpg",
+          "https://media.omnibees.com/Images/2010/Property/725938.jpg",
+          "https://media.omnibees.com/Images/2010/Property/734624.jpg",
+          "https://media.omnibees.com/Images/2010/Property/734626.jpg",
+          "https://media.omnibees.com/Images/2010/Property/734627.jpg",
+          "https://media.omnibees.com/Images/2010/Property/734628.jpg"
+        ],
+        "quarto": {
+          "nome": "Standard com cama de casal",
+          "descricao": "Quarto de 20 m² com vista para a cidade, cama de casal e janela antirruído.",
+          "comodidades": [
+            "Ar-condicionado",
+            "TV a cabo",
+            "Frigobar",
+            "Cofre",
+            "Wi-Fi",
+            "Bancada de trabalho",
+            "Secador de cabelo",
+            "Kit de amenities"
+          ],
+          "fotos": [
+            "https://media.omnibees.com/Images/2010/RoomTypes/734632.jpg",
+            "https://media.omnibees.com/Images/2010/RoomTypes/734633.jpg",
+            "https://media.omnibees.com/Images/2010/RoomTypes/201318.jpg"
+          ]
+        }
+      },
+      "servicos": [
+        {
+          "tipo": "Transfer",
+          "icone": "🚐",
+          "nome": "Transfer aeroporto → hotel → aeroporto",
+          "quando": "Na chegada e na volta",
+          "descricao": "Transfer em grupo (shuttle) do aeroporto do Galeão até o hotel no Centro, e de volta no último dia.",
+          "info": [
+            "A equipe te espera no desembarque com uma placa no nome do titular",
+            "Saídas entre 8h e 21h, a cada 1h30",
+            "Na volta, o motorista te busca na recepção do hotel no horário combinado"
+          ]
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "⛪",
+          "nome": "Cristo Redentor + Floresta da Tijuca + City Tour",
+          "quando": "Dia inteiro · todos os dias",
+          "descricao": "Subida de van ao Corcovado pela Floresta da Tijuca, com ingresso pro Cristo Redentor incluso. Depois, city tour panorâmico pelos cartões-postais do Rio.",
+          "info": [
+            "Ingresso do Cristo incluso",
+            "Passa pelo Maracanã, Sambódromo, Escadaria Selarón e Catedral Metropolitana",
+            "Busca e volta no hotel (Zona Sul e Centro)"
+          ]
+        },
+        {
+          "tipo": "Experiência",
+          "icone": "☕",
+          "nome": "Chá do Forte na Confeitaria Colombo · GRÁTIS",
+          "quando": "Terça a sexta, das 10h às 19h",
+          "descricao": "Café da manhã ou da tarde na Confeitaria Colombo do Forte de Copacabana, de frente pro mar, pra 2 pessoas.",
+          "info": [
+            "Cesta com minibrioches, croissant, pão de queijo, torrada Petrópolis, bolo e queijadinha",
+            "Café, chá, chocolate quente ou café com leite + suco de laranja",
+            "Entrada no Forte: R$ 10 por pessoa, paga no local (dinheiro ou Pix)"
+          ],
+          "fotos": [
+            "https://media.infotravel.com.br/image/upload/1F2BD0AED3FE05AFB0EBD4770A372DCC.jpg"
+          ]
+        }
+      ],
+      "pagamento": {
+        "pix": {
+          "de": "6.177,96",
+          "por": "5.777,53",
+          "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+        },
+        "cartoes": [
+          {
+            "nome": "Visa e Mastercard",
+            "resumo": "Até 15x de R$ 411,86 sem acréscimo",
+            "bandeiras": [
+              "Visa",
+              "Mastercard"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "6.177,96",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 2,
+                "valor": "3.088,98",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 3,
+                "valor": "2.059,32",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 4,
+                "valor": "1.544,49",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 5,
+                "valor": "1.235,59",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 6,
+                "valor": "1.029,66",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 7,
+                "valor": "882,57",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 8,
+                "valor": "772,25",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 9,
+                "valor": "686,44",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 10,
+                "valor": "617,80",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 11,
+                "valor": "561,63",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 12,
+                "valor": "514,83",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 13,
+                "valor": "475,23",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 14,
+                "valor": "441,28",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 15,
+                "valor": "411,86",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              }
+            ]
+          },
+          {
+            "nome": "Amex e Elo",
+            "resumo": "Até 6x de R$ 1.029,66 sem acréscimo ou até 10x com acréscimo",
+            "bandeiras": [
+              "Amex",
+              "Elo"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "6.177,96",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 2,
+                "valor": "3.088,98",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 3,
+                "valor": "2.059,32",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 4,
+                "valor": "1.544,49",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 5,
+                "valor": "1.235,59",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 6,
+                "valor": "1.029,66",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 7,
+                "valor": "900,22",
+                "obs": "com acréscimo",
+                "total": "6.301,52"
+              },
+              {
+                "n": 8,
+                "valor": "791,55",
+                "obs": "com acréscimo",
+                "total": "6.332,41"
+              },
+              {
+                "n": 9,
+                "valor": "707,03",
+                "obs": "com acréscimo",
+                "total": "6.363,30"
+              },
+              {
+                "n": 10,
+                "valor": "639,42",
+                "obs": "com acréscimo",
+                "total": "6.394,19"
+              }
+            ]
+          },
+          {
+            "nome": "Hipercard e Diners",
+            "resumo": "Até 6x de R$ 1.029,66 sem acréscimo",
+            "bandeiras": [
+              "Hipercard",
+              "Diners"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "6.177,96",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 2,
+                "valor": "3.088,98",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 3,
+                "valor": "2.059,32",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 4,
+                "valor": "1.544,49",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 5,
+                "valor": "1.235,59",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              },
+              {
+                "n": 6,
+                "valor": "1.029,66",
+                "obs": "sem acréscimo",
+                "total": "6.177,96"
+              }
+            ]
+          }
+        ],
+        "outras": [
+          {
+            "icone": "🏦",
+            "nome": "Financiamento (Boleto)",
+            "resumo": "Entrada + 14x sem juros",
+            "texto": "Pelo Multicrédito ou Santander."
+          }
+        ],
+        "info": [
+          "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+          "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+          "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+        ]
+      }
+    },
+    {
       "slug": "porto-de-galinhas-maragogi-carneiros",
       "destino": "Porto de Galinhas",
       "titulo": "Porto de Galinhas + Maragogi, Carneiros e Cabo",
