@@ -6,6 +6,483 @@
   "site": "https://pacotes.stefanelloviagens.com.br",
   "pacotes": [
     {
+      "slug": "porto-de-galinhas-maragogi-carneiros",
+      "destino": "Porto de Galinhas",
+      "titulo": "Porto de Galinhas + Maragogi, Carneiros e Cabo",
+      "chamada": "Piscinas naturais com maré boa em todos os dias, Maragogi e Carneiros numa viagem só.",
+      "black": false,
+      "selo": "",
+      "foto": "4716938",
+      "img": "",
+      "pessoas": 2,
+      "dias": 8,
+      "noites": 7,
+      "ida": "2027-02-17",
+      "volta": "2027-02-24",
+      "idaTxt": "qua, 17 de fev",
+      "voltaTxt": "qua, 24 de fev",
+      "inclui": [
+        [
+          "✈️",
+          "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+        ],
+        [
+          "🏨",
+          "Pousada Amada Terra (café da manhã)"
+        ],
+        [
+          "🚐",
+          "Transfer aeroporto / hotel / aeroporto"
+        ],
+        [
+          "🏛️",
+          "City Tour Recife e Olinda"
+        ],
+        [
+          "🏝️",
+          "Passeio a Maragogi"
+        ],
+        [
+          "🌴",
+          "Passeio à Praia dos Carneiros"
+        ],
+        [
+          "⛰️",
+          "Passeio ao Cabo de Santo Agostinho"
+        ]
+      ],
+      "pix": "7.829,79",
+      "parcelas": 15,
+      "parcela": "560,00",
+      "outrasDatas": "",
+      "publicado": "2026-11-16",
+      "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNjQ4NDh8MGbWfHnhvBbAp-kRIp4g53g",
+      "voos": [
+        {
+          "tipo": "Ida",
+          "data": "qua, 17 de fev",
+          "cia": "GOL",
+          "resumo": "1 conexão no Rio de Janeiro (Galeão) · 8h40",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "17/02",
+                "hora": "16:15",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "chegada": {
+                "data": "17/02",
+                "hora": "18:10",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "voo": "G3 2089",
+              "duracao": "1h55"
+            },
+            {
+              "saida": {
+                "data": "17/02",
+                "hora": "22:05",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "chegada": {
+                "data": "18/02",
+                "hora": "00:55",
+                "iata": "REC",
+                "cidade": "Recife",
+                "aeroporto": "Aeroporto dos Guararapes"
+              },
+              "voo": "G3 1884",
+              "duracao": "2h50"
+            }
+          ],
+          "conexoes": [
+            "Espera de 3h55 no Galeão"
+          ]
+        },
+        {
+          "tipo": "Volta",
+          "data": "qua, 24 de fev",
+          "cia": "GOL",
+          "resumo": "1 conexão em São Paulo (Congonhas) · 6h05",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "24/02",
+                "hora": "10:35",
+                "iata": "REC",
+                "cidade": "Recife",
+                "aeroporto": "Aeroporto dos Guararapes"
+              },
+              "chegada": {
+                "data": "24/02",
+                "hora": "14:00",
+                "iata": "CGH",
+                "cidade": "São Paulo",
+                "aeroporto": "Congonhas"
+              },
+              "voo": "G3 1615",
+              "duracao": "3h25"
+            },
+            {
+              "saida": {
+                "data": "24/02",
+                "hora": "14:50",
+                "iata": "CGH",
+                "cidade": "São Paulo",
+                "aeroporto": "Congonhas"
+              },
+              "chegada": {
+                "data": "24/02",
+                "hora": "16:40",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "voo": "G3 1280",
+              "duracao": "1h50"
+            }
+          ],
+          "conexoes": [
+            "Espera de 50min em Congonhas"
+          ]
+        }
+      ],
+      "hotel": {
+        "nome": "Pousada Amada Terra",
+        "regime": "Café da manhã",
+        "noites": 7,
+        "checkin": "17/02, 14:00",
+        "checkout": "24/02, 12:00",
+        "endereco": "Rua Figueira · Porto de Galinhas, Ipojuca (PE)",
+        "descricao": "Pousada em Porto de Galinhas com piscina, bar na piscina e buffet de café da manhã. Tem Wi-Fi grátis, recepção 24 horas e estacionamento sem custo.",
+        "fotos": [
+          "https://media.infotravel.com.br/image/upload/D410B52E56B626DF65F9C08170E62019.jpg"
+        ],
+        "quarto": {
+          "nome": "Apartamento Luxo Casal Superior",
+          "descricao": "Apartamento amplo e moderno, com varanda, cama queen size e cama auxiliar.",
+          "comodidades": [
+            "Varanda",
+            "Cama queen size",
+            "Ar-condicionado split",
+            "Smart TV 43\"",
+            "Frigobar abastecido",
+            "Wi-Fi com roteador próprio",
+            "Ducha aquecida a gás",
+            "Kit de amenidades"
+          ],
+          "fotos": [
+            "https://media.omnibees.com/Images/17203/RoomTypes/1212868.jpeg",
+            "https://media.omnibees.com/Images/17203/RoomTypes/1062020.jpg",
+            "https://media.omnibees.com/Images/17203/RoomTypes/1062021.jpg"
+          ]
+        }
+      },
+      "servicos": [
+        {
+          "tipo": "Transfer",
+          "icone": "🚐",
+          "nome": "Transfer aeroporto / pousada / aeroporto",
+          "quando": "Na chegada e na saída",
+          "descricao": "Receptivo da Luck espera no desembarque do Aeroporto de Recife com placa no nome do titular. Na volta, a busca na pousada é umas 4h antes do voo.",
+          "info": [
+            "Horário da volta informado um dia antes",
+            "Válido para hotéis e pousadas em Porto de Galinhas"
+          ]
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "🏛️",
+          "nome": "City Tour Recife e Olinda",
+          "quando": "Segunda a sábado",
+          "descricao": "Centro histórico de Recife e as ladeiras coloridas de Olinda, patrimônio da humanidade.",
+          "info": [
+            "Não opera em feriados nem no Carnaval"
+          ]
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "🏝️",
+          "nome": "Passeio a Maragogi",
+          "quando": "Diário",
+          "descricao": "O Caribe brasileiro, com piscinas naturais de água cristalina em Alagoas.",
+          "info": [
+            "Maré baixa pela manhã em todos os dias da viagem"
+          ]
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "🌴",
+          "nome": "Praia dos Carneiros",
+          "quando": "Diário",
+          "descricao": "Uma das praias mais bonitas do Brasil, com a famosa capelinha de São Benedito à beira-mar.",
+          "info": []
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "⛰️",
+          "nome": "Cabo de Santo Agostinho",
+          "quando": "Segunda a sexta",
+          "descricao": "Praias como Calhetas e Gaibu e mirantes históricos no litoral sul de Pernambuco.",
+          "info": [
+            "Não opera em feriados nem no Carnaval"
+          ]
+        }
+      ],
+      "pagamento": {
+        "pix": {
+          "de": "8.388,85",
+          "por": "7.829,79",
+          "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+        },
+        "cartoes": [
+          {
+            "nome": "Visa e Mastercard",
+            "resumo": "Até 15x de R$ 559,26 sem acréscimo",
+            "bandeiras": [
+              "Visa",
+              "Mastercard"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "8.388,85",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 2,
+                "valor": "4.194,43",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 3,
+                "valor": "2.796,28",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 4,
+                "valor": "2.097,21",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 5,
+                "valor": "1.677,77",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 6,
+                "valor": "1.398,14",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 7,
+                "valor": "1.198,41",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 8,
+                "valor": "1.048,61",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 9,
+                "valor": "932,09",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 10,
+                "valor": "838,89",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 11,
+                "valor": "762,62",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 12,
+                "valor": "699,07",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 13,
+                "valor": "645,30",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 14,
+                "valor": "599,20",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 15,
+                "valor": "559,26",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              }
+            ]
+          },
+          {
+            "nome": "Amex e Elo",
+            "resumo": "Até 6x de R$ 1.398,14 sem acréscimo ou até 10x com acréscimo",
+            "bandeiras": [
+              "Amex",
+              "Elo"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "8.388,85",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 2,
+                "valor": "4.194,43",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 3,
+                "valor": "2.796,28",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 4,
+                "valor": "2.097,21",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 5,
+                "valor": "1.677,77",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 6,
+                "valor": "1.398,14",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 7,
+                "valor": "1.222,38",
+                "obs": "com acréscimo",
+                "total": "8.556,63"
+              },
+              {
+                "n": 8,
+                "valor": "1.074,82",
+                "obs": "com acréscimo",
+                "total": "8.598,57"
+              },
+              {
+                "n": 9,
+                "valor": "960,06",
+                "obs": "com acréscimo",
+                "total": "8.640,52"
+              },
+              {
+                "n": 10,
+                "valor": "868,25",
+                "obs": "com acréscimo",
+                "total": "8.682,46"
+              }
+            ]
+          },
+          {
+            "nome": "Hipercard e Diners",
+            "resumo": "Até 6x de R$ 1.398,14 sem acréscimo",
+            "bandeiras": [
+              "Hipercard",
+              "Diners"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "8.388,85",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 2,
+                "valor": "4.194,43",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 3,
+                "valor": "2.796,28",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 4,
+                "valor": "2.097,21",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 5,
+                "valor": "1.677,77",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              },
+              {
+                "n": 6,
+                "valor": "1.398,14",
+                "obs": "sem acréscimo",
+                "total": "8.388,85"
+              }
+            ]
+          }
+        ],
+        "outras": [
+          {
+            "icone": "🏦",
+            "nome": "Financiamento (Boleto)",
+            "resumo": "Entrada + 14x sem juros",
+            "texto": "Pelo Multicrédito ou Santander."
+          }
+        ],
+        "info": [
+          "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+          "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+          "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+        ]
+      }
+    },
+    {
       "slug": "rio-de-janeiro-savoy-othon-black-friday",
       "destino": "Rio de Janeiro",
       "titulo": "Rio de Janeiro em Copacabana com Cristo Redentor + Chá no Forte GRÁTIS",
