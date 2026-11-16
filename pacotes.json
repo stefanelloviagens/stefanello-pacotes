@@ -6,6 +6,490 @@
   "site": "https://pacotes.stefanelloviagens.com.br",
   "pacotes": [
     {
+      "slug": "aracaju-xingo-mangue-seco-black-friday",
+      "destino": "Aracaju",
+      "titulo": "Aracaju + Cânion do Xingó e Mangue Seco",
+      "chamada": "Catamarã no Cânion do Xingó, dunas de Mangue Seco e a orla de Aracaju numa viagem só.",
+      "black": true,
+      "selo": "",
+      "foto": "37993631",
+      "img": "",
+      "pessoas": 2,
+      "dias": 7,
+      "noites": 6,
+      "ida": "2027-04-02",
+      "volta": "2027-04-08",
+      "idaTxt": "sex, 2 de abr",
+      "voltaTxt": "qui, 8 de abr",
+      "inclui": [
+        [
+          "✈️",
+          "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+        ],
+        [
+          "🏨",
+          "Pousada Mangaba (café da manhã)"
+        ],
+        [
+          "🚐",
+          "Transfer aeroporto / hotel / aeroporto"
+        ],
+        [
+          "🏛️",
+          "City Tour + praia em Aracaju"
+        ],
+        [
+          "🚤",
+          "Cânion do Xingó com catamarã"
+        ],
+        [
+          "🏝️",
+          "Passeio a Mangue Seco"
+        ]
+      ],
+      "pix": "5.042,69",
+      "parcelas": 15,
+      "parcela": "360,00",
+      "outrasDatas": "",
+      "publicado": "2026-11-16",
+      "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNjY5Nzl8MOW7sZE_Zij-ZQwsPqzRpbc",
+      "voos": [
+        {
+          "tipo": "Ida",
+          "data": "sex, 2 de abr",
+          "cia": "GOL",
+          "resumo": "1 conexão no Rio de Janeiro (Galeão) · 6h35",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "02/04",
+                "hora": "05:50",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "chegada": {
+                "data": "02/04",
+                "hora": "07:45",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "voo": "G3 2093",
+              "duracao": "1h55"
+            },
+            {
+              "saida": {
+                "data": "02/04",
+                "hora": "10:05",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "chegada": {
+                "data": "02/04",
+                "hora": "12:25",
+                "iata": "AJU",
+                "cidade": "Aracaju",
+                "aeroporto": "Aeroporto Santa Maria"
+              },
+              "voo": "G3 2000",
+              "duracao": "2h20"
+            }
+          ],
+          "conexoes": [
+            "Espera de 2h20 no Galeão"
+          ]
+        },
+        {
+          "tipo": "Volta",
+          "data": "qui, 8 de abr",
+          "cia": "GOL",
+          "resumo": "1 conexão no Rio de Janeiro (Galeão) · 7h20",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "08/04",
+                "hora": "16:20",
+                "iata": "AJU",
+                "cidade": "Aracaju",
+                "aeroporto": "Aeroporto Santa Maria"
+              },
+              "chegada": {
+                "data": "08/04",
+                "hora": "18:45",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "voo": "G3 2001",
+              "duracao": "2h25"
+            },
+            {
+              "saida": {
+                "data": "08/04",
+                "hora": "21:25",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "chegada": {
+                "data": "08/04",
+                "hora": "23:40",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "voo": "G3 2092",
+              "duracao": "2h15"
+            }
+          ],
+          "conexoes": [
+            "Espera de 2h40 no Galeão"
+          ]
+        }
+      ],
+      "hotel": {
+        "nome": "Pousada Mangaba",
+        "regime": "Café da manhã",
+        "noites": 6,
+        "checkin": "02/04, 14:00",
+        "checkout": "08/04, 12:00",
+        "endereco": "Aracaju (SE)",
+        "descricao": "Pousada tranquila e prática em Aracaju, com quartos organizados e bem cuidados. Funciona com check-in online e chave por código, sem recepção física no local.",
+        "fotos": [
+          "https://media.omnibees.com/Images/52414/Property/5450790.jpg",
+          "https://media.omnibees.com/Images/52414/Property/5251844.jpg",
+          "https://media.omnibees.com/Images/52414/Property/5251853.jpg",
+          "https://media.omnibees.com/Images/52414/Property/5251856.jpg",
+          "https://media.omnibees.com/Images/52414/Property/5251857.jpg",
+          "https://media.omnibees.com/Images/52414/Property/5444632.jpg",
+          "https://media.omnibees.com/Images/52414/Property/5444633.jpg",
+          "https://media.omnibees.com/Images/52414/Property/5444634.jpg",
+          "https://media.omnibees.com/Images/52414/Property/5444635.jpg",
+          "https://media.omnibees.com/Images/52414/Property/5444636.jpg",
+          "https://media.omnibees.com/Images/52414/Property/5444637.jpg",
+          "https://media.omnibees.com/Images/52414/Property/5444638.jpg"
+        ],
+        "quarto": {
+          "nome": "Suíte Triplo Conforto",
+          "descricao": "Suíte com 2 camas, banheiro privativo, ar-condicionado split e TV de tela plana.",
+          "comodidades": [
+            "Ar-condicionado split",
+            "TV de tela plana",
+            "Frigobar",
+            "Wi-Fi",
+            "Banheiro privativo",
+            "Kit de amenities",
+            "Não fumantes"
+          ],
+          "fotos": [
+            "https://media.omnibees.com/Images/52414/RoomTypes/5452093.jpeg",
+            "https://media.omnibees.com/Images/52414/RoomTypes/5444612.jpg",
+            "https://media.omnibees.com/Images/52414/RoomTypes/5444613.jpg"
+          ]
+        }
+      },
+      "servicos": [
+        {
+          "tipo": "Transfer",
+          "icone": "🚐",
+          "nome": "Transfer aeroporto / hotel / aeroporto",
+          "quando": "Na chegada e na saída",
+          "descricao": "Traslado do Aeroporto de Aracaju até a hospedagem e de volta no último dia.",
+          "info": [
+            "Válido para hotéis da orla de Aracaju",
+            "Datas dos passeios combinadas com o receptivo na chegada"
+          ]
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "🏛️",
+          "nome": "City Tour + praia em Aracaju",
+          "quando": "Diário · 9h30 às 16h30",
+          "descricao": "Três horas pelos pontos turísticos da capital, como a Colina de Santo Antônio, a Catedral, a Orla de Atalaia e os mercados, e depois tarde na Praia de Aruana.",
+          "info": [
+            "Alimentação não inclusa",
+            "Já sair do hotel com roupa de praia"
+          ]
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "🚤",
+          "nome": "Cânion do Xingó com catamarã",
+          "quando": "Dia inteiro",
+          "descricao": "Navegação de catamarã entre os paredões do 5º maior cânion navegável do mundo, no Rio São Francisco, cenário de novelas como Velho Chico.",
+          "info": [
+            "Catamarã incluso"
+          ],
+          "fotos": [
+            "https://images.pexels.com/photos/37993631/pexels-photo-37993631.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          ]
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "🏝️",
+          "nome": "Passeio a Mangue Seco",
+          "quando": "Diário · 7h às 18h",
+          "descricao": "Travessia de barco pelos rios Piauitinga e Real até o vilarejo onde foi gravada Tieta do Agreste, com dunas e praia acessadas de buggy.",
+          "info": [
+            "Barco incluso",
+            "Buggy pago à parte, em dinheiro, na associação de bugueiros",
+            "Alimentação não inclusa"
+          ],
+          "fotos": [
+            "https://media.infotravel.com.br/image/upload/377ED0074D625C061879A6B097857E24.jpg"
+          ]
+        }
+      ],
+      "pagamento": {
+        "pix": {
+          "de": "5.391,99",
+          "por": "5.042,69",
+          "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+        },
+        "cartoes": [
+          {
+            "nome": "Visa e Mastercard",
+            "resumo": "Até 15x de R$ 359,47 sem acréscimo",
+            "bandeiras": [
+              "Visa",
+              "Mastercard"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "5.391,99",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 2,
+                "valor": "2.696,00",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 3,
+                "valor": "1.797,33",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 4,
+                "valor": "1.348,00",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 5,
+                "valor": "1.078,40",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 6,
+                "valor": "898,67",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 7,
+                "valor": "770,28",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 8,
+                "valor": "674,00",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 9,
+                "valor": "599,11",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 10,
+                "valor": "539,20",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 11,
+                "valor": "490,18",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 12,
+                "valor": "449,33",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 13,
+                "valor": "414,77",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 14,
+                "valor": "385,14",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 15,
+                "valor": "359,47",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              }
+            ]
+          },
+          {
+            "nome": "Amex e Elo",
+            "resumo": "Até 6x de R$ 898,67 sem acréscimo ou até 10x com acréscimo",
+            "bandeiras": [
+              "Amex",
+              "Elo"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "5.391,99",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 2,
+                "valor": "2.696,00",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 3,
+                "valor": "1.797,33",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 4,
+                "valor": "1.348,00",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 5,
+                "valor": "1.078,40",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 6,
+                "valor": "898,67",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 7,
+                "valor": "785,69",
+                "obs": "com acréscimo",
+                "total": "5.499,83"
+              },
+              {
+                "n": 8,
+                "valor": "690,85",
+                "obs": "com acréscimo",
+                "total": "5.526,79"
+              },
+              {
+                "n": 9,
+                "valor": "617,08",
+                "obs": "com acréscimo",
+                "total": "5.553,75"
+              },
+              {
+                "n": 10,
+                "valor": "558,07",
+                "obs": "com acréscimo",
+                "total": "5.580,71"
+              }
+            ]
+          },
+          {
+            "nome": "Hipercard e Diners",
+            "resumo": "Até 6x de R$ 898,67 sem acréscimo",
+            "bandeiras": [
+              "Hipercard",
+              "Diners"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "5.391,99",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 2,
+                "valor": "2.696,00",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 3,
+                "valor": "1.797,33",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 4,
+                "valor": "1.348,00",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 5,
+                "valor": "1.078,40",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              },
+              {
+                "n": 6,
+                "valor": "898,67",
+                "obs": "sem acréscimo",
+                "total": "5.391,99"
+              }
+            ]
+          }
+        ],
+        "outras": [
+          {
+            "icone": "🏦",
+            "nome": "Financiamento (Boleto)",
+            "resumo": "Entrada + 14x sem juros",
+            "texto": "Pelo Multicrédito ou Santander."
+          }
+        ],
+        "info": [
+          "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+          "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+          "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+        ]
+      }
+    },
+    {
       "slug": "rio-de-janeiro-windsor-asturias-janeiro",
       "destino": "Rio de Janeiro",
       "titulo": "Rio de Janeiro com Cristo Redentor + Chá no Forte GRÁTIS",
