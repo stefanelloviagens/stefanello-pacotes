@@ -6,6 +6,427 @@
   "site": "https://pacotes.stefanelloviagens.com.br",
   "pacotes": [
     {
+      "slug": "rio-de-janeiro-savoy-othon-black-friday",
+      "destino": "Rio de Janeiro",
+      "titulo": "Rio de Janeiro em Copacabana com Cristo Redentor + Chá no Forte GRÁTIS",
+      "chamada": "Hotel a duas quadras da praia de Copacabana, Cristo Redentor e um chá no Forte de presente.",
+      "black": true,
+      "selo": "",
+      "img": "",
+      "foto": "28625892",
+      "pessoas": 2,
+      "dias": 5,
+      "noites": 4,
+      "ida": "2027-01-13",
+      "volta": "2027-01-17",
+      "idaTxt": "qua, 13 de jan",
+      "voltaTxt": "dom, 17 de jan",
+      "inclui": [
+        [
+          "✈️",
+          "Passagens aéreas de ida e volta (GOL direto de Porto Alegre)"
+        ],
+        [
+          "🏨",
+          "Hotel Savoy Othon, em Copacabana (café da manhã)"
+        ],
+        [
+          "🚐",
+          "Transfer aeroporto / hotel / aeroporto"
+        ],
+        [
+          "⛪",
+          "Cristo Redentor com city tour panorâmico"
+        ],
+        [
+          "🌳",
+          "Floresta da Tijuca"
+        ],
+        [
+          "☕",
+          "Chá do Forte na Confeitaria Colombo GRÁTIS"
+        ]
+      ],
+      "pix": "7.114,94",
+      "parcelas": 15,
+      "parcela": "507,07",
+      "outrasDatas": "",
+      "publicado": "2026-11-15",
+      "voos": [
+        {
+          "tipo": "Ida",
+          "data": "qua, 13 de jan",
+          "cia": "GOL",
+          "resumo": "Voo direto · 1h55",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "13/01",
+                "hora": "11:30",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "chegada": {
+                "data": "13/01",
+                "hora": "13:25",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "voo": "G3 2085",
+              "duracao": "1h55"
+            }
+          ],
+          "conexoes": []
+        },
+        {
+          "tipo": "Volta",
+          "data": "dom, 17 de jan",
+          "cia": "GOL",
+          "resumo": "Voo direto · 2h10",
+          "bagagem": [
+            "1 mala de mão",
+            "1 item pessoal"
+          ],
+          "trechos": [
+            {
+              "saida": {
+                "data": "17/01",
+                "hora": "21:15",
+                "iata": "GIG",
+                "cidade": "Rio de Janeiro",
+                "aeroporto": "Galeão"
+              },
+              "chegada": {
+                "data": "17/01",
+                "hora": "23:25",
+                "iata": "POA",
+                "cidade": "Porto Alegre",
+                "aeroporto": "Aeroporto Salgado Filho"
+              },
+              "voo": "G3 2092",
+              "duracao": "2h10"
+            }
+          ],
+          "conexoes": []
+        }
+      ],
+      "hotel": {
+        "nome": "Hotel Savoy Othon",
+        "regime": "Café da manhã",
+        "noites": 4,
+        "checkin": "13/01, 15:00",
+        "checkout": "17/01, 12:00",
+        "endereco": "Av. Nossa Senhora de Copacabana, 995 · Copacabana, Rio de Janeiro (RJ)",
+        "descricao": "Hotel da linha econômica da rede Othon, a duas quadras da praia de Copacabana. Fica perto de comércio e transporte, com acesso fácil a Ipanema, Leblon e aos pontos turísticos.",
+        "fotos": [],
+        "quarto": {
+          "nome": "Standard",
+          "descricao": "Apartamento de 15 m² pra até 2 pessoas, com cama de casal ou duas de solteiro, frigobar, closet e cofre.",
+          "comodidades": [
+            "Ar-condicionado",
+            "Wi-Fi",
+            "Frigobar",
+            "Cofre",
+            "TV de tela plana",
+            "Secador de cabelo",
+            "Kit de amenities",
+            "Banheiro privativo"
+          ],
+          "fotos": []
+        }
+      },
+      "servicos": [
+        {
+          "tipo": "Transfer",
+          "icone": "🚐",
+          "nome": "Transfer aeroporto → hotel → aeroporto",
+          "quando": "Na chegada e na volta",
+          "descricao": "Transfer em grupo (shuttle) do Galeão ou do Santos Dumont até o hotel em Copacabana, e de volta no último dia.",
+          "info": [
+            "A equipe te espera no desembarque com uma placa no nome do titular",
+            "Saídas entre 8h e 21h, a cada 1h30",
+            "Na volta, o motorista te busca na recepção do hotel no horário combinado"
+          ],
+          "fotos": []
+        },
+        {
+          "tipo": "Passeio",
+          "icone": "⛪",
+          "nome": "Cristo Redentor + Floresta da Tijuca + City Tour",
+          "quando": "Dia inteiro · todos os dias",
+          "descricao": "Subida de van ao Corcovado pela Floresta da Tijuca, com ingresso pro Cristo Redentor incluso. Depois, city tour panorâmico pelos cartões-postais do Rio.",
+          "info": [
+            "Ingresso do Cristo incluso",
+            "Passa pelo Maracanã, Sambódromo, Escadaria Selarón e Catedral Metropolitana",
+            "Busca e volta no hotel"
+          ],
+          "fotos": [
+            "https://media.infotravel.com.br/image/upload/277F47F711AC5D12656E83A19FDC55CA.png"
+          ]
+        },
+        {
+          "tipo": "Experiência",
+          "icone": "☕",
+          "nome": "Chá do Forte na Confeitaria Colombo · GRÁTIS",
+          "quando": "Ter a sex das 10h às 19h · fins de semana das 10h às 13h e das 16h às 19h",
+          "descricao": "Café da manhã ou da tarde na Confeitaria Colombo do Forte de Copacabana, de frente pro mar, pra 2 pessoas.",
+          "info": [
+            "Não precisa agendar: é só apresentar o voucher",
+            "Fechado às segundas",
+            "Entrada no Forte: R$ 10 por pessoa, paga no local (dinheiro ou Pix)"
+          ],
+          "fotos": [
+            "https://media.infotravel.com.br/image/upload/1F2BD0AED3FE05AFB0EBD4770A372DCC.jpg"
+          ]
+        }
+      ],
+      "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNjQ3OTR8MInXx6ulML9aSCtAiQXqtM8",
+      "pagamento": {
+        "pix": {
+          "de": "7.606,04",
+          "por": "7.114,94",
+          "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+        },
+        "cartoes": [
+          {
+            "nome": "Visa e Mastercard",
+            "resumo": "Até 15x de R$ 507,07 sem acréscimo",
+            "bandeiras": [
+              "Visa",
+              "Mastercard"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "7.606,04",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 2,
+                "valor": "3.803,02",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 3,
+                "valor": "2.535,35",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 4,
+                "valor": "1.901,51",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 5,
+                "valor": "1.521,21",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 6,
+                "valor": "1.267,67",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 7,
+                "valor": "1.086,58",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 8,
+                "valor": "950,76",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 9,
+                "valor": "845,12",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 10,
+                "valor": "760,60",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 11,
+                "valor": "691,46",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 12,
+                "valor": "633,84",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 13,
+                "valor": "585,08",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 14,
+                "valor": "543,29",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 15,
+                "valor": "507,07",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              }
+            ]
+          },
+          {
+            "nome": "Amex e Elo",
+            "resumo": "Até 6x de R$ 1.267,67 sem acréscimo ou até 10x com acréscimo",
+            "bandeiras": [
+              "Amex",
+              "Elo"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "7.606,04",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 2,
+                "valor": "3.803,02",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 3,
+                "valor": "2.535,35",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 4,
+                "valor": "1.901,51",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 5,
+                "valor": "1.521,21",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 6,
+                "valor": "1.267,67",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 7,
+                "valor": "1.108,31",
+                "obs": "com acréscimo",
+                "total": "7.758,16"
+              },
+              {
+                "n": 8,
+                "valor": "974,52",
+                "obs": "com acréscimo",
+                "total": "7.796,19"
+              },
+              {
+                "n": 9,
+                "valor": "870,47",
+                "obs": "com acréscimo",
+                "total": "7.834,22"
+              },
+              {
+                "n": 10,
+                "valor": "787,23",
+                "obs": "com acréscimo",
+                "total": "7.872,25"
+              }
+            ]
+          },
+          {
+            "nome": "Hipercard e Diners",
+            "resumo": "Até 6x de R$ 1.267,67 sem acréscimo",
+            "bandeiras": [
+              "Hipercard",
+              "Diners"
+            ],
+            "parcelas": [
+              {
+                "n": 1,
+                "valor": "7.606,04",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 2,
+                "valor": "3.803,02",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 3,
+                "valor": "2.535,35",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 4,
+                "valor": "1.901,51",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 5,
+                "valor": "1.521,21",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              },
+              {
+                "n": 6,
+                "valor": "1.267,67",
+                "obs": "sem acréscimo",
+                "total": "7.606,04"
+              }
+            ]
+          }
+        ],
+        "outras": [
+          {
+            "icone": "🏦",
+            "nome": "Financiamento (Boleto)",
+            "resumo": "Entrada + 14x sem juros",
+            "texto": "Pelo Multicrédito ou Santander."
+          }
+        ],
+        "info": [
+          "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+          "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+          "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+        ]
+      }
+    },
+    {
       "slug": "porto-seguro-trancoso-arraial-black-friday",
       "destino": "Porto Seguro",
       "titulo": "Porto Seguro + Trancoso + Arraial d'Ajuda",
