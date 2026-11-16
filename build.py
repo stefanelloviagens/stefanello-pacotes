@@ -245,7 +245,8 @@ html{scroll-behavior:smooth}.det{scroll-margin-top:80px}
 .srv.com-foto{padding-top:0;overflow:hidden}
 .srv-capa{margin:0 -18px 14px}
 .srv-capa .ft{display:block;width:100%;padding:0;border:0;cursor:zoom-in;position:relative;background:#eee}
-.srv-capa img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;height:auto}
+.srv-capa .ft{aspect-ratio:16/9;overflow:hidden}
+.srv-capa img{display:block;width:100%;height:100%;aspect-ratio:16/9;object-fit:cover}
 .srv-n{position:absolute;right:10px;bottom:10px;background:rgba(17,17,17,.78);color:#fff;font-size:12.5px;font-weight:700;padding:5px 10px;border-radius:999px}
 .pgs{display:grid;gap:14px}
 .ptabs{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 10px;margin-bottom:4px;scrollbar-width:none}
@@ -276,10 +277,14 @@ html{scroll-behavior:smooth}.det{scroll-margin-top:80px}
 .pg-tab th{font-size:12px;text-transform:uppercase;color:var(--muted);letter-spacing:.04em}
 .pg-tab td:nth-child(3){color:var(--muted);font-size:12.5px}
 @media(max-width:520px){.pg-tab td:nth-child(3),.pg-tab th:nth-child(3){display:none}}
-.srvs{align-items:start}
+.srvs{align-items:stretch}
 .pg-info{margin:14px 0 0 18px;font-size:14px;color:var(--muted);display:grid;gap:4px}
-@media(min-width:900px){.srvs{grid-template-columns:1fr 1fr}}
-.srv{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+@media(min-width:700px){.srvs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1000px){.srvs{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.srv{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;display:flex;flex-direction:column;min-width:0}
+.srv h3{overflow-wrap:anywhere}
+.srv-capa-vazia{aspect-ratio:16/9;background:linear-gradient(135deg,#F2EDE2,#E7E1D4);display:grid;place-items:center}
+.srv-capa-vazia span{font-size:56px;line-height:1}
 .srv-h{display:flex;gap:12px;align-items:flex-start;margin-bottom:8px}
 .srv-i{font-size:28px;line-height:1;width:48px;height:48px;border-radius:12px;background:#F2EDE2;display:grid;place-items:center;flex:none}
 .srv h3{font-size:18px;margin:6px 0 2px}
@@ -575,6 +580,7 @@ def detalhes(p):
 {galeria(q.get('fotos', []), q.get('nome','quarto'), 'gq')}</div></section>""")
     if p.get("servicos"):
         cards = []
+        algum_foto = any(sv.get("fotos") for sv in p["servicos"])
         for si, sv in enumerate(p["servicos"]):
             info = "".join(f"<li>{e(x)}</li>" for x in sv.get("info", []))
             fts = sv.get("fotos") or []
@@ -582,7 +588,10 @@ def detalhes(p):
             if fts:
                 mais = f'<span class="srv-n">📷 {len(fts)} fotos</span>' if len(fts) > 1 else ""
                 capa = f'<div class="srv-capa" id="gs{si}" data-fotos="{e(json.dumps(fts))}"><button type="button" class="ft" data-g="gs{si}" data-i="0" aria-label="Ver fotos de {e(sv["nome"])}"><img src="{e(fts[0])}" alt="{e(sv["nome"])}" loading="lazy">{mais}</button></div>'
-            cards.append(f"""<article class="srv{' com-foto' if fts else ''}">{capa}<div class="srv-h"><span class="srv-i">{sv.get('icone','')}</span><div><span class="tag-voo">{e(sv['tipo'])}</span><h3>{e(sv['nome'])}</h3>{f'<p class="quando">🗓️ {e(sv["quando"])}</p>' if sv.get('quando') else ''}</div></div><p>{e(sv.get('descricao',''))}</p>{f'<ul class="srv-l">{info}</ul>' if info else ''}</article>""")
+            elif algum_foto:
+                # capa neutra pra manter os cards alinhados quando outro serviço tem foto
+                capa = f'<div class="srv-capa srv-capa-vazia" aria-hidden="true"><span>{sv.get("icone","")}</span></div>'
+            cards.append(f"""<article class="srv{' com-foto' if capa else ''}">{capa}<div class="srv-h"><span class="srv-i">{sv.get('icone','')}</span><div><span class="tag-voo">{e(sv['tipo'])}</span><h3>{e(sv['nome'])}</h3>{f'<p class="quando">🗓️ {e(sv["quando"])}</p>' if sv.get('quando') else ''}</div></div><p>{e(sv.get('descricao',''))}</p>{f'<ul class="srv-l">{info}</ul>' if info else ''}</article>""")
         out.append('<section class="det" id="servicos"><h2>🚐 Transfer, passeios e mais</h2><div class="srvs">' + "".join(cards) + '</div><p class="aviso">Dias e horários dos passeios conforme a programação do receptivo. Confirmamos tudo contigo antes da viagem.</p></section>')
     pg = p.get("pagamento")
     if pg:
