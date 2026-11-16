@@ -425,7 +425,8 @@
           "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
           "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
         ]
-      }
+      },
+      "inicial": false
     },
     {
       "slug": "porto-seguro-trancoso-arraial-black-friday",
