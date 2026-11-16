@@ -17,6 +17,8 @@ INSTA = cfg["instagram"]
 
 ativos = [p for p in cfg["pacotes"] if p.get("ida", "9999") >= HOJE and not p.get("esgotado")]
 ativos.sort(key=lambda p: p["ida"])
+# "inicial": false = pacote só por link (não aparece na tela inicial nem no Google)
+vitrine = [p for p in ativos if p.get("inicial", True)]
 
 e = lambda s: html.escape(str(s), quote=True)
 
@@ -467,10 +469,10 @@ if(cap){cap.href=d.dataset.href;cap.querySelector('b').textContent=d.dataset.des
 
 
 def index():
-    cards = "".join(card(p) for p in ativos) or '<div class="empty">Novos pacotes chegando. Me chama no WhatsApp que eu te mando as ofertas de hoje.</div>'
-    tem_black = any(p.get("black") for p in ativos)
-    ultimos = [x for x in sorted(ativos, key=pub_key, reverse=True) if x.get("foto")][:3]
-    meses = sorted({p["ida"][:7] for p in ativos})
+    cards = "".join(card(p) for p in vitrine) or '<div class="empty">Novos pacotes chegando. Me chama no WhatsApp que eu te mando as ofertas de hoje.</div>'
+    tem_black = any(p.get("black") for p in vitrine)
+    ultimos = [x for x in sorted(vitrine, key=pub_key, reverse=True) if x.get("foto")][:3]
+    meses = sorted({p["ida"][:7] for p in vitrine})
     chips_mes = "".join(f'<button type="button" class="fchip" data-mes="{m}">{MESES[int(m[5:7])-1]}/{m[2:4]}</button>' for m in meses)
     filtros = f"""<form class="filtros" id="filtros" onsubmit="return false" role="search">
 <label class="f-busca"><span class="sr">Buscar destino</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 0 1 6.3 12.9l5.4 5.4-1.4 1.4-5.4-5.4A8 8 0 1 1 10 2Zm0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12Z"/></svg><input id="q" type="search" placeholder="Pra onde tu quer ir? (ex.: Maceió)" autocomplete="off"></label>
@@ -492,7 +494,7 @@ def index():
 <div class="grid" id="grade">{cards}</div><div class="empty" id="vazio" hidden>Nenhum pacote com esse filtro. <a href="#" id="limpar2">Limpar filtros</a> ou me chama no WhatsApp que eu procuro pra ti.</div></div></section>
 <section class="sec" style="padding-top:0"><div class="wrap"><div class="band"><div><h2>Quer receber as promoções primeiro?</h2><p>Entra no grupo de WhatsApp da Stefanello Viagens. Só ofertas, sem spam.</p></div><a class="btn" style="background:var(--ink);color:#fff" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo</a></div></div></section></main>
 {rodape()}{JS}{FILTRO_JS}{HERO_JS}</body></html>"""
-    return head("Pacotes de viagem saindo de Porto Alegre | Stefanello Viagens", desc, SITE + "/", ativos[0]["img"] if ativos and ativos[0].get("img") else "") + pixel() + "</head>" + body
+    return head("Pacotes de viagem saindo de Porto Alegre | Stefanello Viagens", desc, SITE + "/", vitrine[0]["img"] if vitrine and vitrine[0].get("img") else "") + pixel() + "</head>" + body
 
 
 PLANE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5Z"/></svg>'
@@ -645,7 +647,8 @@ def pagina(p):
 <p class="aviso">*Valores sujeitos a disponibilidade e alteração a qualquer momento. O valor só fica garantido na reserva.</p><a class="role" href="#voos">👇 Role pra baixo: tem todos os detalhes do pacote</a></div></div>{detalhes(p)}</main>
 <div class="sticky"><div class="t">{e(p['destino'])}<br><b>R$ {e(p['pix'])}</b> no PIX</div><a class="btn btn-wa" data-wa="{e(p['slug'])}-barra" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero</a></div>
 {rodape()}{JS}{LB_JS}{PT_JS}</body></html>"""
-    return head(f"{p['titulo']} | Stefanello Viagens", desc, url, p.get("img", "")) + pixel(vc) + "</head>" + body
+    robots = '<meta name="robots" content="noindex">' if not p.get("inicial", True) else ""
+    return head(f"{p['titulo']} | Stefanello Viagens", desc, url, p.get("img", "")) + robots + pixel(vc) + "</head>" + body
 
 
 # limpa páginas antigas geradas
@@ -655,3 +658,4 @@ for f in ROOT.glob("*.html"):
 for p in ativos:
     (ROOT / f"{p['slug']}.html").write_text(pagina(p), encoding="utf-8")
 print("ativos:", [p["slug"] for p in ativos])
+print("so por link:", [p["slug"] for p in ativos if not p.get("inicial", True)])
