@@ -6,6 +6,413 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "praia-do-forte-iberostar-all-inclusive-black-november",
+   "destino": "Praia do Forte",
+   "titulo": "Praia do Forte all inclusive no Iberostar Waves Bahia",
+   "chamada": "Sete noites de resort all inclusive pé na areia na Praia do Forte, com voo direto da GOL saindo de Porto Alegre.",
+   "black": true,
+   "selo": "",
+   "foto": "34284196",
+   "img": "",
+   "pessoas": 2,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-01-08",
+   "volta": "2027-01-15",
+   "idaTxt": "sex, 8 de jan",
+   "voltaTxt": "sex, 15 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL, voo direto de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Iberostar Waves Bahia (all inclusive)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / resort / aeroporto"
+    ]
+   ],
+   "pix": "18.616,79",
+   "parcelas": 15,
+   "parcela": "1.333,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-17",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNzU1Mzl8MAvRt8VLVb6a9RhtOnflLUA",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sex, 8 de jan",
+     "cia": "GOL",
+     "resumo": "Voo direto · 3h15 (embarque na madrugada de quinta pra sexta)",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "08/01",
+        "hora": "00:20",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "08/01",
+        "hora": "03:35",
+        "iata": "SSA",
+        "cidade": "Salvador",
+        "aeroporto": "Aeroporto de Salvador"
+       },
+       "voo": "G3 9100",
+       "duracao": "3h15"
+      }
+     ],
+     "conexoes": []
+    },
+    {
+     "tipo": "Volta",
+     "data": "sex, 15 de jan",
+     "cia": "GOL",
+     "resumo": "Voo direto · 3h30 (sai na madrugada de quinta pra sexta)",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "15/01",
+        "hora": "00:15",
+        "iata": "SSA",
+        "cidade": "Salvador",
+        "aeroporto": "Aeroporto de Salvador"
+       },
+       "chegada": {
+        "data": "15/01",
+        "hora": "03:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 9102",
+       "duracao": "3h30"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "Iberostar Waves Bahia",
+    "regime": "All inclusive",
+    "noites": 7,
+    "checkin": "08/01",
+    "checkout": "15/01",
+    "endereco": "Rodovia BA-099, km 56 · Praia do Forte (BA)",
+    "descricao": "Resort 5 estrelas all inclusive de frente pro mar na Praia do Forte, perto da Mata Atlântica, de lagoas naturais e dos recifes onde dá pra ver tartarugas marinhas. Tem restaurantes buffet e à la carte, vários bares, programação de animação e campo de golfe de 9 buracos.",
+    "fotos": [
+     "https://media.infotravel.com.br/image/upload/041BA25B846F549DAC7FF2B63BD5B6F3.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30811.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30812.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30813.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30814.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30815.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30816.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30817.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30818.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30819.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30820.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30821.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30822.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30823.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30824.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30825.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30826.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30827.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30829.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30830.jpg",
+     "https://media.omnibees.com/Images/2372/Property/30831.jpg"
+    ],
+    "quarto": {
+     "nome": "Premium Room",
+     "descricao": "Quarto com varanda privativa e vista pro jardim, sem plásticos de uso único. Dá pra ver as tartarugas marinhas da área de observação do hotel.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "Frigobar",
+      "Cofre",
+      "Smart TV",
+      "TV a cabo",
+      "Banheira ou ducha",
+      "Secador de cabelo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/2372/RoomTypes/1263572.jpg",
+      "https://media.omnibees.com/Images/2372/RoomTypes/1263568.jpg",
+      "https://media.omnibees.com/Images/2372/RoomTypes/1263569.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / resort / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Salvador e o resort no Litoral Norte, nos horários definidos pelo receptivo.",
+     "info": [
+      "No aeroporto, o receptivo Adval Turismo espera com placa",
+      "A espera pelo transfer pode ser de até 1 hora",
+      "No transfer está prevista 1 mala de 23 kg por pessoa"
+     ],
+     "fotos": [
+      "https://media.infotravel.com.br/image/upload/326A60BB9220B68566F8A4DF65BCABFD.jpg"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "19.985,70",
+     "por": "18.616,79",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.332,38 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "19.985,70",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 2,
+        "valor": "9.992,85",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 3,
+        "valor": "6.661,90",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 4,
+        "valor": "4.996,43",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 5,
+        "valor": "3.997,14",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 6,
+        "valor": "3.330,95",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 7,
+        "valor": "2.855,10",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 8,
+        "valor": "2.498,21",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 9,
+        "valor": "2.220,63",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 10,
+        "valor": "1.998,57",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 11,
+        "valor": "1.816,88",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 12,
+        "valor": "1.665,48",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 13,
+        "valor": "1.537,36",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 14,
+        "valor": "1.427,55",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 15,
+        "valor": "1.332,38",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 3.330,95 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "19.985,70",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 2,
+        "valor": "9.992,85",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 3,
+        "valor": "6.661,90",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 4,
+        "valor": "4.996,43",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 5,
+        "valor": "3.997,14",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 6,
+        "valor": "3.330,95",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 7,
+        "valor": "2.912,20",
+        "obs": "com acréscimo",
+        "total": "20.385,41"
+       },
+       {
+        "n": 8,
+        "valor": "2.560,67",
+        "obs": "com acréscimo",
+        "total": "20.485,34"
+       },
+       {
+        "n": 9,
+        "valor": "2.287,25",
+        "obs": "com acréscimo",
+        "total": "20.585,27"
+       },
+       {
+        "n": 10,
+        "valor": "2.068,52",
+        "obs": "com acréscimo",
+        "total": "20.685,20"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 3.330,95 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "19.985,70",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 2,
+        "valor": "9.992,85",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 3,
+        "valor": "6.661,90",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 4,
+        "valor": "4.996,43",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 5,
+        "valor": "3.997,14",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       },
+       {
+        "n": 6,
+        "valor": "3.330,95",
+        "obs": "sem acréscimo",
+        "total": "19.985,70"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   }
+  },
+  {
    "slug": "curitiba-ilha-do-mel-morretes-pascoa-black-november",
    "destino": "Curitiba",
    "titulo": "Páscoa em Curitiba + Ilha do Mel e trem a Morretes",
