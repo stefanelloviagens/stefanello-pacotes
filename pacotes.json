@@ -6,6 +6,446 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "natal-costeira-palace-ferias-julho-3-adultos",
+   "destino": "Natal",
+   "titulo": "Natal all inclusive no Costeira Palace · férias de julho (3 adultos + 1 criança)",
+   "chamada": "Seis noites all inclusive 24 horas na Via Costeira, com Kids Club e voos LATAM saindo de Porto Alegre.",
+   "black": false,
+   "selo": "",
+   "foto": "31021957",
+   "img": "",
+   "inicial": false,
+   "pessoas": 4,
+   "pessoasTxt": "3 adultos + 1 criança",
+   "dias": 7,
+   "noites": 6,
+   "ida": "2027-07-25",
+   "volta": "2027-07-31",
+   "idaTxt": "dom, 25 de jul",
+   "voltaTxt": "sáb, 31 de jul",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (LATAM saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Costeira Palace Beach Resort (all inclusive 24h)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ]
+   ],
+   "pix": "23.392,58",
+   "parcelas": 15,
+   "parcela": "1.675,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-17",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNzY4MjJ8MHsTmVGq7V4yDAt8BYPW-Rs",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "dom, 25 de jul",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 5h50",
+     "bagagem": [
+      "1 mala de mão de 12 kg",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "25/07",
+        "hora": "07:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "25/07",
+        "hora": "08:50",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "LA 3151",
+       "duracao": "1h35"
+      },
+      {
+       "saida": {
+        "data": "25/07",
+        "hora": "09:45",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "25/07",
+        "hora": "13:05",
+        "iata": "NAT",
+        "cidade": "Natal",
+        "aeroporto": "Aeroporto de Natal"
+       },
+       "voo": "LA 4732",
+       "duracao": "3h20"
+      }
+     ],
+     "conexoes": [
+      "Espera de 55min em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sáb, 31 de jul",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 8h05",
+     "bagagem": [
+      "1 mala de mão de 12 kg",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "31/07",
+        "hora": "11:10",
+        "iata": "NAT",
+        "cidade": "Natal",
+        "aeroporto": "Aeroporto de Natal"
+       },
+       "chegada": {
+        "data": "31/07",
+        "hora": "14:45",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "LA 3815",
+       "duracao": "3h35"
+      },
+      {
+       "saida": {
+        "data": "31/07",
+        "hora": "17:30",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "31/07",
+        "hora": "19:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "LA 3422",
+       "duracao": "1h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h45 em Guarulhos"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Costeira Palace Beach Resort All Inclusive",
+    "regime": "All inclusive 24h",
+    "noites": 6,
+    "checkin": "25/07, 15:00",
+    "checkout": "31/07, 12:00",
+    "endereco": "Via Costeira · Natal (RN)",
+    "descricao": "Resort na Via Costeira de Natal com all inclusive 24 horas: refeições, petiscos e bebidas alcoólicas e não alcoólicas inclusos. Apartamentos novos, Kids Club com monitores o ano todo e Wi-Fi grátis em todo o resort. Uma criança de até 12 anos é cortesia no apartamento duplo ou triplo.",
+    "fotos": [
+     "https://media.omnibees.com/Images/20428/Property/1473655.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472723.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472727.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472728.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472730.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472731.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472732.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472733.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472734.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472735.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472736.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472737.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472738.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472739.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472740.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472741.jpeg"
+    ],
+    "quarto": {
+     "nome": "Superior sem vista mar",
+     "descricao": "Apartamento com 1 cama de casal, sem vista pro mar. Acomoda até 4 pessoas contando crianças, e tem unidades adaptadas.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Frigobar",
+      "Cofre",
+      "Smart TV",
+      "Wi-Fi",
+      "Banheiro privativo",
+      "Kit de amenities",
+      "Não fumantes"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/20428/RoomTypes/5470196.jpg",
+      "https://media.omnibees.com/Images/20428/RoomTypes/1448374.jpg",
+      "https://media.omnibees.com/Images/20428/RoomTypes/1448375.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Traslado com guia entre o Aeroporto de Natal e o resort, cerca de 50 minutos de trajeto.",
+     "info": [
+      "Na chegada, o guia espera no salão principal com placa no nome",
+      "Pode haver tolerância de até 45 minutos"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "25.117,28",
+     "por": "23.392,58",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.674,49 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "25.117,28",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 2,
+        "valor": "12.558,64",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 3,
+        "valor": "8.372,43",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 4,
+        "valor": "6.279,32",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 5,
+        "valor": "5.023,46",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 6,
+        "valor": "4.186,21",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 7,
+        "valor": "3.588,18",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 8,
+        "valor": "3.139,66",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 9,
+        "valor": "2.790,81",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 10,
+        "valor": "2.511,73",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 11,
+        "valor": "2.283,39",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 12,
+        "valor": "2.093,11",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 13,
+        "valor": "1.932,10",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 14,
+        "valor": "1.794,09",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 15,
+        "valor": "1.674,49",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 4.186,21 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "25.117,28",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 2,
+        "valor": "12.558,64",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 3,
+        "valor": "8.372,43",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 4,
+        "valor": "6.279,32",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 5,
+        "valor": "5.023,46",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 6,
+        "valor": "4.186,21",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 7,
+        "valor": "3.659,95",
+        "obs": "com acréscimo",
+        "total": "25.619,63"
+       },
+       {
+        "n": 8,
+        "valor": "3.218,15",
+        "obs": "com acréscimo",
+        "total": "25.745,21"
+       },
+       {
+        "n": 9,
+        "valor": "2.874,53",
+        "obs": "com acréscimo",
+        "total": "25.870,80"
+       },
+       {
+        "n": 10,
+        "valor": "2.599,64",
+        "obs": "com acréscimo",
+        "total": "25.996,38"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 4.186,21 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "25.117,28",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 2,
+        "valor": "12.558,64",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 3,
+        "valor": "8.372,43",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 4,
+        "valor": "6.279,32",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 5,
+        "valor": "5.023,46",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       },
+       {
+        "n": 6,
+        "valor": "4.186,21",
+        "obs": "sem acréscimo",
+        "total": "25.117,28"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   }
+  },
+  {
    "slug": "natal-costeira-palace-ferias-julho",
    "destino": "Natal",
    "titulo": "Natal all inclusive no Costeira Palace · férias de julho",
