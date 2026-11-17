@@ -678,8 +678,8 @@ def pagina(p):
 <div class="pk"><div class="media">{media}</div>
 <div><span class="chip bf">{'🖤💛 BLACK NOVEMBER' if p.get('black') else 'PACOTE'}</span>{selo}
 <h1>{e(p['titulo'])}</h1><p class="lead">{e(p['chamada'])}</p>{nav_det(p)}
-<div class="facts"><div class="fact"><b>{p['pessoas']}</b><span>{e(p.get('pessoasTxt') or 'pessoas')}</span></div><div class="fact"><b>{p['dias']} dias</b><span>{p['noites']} noites</span></div><div class="fact"><b>Saída</b><span>Porto Alegre</span></div></div>
-<div class="box datas"><h2>Datas</h2><p>📅 <span><b>Ida:</b> {e(p['idaTxt'])}</span></p><p>📅 <span><b>Retorno:</b> {e(p['voltaTxt'])}</span></p></div>
+<div class="facts"><div class="fact"><b>{p['pessoas']}</b><span>{e(p.get('pessoasTxt') or 'pessoas')}</span></div><div class="fact"><b>{p['dias']} dias</b><span>{p['noites']} noites</span></div>{'<div class="fact"><b>Saída</b><span>Porto Alegre</span></div>' if p.get('voos') else '<div class="fact"><b>Só</b><span>hospedagem</span></div>'}</div>
+<div class="box datas"><h2>Datas</h2><p>📅 <span><b>{'Ida' if p.get('voos') else 'Check-in'}:</b> {e(p['idaTxt'])}</span></p><p>📅 <span><b>{'Retorno' if p.get('voos') else 'Check-out'}:</b> {e(p['voltaTxt'])}</span></p></div>
 <div class="box"><h2>O pacote inclui</h2><ul class="inc">{inc}</ul></div>
 <div class="pbox"><span class="lbl">{'PREÇO BLACK NOVEMBER' if p.get('black') else 'INVESTIMENTO'}</span><div class="row"><div><div class="v">R$ {e(p['pix'])}</div><small>já com desconto no PIX</small></div><div class="ou">OU</div><div><div class="v">{p['parcelas']}x R$ {e(p['parcela'])}</div><small>sem juros no cartão</small></div></div>{'<a class="pg-link" href="#pagamento">Ver todas as formas de pagamento →</a>' if p.get('pagamento') else ''}</div>
 {outras}
