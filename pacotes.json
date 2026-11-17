@@ -6,6 +6,510 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "natal-costeira-palace-all-inclusive-black-november",
+   "destino": "Natal",
+   "titulo": "Natal all inclusive no Costeira Palace + 4 passeios",
+   "chamada": "Sete noites all inclusive 24 horas na Via Costeira, com Pipa, Genipabu, Cunhaú e city tour já incluídos.",
+   "black": true,
+   "selo": "Super oferta All Inclusive · 30% OFF",
+   "foto": "31021957",
+   "img": "",
+   "pessoas": 2,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-05-07",
+   "volta": "2027-05-14",
+   "idaTxt": "sex, 7 de mai",
+   "voltaTxt": "sex, 14 de mai",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Costeira Palace Beach Resort (all inclusive 24h)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "🏛️",
+     "City tour + Praia de Camurupim"
+    ],
+    [
+     "🐬",
+     "Passeio à Praia de Pipa"
+    ],
+    [
+     "🏜️",
+     "Passeio a Genipabu"
+    ],
+    [
+     "🏝️",
+     "Passeio à Praia de Cunhaú"
+    ]
+   ],
+   "pix": "11.815,12",
+   "parcelas": 15,
+   "parcela": "845,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-17",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNzYyMjN8MJ0r0BgLY7Qi2bs1cug6eHA",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sex, 7 de mai",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 6h50",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "07/05",
+        "hora": "13:25",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "07/05",
+        "hora": "15:00",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1281",
+       "duracao": "1h35"
+      },
+      {
+       "saida": {
+        "data": "07/05",
+        "hora": "16:35",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "07/05",
+        "hora": "20:15",
+        "iata": "NAT",
+        "cidade": "Natal",
+        "aeroporto": "Aeroporto de Natal"
+       },
+       "voo": "G3 1564",
+       "duracao": "3h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h35 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sex, 14 de mai",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 11h55",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "14/05",
+        "hora": "12:35",
+        "iata": "NAT",
+        "cidade": "Natal",
+        "aeroporto": "Aeroporto de Natal"
+       },
+       "chegada": {
+        "data": "14/05",
+        "hora": "16:05",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "G3 1677",
+       "duracao": "3h30"
+      },
+      {
+       "saida": {
+        "data": "14/05",
+        "hora": "22:45",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "15/05",
+        "hora": "00:30",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1264",
+       "duracao": "1h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 6h40 em Guarulhos"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Costeira Palace Beach Resort All Inclusive",
+    "regime": "All inclusive 24h",
+    "noites": 7,
+    "checkin": "07/05, 15:00",
+    "checkout": "14/05, 12:00",
+    "endereco": "Via Costeira · Natal (RN)",
+    "descricao": "Resort na Via Costeira de Natal com all inclusive 24 horas: refeições, petiscos e bebidas alcoólicas e não alcoólicas inclusos. Apartamentos novos, Kids Club com monitores o ano todo e Wi-Fi grátis em todo o resort.",
+    "fotos": [
+     "https://media.omnibees.com/Images/20428/Property/1473655.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472723.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472727.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472728.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472730.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472731.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472732.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472733.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472734.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472735.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472736.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472737.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472738.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472739.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472740.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472741.jpeg"
+    ],
+    "quarto": {
+     "nome": "Superior sem vista mar",
+     "descricao": "Apartamento com 1 cama de casal, sem vista pro mar. Acomoda até 4 pessoas contando crianças, e tem unidades adaptadas.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Frigobar",
+      "Cofre",
+      "Smart TV",
+      "Wi-Fi",
+      "Banheiro privativo",
+      "Kit de amenities",
+      "Não fumantes"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/20428/RoomTypes/5470196.jpg",
+      "https://media.omnibees.com/Images/20428/RoomTypes/1448374.jpg",
+      "https://media.omnibees.com/Images/20428/RoomTypes/1448375.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Traslado entre o Aeroporto de Natal e o resort na chegada e no último dia.",
+     "info": [
+      "Receptivo Cativa"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏛️",
+     "nome": "City tour + Praia de Camurupim",
+     "quando": "Saídas diárias · 6 horas",
+     "descricao": "Via Costeira, praias urbanas, Fortaleza dos Reis Magos, Ponte Newton Navarro, centro e artesanato, e depois tarde de praia em Camurupim.",
+     "info": [
+      "Refeições e bebidas não inclusas",
+      "Ingressos da Fortaleza, Arena das Dunas e Cajueiro pagos à parte"
+     ],
+     "fotos": [
+      "https://images.pexels.com/photos/36186539/pexels-photo-36186539.jpeg?auto=compress&cs=tinysrgb&w=1200"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🐬",
+     "nome": "Praia de Pipa",
+     "quando": "Seg, qui e sáb · 8 horas",
+     "descricao": "Dia no litoral sul com falésias, dunas e coqueiros, parada na Baía dos Golfinhos (cerca de 150 degraus) e visita à Vila de Pipa.",
+     "info": [
+      "Transfer e guia inclusos",
+      "Almoço, barco, trem e bebidas não inclusos"
+     ],
+     "fotos": [
+      "https://images.pexels.com/photos/5368095/pexels-photo-5368095.jpeg?auto=compress&cs=tinysrgb&w=1200"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏜️",
+     "nome": "Genipabu",
+     "quando": "Ter, qui e sáb",
+     "descricao": "Litoral norte com parada no Aquário de Natal, na Redinha, e as famosas dunas de Genipabu.",
+     "info": [
+      "Aquário e passeio de buggy opcionais, pagos à parte"
+     ],
+     "fotos": [
+      "https://images.pexels.com/photos/33503244/pexels-photo-33503244.jpeg?auto=compress&cs=tinysrgb&w=1200"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏝️",
+     "nome": "Praia de Cunhaú",
+     "quando": "Qua e sáb",
+     "descricao": "Passeio à Praia de Cunhaú, no litoral sul do Rio Grande do Norte.",
+     "info": [
+      "Dia combinado com o receptivo na chegada"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "12.672,07",
+     "por": "11.815,12",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 844,80 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "12.672,07",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 2,
+        "valor": "6.336,04",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 3,
+        "valor": "4.224,02",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 4,
+        "valor": "3.168,02",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 5,
+        "valor": "2.534,41",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 6,
+        "valor": "2.112,01",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 7,
+        "valor": "1.810,30",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 8,
+        "valor": "1.584,01",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 9,
+        "valor": "1.408,01",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 10,
+        "valor": "1.267,21",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 11,
+        "valor": "1.152,01",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 12,
+        "valor": "1.056,01",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 13,
+        "valor": "974,77",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 14,
+        "valor": "905,15",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 15,
+        "valor": "844,80",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.112,01 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "12.672,07",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 2,
+        "valor": "6.336,04",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 3,
+        "valor": "4.224,02",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 4,
+        "valor": "3.168,02",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 5,
+        "valor": "2.534,41",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 6,
+        "valor": "2.112,01",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 7,
+        "valor": "1.846,50",
+        "obs": "com acréscimo",
+        "total": "12.925,51"
+       },
+       {
+        "n": 8,
+        "valor": "1.623,61",
+        "obs": "com acréscimo",
+        "total": "12.988,87"
+       },
+       {
+        "n": 9,
+        "valor": "1.450,25",
+        "obs": "com acréscimo",
+        "total": "13.052,23"
+       },
+       {
+        "n": 10,
+        "valor": "1.311,56",
+        "obs": "com acréscimo",
+        "total": "13.115,59"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.112,01 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "12.672,07",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 2,
+        "valor": "6.336,04",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 3,
+        "valor": "4.224,02",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 4,
+        "valor": "3.168,02",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 5,
+        "valor": "2.534,41",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       },
+       {
+        "n": 6,
+        "valor": "2.112,01",
+        "obs": "sem acréscimo",
+        "total": "12.672,07"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   }
+  },
+  {
    "slug": "ilheus-cana-brava-all-inclusive-black-november",
    "destino": "Ilhéus",
    "titulo": "Cana Brava All Inclusive Resort em Ilhéus",
