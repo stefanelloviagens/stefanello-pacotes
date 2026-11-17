@@ -6,6 +6,505 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "natal-sirius-beach-black-november",
+   "destino": "Natal",
+   "titulo": "Natal no Sirius Beach Hotel + 4 passeios",
+   "chamada": "Sete noites na Praia do Meio, perto do Forte dos Reis Magos, com Pipa, Genipabu, Cunhaú e city tour já incluídos.",
+   "black": true,
+   "selo": "Super oferta · 15% OFF",
+   "foto": "40226142",
+   "img": "",
+   "pessoas": 2,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-05-07",
+   "volta": "2027-05-14",
+   "idaTxt": "sex, 7 de mai",
+   "voltaTxt": "sex, 14 de mai",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Sirius Beach Hotel (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "🏛️",
+     "City tour + Praia de Camurupim"
+    ],
+    [
+     "🐬",
+     "Passeio à Praia de Pipa"
+    ],
+    [
+     "🏜️",
+     "Passeio a Genipabu"
+    ],
+    [
+     "🏝️",
+     "Passeio à Praia de Cunhaú"
+    ]
+   ],
+   "pix": "5.166,24",
+   "parcelas": 15,
+   "parcela": "369,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-17",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNzYyNDJ8MGQIticIZT_B4F0V6xM3SfA",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sex, 7 de mai",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 6h50",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "07/05",
+        "hora": "13:25",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "07/05",
+        "hora": "15:00",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1281",
+       "duracao": "1h35"
+      },
+      {
+       "saida": {
+        "data": "07/05",
+        "hora": "16:35",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "07/05",
+        "hora": "20:15",
+        "iata": "NAT",
+        "cidade": "Natal",
+        "aeroporto": "Aeroporto de Natal"
+       },
+       "voo": "G3 1564",
+       "duracao": "3h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h35 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sex, 14 de mai",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 11h55",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "14/05",
+        "hora": "12:35",
+        "iata": "NAT",
+        "cidade": "Natal",
+        "aeroporto": "Aeroporto de Natal"
+       },
+       "chegada": {
+        "data": "14/05",
+        "hora": "16:05",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "G3 1677",
+       "duracao": "3h30"
+      },
+      {
+       "saida": {
+        "data": "14/05",
+        "hora": "22:45",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "15/05",
+        "hora": "00:30",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1264",
+       "duracao": "1h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 6h40 em Guarulhos"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Sirius Beach Hotel",
+    "regime": "Café da manhã",
+    "noites": 7,
+    "checkin": "07/05, 14:00",
+    "checkout": "14/05, 12:00",
+    "endereco": "Av. Presidente Café Filho, 750 · Praia do Meio, Natal (RN)",
+    "descricao": "Hotel 3 estrelas a poucos passos da Praia do Meio, perto do Forte dos Reis Magos e do Museu Popular da Cultura. Quartos com ar-condicionado, TV de tela plana, banheiro privativo e Wi-Fi grátis.",
+    "fotos": [
+     "https://media.omnibees.com/Images/22082/Property/5439952.jpg",
+     "https://media.omnibees.com/Images/22082/Property/2209758.jpg",
+     "https://media.omnibees.com/Images/22082/Property/2209759.jpg",
+     "https://media.omnibees.com/Images/22082/Property/2209762.jpg",
+     "https://media.omnibees.com/Images/22082/Property/2209763.jpg",
+     "https://media.omnibees.com/Images/22082/Property/2209764.jpg",
+     "https://media.omnibees.com/Images/22082/Property/2209766.jpg",
+     "https://media.omnibees.com/Images/22082/Property/2209767.jpg",
+     "https://media.omnibees.com/Images/22082/Property/2209768.jpg",
+     "https://media.omnibees.com/Images/22082/Property/2209769.jpg",
+     "https://media.omnibees.com/Images/22082/Property/2209772.jpg",
+     "https://media.omnibees.com/Images/22082/Property/2209775.jpg",
+     "https://media.omnibees.com/Images/22082/Property/2209776.jpg",
+     "https://media.omnibees.com/Images/22082/Property/2209777.jpg"
+    ],
+    "quarto": {
+     "nome": "Apartamento Standard",
+     "descricao": "Apartamento com 1 cama de casal e 1 de solteiro, ar-condicionado, Wi-Fi e banheiro privativo.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Wi-Fi",
+      "TV de tela plana",
+      "Banheiro privativo",
+      "Chuveiro"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/22082/RoomTypes/2209844.jpg",
+      "https://media.omnibees.com/Images/22082/RoomTypes/2209839.jpg",
+      "https://media.omnibees.com/Images/22082/RoomTypes/2209840.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Traslado entre o Aeroporto de Natal e o resort na chegada e no último dia.",
+     "info": [
+      "Receptivo Cativa"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏛️",
+     "nome": "City tour + Praia de Camurupim",
+     "quando": "Saídas diárias · 6 horas",
+     "descricao": "Via Costeira, praias urbanas, Fortaleza dos Reis Magos, Ponte Newton Navarro, centro e artesanato, e depois tarde de praia em Camurupim.",
+     "info": [
+      "Refeições e bebidas não inclusas",
+      "Ingressos da Fortaleza, Arena das Dunas e Cajueiro pagos à parte"
+     ],
+     "fotos": [
+      "https://images.pexels.com/photos/36186539/pexels-photo-36186539.jpeg?auto=compress&cs=tinysrgb&w=1200"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🐬",
+     "nome": "Praia de Pipa",
+     "quando": "Seg, qui e sáb · 8 horas",
+     "descricao": "Dia no litoral sul com falésias, dunas e coqueiros, parada na Baía dos Golfinhos (cerca de 150 degraus) e visita à Vila de Pipa.",
+     "info": [
+      "Transfer e guia inclusos",
+      "Almoço, barco, trem e bebidas não inclusos"
+     ],
+     "fotos": [
+      "https://images.pexels.com/photos/5368095/pexels-photo-5368095.jpeg?auto=compress&cs=tinysrgb&w=1200"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏜️",
+     "nome": "Genipabu",
+     "quando": "Ter, qui e sáb",
+     "descricao": "Litoral norte com parada no Aquário de Natal, na Redinha, e as famosas dunas de Genipabu.",
+     "info": [
+      "Aquário e passeio de buggy opcionais, pagos à parte"
+     ],
+     "fotos": [
+      "https://images.pexels.com/photos/33503244/pexels-photo-33503244.jpeg?auto=compress&cs=tinysrgb&w=1200"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏝️",
+     "nome": "Praia de Cunhaú",
+     "quando": "Qua e sáb",
+     "descricao": "Passeio à Praia de Cunhaú, no litoral sul do Rio Grande do Norte.",
+     "info": [
+      "Dia combinado com o receptivo na chegada"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "5.522,74",
+     "por": "5.166,24",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 368,18 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.522,74",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 2,
+        "valor": "2.761,37",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 3,
+        "valor": "1.840,91",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 4,
+        "valor": "1.380,69",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 5,
+        "valor": "1.104,55",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 6,
+        "valor": "920,46",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 7,
+        "valor": "788,96",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 8,
+        "valor": "690,34",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 9,
+        "valor": "613,64",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 10,
+        "valor": "552,27",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 11,
+        "valor": "502,07",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 12,
+        "valor": "460,23",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 13,
+        "valor": "424,83",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 14,
+        "valor": "394,48",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 15,
+        "valor": "368,18",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 920,46 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.522,74",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 2,
+        "valor": "2.761,37",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 3,
+        "valor": "1.840,91",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 4,
+        "valor": "1.380,69",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 5,
+        "valor": "1.104,55",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 6,
+        "valor": "920,46",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 7,
+        "valor": "804,74",
+        "obs": "com acréscimo",
+        "total": "5.633,19"
+       },
+       {
+        "n": 8,
+        "valor": "707,60",
+        "obs": "com acréscimo",
+        "total": "5.660,81"
+       },
+       {
+        "n": 9,
+        "valor": "632,05",
+        "obs": "com acréscimo",
+        "total": "5.688,42"
+       },
+       {
+        "n": 10,
+        "valor": "571,60",
+        "obs": "com acréscimo",
+        "total": "5.716,04"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 920,46 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.522,74",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 2,
+        "valor": "2.761,37",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 3,
+        "valor": "1.840,91",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 4,
+        "valor": "1.380,69",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 5,
+        "valor": "1.104,55",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       },
+       {
+        "n": 6,
+        "valor": "920,46",
+        "obs": "sem acréscimo",
+        "total": "5.522,74"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   }
+  },
+  {
    "slug": "natal-costeira-palace-all-inclusive-black-november",
    "destino": "Natal",
    "titulo": "Natal all inclusive no Costeira Palace + 4 passeios",
