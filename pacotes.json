@@ -6,6 +6,445 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "ilheus-cana-brava-all-inclusive-black-november",
+   "destino": "Ilhéus",
+   "titulo": "Cana Brava All Inclusive Resort em Ilhéus",
+   "chamada": "Sete noites all inclusive pé na areia no sul da Bahia, com estrutura pra família inteira e criança até 12 anos grátis no resort.",
+   "black": true,
+   "selo": "Criança até 12 anos grátis no resort",
+   "foto": "https://canabravaresort.com.br/wp-content/uploads/2026/05/cana-brava-resort.webp",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "2 adultos + 1 criança",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-01-16",
+   "volta": "2027-01-23",
+   "idaTxt": "sáb, 16 de jan",
+   "voltaTxt": "sáb, 23 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Cana Brava All Inclusive Resort (all inclusive)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / resort / aeroporto"
+    ],
+    [
+     "👧",
+     "Criança até 12 anos grátis no resort"
+    ]
+   ],
+   "pix": "16.746,01",
+   "parcelas": 15,
+   "parcela": "1.196,00",
+   "outrasDatas": "Também tem outras datas em janeiro, fevereiro, março, abril e maio.",
+   "publicado": "2026-11-17",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNzU5NjF8MGJIFd682kGoDdBwnESBl_w",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sáb, 16 de jan",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 4h50",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "16/01",
+        "hora": "06:25",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "16/01",
+        "hora": "08:00",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1271",
+       "duracao": "1h35"
+      },
+      {
+       "saida": {
+        "data": "16/01",
+        "hora": "09:05",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "16/01",
+        "hora": "11:15",
+        "iata": "IOS",
+        "cidade": "Ilhéus",
+        "aeroporto": "Aeroporto Jorge Amado"
+       },
+       "voo": "G3 1526",
+       "duracao": "2h10"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h05 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sáb, 23 de jan",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 4h50",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "23/01",
+        "hora": "11:55",
+        "iata": "IOS",
+        "cidade": "Ilhéus",
+        "aeroporto": "Aeroporto Jorge Amado"
+       },
+       "chegada": {
+        "data": "23/01",
+        "hora": "14:10",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1527",
+       "duracao": "2h15"
+      },
+      {
+       "saida": {
+        "data": "23/01",
+        "hora": "14:55",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "23/01",
+        "hora": "16:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1280",
+       "duracao": "1h50"
+      }
+     ],
+     "conexoes": [
+      "Espera de 45min em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Cana Brava All Inclusive Resort",
+    "regime": "All inclusive",
+    "noites": 7,
+    "checkin": "16/01, 15:00",
+    "checkout": "23/01, 12:00",
+    "endereco": "Rodovia Ilhéus–Canavieiras, km 24 · Ilhéus (BA)",
+    "descricao": "Resort all inclusive pé na areia no litoral sul da Bahia, com três piscinas (uma de borda infinita), três restaurantes e sete bares. Tem caiaque, stand-up paddle, tirolesa e arvorismo, Clubinho do Sol pras crianças a partir de 3 anos e Baby Copa 24h.",
+    "fotos": [
+     "https://canabravaresort.com.br/wp-content/uploads/2026/06/cana-brava-resort-all-inclusive-foto-area-wide-2.webp",
+     "https://canabravaresort.com.br/wp-content/uploads/2026/05/cana-brava-resort.webp",
+     "https://canabravaresort.com.br/wp-content/uploads/2026/05/cana-brava.webp",
+     "https://canabravaresort.com.br/wp-content/uploads/2026/10/ferias-de-verao-na-Bahia-691x469.webp",
+     "https://canabravaresort.com.br/wp-content/uploads/2026/06/cana-brava-piscina-1200x720.webp",
+     "https://canabravaresort.com.br/wp-content/uploads/2026/08/DUP3492-1-1420x948.jpg",
+     "https://canabravaresort.com.br/wp-content/uploads/2026/04/passeio-de-stand-up.webp",
+     "https://canabravaresort.com.br/wp-content/uploads/2026/05/sabores-a-beira-mar-1-675x675.webp"
+    ],
+    "quarto": {
+     "nome": "Apartamento Luxo",
+     "descricao": "Apartamento com varanda e brisa do mar, com 1 cama de casal e 2 de solteiro ou 1 de casal, 1 de solteiro e sofá-cama. Cabe até 2 adultos e 2 crianças até 12 anos.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "Frigobar",
+      "Cofre",
+      "Televisão",
+      "Banheiro privativo",
+      "Kit de amenities"
+     ],
+     "fotos": [
+      "https://canabravaresort.com.br/wp-content/uploads/2026/01/acomodacao-apartamento-luxo-cana-brava-1-910x512.webp",
+      "https://canabravaresort.com.br/wp-content/uploads/2026/01/camas-do-apartamento-luxo-910x512.webp",
+      "https://media.omnibees.com/Images/2281/RoomTypes/1496275.jpg",
+      "https://media.omnibees.com/Images/2281/RoomTypes/1497133.jpeg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / resort / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Ilhéus e o resort. O horário da volta é informado no dia anterior.",
+     "info": [
+      "A espera pode ser de até 40 minutos",
+      "1 mala de até 23 kg por passageiro",
+      "Não tem cadeirinha nem assento de elevação na van"
+     ],
+     "fotos": [
+      "https://media.infotravel.com.br/image/upload/FA895BC4BA50693D11FDCB99F7ADB4B3.jpeg"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "17.939,61",
+     "por": "16.746,01",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.195,97 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.939,61",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 2,
+        "valor": "8.969,81",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 3,
+        "valor": "5.979,87",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 4,
+        "valor": "4.484,90",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 5,
+        "valor": "3.587,92",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 6,
+        "valor": "2.989,94",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 7,
+        "valor": "2.562,80",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 8,
+        "valor": "2.242,45",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 9,
+        "valor": "1.993,29",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 10,
+        "valor": "1.793,96",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 11,
+        "valor": "1.630,87",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 12,
+        "valor": "1.494,97",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 13,
+        "valor": "1.379,97",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 14,
+        "valor": "1.281,40",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 15,
+        "valor": "1.195,97",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.989,94 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.939,61",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 2,
+        "valor": "8.969,81",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 3,
+        "valor": "5.979,87",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 4,
+        "valor": "4.484,90",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 5,
+        "valor": "3.587,92",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 6,
+        "valor": "2.989,94",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 7,
+        "valor": "2.614,06",
+        "obs": "com acréscimo",
+        "total": "18.298,40"
+       },
+       {
+        "n": 8,
+        "valor": "2.298,51",
+        "obs": "com acréscimo",
+        "total": "18.388,10"
+       },
+       {
+        "n": 9,
+        "valor": "2.053,09",
+        "obs": "com acréscimo",
+        "total": "18.477,80"
+       },
+       {
+        "n": 10,
+        "valor": "1.856,75",
+        "obs": "com acréscimo",
+        "total": "18.567,50"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.989,94 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.939,61",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 2,
+        "valor": "8.969,81",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 3,
+        "valor": "5.979,87",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 4,
+        "valor": "4.484,90",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 5,
+        "valor": "3.587,92",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       },
+       {
+        "n": 6,
+        "valor": "2.989,94",
+        "obs": "sem acréscimo",
+        "total": "17.939,61"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   }
+  },
+  {
    "slug": "praia-do-forte-iberostar-all-inclusive-black-november",
    "destino": "Praia do Forte",
    "titulo": "Praia do Forte all inclusive no Iberostar Waves Bahia",

@@ -391,6 +391,10 @@ def rodape():
 <p>*Valores sujeitos a disponibilidade e alteração a qualquer momento.</p></div></footer>"""
 
 
+def pess(p):
+    return p.get('pessoasTxt') or f"{p['pessoas']} pessoas"
+
+
 def foto_url(p, w=1200):
     f = str(p.get("foto", "")).strip()
     if not f:
@@ -407,7 +411,7 @@ def bg_style(p, w=1200):
 
 def fake_art(p, w=900):
     selo = f'<span class="bf">🔥 BLACK NOVEMBER</span>' if p.get("black") else '<span class="bf">PACOTE</span>'
-    return f"""<div class="fake-art{' has-foto' if p.get('foto') else ''}" role="img" aria-label="{e(p['titulo'])}"{bg_style(p, w)}>{selo}<div><div class="d">{e(p['destino'].upper())}</div><div class="s">{p['dias']} dias · {p['noites']} noites · {p['pessoas']} pessoas</div></div><div class="pr"><b>R$ {e(p['pix'])}</b><span>no PIX ou {p['parcelas']}x de R$ {e(p['parcela'])}</span></div></div>"""
+    return f"""<div class="fake-art{' has-foto' if p.get('foto') else ''}" role="img" aria-label="{e(p['titulo'])}"{bg_style(p, w)}>{selo}<div><div class="d">{e(p['destino'].upper())}</div><div class="s">{p['dias']} dias · {p['noites']} noites · {pess(p)}</div></div><div class="pr"><b>R$ {e(p['pix'])}</b><span>no PIX ou {p['parcelas']}x de R$ {e(p['parcela'])}</span></div></div>"""
 
 
 def pub_key(p):
@@ -427,7 +431,7 @@ def banner(ps):
 <a class="bn-link" href="/{e(p['slug'])}" aria-label="Ver o pacote {e(p['titulo'])}"></a>
 <div class="bn-top"><span class="b-novo">✨ {quando}</span>{'<span class="b-bf">BLACK NOVEMBER</span>' if p.get('black') else ''}{selo}</div>
 <div class="bn-info"><p class="bn-dest">{e(p['destino'])}</p><h2>{e(p['titulo'])}</h2>
-<p class="bn-meta">📅 {e(datas)} · {p['dias']} dias / {p['noites']} noites · {p['pessoas']} pessoas</p>
+<p class="bn-meta">📅 {e(datas)} · {p['dias']} dias / {p['noites']} noites · {pess(p)}</p>
 <p class="bn-preco"><b>R$ {e(p['pix'])}</b> no PIX <span>ou {p['parcelas']}x de R$ {e(p['parcela'])} sem juros</span></p>
 <div class="bn-ctas"><a class="btn btn-sun" href="/{e(p['slug'])}">Ver o pacote →</a><a class="btn btn-wa" data-wa="banner-{e(p['slug'])}" href="{e(wa_link(msg_pacote(p)))}" target="_blank" rel="noopener">{WA_ICON}WhatsApp</a><a class="btn btn-glass" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo</a></div></div></article>""")
     return '<div class="banner">' + "".join(itens) + "</div>"
@@ -435,7 +439,7 @@ def banner(ps):
 
 def card(p):
     art = fake_art(p)
-    chips = (['<span class="chip bf">BLACK NOVEMBER</span>'] if p.get("black") else []) + [f'<span class="chip">{p["dias"]} dias / {p["noites"]} noites</span>', f'<span class="chip">{p["pessoas"]} pessoas</span>']
+    chips = (['<span class="chip bf">BLACK NOVEMBER</span>'] if p.get("black") else []) + [f'<span class="chip">{p["dias"]} dias / {p["noites"]} noites</span>', f'<span class="chip">{pess(p)}</span>']
     busca = sem_acento(" ".join([p["destino"], p["titulo"], p.get("chamada", "")] + [t for _, t in p["inclui"]])).lower()
     pub = p.get("publicado", "")
     pub_txt = f"{pub[8:10]}/{pub[5:7]}" if pub else ""
@@ -649,14 +653,14 @@ def pagina(p):
     inc = "".join(f"<li><span>{i}</span><span>{e(t)}</span></li>" for i, t in p["inclui"])
     selo = f'<span class="selo">{e(p["selo"])}</span>' if p.get("selo") else ""
     outras = f'<div class="outras">📆 {e(p["outrasDatas"])} Me chama que eu te mando as opções.</div>' if p.get("outrasDatas") else ""
-    desc = f"{p['titulo']}: {p['dias']} dias / {p['noites']} noites para {p['pessoas']} pessoas. R$ {p['pix']} no PIX ou {p['parcelas']}x de R$ {p['parcela']} sem juros."
+    desc = f"{p['titulo']}: {p['dias']} dias / {p['noites']} noites para {pess(p)}. R$ {p['pix']} no PIX ou {p['parcelas']}x de R$ {p['parcela']} sem juros."
     vc = f"fbq('track','ViewContent',{{content_name:{json.dumps(p['titulo'])},content_ids:[{json.dumps(p['slug'])}],content_type:'product'}});"
     body = f"""<body class="has-sticky">{topo()}
 <main class="wrap"><a class="back" href="/">← Todos os pacotes</a>
 <div class="pk"><div class="media">{media}</div>
 <div><span class="chip bf">{'🖤💛 BLACK NOVEMBER' if p.get('black') else 'PACOTE'}</span>{selo}
 <h1>{e(p['titulo'])}</h1><p class="lead">{e(p['chamada'])}</p>{nav_det(p)}
-<div class="facts"><div class="fact"><b>{p['pessoas']}</b><span>pessoas</span></div><div class="fact"><b>{p['dias']} dias</b><span>{p['noites']} noites</span></div><div class="fact"><b>Saída</b><span>Porto Alegre</span></div></div>
+<div class="facts"><div class="fact"><b>{p['pessoas']}</b><span>{e(p.get('pessoasTxt') or 'pessoas')}</span></div><div class="fact"><b>{p['dias']} dias</b><span>{p['noites']} noites</span></div><div class="fact"><b>Saída</b><span>Porto Alegre</span></div></div>
 <div class="box datas"><h2>Datas</h2><p>📅 <span><b>Ida:</b> {e(p['idaTxt'])}</span></p><p>📅 <span><b>Retorno:</b> {e(p['voltaTxt'])}</span></p></div>
 <div class="box"><h2>O pacote inclui</h2><ul class="inc">{inc}</ul></div>
 <div class="pbox"><span class="lbl">{'PREÇO BLACK NOVEMBER' if p.get('black') else 'INVESTIMENTO'}</span><div class="row"><div><div class="v">R$ {e(p['pix'])}</div><small>já com desconto no PIX</small></div><div class="ou">OU</div><div><div class="v">{p['parcelas']}x R$ {e(p['parcela'])}</div><small>sem juros no cartão</small></div></div>{'<a class="pg-link" href="#pagamento">Ver todas as formas de pagamento →</a>' if p.get('pagamento') else ''}</div>
