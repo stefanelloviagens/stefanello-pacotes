@@ -6,6 +6,333 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "natal-costeira-palace-julho-so-hospedagem-2-adultos",
+   "destino": "Natal",
+   "titulo": "Costeira Palace All Inclusive em Natal · só hospedagem (julho, 2 adultos + 1 criança)",
+   "chamada": "Seis noites all inclusive 24 horas na Via Costeira, com Kids Club e criança até 12 anos cortesia.",
+   "black": false,
+   "selo": "Super oferta All Inclusive · 30% OFF",
+   "foto": "31021957",
+   "img": "",
+   "inicial": false,
+   "pessoas": 3,
+   "pessoasTxt": "2 adultos + 1 criança",
+   "dias": 7,
+   "noites": 6,
+   "ida": "2027-07-25",
+   "volta": "2027-07-31",
+   "idaTxt": "dom, 25 de jul",
+   "voltaTxt": "sáb, 31 de jul",
+   "inclui": [
+    [
+     "🏨",
+     "Costeira Palace Beach Resort (all inclusive 24h)"
+    ],
+    [
+     "🍹",
+     "Refeições, petiscos e bebidas inclusos 24 horas"
+    ],
+    [
+     "👧",
+     "Criança até 12 anos cortesia no apartamento"
+    ]
+   ],
+   "pix": "8.206,60",
+   "parcelas": 15,
+   "parcela": "589,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-17",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzNzY5OTR8MFq9jd2PW83zfrnFNqEXOR0",
+   "voos": [],
+   "hotel": {
+    "nome": "Costeira Palace Beach Resort All Inclusive",
+    "regime": "All inclusive 24h",
+    "noites": 6,
+    "checkin": "25/07, 15:00",
+    "checkout": "31/07, 12:00",
+    "endereco": "Via Costeira · Natal (RN)",
+    "descricao": "Resort na Via Costeira de Natal com all inclusive 24 horas: refeições, petiscos e bebidas alcoólicas e não alcoólicas inclusos. Apartamentos novos, Kids Club com monitores o ano todo e Wi-Fi grátis em todo o resort. Uma criança de até 12 anos é cortesia no apartamento duplo ou triplo.",
+    "fotos": [
+     "https://media.omnibees.com/Images/20428/Property/1473655.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472723.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472727.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472728.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472730.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472731.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472732.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472733.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472734.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472735.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472736.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472737.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472738.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472739.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472740.jpg",
+     "https://media.omnibees.com/Images/20428/Property/1472741.jpeg"
+    ],
+    "quarto": {
+     "nome": "Superior sem vista mar",
+     "descricao": "Apartamento com 1 cama de casal, sem vista pro mar. Acomoda até 4 pessoas contando crianças, e tem unidades adaptadas.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Frigobar",
+      "Cofre",
+      "Smart TV",
+      "Wi-Fi",
+      "Banheiro privativo",
+      "Kit de amenities",
+      "Não fumantes"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/20428/RoomTypes/5470196.jpg",
+      "https://media.omnibees.com/Images/20428/RoomTypes/1448374.jpg",
+      "https://media.omnibees.com/Images/20428/RoomTypes/1448375.jpg"
+     ]
+    },
+    "tarifa": "Não reembolsável",
+    "destaque": "Resort com 30% OFF · Super oferta All Inclusive"
+   },
+   "servicos": [],
+   "pagamento": {
+    "pix": {
+     "de": "8.824,00",
+     "por": "8.206,60",
+     "texto": "Desconto à vista sobre a hospedagem. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 588,27 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "8.824,00",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 2,
+        "valor": "4.412,00",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 3,
+        "valor": "2.941,33",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 4,
+        "valor": "2.206,00",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 5,
+        "valor": "1.764,80",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 6,
+        "valor": "1.470,67",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 7,
+        "valor": "1.260,57",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 8,
+        "valor": "1.103,00",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 9,
+        "valor": "980,44",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 10,
+        "valor": "882,40",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 11,
+        "valor": "802,18",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 12,
+        "valor": "735,33",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 13,
+        "valor": "678,77",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 14,
+        "valor": "630,29",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 15,
+        "valor": "588,27",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.470,67 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "8.824,00",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 2,
+        "valor": "4.412,00",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 3,
+        "valor": "2.941,33",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 4,
+        "valor": "2.206,00",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 5,
+        "valor": "1.764,80",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 6,
+        "valor": "1.470,67",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 7,
+        "valor": "1.285,78",
+        "obs": "com acréscimo",
+        "total": "9.000,48"
+       },
+       {
+        "n": 8,
+        "valor": "1.130,58",
+        "obs": "com acréscimo",
+        "total": "9.044,60"
+       },
+       {
+        "n": 9,
+        "valor": "1.009,86",
+        "obs": "com acréscimo",
+        "total": "9.088,72"
+       },
+       {
+        "n": 10,
+        "valor": "913,28",
+        "obs": "com acréscimo",
+        "total": "9.132,84"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.470,67 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "8.824,00",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 2,
+        "valor": "4.412,00",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 3,
+        "valor": "2.941,33",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 4,
+        "valor": "2.206,00",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 5,
+        "valor": "1.764,80",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       },
+       {
+        "n": 6,
+        "valor": "1.470,67",
+        "obs": "sem acréscimo",
+        "total": "8.824,00"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   }
+  },
+  {
    "slug": "natal-costeira-palace-julho-so-hospedagem",
    "destino": "Natal",
    "titulo": "Costeira Palace All Inclusive em Natal · só hospedagem (julho)",
