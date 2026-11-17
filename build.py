@@ -246,6 +246,7 @@ html{scroll-behavior:smooth}.det{scroll-margin-top:80px}
 .srvs{display:grid;gap:14px}
 .srv.com-foto{padding-top:0;overflow:hidden}
 .srv-capa{margin:0 -18px 14px}
+.hfacts .tarifa.ok{background:#e7f6ec;color:#17643a}.hfacts .tarifa.nr{background:#fdecea;color:#9b1c1c}
 .srv-capa .ft{display:block;width:100%;padding:0;border:0;cursor:zoom-in;position:relative;background:#eee}
 .srv-capa .ft{aspect-ratio:16/9;overflow:hidden}
 .srv-capa img{display:block;width:100%;height:100%;aspect-ratio:16/9;object-fit:cover;object-position:center 30%}
@@ -389,6 +390,17 @@ def rodape():
 <p>Stefanello Viagens LTDA · CNPJ 54.630.293/0001-10 · Rua José Felice, nº 30, Centro, São João do Polêsine - RS</p>
 <p><a href="{e(INSTA)}" target="_blank" rel="noopener">Instagram @stefanelloviagens</a> · <a href="https://stefanelloviagens.com.br/">stefanelloviagens.com.br</a> · <a href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Grupo de promoções</a></p>
 <p>*Valores sujeitos a disponibilidade e alteração a qualquer momento.</p></div></footer>"""
+
+
+def tarifa_chip(h):
+    t = (h.get('tarifa') or '').strip()
+    if not t:
+        return ''
+    if 'não reembols' in t.lower():
+        return '<span class="tarifa nr">⚠️ Tarifa do hotel não reembolsável</span>'
+    data = t.split('até')[-1].strip() if 'até' in t else ''
+    txt = f'✅ Hotel reembolsável: cancelamento até {data}' if data else f'✅ {t}'
+    return f'<span class="tarifa ok">{e(txt)}</span>'
 
 
 def pess(p):
@@ -579,7 +591,7 @@ def detalhes(p):
         com = "".join(f"<li>{e(c)}</li>" for c in q.get("comodidades", []))
         out.append(f"""<section class="det" id="hotel"><h2>🏨 Hospedagem</h2>
 <div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}</p>
-<div class="hfacts"><span><b>{h.get('noites','')}</b> noites</span><span>🍽️ {e(h.get('regime',''))}</span><span>Check-in {e(h.get('checkin',''))}</span><span>Check-out {e(h.get('checkout',''))}</span></div>
+<div class="hfacts"><span><b>{h.get('noites','')}</b> noites</span><span>🍽️ {e(h.get('regime',''))}</span><span>Check-in {e(h.get('checkin',''))}</span><span>Check-out {e(h.get('checkout',''))}</span>{tarifa_chip(h)}</div>
 <p>{e(h.get('descricao',''))}</p></div></div>
 {galeria(h.get('fotos', []), h['nome'], 'gh')}
 <div class="quarto"><div><span class="tag-voo">Quarto</span><h3>{e(q.get('nome',''))}</h3><p>{e(q.get('descricao',''))}</p><ul class="com">{com}</ul></div>
