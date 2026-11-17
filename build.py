@@ -406,7 +406,7 @@ def bg_style(p, w=1200):
 
 
 def fake_art(p, w=900):
-    selo = f'<span class="bf">🔥 BLACK FRIDAY</span>' if p.get("black") else '<span class="bf">PACOTE</span>'
+    selo = f'<span class="bf">🔥 BLACK NOVEMBER</span>' if p.get("black") else '<span class="bf">PACOTE</span>'
     return f"""<div class="fake-art{' has-foto' if p.get('foto') else ''}" role="img" aria-label="{e(p['titulo'])}"{bg_style(p, w)}>{selo}<div><div class="d">{e(p['destino'].upper())}</div><div class="s">{p['dias']} dias · {p['noites']} noites · {p['pessoas']} pessoas</div></div><div class="pr"><b>R$ {e(p['pix'])}</b><span>no PIX ou {p['parcelas']}x de R$ {e(p['parcela'])}</span></div></div>"""
 
 
@@ -425,7 +425,7 @@ def banner(ps):
         selo = f'<span class="b-selo">{e(p["selo"])}</span>' if p.get("selo") else ""
         itens.append(f"""<article class="bn"{bg_style(p, 1600)}>
 <a class="bn-link" href="/{e(p['slug'])}" aria-label="Ver o pacote {e(p['titulo'])}"></a>
-<div class="bn-top"><span class="b-novo">✨ {quando}</span>{'<span class="b-bf">BLACK FRIDAY</span>' if p.get('black') else ''}{selo}</div>
+<div class="bn-top"><span class="b-novo">✨ {quando}</span>{'<span class="b-bf">BLACK NOVEMBER</span>' if p.get('black') else ''}{selo}</div>
 <div class="bn-info"><p class="bn-dest">{e(p['destino'])}</p><h2>{e(p['titulo'])}</h2>
 <p class="bn-meta">📅 {e(datas)} · {p['dias']} dias / {p['noites']} noites · {p['pessoas']} pessoas</p>
 <p class="bn-preco"><b>R$ {e(p['pix'])}</b> no PIX <span>ou {p['parcelas']}x de R$ {e(p['parcela'])} sem juros</span></p>
@@ -435,7 +435,7 @@ def banner(ps):
 
 def card(p):
     art = fake_art(p)
-    chips = (['<span class="chip bf">BLACK FRIDAY</span>'] if p.get("black") else []) + [f'<span class="chip">{p["dias"]} dias / {p["noites"]} noites</span>', f'<span class="chip">{p["pessoas"]} pessoas</span>']
+    chips = (['<span class="chip bf">BLACK NOVEMBER</span>'] if p.get("black") else []) + [f'<span class="chip">{p["dias"]} dias / {p["noites"]} noites</span>', f'<span class="chip">{p["pessoas"]} pessoas</span>']
     busca = sem_acento(" ".join([p["destino"], p["titulo"], p.get("chamada", "")] + [t for _, t in p["inclui"]])).lower()
     pub = p.get("publicado", "")
     pub_txt = f"{pub[8:10]}/{pub[5:7]}" if pub else ""
@@ -484,7 +484,7 @@ def index():
 <p class="f-res" id="res" aria-live="polite"></p></form>"""
     desc = "Pacotes com aéreo, hotel e transfer saindo de Porto Alegre, com preço no PIX e até 15x sem juros. Atendimento direto pelo WhatsApp."
     body = f"""<body>{topo()}
-<section class="hero">{hero_bg(ultimos)}<div class="wrap">{'<span class="tag">🖤💛 Black Friday</span>' if tem_black else ''}
+<section class="hero">{hero_bg(ultimos)}<div class="wrap">{'<span class="tag">🖤💛 Black November</span>' if tem_black else ''}
 <h1>Pacotes de viagem saindo de <em>Porto Alegre</em></h1>
 <p>Aéreo, hotel e transfer no mesmo pacote, com preço no PIX ou parcelado em até 15x sem juros. Tu escolhe, me chama no WhatsApp e eu cuido do resto.</p>
 <div class="cta"><a class="btn btn-wa" data-wa="hero" href="{e(wa_link('Oi! Vi os pacotes no site da Stefanello Viagens e quero saber mais.'))}" target="_blank" rel="noopener">{WA_ICON}Falar no WhatsApp</a><a class="btn btn-ghost" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo de promoções</a></div>
@@ -523,8 +523,8 @@ def galeria(fotos, alt, gid):
 
 
 def marquee():
-    item = '<span>BLACK FRIDAY</span><i>✦</i><span>STEFANELLO VIAGENS</span><i>✦</i>'
-    return '<div class="mq" aria-label="Black Friday Stefanello Viagens"><div class="mq-t" aria-hidden="true">' + item * 12 + '</div></div>'
+    item = '<span>BLACK NOVEMBER</span><i>✦</i><span>STEFANELLO VIAGENS</span><i>✦</i>'
+    return '<div class="mq" aria-label="Black November Stefanello Viagens"><div class="mq-t" aria-hidden="true">' + item * 12 + '</div></div>'
 
 
 def nav_det(p):
@@ -635,12 +635,12 @@ def pagina(p):
     body = f"""<body class="has-sticky">{topo()}
 <main class="wrap"><a class="back" href="/">← Todos os pacotes</a>
 <div class="pk"><div class="media">{media}</div>
-<div><span class="chip bf">{'🖤💛 BLACK FRIDAY' if p.get('black') else 'PACOTE'}</span>{selo}
+<div><span class="chip bf">{'🖤💛 BLACK NOVEMBER' if p.get('black') else 'PACOTE'}</span>{selo}
 <h1>{e(p['titulo'])}</h1><p class="lead">{e(p['chamada'])}</p>{nav_det(p)}
 <div class="facts"><div class="fact"><b>{p['pessoas']}</b><span>pessoas</span></div><div class="fact"><b>{p['dias']} dias</b><span>{p['noites']} noites</span></div><div class="fact"><b>Saída</b><span>Porto Alegre</span></div></div>
 <div class="box datas"><h2>Datas</h2><p>📅 <span><b>Ida:</b> {e(p['idaTxt'])}</span></p><p>📅 <span><b>Retorno:</b> {e(p['voltaTxt'])}</span></p></div>
 <div class="box"><h2>O pacote inclui</h2><ul class="inc">{inc}</ul></div>
-<div class="pbox"><span class="lbl">{'PREÇO BLACK FRIDAY' if p.get('black') else 'INVESTIMENTO'}</span><div class="row"><div><div class="v">R$ {e(p['pix'])}</div><small>já com desconto no PIX</small></div><div class="ou">OU</div><div><div class="v">{p['parcelas']}x R$ {e(p['parcela'])}</div><small>sem juros no cartão</small></div></div>{'<a class="pg-link" href="#pagamento">Ver todas as formas de pagamento →</a>' if p.get('pagamento') else ''}</div>
+<div class="pbox"><span class="lbl">{'PREÇO BLACK NOVEMBER' if p.get('black') else 'INVESTIMENTO'}</span><div class="row"><div><div class="v">R$ {e(p['pix'])}</div><small>já com desconto no PIX</small></div><div class="ou">OU</div><div><div class="v">{p['parcelas']}x R$ {e(p['parcela'])}</div><small>sem juros no cartão</small></div></div>{'<a class="pg-link" href="#pagamento">Ver todas as formas de pagamento →</a>' if p.get('pagamento') else ''}</div>
 {outras}
 <div class="ctas"><a class="btn btn-wa" data-wa="{e(p['slug'])}" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero esse pacote</a>
 <a class="btn btn-ghost" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo de promoções</a></div>
