@@ -6,6 +6,481 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "rio-de-janeiro-mar-palace-copacabana-13-a-17-janeiro",
+   "destino": "Rio de Janeiro",
+   "titulo": "Rio de Janeiro em Copacabana com Cristo Redentor + Chá no Forte GRÁTIS",
+   "chamada": "Quatro noites em Copacabana com Cristo, Floresta da Tijuca, city tour e um chá da tarde no Forte de Copacabana de presente.",
+   "black": true,
+   "selo": "",
+   "img": "",
+   "foto": "10322305",
+   "pessoas": 2,
+   "dias": 5,
+   "noites": 4,
+   "ida": "2027-01-13",
+   "volta": "2027-01-17",
+   "idaTxt": "qua, 13 de jan",
+   "voltaTxt": "dom, 17 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Hotel Mar Palace, em Copacabana (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "⛪",
+     "Cristo Redentor com city tour panorâmico"
+    ],
+    [
+     "🌳",
+     "Floresta da Tijuca"
+    ],
+    [
+     "☕",
+     "Chá do Forte na Confeitaria Colombo GRÁTIS"
+    ]
+   ],
+   "pix": "7.130,93",
+   "parcelas": 15,
+   "parcela": "509,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-18",
+   "inicial": false,
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzODY3NDF8MMJMwOZUQtEUL7ZgsqRlRLg",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qua, 13 de jan",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 5h30",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "13/01",
+        "hora": "05:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "13/01",
+        "hora": "07:40",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "G3 1241",
+       "duracao": "2h"
+      },
+      {
+       "saida": {
+        "data": "13/01",
+        "hora": "10:05",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "13/01",
+        "hora": "11:10",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "voo": "G3 1374",
+       "duracao": "1h05"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h25 em Guarulhos"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "dom, 17 de jan",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 3h45",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "17/01",
+        "hora": "13:10",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "chegada": {
+        "data": "17/01",
+        "hora": "14:20",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1447",
+       "duracao": "1h10"
+      },
+      {
+       "saida": {
+        "data": "17/01",
+        "hora": "15:15",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "17/01",
+        "hora": "16:55",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1278",
+       "duracao": "1h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 55min em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Hotel Mar Palace Copacabana",
+    "regime": "Café da manhã",
+    "noites": 4,
+    "checkin": "13/01",
+    "checkout": "17/01",
+    "tarifa": "Cancelamento até 13/12/2026",
+    "endereco": "Av. Nossa Senhora de Copacabana, 552 · Copacabana, Rio de Janeiro (RJ)",
+    "descricao": "Hotel em Copacabana a uns 50 metros do metrô Siqueira Campos, perto de comércio, restaurantes e da praia. Recepção 24 horas, restaurante, piscina coberta e Wi-Fi.",
+    "fotos": [
+     "https://media.infotravel.com.br/image/upload/792ef776e96dec6a8fc75bb43b0be94e.jpg",
+     "https://media.infotravel.com.br/image/upload/3277f19bd5cfaa06de70882d02cd474.jpg",
+     "https://media.infotravel.com.br/image/upload/34ea7d3c354440936be3f36bd6b3c176.jpg",
+     "https://media.infotravel.com.br/image/upload/b166b354f5a38f7feec2aa0521011bec.jpg",
+     "https://media.infotravel.com.br/image/upload/f389f0f0c50b979156c149782c5d18a7.jpg",
+     "https://media.infotravel.com.br/image/upload/ded2558df287bbe98c234ceb1bbd1fe6.jpg"
+    ],
+    "quarto": {
+     "nome": "Superior Duplo",
+     "descricao": "Quarto com cama de casal e vista pra cidade (do 2º ao 6º andar), banheiro em granito, TV LCD 32\" com canais a cabo, frigobar e ar-condicionado.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Wi-Fi",
+      "Frigobar",
+      "Cofre",
+      "TV a cabo",
+      "Secador de cabelo",
+      "Banheiro privativo",
+      "Não fumantes"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/3154/RoomTypes/433805.jpg",
+      "https://media.omnibees.com/Images/3154/RoomTypes/246166.jpg",
+      "https://media.omnibees.com/Images/3154/RoomTypes/343437.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto → hotel → aeroporto",
+     "quando": "Na chegada e na volta",
+     "descricao": "Transfer em grupo (shuttle) do aeroporto do Galeão até o hotel no Centro, e de volta no último dia.",
+     "info": [
+      "Válido pra hotéis da Zona Sul e Centro (o Mar Palace está incluso)",
+      "A equipe te espera no desembarque com uma placa no nome do titular",
+      "Saídas entre 8h e 21h, a cada 1h30"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "⛪",
+     "nome": "Cristo Redentor + Floresta da Tijuca + City Tour",
+     "quando": "Dia inteiro · todos os dias",
+     "descricao": "Subida de van ao Corcovado pela Floresta da Tijuca, com ingresso pro Cristo Redentor incluso. Depois, city tour panorâmico pelos cartões-postais do Rio.",
+     "info": [
+      "Ingresso do Cristo incluso",
+      "Passa pelo Maracanã, Sambódromo, Escadaria Selarón e Catedral Metropolitana",
+      "Busca e volta no hotel (Zona Sul e Centro)"
+     ],
+     "fotos": [
+      "https://images.pexels.com/photos/14996556/pexels-photo-14996556.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/33682178/pexels-photo-33682178.jpeg?auto=compress&cs=tinysrgb&w=1200"
+     ]
+    },
+    {
+     "tipo": "Experiência",
+     "icone": "☕",
+     "nome": "Chá do Forte na Confeitaria Colombo · GRÁTIS",
+     "quando": "Terça a sexta, das 10h às 19h",
+     "descricao": "Café da manhã ou da tarde na Confeitaria Colombo do Forte de Copacabana, de frente pro mar, pra 2 pessoas.",
+     "info": [
+      "Cesta com minibrioches, croissant, pão de queijo, torrada Petrópolis, bolo e queijadinha",
+      "Café, chá, chocolate quente ou café com leite + suco de laranja",
+      "Entrada no Forte: R$ 10 por pessoa, paga no local (dinheiro ou Pix)"
+     ],
+     "fotos": [
+      "https://media.infotravel.com.br/image/upload/1F2BD0AED3FE05AFB0EBD4770A372DCC.jpg"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "7.620,90",
+     "por": "7.130,93",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 508,06 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.620,90",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 2,
+        "valor": "3.810,45",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 3,
+        "valor": "2.540,30",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 4,
+        "valor": "1.905,23",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 5,
+        "valor": "1.524,18",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 6,
+        "valor": "1.270,15",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 7,
+        "valor": "1.088,70",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 8,
+        "valor": "952,61",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 9,
+        "valor": "846,77",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 10,
+        "valor": "762,09",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 11,
+        "valor": "692,81",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 12,
+        "valor": "635,07",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 13,
+        "valor": "586,22",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 14,
+        "valor": "544,35",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 15,
+        "valor": "508,06",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.270,15 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.620,90",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 2,
+        "valor": "3.810,45",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 3,
+        "valor": "2.540,30",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 4,
+        "valor": "1.905,23",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 5,
+        "valor": "1.524,18",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 6,
+        "valor": "1.270,15",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 7,
+        "valor": "1.110,47",
+        "obs": "com acréscimo",
+        "total": "7.773,32"
+       },
+       {
+        "n": 8,
+        "valor": "976,43",
+        "obs": "com acréscimo",
+        "total": "7.811,42"
+       },
+       {
+        "n": 9,
+        "valor": "872,17",
+        "obs": "com acréscimo",
+        "total": "7.849,53"
+       },
+       {
+        "n": 10,
+        "valor": "788,76",
+        "obs": "com acréscimo",
+        "total": "7.887,63"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.270,15 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.620,90",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 2,
+        "valor": "3.810,45",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 3,
+        "valor": "2.540,30",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 4,
+        "valor": "1.905,23",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 5,
+        "valor": "1.524,18",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       },
+       {
+        "n": 6,
+        "valor": "1.270,15",
+        "obs": "sem acréscimo",
+        "total": "7.620,90"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 122
+  },
+  {
    "slug": "porto-de-galinhas-pousada-atlantic-1-semana-2-adultos-1-crianca",
    "destino": "Porto de Galinhas",
    "titulo": "Porto de Galinhas por 1 semana + Maragogi GRÁTIS",
