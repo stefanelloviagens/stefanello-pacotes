@@ -6,6 +6,478 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "porto-de-galinhas-pousada-atlantic-1-semana-2-adultos-1-crianca",
+   "destino": "Porto de Galinhas",
+   "titulo": "Porto de Galinhas por 1 semana + Maragogi GRÁTIS",
+   "chamada": "Sete noites em Porto de Galinhas pra 2 adultos e 1 criança, em apartamento família com 30% OFF na hospedagem, Maragogi de presente e mais um passeio à tua escolha.",
+   "black": true,
+   "selo": "30% OFF na hospedagem",
+   "foto": "4716938",
+   "img": "",
+   "inicial": false,
+   "pessoas": 3,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-02-16",
+   "volta": "2027-02-23",
+   "idaTxt": "ter, 16 de fev",
+   "voltaTxt": "ter, 23 de fev",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Pousada Atlantic, apartamento família (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / pousada / aeroporto"
+    ],
+    [
+     "🏝️",
+     "Passeio a Maragogi GRÁTIS"
+    ],
+    [
+     "🌴",
+     "1 passeio à tua escolha no destino"
+    ]
+   ],
+   "pix": "8.589,54",
+   "parcelas": 15,
+   "parcela": "613,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-18",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzODUwNTJ8MOjDFjbqrIKTrVNOHJ9-3us",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "ter, 16 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão no Rio de Janeiro (Galeão) · 8h40",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "16/02",
+        "hora": "16:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "16/02",
+        "hora": "18:10",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "voo": "G3 2089",
+       "duracao": "1h55"
+      },
+      {
+       "saida": {
+        "data": "16/02",
+        "hora": "22:05",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "chegada": {
+        "data": "17/02",
+        "hora": "00:55",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto de Recife"
+       },
+       "voo": "G3 1884",
+       "duracao": "2h50"
+      }
+     ],
+     "conexoes": [
+      "Espera de 3h55 no Galeão"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "ter, 23 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão no Rio de Janeiro (Galeão) · 9h35",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "23/02",
+        "hora": "05:30",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto de Recife"
+       },
+       "chegada": {
+        "data": "23/02",
+        "hora": "08:30",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "voo": "G3 1871",
+       "duracao": "3h00"
+      },
+      {
+       "saida": {
+        "data": "23/02",
+        "hora": "12:25",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "chegada": {
+        "data": "23/02",
+        "hora": "15:05",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 2088",
+       "duracao": "2h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 3h55 no Galeão"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Pousada Atlantic",
+    "regime": "Café da manhã",
+    "noites": 7,
+    "checkin": "16/02, 14:00",
+    "checkout": "23/02, 12:00",
+    "tarifa": "Cancelamento até 01/02/2027",
+    "destaque": "Hospedagem com 30% OFF",
+    "endereco": "PE-009, Merepe II · entrada de Porto de Galinhas (PE)",
+    "descricao": "Pousada a 150 metros da praia, na entrada de Porto de Galinhas, com piscinas adulto e infantil, rooftop com drinks e petiscos, restaurante, bar de piscina e estacionamento gratuito.",
+    "fotos": [
+     "https://media.omnibees.com/Images/17201/Property/5935292.jpg",
+     "https://media.omnibees.com/Images/17201/Property/1093408.jpg",
+     "https://media.omnibees.com/Images/17201/Property/1093409.jpg",
+     "https://media.omnibees.com/Images/17201/Property/1093410.jpg",
+     "https://media.omnibees.com/Images/17201/Property/1093411.jpg",
+     "https://media.omnibees.com/Images/17201/Property/1093413.jpg",
+     "https://media.omnibees.com/Images/17201/Property/1110090.jpg",
+     "https://media.omnibees.com/Images/17201/Property/1191620.jpeg",
+     "https://media.omnibees.com/Images/17201/Property/1191621.jpeg",
+     "https://media.omnibees.com/Images/17201/Property/1191622.jpeg",
+     "https://media.omnibees.com/Images/17201/Property/1191623.jpeg",
+     "https://media.omnibees.com/Images/17201/Property/1191624.jpeg",
+     "https://media.omnibees.com/Images/17201/Property/1191625.jpeg",
+     "https://media.omnibees.com/Images/17201/Property/1191626.jpeg",
+     "https://media.omnibees.com/Images/17201/Property/1224909.jpg",
+     "https://media.omnibees.com/Images/17201/Property/1224910.jpg"
+    ],
+    "quarto": {
+     "nome": "Apartamento Família Economy",
+     "descricao": "Apartamento com cama box, cama auxiliar e uma cama de solteiro, ar split, Smart TV, frigobar e Wi-Fi grátis.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Smart TV",
+      "Frigobar",
+      "Wi-Fi",
+      "Kit de amenities",
+      "Chuveiro",
+      "Não fumantes"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/17201/RoomTypes/1225196.jpeg",
+      "https://media.omnibees.com/Images/17201/RoomTypes/1225194.jpeg",
+      "https://media.omnibees.com/Images/17201/RoomTypes/1225193.jpeg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / pousada / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Recife e a pousada em Porto de Galinhas.",
+     "info": [
+      "Horário da volta informado um dia antes",
+      "A chegada é de madrugada e a pousada já fica reservada desde a noite do dia 16"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏝️",
+     "nome": "Passeio a Maragogi · GRÁTIS",
+     "quando": "Dia combinado com o receptivo",
+     "descricao": "O Caribe brasileiro, com piscinas naturais de água cristalina em Alagoas.",
+     "info": [
+      "Maré baixa pela manhã em todos os dias da viagem (de 0,58 m no dia 17 a 0,07 m no dia 21)",
+      "Catamarã, jangada e refeições pagos à parte"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🌴",
+     "nome": "1 passeio à tua escolha",
+     "quando": "Dias de cada passeio conforme o receptivo",
+     "descricao": "Escolhe no destino entre Praia dos Carneiros, City Tour Recife e Olinda, Porto de Galinhas, João Pessoa, Cabo de Santo Agostinho, Litoral Norte ou Praia de São José da Coroa Grande.",
+     "info": [
+      "Passeios em veículo compartilhado",
+      "Refeições, bebidas e opcionais (buggy, jangada, ingressos) pagos à parte"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "9.190,82",
+     "por": "8.589,54",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 612,72 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "9.190,82",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 2,
+        "valor": "4.595,41",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 3,
+        "valor": "3.063,61",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 4,
+        "valor": "2.297,71",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 5,
+        "valor": "1.838,16",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 6,
+        "valor": "1.531,80",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 7,
+        "valor": "1.312,97",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 8,
+        "valor": "1.148,85",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 9,
+        "valor": "1.021,20",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 10,
+        "valor": "919,08",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 11,
+        "valor": "835,53",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 12,
+        "valor": "765,90",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 13,
+        "valor": "706,99",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 14,
+        "valor": "656,49",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 15,
+        "valor": "612,72",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.531,80 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "9.190,82",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 2,
+        "valor": "4.595,41",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 3,
+        "valor": "3.063,61",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 4,
+        "valor": "2.297,71",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 5,
+        "valor": "1.838,16",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 6,
+        "valor": "1.531,80",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 7,
+        "valor": "1.339,23",
+        "obs": "com acréscimo",
+        "total": "9.374,64"
+       },
+       {
+        "n": 8,
+        "valor": "1.177,57",
+        "obs": "com acréscimo",
+        "total": "9.420,59"
+       },
+       {
+        "n": 9,
+        "valor": "1.051,84",
+        "obs": "com acréscimo",
+        "total": "9.466,54"
+       },
+       {
+        "n": 10,
+        "valor": "951,25",
+        "obs": "com acréscimo",
+        "total": "9.512,50"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.531,80 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "9.190,82",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 2,
+        "valor": "4.595,41",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 3,
+        "valor": "3.063,61",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 4,
+        "valor": "2.297,71",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 5,
+        "valor": "1.838,16",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       },
+       {
+        "n": 6,
+        "valor": "1.531,80",
+        "obs": "sem acréscimo",
+        "total": "9.190,82"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 121,
+   "pessoasTxt": "2 adultos + 1 criança (11 anos)"
+  },
+  {
    "slug": "porto-de-galinhas-pousada-atlantic-1-semana-black-november",
    "destino": "Porto de Galinhas",
    "titulo": "Porto de Galinhas por 1 semana + Maragogi GRÁTIS",
