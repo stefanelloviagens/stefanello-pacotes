@@ -378,11 +378,24 @@ FILTRO_JS = r"""<script>
 </script>"""
 
 
+def og_foto(p):
+    """Foto da cidade/destino pra prévia do link (WhatsApp, Facebook). Sempre tem uma."""
+    if p.get("img"):
+        return f"{SITE}/{p['img']}"
+    f = str(p.get("fotoOg") or p.get("foto", "")).strip()
+    if f and not f.startswith("http"):
+        return f"https://images.pexels.com/photos/{f}/pexels-photo-{f}.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"
+    if f and not f.lower().split("?")[0].endswith(".webp"):
+        return f
+    fotos = [u for u in ((p.get("hotel") or {}).get("fotos") or []) if not u.lower().split("?")[0].endswith(".webp")]
+    return fotos[0] if fotos else ""
+
+
 def head(title, desc, url, img):
-    og_img = f"{SITE}/{img}" if img else f"{SITE}/img/og.jpg"
+    og_img = img if str(img).startswith("http") else (f"{SITE}/{img}" if img else f"{SITE}/img/og.jpg")
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{e(url)}">
-<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{e(url)}"><meta property="og:image" content="{e(og_img)}"><meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{e(url)}"><meta property="og:image" content="{e(og_img)}"><meta property="og:image:secure_url" content="{e(og_img)}"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{e(title)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{e(og_img)}"><meta property="og:locale" content="pt_BR">
 <meta name="theme-color" content="#111111"><link rel="icon" type="image/png" href="/img/icone.png"><link rel="apple-touch-icon" href="/img/icone.png">
 {FONTS}<style>{CSS}</style>"""
 
@@ -522,7 +535,7 @@ def index():
 <div class="grid" id="grade">{cards}</div><div class="empty" id="vazio" hidden>Nenhum pacote com esse filtro. <a href="#" id="limpar2">Limpar filtros</a> ou me chama no WhatsApp que eu procuro pra ti.</div></div></section>
 <section class="sec" style="padding-top:0"><div class="wrap"><div class="band"><div><h2>Quer receber as promoções primeiro?</h2><p>Entra no grupo de WhatsApp da Stefanello Viagens. Só ofertas, sem spam.</p></div><a class="btn" style="background:var(--ink);color:#fff" href="{e(GRUPO)}" data-grupo target="_blank" rel="noopener">Entrar no grupo</a></div></div></section></main>
 {rodape()}{JS}{FILTRO_JS}{HERO_JS}</body></html>"""
-    return head("Pacotes de viagem saindo de Porto Alegre | Stefanello Viagens", desc, SITE + "/", vitrine[0]["img"] if vitrine and vitrine[0].get("img") else "") + pixel() + "</head>" + body
+    return head("Pacotes de viagem saindo de Porto Alegre | Stefanello Viagens", desc, SITE + "/", og_foto(vitrine[0]) if vitrine else "") + pixel() + "</head>" + body
 
 
 PLANE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5Z"/></svg>'
@@ -695,7 +708,7 @@ def pagina(p):
 <div class="sticky"><div class="t">{e(p['destino'])}<br><b>R$ {e(p['pix'])}</b> no PIX</div><a class="btn btn-wa" data-wa="{e(p['slug'])}-barra" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero</a></div>
 {rodape()}{JS}{LB_JS}{PT_JS}</body></html>"""
     robots = '<meta name="robots" content="noindex">' if not p.get("inicial", True) else ""
-    return head(f"{p['titulo']} | Stefanello Viagens", desc, url, p.get("img", "")) + robots + pixel(vc) + "</head>" + body
+    return head(f"{p['titulo']} | Stefanello Viagens", desc, url, og_foto(p) or p.get("img", "")) + robots + pixel(vc) + "</head>" + body
 
 
 # limpa páginas antigas geradas
