@@ -33,14 +33,20 @@ def wa_link(msg):
     return f"https://wa.me/{WA}?text=" + urllib.parse.quote(msg)
 
 
+def cod_txt(p):
+    return f"#{p['cod']}" if p.get('cod') else ""
+
+
 def msg_pacote(p):
-    return f"Oi! Vi no site o pacote {p['titulo']} ({p['idaTxt'].split(' (')[0]} a {p['voltaTxt'].split(' (')[0]}) e quero saber mais."
+    c = f" ({cod_txt(p)})" if p.get('cod') else ""
+    return f"Oi! Vi no site o pacote{c} {p['titulo']} ({p['idaTxt'].split(' (')[0]} a {p['voltaTxt'].split(' (')[0]}) e quero saber mais."
 
 
 STAR = '<svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0C50 27.6 72.4 50 100 50 72.4 50 50 72.4 50 100 50 72.4 27.6 50 0 50 27.6 50 50 27.6 50 0Z"/></svg>'
 WA_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>'
 
 CSS = """
+.cod{font-weight:800;color:var(--ink)}.cod-pk{display:inline-block;margin-top:10px;font-size:13px;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 12px}.cod-pk b{color:var(--ink)}
 :root{--ink:#111111;--paper:#FAF7F0;--card:#FFFFFF;--muted:#5d5a54;--line:#E7E1D4;--sun:#FFD400;--wa:#1FA855;--wa-d:#178a45;--sea:#0E6E7E}
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%}
@@ -462,7 +468,7 @@ def card(p):
     pub = p.get("publicado", "")
     pub_txt = f"{pub[8:10]}/{pub[5:7]}" if pub else ""
     return f"""<a class="card" href="/{e(p['slug'])}" data-ida="{e(p['ida'])}" data-volta="{e(p['volta'])}" data-pub="{e(pub)}" data-busca="{e(busca)}" data-preco="{e(p['pix'].replace('.','').replace(',','.'))}">{art}<div class="body"><div class="meta">{''.join(chips)}</div><h3>{e(p['titulo'])}</h3>
-<p style="font-size:14px;color:var(--muted)">📅 {e(p['idaTxt'])} → {e(p['voltaTxt'].split(' (')[0])}</p>
+<p style="font-size:14px;color:var(--muted)">{f'<span class="cod">{cod_txt(p)}</span> · ' if p.get('cod') else ''}📅 {e(p['idaTxt'])} → {e(p['voltaTxt'].split(' (')[0])}</p>
 <div class="price"><div class="p1"><b>R$ {e(p['pix'])}</b> no PIX</div><div class="p2">ou {p['parcelas']}x de R$ {e(p['parcela'])} sem juros</div></div><div class="foot"><span class="more">Ver o pacote →</span>{f'<span class="pub">Postado em {pub_txt}</span>' if pub_txt else ''}</div></div></a>"""
 
 
@@ -677,7 +683,7 @@ def pagina(p):
 <main class="wrap"><a class="back" href="/">← Todos os pacotes</a>
 <div class="pk"><div class="media">{media}</div>
 <div><span class="chip bf">{'🖤💛 BLACK NOVEMBER' if p.get('black') else 'PACOTE'}</span>{selo}
-<h1>{e(p['titulo'])}</h1><p class="lead">{e(p['chamada'])}</p>{nav_det(p)}
+{f'<span class="cod-pk">Código do pacote <b>{cod_txt(p)}</b></span>' if p.get('cod') else ''}<h1>{e(p['titulo'])}</h1><p class="lead">{e(p['chamada'])}</p>{nav_det(p)}
 <div class="facts"><div class="fact"><b>{p['pessoas']}</b><span>{e(p.get('pessoasTxt') or 'pessoas')}</span></div><div class="fact"><b>{p['dias']} dias</b><span>{p['noites']} noites</span></div>{'<div class="fact"><b>Saída</b><span>Porto Alegre</span></div>' if p.get('voos') else '<div class="fact"><b>Só</b><span>hospedagem</span></div>'}</div>
 <div class="box datas"><h2>Datas</h2><p>📅 <span><b>{'Ida' if p.get('voos') else 'Check-in'}:</b> {e(p['idaTxt'])}</span></p><p>📅 <span><b>{'Retorno' if p.get('voos') else 'Check-out'}:</b> {e(p['voltaTxt'])}</span></p></div>
 <div class="box"><h2>O pacote inclui</h2><ul class="inc">{inc}</ul></div>
