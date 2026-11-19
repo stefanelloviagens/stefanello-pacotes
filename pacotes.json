@@ -6,6 +6,486 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "recife-boa-viagem-maragogi-gratis-black-november",
+   "destino": "Recife",
+   "titulo": "Recife em Boa Viagem + Maragogi GRÁTIS",
+   "chamada": "Sete noites em Boa Viagem, de frente pro mar de Recife, com Maragogi de presente e mais um passeio à tua escolha.",
+   "black": true,
+   "selo": "Maragogi GRÁTIS",
+   "foto": "4716938",
+   "img": "",
+   "inicial": true,
+   "pessoas": 2,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-03-15",
+   "volta": "2027-03-22",
+   "idaTxt": "seg, 15 de mar",
+   "voltaTxt": "seg, 22 de mar",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "El Aram Beach Boa Viagem Hotel (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "🏝️",
+     "Passeio a Maragogi GRÁTIS"
+    ],
+    [
+     "🌴",
+     "1 passeio à tua escolha no destino"
+    ]
+   ],
+   "pix": "5.060,77",
+   "parcelas": 15,
+   "parcela": "361,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-19",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzOTMxMjB8MNcNLfn-XGgYzCVNIS-eAXA",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "seg, 15 de mar",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 6h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "15/03",
+        "hora": "14:50",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "15/03",
+        "hora": "16:30",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1283",
+       "duracao": "1h40"
+      },
+      {
+       "saida": {
+        "data": "15/03",
+        "hora": "17:50",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "15/03",
+        "hora": "21:05",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "voo": "G3 1618",
+       "duracao": "3h15"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h20 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "seg, 22 de mar",
+     "cia": "GOL",
+     "resumo": "1 conexão no Rio de Janeiro (Galeão) · 6h55",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "22/03",
+        "hora": "10:50",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "chegada": {
+        "data": "22/03",
+        "hora": "13:50",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "voo": "G3 1881",
+       "duracao": "3h"
+      },
+      {
+       "saida": {
+        "data": "22/03",
+        "hora": "15:35",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "chegada": {
+        "data": "22/03",
+        "hora": "17:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 2090",
+       "duracao": "2h10"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h45 no Galeão"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "El Aram Beach Boa Viagem Hotel",
+    "regime": "Café da manhã",
+    "noites": 7,
+    "checkin": "15/03",
+    "checkout": "22/03",
+    "tarifa": "Cancelamento até 11/03/2027",
+    "endereco": "Rua dos Navegantes, 435 · Boa Viagem, Recife (PE)",
+    "descricao": "Hotel em Boa Viagem, a praia mais famosa de Recife, a uma quadra do mar e perto de restaurantes, do Shopping Recife e do aeroporto.",
+    "fotos": [
+     "https://media.omnibees.com/Images/14849/Property/1193370.jpg",
+     "https://media.omnibees.com/Images/14849/Property/816710.jpg",
+     "https://media.omnibees.com/Images/14849/Property/1093076.jpg",
+     "https://media.omnibees.com/Images/14849/Property/1093077.jpg",
+     "https://media.omnibees.com/Images/14849/Property/1193372.jpg",
+     "https://media.omnibees.com/Images/14849/Property/1193376.jpg",
+     "https://media.omnibees.com/Images/14849/Property/1193377.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2034290.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2176998.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2176999.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2177000.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2177002.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2177003.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2177004.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5207177.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5207178.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5207180.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5207181.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5207182.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217212.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217213.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217215.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217216.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217217.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217218.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217219.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217220.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217225.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard",
+     "descricao": "Quarto com 1 cama de casal e 2 de solteiro, para até 4 hóspedes, vista interna. Criança até 12 anos é cortesia no quarto dos pais.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Frigobar",
+      "Wi-Fi",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/14849/RoomTypes/5207172.jpg",
+      "https://media.omnibees.com/Images/14849/RoomTypes/5207169.jpg",
+      "https://media.omnibees.com/Images/14849/RoomTypes/5207167.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Recife e o hotel em Boa Viagem.",
+     "info": [
+      "Horário da volta informado um dia antes",
+      "O aeroporto fica a poucos minutos de Boa Viagem"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏝️",
+     "nome": "Passeio a Maragogi · GRÁTIS",
+     "quando": "Dia combinado com o receptivo",
+     "descricao": "O Caribe brasileiro, com piscinas naturais de água cristalina em Alagoas.",
+     "info": [
+      "Melhores dias pras piscinas naturais: 18 a 21 de março (maré baixa pela manhã, de 0,26 m a -0,15 m)",
+      "Catamarã, jangada e refeições pagos à parte"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🌴",
+     "nome": "1 passeio à tua escolha",
+     "quando": "Dias de cada passeio conforme o receptivo",
+     "descricao": "Escolhe no destino entre Praia dos Carneiros, City Tour Recife e Olinda, Porto de Galinhas, João Pessoa, Cabo de Santo Agostinho, Litoral Norte ou Praia de São José da Coroa Grande.",
+     "info": [
+      "Passeios em veículo compartilhado",
+      "Refeições, bebidas e opcionais (buggy, jangada, ingressos) pagos à parte"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "5.411,43",
+     "por": "5.060,77",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 360,76 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.411,43",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 2,
+        "valor": "2.705,72",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 3,
+        "valor": "1.803,81",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 4,
+        "valor": "1.352,86",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 5,
+        "valor": "1.082,29",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 6,
+        "valor": "901,91",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 7,
+        "valor": "773,06",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 8,
+        "valor": "676,43",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 9,
+        "valor": "601,27",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 10,
+        "valor": "541,14",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 11,
+        "valor": "491,95",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 12,
+        "valor": "450,95",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 13,
+        "valor": "416,26",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 14,
+        "valor": "386,53",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 15,
+        "valor": "360,76",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 901,91 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.411,43",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 2,
+        "valor": "2.705,72",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 3,
+        "valor": "1.803,81",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 4,
+        "valor": "1.352,86",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 5,
+        "valor": "1.082,29",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 6,
+        "valor": "901,91",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 7,
+        "valor": "788,52",
+        "obs": "com acréscimo",
+        "total": "5.519,66"
+       },
+       {
+        "n": 8,
+        "valor": "693,34",
+        "obs": "com acréscimo",
+        "total": "5.546,72"
+       },
+       {
+        "n": 9,
+        "valor": "619,31",
+        "obs": "com acréscimo",
+        "total": "5.573,77"
+       },
+       {
+        "n": 10,
+        "valor": "560,08",
+        "obs": "com acréscimo",
+        "total": "5.600,83"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 901,91 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.411,43",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 2,
+        "valor": "2.705,72",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 3,
+        "valor": "1.803,81",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 4,
+        "valor": "1.352,86",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 5,
+        "valor": "1.082,29",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       },
+       {
+        "n": 6,
+        "valor": "901,91",
+        "obs": "sem acréscimo",
+        "total": "5.411,43"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 125
+  },
+  {
    "slug": "punta-cana-all-inclusive-ferias-julho-black-november",
    "destino": "Punta Cana",
    "titulo": "Punta Cana com Resort All Inclusive nas férias de julho",
