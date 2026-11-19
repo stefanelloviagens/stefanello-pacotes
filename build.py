@@ -46,6 +46,7 @@ STAR = '<svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0C50 27.6 72.
 WA_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>'
 
 CSS = """
+[hidden]{display:none!important}
 .cod{font-weight:800;color:var(--ink)}.cod-pk{display:inline-block;margin-top:10px;font-size:13px;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 12px}.cod-pk b{color:var(--ink)}
 :root{--ink:#111111;--paper:#FAF7F0;--card:#FFFFFF;--muted:#5d5a54;--line:#E7E1D4;--sun:#FFD400;--wa:#1FA855;--wa-d:#178a45;--sea:#0E6E7E}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -219,7 +220,7 @@ footer a{color:#fff}
 .com{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .com li{background:#F2EDE2;border-radius:999px;padding:4px 10px;font-size:12.5px}
 .lb{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.9);display:flex;align-items:center;justify-content:center;padding:16px}
-.lb[hidden]{display:none}
+.lb[hidden]{display:none!important}
 .lb img{max-width:100%;max-height:85vh;border-radius:10px}
 .lb button{position:absolute;background:rgba(255,255,255,.15);color:#fff;border:0;width:48px;height:48px;border-radius:50%;font-size:26px;cursor:pointer}
 .lb-x{top:16px;right:16px}.lb-p{left:12px;top:50%}.lb-n{right:12px;top:50%}
