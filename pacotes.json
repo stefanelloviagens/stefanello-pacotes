@@ -6,6 +6,468 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "punta-cana-all-inclusive-ferias-julho-black-november",
+   "destino": "Punta Cana",
+   "titulo": "Punta Cana com Resort All Inclusive nas férias de julho",
+   "chamada": "Caribe nas férias de julho: mar azul-turquesa, resort com parque aquático e comida e bebida à vontade o dia inteiro.",
+   "black": true,
+   "selo": "Férias de julho",
+   "img": "img/punta-cana-all-inclusive-black-friday.jpg",
+   "pessoas": 2,
+   "dias": 9,
+   "noites": 7,
+   "ida": "2027-07-11",
+   "volta": "2027-07-19",
+   "idaTxt": "dom, 11 de jul",
+   "voltaTxt": "seg, 19 de jul",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (LATAM saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Grand Sirenis Punta Cana Resort & Aquagames, ALL INCLUSIVE (7 noites)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto GRÁTIS"
+    ],
+    [
+     "🛡️",
+     "Seguro viagem"
+    ]
+   ],
+   "pix": "20.570,29",
+   "parcelas": 15,
+   "parcela": "1.461,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-19",
+   "foto": "2646067",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "dom, 11 de jul",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 10h25",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "dom, 11 de jul",
+        "hora": "10:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "dom, 11 de jul",
+        "hora": "12:35",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Aeroporto de Guarulhos"
+       },
+       "voo": "LA 3417",
+       "duracao": "1h50"
+      },
+      {
+       "saida": {
+        "data": "dom, 11 de jul",
+        "hora": "14:00",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Aeroporto de Guarulhos"
+       },
+       "chegada": {
+        "data": "dom, 11 de jul",
+        "hora": "20:10",
+        "iata": "PUJ",
+        "cidade": "Punta Cana",
+        "aeroporto": "Aeroporto Internacional de Punta Cana"
+       },
+       "voo": "LA 8082",
+       "duracao": "7h10"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h25 em Guarulhos"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "dom, 18 de jul",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 11h45 · chega na segunda",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "dom, 18 de jul",
+        "hora": "21:15",
+        "iata": "PUJ",
+        "cidade": "Punta Cana",
+        "aeroporto": "Aeroporto Internacional de Punta Cana"
+       },
+       "chegada": {
+        "data": "seg, 19 de jul",
+        "hora": "05:05",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Aeroporto de Guarulhos"
+       },
+       "voo": "LA 8083",
+       "duracao": "6h50"
+      },
+      {
+       "saida": {
+        "data": "seg, 19 de jul",
+        "hora": "08:15",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Aeroporto de Guarulhos"
+       },
+       "chegada": {
+        "data": "seg, 19 de jul",
+        "hora": "10:00",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "LA 3416",
+       "duracao": "1h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 3h10 em Guarulhos"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Grand Sirenis Punta Cana Resort & Aquagames",
+    "regime": "All inclusive (refeições, bebidas e lanches)",
+    "noites": 7,
+    "checkin": "11/07",
+    "checkout": "18/07",
+    "endereco": "Uvero Alto, Punta Cana, República Dominicana",
+    "descricao": "Resort all inclusive de frente pro mar em Uvero Alto, uma das praias mais tranquilas de Punta Cana, com parque aquático (Aquagames). Comida, bebida e lanches à vontade durante a estadia, com Wi-Fi grátis.",
+    "fotos": [
+     "https://media.omnibees.com/Images/7619/Property/362219.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362220.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362221.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362222.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362223.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362224.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362225.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362226.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362227.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362228.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362229.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362230.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362231.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362232.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362241.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362242.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362243.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362244.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362245.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362246.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362247.jpg",
+     "https://media.omnibees.com/Images/7619/Property/362248.jpg"
+    ],
+    "quarto": {
+     "nome": "Quarto Duplo",
+     "descricao": "2 camas de casal ou 1 cama king, varanda mobiliada, ar-condicionado, TV 48\", minibar com água, refrigerante e cerveja, cafeteira, roupão e chinelos.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "Minibar",
+      "Cafeteira",
+      "TV 48\"",
+      "Cofre",
+      "Roupão e chinelos",
+      "Wi-Fi"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/7619/RoomTypes/362195.jpg",
+      "https://media.omnibees.com/Images/7619/RoomTypes/362186.jpg",
+      "https://media.omnibees.com/Images/7619/RoomTypes/362187.jpg"
+     ]
+    },
+    "tarifa": "Cancelamento até 08/07/2027"
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto → resort → aeroporto · GRÁTIS",
+     "quando": "Na chegada e na volta",
+     "descricao": "Transfer regular entre o Aeroporto Internacional de Punta Cana e o resort, na ida e na volta, cortesia da promoção.",
+     "info": [
+      "A equipe da Brasil Passeios te espera na área dos operadores turísticos",
+      "Leva 1 mala grande e 1 bolsa de mão por pessoa"
+     ]
+    },
+    {
+     "tipo": "Seguro",
+     "icone": "🛡️",
+     "nome": "Seguro viagem GTA · plano Bronze AL",
+     "quando": "Toda a viagem",
+     "descricao": "Seguro viagem internacional com assistência médica e hospitalar durante a viagem.",
+     "info": [
+      "Cobertura médica inclui gravidez, prática de esportes e doenças preexistentes",
+      "Para viajantes até 85 anos"
+     ]
+    }
+   ],
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzOTI5NTd8MOqvw5M9xY5zJUJfZIiE3ng",
+   "pagamento": {
+    "pix": {
+     "de": "21.906,18",
+     "por": "20.570,29",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.460,41 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "21.906,18",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 2,
+        "valor": "10.953,09",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 3,
+        "valor": "7.302,06",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 4,
+        "valor": "5.476,55",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 5,
+        "valor": "4.381,24",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 6,
+        "valor": "3.651,03",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 7,
+        "valor": "3.129,45",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 8,
+        "valor": "2.738,27",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 9,
+        "valor": "2.434,02",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 10,
+        "valor": "2.190,62",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 11,
+        "valor": "1.991,47",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 12,
+        "valor": "1.825,51",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 13,
+        "valor": "1.685,09",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 14,
+        "valor": "1.564,73",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 15,
+        "valor": "1.460,41",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 3.651,03 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "21.906,18",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 2,
+        "valor": "10.953,09",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 3,
+        "valor": "7.302,06",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 4,
+        "valor": "5.476,55",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 5,
+        "valor": "4.381,24",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 6,
+        "valor": "3.651,03",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 7,
+        "valor": "3.192,04",
+        "obs": "com acréscimo",
+        "total": "22.344,30"
+       },
+       {
+        "n": 8,
+        "valor": "2.806,73",
+        "obs": "com acréscimo",
+        "total": "22.453,83"
+       },
+       {
+        "n": 9,
+        "valor": "2.507,04",
+        "obs": "com acréscimo",
+        "total": "22.563,37"
+       },
+       {
+        "n": 10,
+        "valor": "2.267,29",
+        "obs": "com acréscimo",
+        "total": "22.672,90"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 3.651,03 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "21.906,18",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 2,
+        "valor": "10.953,09",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 3,
+        "valor": "7.302,06",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 4,
+        "valor": "5.476,55",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 5,
+        "valor": "4.381,24",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       },
+       {
+        "n": 6,
+        "valor": "3.651,03",
+        "obs": "sem acréscimo",
+        "total": "21.906,18"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 124,
+   "inicial": true
+  },
+  {
    "slug": "porto-seguro-trancoso-arraial-brisa-da-praia-2-adultos-1-crianca",
    "destino": "Porto Seguro",
    "titulo": "Bahia 3 em 1: Porto Seguro + Trancoso + Arraial d'Ajuda com Transfer GRÁTIS",
