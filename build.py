@@ -379,23 +379,31 @@ FILTRO_JS = r"""<script>
 
 
 def og_foto(p):
-    """Foto da cidade/destino pra prévia do link (WhatsApp, Facebook). Sempre tem uma."""
-    if p.get("img"):
-        return f"{SITE}/{p['img']}"
+    """Foto da prévia do link (WhatsApp, Facebook): nunca a arte do post.
+    All inclusive -> foto do hotel/resort; senão foto do destino. Sempre tem uma."""
+    def ok(u):
+        return u and not u.lower().split("?")[0].endswith(".webp")
+    hotel = p.get("hotel") or {}
+    fotos_hotel = [u for u in (hotel.get("fotos") or []) if ok(u)]
+    ai = "all inclusive" in (str(hotel.get("regime", "")) + " " + p.get("titulo", "")).lower()
     f = str(p.get("fotoOg") or p.get("foto", "")).strip()
+    destino = ""
     if f and not f.startswith("http"):
-        return f"https://images.pexels.com/photos/{f}/pexels-photo-{f}.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"
-    if f and not f.lower().split("?")[0].endswith(".webp"):
-        return f
-    fotos = [u for u in ((p.get("hotel") or {}).get("fotos") or []) if not u.lower().split("?")[0].endswith(".webp")]
-    return fotos[0] if fotos else ""
+        destino = f"https://images.pexels.com/photos/{f}/pexels-photo-{f}.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"
+    elif ok(f):
+        destino = f
+    ordem = ([fotos_hotel[0]] if fotos_hotel and ai else []) + [destino] + fotos_hotel[:1]
+    for u in ordem:
+        if u:
+            return u
+    return f"{SITE}/{p['img']}" if p.get("img") else ""
 
 
 def head(title, desc, url, img):
     og_img = img if str(img).startswith("http") else (f"{SITE}/{img}" if img else f"{SITE}/img/og.jpg")
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{e(url)}">
-<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{e(url)}"><meta property="og:image" content="{e(og_img)}"><meta property="og:image:secure_url" content="{e(og_img)}"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{e(title)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{e(og_img)}"><meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{e(url)}"><meta property="og:image" content="{e(og_img)}"><meta property="og:image:secure_url" content="{e(og_img)}"><meta property="og:image:type" content="image/jpeg">{'<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">' if 'pexels' in og_img else ''}<meta property="og:image:alt" content="{e(title)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{e(og_img)}"><meta property="og:locale" content="pt_BR">
 <meta name="theme-color" content="#111111"><link rel="icon" type="image/png" href="/img/icone.png"><link rel="apple-touch-icon" href="/img/icone.png">
 {FONTS}<style>{CSS}</style>"""
 
