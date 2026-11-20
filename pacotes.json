@@ -6,6 +6,497 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "porto-seguro-trancoso-arraial-vitoria-regia-7-pessoas-janeiro",
+   "destino": "Porto Seguro",
+   "titulo": "Bahia 3 em 1: Porto Seguro + Trancoso + Arraial d'Ajuda com Transfer GRÁTIS",
+   "chamada": "Sete noites em Porto Seguro pro grupo todo, em 2 quartos, com transfer de presente, city tour com praia, Trancoso e Arraial d'Ajuda.",
+   "black": true,
+   "selo": "Transfer GRÁTIS",
+   "foto": "34722367",
+   "img": "",
+   "inicial": false,
+   "pessoas": 7,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-01-19",
+   "volta": "2027-01-26",
+   "idaTxt": "ter, 19 de jan",
+   "voltaTxt": "ter, 26 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (LATAM saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Vitória Régia Hotel, 2 quartos Standard (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto GRÁTIS"
+    ],
+    [
+     "🏛️",
+     "City tour com praia em Porto Seguro"
+    ],
+    [
+     "🏖️",
+     "Passeio a Trancoso"
+    ],
+    [
+     "🌊",
+     "Passeio de praia em Arraial d'Ajuda"
+    ]
+   ],
+   "pix": "22.964,16",
+   "parcelas": 15,
+   "parcela": "1.642,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-20",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDYzOTkxNTN8MER_mgxOqHTyFGQJz5Jq31Y",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "ter, 19 de jan",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 8h35",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "19/01",
+        "hora": "08:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "19/01",
+        "hora": "10:15",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "LA 3153",
+       "duracao": "1h35"
+      },
+      {
+       "saida": {
+        "data": "19/01",
+        "hora": "15:15",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "19/01",
+        "hora": "17:15",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "voo": "LA 4704",
+       "duracao": "2h"
+      }
+     ],
+     "conexoes": [
+      "Espera de 5h em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "ter, 26 de jan",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 4h55",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "26/01",
+        "hora": "17:50",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "chegada": {
+        "data": "26/01",
+        "hora": "20:00",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "LA 4645",
+       "duracao": "2h10"
+      },
+      {
+       "saida": {
+        "data": "26/01",
+        "hora": "21:05",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "26/01",
+        "hora": "22:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "LA 3164",
+       "duracao": "1h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h05 em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Vitória Régia Hotel",
+    "regime": "Café da manhã",
+    "noites": 7,
+    "checkin": "19/01",
+    "checkout": "26/01",
+    "tarifa": "Cancelamento até 19/12/2026",
+    "endereco": "Rua das Azaléias, Quadra C, Lote 14 · Porto Seguro (BA)",
+    "descricao": "Hotel em Porto Seguro com café da manhã, Wi-Fi e quartos para até 4 pessoas. São 2 quartos: um pra 2 adultos + a criança e outro pra 4 adultos.",
+    "fotos": [
+     "https://media.omnibees.com/Images/5929/Property/5914900.jpeg",
+     "https://media.omnibees.com/Images/5929/Property/206320.jpg",
+     "https://media.omnibees.com/Images/5929/Property/209050.jpg",
+     "https://media.omnibees.com/Images/5929/Property/677522.jpg",
+     "https://media.omnibees.com/Images/5929/Property/677524.jpg",
+     "https://media.omnibees.com/Images/5929/Property/677526.jpg",
+     "https://media.omnibees.com/Images/5929/Property/677528.jpg",
+     "https://media.omnibees.com/Images/5929/Property/677529.jpg",
+     "https://media.omnibees.com/Images/5929/Property/1220250.jpg",
+     "https://media.omnibees.com/Images/5929/Property/1220253.jpg",
+     "https://media.omnibees.com/Images/5929/Property/1220254.jpg",
+     "https://media.omnibees.com/Images/5929/Property/1220255.jpg",
+     "https://media.omnibees.com/Images/5929/Property/1220256.jpg",
+     "https://media.omnibees.com/Images/5929/Property/1220257.jpg",
+     "https://media.omnibees.com/Images/5929/Property/1220258.jpg",
+     "https://media.omnibees.com/Images/5929/Property/1220259.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard (2 quartos)",
+     "descricao": "Cada quarto acomoda até 4 pessoas, com TV a cabo, ar-condicionado split, frigobar, telefone, cofre e secador de cabelo. Criança de até 11 anos é cortesia.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV a cabo",
+      "Frigobar",
+      "Cofre",
+      "Wi-Fi",
+      "Secador de cabelo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/5929/RoomTypes/1535574.jpg",
+      "https://media.omnibees.com/Images/5929/RoomTypes/1520933.jpg",
+      "https://media.omnibees.com/Images/5929/RoomTypes/1535570.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto · GRÁTIS",
+     "quando": "Na chegada e na saída",
+     "descricao": "Serviço regular do aeroporto de Porto Seguro até o hotel e de volta, de cortesia no pacote.",
+     "info": [
+      "Sai cerca de 40 min depois do pouso",
+      "Válido para hotéis em Porto Seguro"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏛️",
+     "nome": "City tour com praia em Porto Seguro",
+     "quando": "Retorno por volta das 15h",
+     "descricao": "Passeio pela Cidade Alta, berço do Brasil, com igrejas do século XVI e vista do mar.",
+     "info": [
+      "Saída do hotel",
+      "Passeio em veículo compartilhado (regular)"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏖️",
+     "nome": "Passeio a Trancoso",
+     "quando": "Saída entre 8h e 9h · retorno por volta das 15h30",
+     "descricao": "Dia em Trancoso, a 68 km, com o famoso Quadrado e praias de água clara.",
+     "info": [
+      "Saída do hotel",
+      "Passeio em veículo compartilhado (regular)"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🌊",
+     "nome": "Passeio de praia em Arraial d'Ajuda",
+     "quando": "Dia inteiro",
+     "descricao": "Visita ao charmoso vilarejo de Arraial d'Ajuda, com até 4h livres nas praias.",
+     "info": [
+      "Saída do hotel",
+      "Passeio em veículo compartilhado (regular)"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "24.629,21",
+     "por": "22.964,16",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.641,95 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "24.629,21",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 2,
+        "valor": "12.314,61",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 3,
+        "valor": "8.209,74",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 4,
+        "valor": "6.157,30",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 5,
+        "valor": "4.925,84",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 6,
+        "valor": "4.104,87",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 7,
+        "valor": "3.518,46",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 8,
+        "valor": "3.078,65",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 9,
+        "valor": "2.736,58",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 10,
+        "valor": "2.462,92",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 11,
+        "valor": "2.239,02",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 12,
+        "valor": "2.052,43",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 13,
+        "valor": "1.894,55",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 14,
+        "valor": "1.759,23",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 15,
+        "valor": "1.641,95",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 4.104,87 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "24.629,21",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 2,
+        "valor": "12.314,61",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 3,
+        "valor": "8.209,74",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 4,
+        "valor": "6.157,30",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 5,
+        "valor": "4.925,84",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 6,
+        "valor": "4.104,87",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 7,
+        "valor": "3.588,83",
+        "obs": "com acréscimo",
+        "total": "25.121,79"
+       },
+       {
+        "n": 8,
+        "valor": "3.155,62",
+        "obs": "com acréscimo",
+        "total": "25.244,94"
+       },
+       {
+        "n": 9,
+        "valor": "2.818,68",
+        "obs": "com acréscimo",
+        "total": "25.368,09"
+       },
+       {
+        "n": 10,
+        "valor": "2.549,12",
+        "obs": "com acréscimo",
+        "total": "25.491,23"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 4.104,87 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "24.629,21",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 2,
+        "valor": "12.314,61",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 3,
+        "valor": "8.209,74",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 4,
+        "valor": "6.157,30",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 5,
+        "valor": "4.925,84",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       },
+       {
+        "n": 6,
+        "valor": "4.104,87",
+        "obs": "sem acréscimo",
+        "total": "24.629,21"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🧾",
+      "nome": "Vários pagamentos",
+      "resumo": "Dividido entre as pessoas do grupo",
+      "texto": "Dá pra dividir em mais de um pagamento (por exemplo, cada família paga a sua parte, ou parte no PIX e parte no cartão, ou em mais de um cartão). Nesse caso o valor considerado é o do cartão: R$ 24.629,21 no total."
+     },
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 129,
+   "pessoasTxt": "6 adultos + 1 criança (7 anos) · 2 quartos"
+  },
+  {
    "slug": "rio-de-janeiro-windsor-plaza-copacabana-familia-3-adultos-2-criancas",
    "destino": "Rio de Janeiro",
    "titulo": "Rio de Janeiro em Copacabana com Cristo Redentor + Chá no Forte GRÁTIS",
