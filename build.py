@@ -394,7 +394,13 @@ def og_foto(p):
         destino = f"https://images.pexels.com/photos/{f}/pexels-photo-{f}.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop"
     elif ok(f):
         destino = f
-    ordem = ([fotos_hotel[0]] if fotos_hotel and ai else []) + [destino] + fotos_hotel[:1]
+    # hosts que bloqueiam servidor (WhatsApp/proxy) vão pro fim; foto do quarto conta como foto do hotel
+    bloqueados = ("apiimg.iberostar.com",)
+    quarto = [u for u in ((hotel.get("quarto") or {}).get("fotos") or []) if ok(u)]
+    boas = [u for u in fotos_hotel + quarto if not any(b in u for b in bloqueados)]
+    ordem = (boas[:4] if boas and ai else []) + [destino] + boas[:1]
+    global OG_CANDS
+    OG_CANDS = [u for u in ordem if u]
     for u in ordem:
         if u:
             return u
@@ -402,6 +408,7 @@ def og_foto(p):
 
 
 OG_MAP = {}
+OG_CANDS = []
 
 
 def head(title, desc, url, img):
@@ -413,7 +420,12 @@ def head(title, desc, url, img):
         chave = url.rstrip("/").rsplit("/", 1)[-1].split(".")[0] or "home"
         if chave.startswith("pacotes") or chave == SITE.rsplit("/", 1)[-1]:
             chave = "home"
-        OG_MAP[chave] = {"src": og_img, "resized": "https://images.weserv.nl/?url=" + quote(og_img, safe="") + "&w=1200&h=630&fit=cover&output=jpg&q=80"}
+        cands = [og_img] + [u for u in OG_CANDS if u != og_img]
+        lista = []
+        for u in cands:
+            lista.append(u if "pexels" in u else "https://images.weserv.nl/?url=" + quote(u, safe="") + "&w=1200&h=630&fit=cover&output=jpg&q=80")
+        lista += [u for u in cands if "pexels" not in u][:2]
+        OG_MAP[chave] = lista
         og_img = f"{SITE}/og/{chave}.jpg"
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{e(url)}">
