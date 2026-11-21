@@ -6,6 +6,465 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "maceio-pratagy-all-inclusive-19-a-26-fev-2-adultos-2-criancas",
+   "destino": "Maceió",
+   "titulo": "Maceió em família no Pratagy Beach Resort All Inclusive com Acqua Park GRÁTIS",
+   "chamada": "Sete noites all inclusive pé na areia na praia de Pratagy pra família de 4, com parque aquático liberado e transfer de presente.",
+   "black": true,
+   "selo": "Acqua Park GRÁTIS",
+   "foto": "https://media.omnibees.com/Images/3958/Property/1136852.jpg",
+   "img": "",
+   "pessoas": 4,
+   "pessoasTxt": "2 adultos + 2 crianças (13 e 9 anos)",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-02-19",
+   "volta": "2027-02-26",
+   "idaTxt": "sex, 19 de fev",
+   "voltaTxt": "sex, 26 de fev",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Pratagy Beach Resort, Suíte Família Superior (ALL INCLUSIVE)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / resort / aeroporto GRÁTIS"
+    ],
+    [
+     "🌊",
+     "Ingressos pro Pratagy Acqua Park GRÁTIS"
+    ]
+   ],
+   "pix": "16.045,49",
+   "parcelas": 15,
+   "parcela": "1.147,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-21",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MDI5NjJ8MDLrlsh1ShZRAjtLAYt4gYY",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sex, 19 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão em Brasília · 6h10",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "19/02",
+        "hora": "17:30",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "19/02",
+        "hora": "20:00",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "voo": "G3 1795",
+       "duracao": "2h30"
+      },
+      {
+       "saida": {
+        "data": "19/02",
+        "hora": "21:15",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "chegada": {
+        "data": "19/02",
+        "hora": "23:40",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto Zumbi dos Palmares"
+       },
+       "voo": "G3 1708",
+       "duracao": "2h25"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h15 em Brasília"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sex, 26 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão em Brasília · 6h40",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "26/02",
+        "hora": "17:00",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto Zumbi dos Palmares"
+       },
+       "chegada": {
+        "data": "26/02",
+        "hora": "19:30",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "voo": "G3 1707",
+       "duracao": "2h30"
+      },
+      {
+       "saida": {
+        "data": "26/02",
+        "hora": "20:50",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "chegada": {
+        "data": "26/02",
+        "hora": "23:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1796",
+       "duracao": "2h50"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h20 em Brasília"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Pratagy Beach Resort All Inclusive",
+    "regime": "All inclusive",
+    "noites": 7,
+    "checkin": "19/02 (15h)",
+    "checkout": "26/02 (12h)",
+    "tarifa": "Não reembolsável",
+    "destaque": "Família de 4 no mesmo quarto · Acqua Park liberado",
+    "endereco": "Rodovia AL-101 Norte, km 10 · Praia de Pratagy, Maceió (AL)",
+    "descricao": "Primeiro all inclusive do Brasil, pé na areia na praia de Pratagy, no litoral norte de Maceió. Comida e bebida à vontade, piscinas, parque aquático, recreação infantil, shows à noite e restaurantes temáticos.",
+    "fotos": [
+     "https://media.omnibees.com/Images/3958/Property/1136851.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136843.png",
+     "https://media.omnibees.com/Images/3958/Property/1136844.png",
+     "https://media.omnibees.com/Images/3958/Property/1136853.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136868.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136852.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136880.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136850.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136869.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136870.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136871.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136881.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136876.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136877.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136878.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1991131.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1991132.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1991134.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1991135.jpg"
+    ],
+    "quarto": {
+     "nome": "Suíte Família Superior",
+     "descricao": "Apartamento com decoração moderna e varanda, perto do rio e da praia, pra famílias de até 4 pessoas. Ar-condicionado, TV, frigobar, cofre e secador.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "TV",
+      "Frigobar",
+      "Cofre",
+      "Wi-Fi",
+      "Secador de cabelo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/3958/RoomTypes/5321574.jpg",
+      "https://media.omnibees.com/Images/3958/RoomTypes/5321572.jpg",
+      "https://media.omnibees.com/Images/3958/RoomTypes/5321573.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / resort / aeroporto · GRÁTIS",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Maceió e o resort, de cortesia no pacote.",
+     "info": [
+      "O horário da volta é informado no dia anterior",
+      "O resort fica na praia de Pratagy, cerca de 30 km do aeroporto"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🌊",
+     "nome": "Pratagy Acqua Park · GRÁTIS",
+     "quando": "Durante a estadia",
+     "descricao": "Ingressos de cortesia pro parque aquático do Pratagy, com piscinas, toboáguas e área kids, colado no resort.",
+     "info": [
+      "Cortesia pra hospedagens a partir de 2 noites"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "17.192,99",
+     "por": "16.045,49",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.146,20 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.192,99",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 2,
+        "valor": "8.596,50",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 3,
+        "valor": "5.731,00",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 4,
+        "valor": "4.298,25",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 5,
+        "valor": "3.438,60",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 6,
+        "valor": "2.865,50",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 7,
+        "valor": "2.456,14",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 8,
+        "valor": "2.149,12",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 9,
+        "valor": "1.910,33",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 10,
+        "valor": "1.719,30",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 11,
+        "valor": "1.563,00",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 12,
+        "valor": "1.432,75",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 13,
+        "valor": "1.322,54",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 14,
+        "valor": "1.228,07",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 15,
+        "valor": "1.146,20",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.865,50 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.192,99",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 2,
+        "valor": "8.596,50",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 3,
+        "valor": "5.731,00",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 4,
+        "valor": "4.298,25",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 5,
+        "valor": "3.438,60",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 6,
+        "valor": "2.865,50",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 7,
+        "valor": "2.505,26",
+        "obs": "com acréscimo",
+        "total": "17.536,85"
+       },
+       {
+        "n": 8,
+        "valor": "2.202,85",
+        "obs": "com acréscimo",
+        "total": "17.622,81"
+       },
+       {
+        "n": 9,
+        "valor": "1.967,64",
+        "obs": "com acréscimo",
+        "total": "17.708,78"
+       },
+       {
+        "n": 10,
+        "valor": "1.779,47",
+        "obs": "com acréscimo",
+        "total": "17.794,74"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.865,50 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.192,99",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 2,
+        "valor": "8.596,50",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 3,
+        "valor": "5.731,00",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 4,
+        "valor": "4.298,25",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 5,
+        "valor": "3.438,60",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       },
+       {
+        "n": 6,
+        "valor": "2.865,50",
+        "obs": "sem acréscimo",
+        "total": "17.192,99"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 134,
+   "inicial": false
+  },
+  {
    "slug": "maceio-pratagy-all-inclusive-2-adultos-2-criancas-13-9-anos",
    "destino": "Maceió",
    "titulo": "Maceió em família no Pratagy Beach Resort All Inclusive com Acqua Park GRÁTIS",
