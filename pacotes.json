@@ -6,6 +6,468 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "porto-seguro-arcobaleno-all-inclusive-12-a-19-fev-2-adultos-2-criancas",
+   "destino": "Porto Seguro",
+   "titulo": "Porto Seguro em família no Resort Arcobaleno All Inclusive com Transfer GRÁTIS",
+   "chamada": "Sete noites all inclusive pé na areia na Praia de Taperapuã pra família de 4, com as 2 crianças grátis no resort e transfer de presente.",
+   "black": true,
+   "selo": "2 crianças GRÁTIS no resort",
+   "foto": "34722367",
+   "img": "",
+   "pessoas": 4,
+   "pessoasTxt": "2 adultos + 2 crianças (13 e 9 anos)",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-02-12",
+   "volta": "2027-02-19",
+   "idaTxt": "sex, 12 de fev",
+   "voltaTxt": "sex, 19 de fev",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (LATAM saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Resort Villaggio Arcobaleno, apto Standard (ALL INCLUSIVE PREMIUM)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / resort / aeroporto GRÁTIS"
+    ],
+    [
+     "👧",
+     "2 crianças (13 e 9 anos) GRÁTIS na hospedagem"
+    ]
+   ],
+   "pix": "14.421,19",
+   "parcelas": 15,
+   "parcela": "1.032,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-21",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MDMxNDh8MJbYdxXO8IG59koDGZrLKww",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sex, 12 de fev",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 7h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "12/02",
+        "hora": "10:00",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "12/02",
+        "hora": "11:35",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "LA 3155",
+       "duracao": "1h35"
+      },
+      {
+       "saida": {
+        "data": "12/02",
+        "hora": "15:15",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "12/02",
+        "hora": "17:15",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "voo": "LA 4704",
+       "duracao": "2h"
+      }
+     ],
+     "conexoes": [
+      "Espera de 3h40 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sex, 19 de fev",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 8h40",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "19/02",
+        "hora": "11:05",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "chegada": {
+        "data": "19/02",
+        "hora": "13:20",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "LA 3431",
+       "duracao": "2h15"
+      },
+      {
+       "saida": {
+        "data": "19/02",
+        "hora": "18:05",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "19/02",
+        "hora": "19:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "LA 3160",
+       "duracao": "1h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 4h45 em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Resort Villaggio Arcobaleno",
+    "regime": "All inclusive premium",
+    "noites": 7,
+    "checkin": "12/02 (15h)",
+    "checkout": "19/02 (12h)",
+    "tarifa": "Cancelamento até 28/01/2027",
+    "destaque": "2 crianças grátis no quarto · pé na areia",
+    "endereco": "Av. Beira Mar · Praia de Taperapuã, Porto Seguro (BA)",
+    "descricao": "Resort pé na areia na Praia de Taperapuã, a 6 km do aeroporto e do centro de Porto Seguro. Tem 3 piscinas (infantil, adulto e esportes), hidromassagem, saunas, sala de massagem, salão de jogos, academia, playground, miniclube, 2 restaurantes, 2 bares e quadra de tênis.",
+    "fotos": [
+     "https://media.omnibees.com/Images/1900/Property/1213499.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213491.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213492.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213493.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213494.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213495.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213496.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213497.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213498.jpg",
+     "https://media.omnibees.com/Images/1900/Property/174525.jpg",
+     "https://media.omnibees.com/Images/1900/Property/174526.jpg",
+     "https://media.omnibees.com/Images/1900/Property/174527.jpg",
+     "https://media.omnibees.com/Images/1900/Property/174530.jpg",
+     "https://media.omnibees.com/Images/1900/Property/174534.jpg",
+     "https://media.omnibees.com/Images/1900/Property/555538.jpg",
+     "https://media.omnibees.com/Images/1900/Property/555539.jpg",
+     "https://media.omnibees.com/Images/1900/Property/555540.jpg",
+     "https://media.omnibees.com/Images/1900/Property/555542.jpg",
+     "https://media.omnibees.com/Images/1900/Property/555543.jpg",
+     "https://media.omnibees.com/Images/1900/Property/719077.jpeg",
+     "https://media.omnibees.com/Images/1900/Property/719100.jpg",
+     "https://media.omnibees.com/Images/1900/Property/719151.jpeg",
+     "https://media.omnibees.com/Images/1900/Property/719152.jpeg",
+     "https://media.omnibees.com/Images/1900/Property/719153.jpeg",
+     "https://media.omnibees.com/Images/1900/Property/719154.jpeg",
+     "https://media.omnibees.com/Images/1900/Property/719155.jpeg",
+     "https://media.omnibees.com/Images/1900/Property/719156.jpeg",
+     "https://media.omnibees.com/Images/1900/Property/719157.jpeg",
+     "https://media.omnibees.com/Images/1900/Property/719158.jpeg",
+     "https://media.omnibees.com/Images/1900/Property/719159.jpeg",
+     "https://media.omnibees.com/Images/1900/Property/719275.jpeg"
+    ],
+    "quarto": {
+     "nome": "Standard – All Inclusive Premium",
+     "descricao": "Apto de 35 m² com varanda (vista lateral ou jardim), com 1 cama de casal + 1 de solteiro ou 2 de casal. Acomoda 2 adultos e 2 crianças free.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "Frigobar",
+      "Cofre",
+      "TV a cabo",
+      "Wi-Fi",
+      "Secador de cabelo",
+      "Telefone"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/1900/RoomTypes/268335.jpg",
+      "https://media.omnibees.com/Images/1900/RoomTypes/268333.jpg",
+      "https://media.omnibees.com/Images/1900/RoomTypes/268334.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto · GRÁTIS",
+     "quando": "Na chegada e na saída",
+     "descricao": "Serviço regular do aeroporto de Porto Seguro até o hotel e de volta, de cortesia no pacote.",
+     "info": [
+      "Sai cerca de 40 min depois do pouso",
+      "Válido para hotéis em Porto Seguro"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "15.470,28",
+     "por": "14.421,19",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.031,35 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "15.470,28",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 2,
+        "valor": "7.735,14",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 3,
+        "valor": "5.156,76",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 4,
+        "valor": "3.867,57",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 5,
+        "valor": "3.094,06",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 6,
+        "valor": "2.578,38",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 7,
+        "valor": "2.210,04",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 8,
+        "valor": "1.933,79",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 9,
+        "valor": "1.718,92",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 10,
+        "valor": "1.547,03",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 11,
+        "valor": "1.406,39",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 12,
+        "valor": "1.289,19",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 13,
+        "valor": "1.190,02",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 14,
+        "valor": "1.105,02",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 15,
+        "valor": "1.031,35",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.578,38 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "15.470,28",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 2,
+        "valor": "7.735,14",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 3,
+        "valor": "5.156,76",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 4,
+        "valor": "3.867,57",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 5,
+        "valor": "3.094,06",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 6,
+        "valor": "2.578,38",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 7,
+        "valor": "2.254,24",
+        "obs": "com acréscimo",
+        "total": "15.779,69"
+       },
+       {
+        "n": 8,
+        "valor": "1.982,13",
+        "obs": "com acréscimo",
+        "total": "15.857,04"
+       },
+       {
+        "n": 9,
+        "valor": "1.770,49",
+        "obs": "com acréscimo",
+        "total": "15.934,39"
+       },
+       {
+        "n": 10,
+        "valor": "1.601,17",
+        "obs": "com acréscimo",
+        "total": "16.011,74"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.578,38 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "15.470,28",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 2,
+        "valor": "7.735,14",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 3,
+        "valor": "5.156,76",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 4,
+        "valor": "3.867,57",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 5,
+        "valor": "3.094,06",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       },
+       {
+        "n": 6,
+        "valor": "2.578,38",
+        "obs": "sem acréscimo",
+        "total": "15.470,28"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 136,
+   "inicial": false
+  },
+  {
    "slug": "praia-do-forte-iberostar-all-inclusive-carnaval-6-a-13-fev",
    "destino": "Praia do Forte",
    "titulo": "Carnaval na Praia do Forte all inclusive no Iberostar Waves Bahia com Transfer GRÁTIS",
