@@ -1,1 +1,1 @@
-{ "cleanUrls": true, "trailingSlash": false }
+{ "cleanUrls": true, "trailingSlash": false, "rewrites": [ { "source": "/og/:s.jpg", "destination": "/api/og?s=:s" } ] }

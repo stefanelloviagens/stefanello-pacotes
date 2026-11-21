@@ -401,15 +401,23 @@ def og_foto(p):
     return f"{SITE}/{p['img']}" if p.get("img") else ""
 
 
+OG_MAP = {}
+
+
 def head(title, desc, url, img):
     og_img = img if str(img).startswith("http") else (f"{SITE}/{img}" if img else f"{SITE}/img/og.jpg")
     if og_img.startswith("http") and "pexels" not in og_img and not og_img.startswith(SITE):
         # fotos de hotel (omnibees etc.) são pesadas demais pro WhatsApp: reduz pra 1200x630 jpg leve
+        # servida pelo próprio domínio (/og/<slug>.jpg -> api/og.js), já reduzida pra 1200x630
         from urllib.parse import quote
-        og_img = "https://images.weserv.nl/?url=" + quote(og_img, safe="") + "&w=1200&h=630&fit=cover&output=jpg&q=80"
+        chave = url.rstrip("/").rsplit("/", 1)[-1].split(".")[0] or "home"
+        if chave.startswith("pacotes") or chave == SITE.rsplit("/", 1)[-1]:
+            chave = "home"
+        OG_MAP[chave] = {"src": og_img, "resized": "https://images.weserv.nl/?url=" + quote(og_img, safe="") + "&w=1200&h=630&fit=cover&output=jpg&q=80"}
+        og_img = f"{SITE}/og/{chave}.jpg"
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{e(url)}">
-<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{e(url)}"><meta property="og:image" content="{e(og_img)}"><meta property="og:image:secure_url" content="{e(og_img)}"><meta property="og:image:type" content="image/jpeg">{'<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">' if ('pexels' in og_img or 'weserv' in og_img) else ''}<meta property="og:image:alt" content="{e(title)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{e(og_img)}"><meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{e(url)}"><meta property="og:image" content="{e(og_img)}"><meta property="og:image:secure_url" content="{e(og_img)}"><meta property="og:image:type" content="image/jpeg">{'<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">' if ('pexels' in og_img or '/og/' in og_img) else ''}<meta property="og:image:alt" content="{e(title)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{e(og_img)}"><meta property="og:locale" content="pt_BR">
 <meta name="theme-color" content="#111111"><link rel="icon" type="image/png" href="/img/icone.png"><link rel="apple-touch-icon" href="/img/icone.png">
 {FONTS}<style>{CSS}</style>"""
 
@@ -740,5 +748,6 @@ for f in ROOT.glob("*.html"):
 (ROOT / "index.html").write_text(index(), encoding="utf-8")
 for p in ativos:
     (ROOT / f"{p['slug']}.html").write_text(pagina(p), encoding="utf-8")
+(ROOT / "api" / "og-map.json").write_text(json.dumps(OG_MAP, ensure_ascii=False, indent=0), encoding="utf-8")
 print("ativos:", [p["slug"] for p in ativos])
 print("so por link:", [p["slug"] for p in ativos if not p.get("inicial", True)])
