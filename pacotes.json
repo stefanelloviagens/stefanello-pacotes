@@ -32,7 +32,7 @@
    "ano": "2027",
    "pix": "2.500,00",
    "parcelas": 4,
-   "parcela": "625,00",
+   "parcela": "675,00",
    "outrasDatas": "",
    "publicado": "2026-11-21",
    "orcamento": "",
@@ -348,14 +348,14 @@
    "pagamento": {
     "opcoes": [
      {
-      "rotulo": "PIX em 2 vezes",
-      "valor": "R$ 2.500,00 por pessoa",
-      "obs": "50% agora (R$ 1.250,00) e 50% na semana da viagem (R$ 1.250,00)"
+      "rotulo": "À vista",
+      "valor": "1x de R$ 2.500,00",
+      "obs": "por pessoa, pagamento até 10/12"
      },
      {
-      "rotulo": "PIX parcelado",
-      "valor": "4x de R$ 625,00",
-      "obs": "por pessoa, no PIX"
+      "rotulo": "Parcelado",
+      "valor": "4x de R$ 675,00",
+      "obs": "por pessoa (total R$ 2.700,00), pagamento todo dia 10: 10/12, 10/01, 10/02 e 10/03"
      }
     ],
     "info": [
