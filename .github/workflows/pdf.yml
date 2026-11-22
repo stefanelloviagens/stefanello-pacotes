@@ -1,0 +1,24 @@
+name: Gerar PDF dos pacotes
+on:
+  push:
+    paths: ["pdf/pedido.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm i playwright@1.47.2 && npx playwright install --with-deps chromium
+      - name: Esperar deploy da Vercel
+        run: sleep 90
+      - run: node pdf/gerar.js
+      - run: |
+          git config user.name "pdf-bot"
+          git config user.email "pdf-bot@users.noreply.github.com"
+          git add pdf/*.pdf
+          git commit -m "PDF gerado [skip ci]" || echo "nada novo"
+          git push
