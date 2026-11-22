@@ -13,7 +13,7 @@
    "black": false,
    "destino": "Aparecida (SP)",
    "titulo": "Aparecida: roteiro de fé com Visitas Monitoradas no Santuário Nacional",
-   "chamada": "Três dias em Aparecida com Jornada Bíblica Noturna, Trem do Devoto até o Porto Itaguaçu, Bondinho Aéreo e o circuito completo do Santuário, com voo direto de Porto Alegre pra Campinas.",
+   "chamada": "Três dias em Aparecida com Jornada Bíblica Noturna, Trem do Devoto até o Porto Itaguaçu, Bondinho Aéreo e o circuito completo do Santuário, com refeições no hotel e voo direto de Porto Alegre pra Campinas.",
    "etiqueta": "ROTEIRO PERSONALIZADO",
    "selo": "Visitas monitoradas",
    "capa": "img/aparecida/santuario-entrada.jpg",
@@ -46,6 +46,10 @@
      "2 noites no Hotel Rainha dos Apóstolos"
     ],
     [
+     "🍽️",
+     "Todas as refeições no próprio hotel (café da manhã, almoços e jantares)"
+    ],
+    [
      "🚐",
      "Transfers Campinas ⇄ Aparecida e hotel ⇄ Santuário"
     ],
@@ -66,7 +70,7 @@
      "Circuito de Visitação completo: Mirante, Museu, Fachadas e Cúpula Central"
     ]
    ],
-   "naoInclui": "Refeições (almoços e jantares) ficam à definir e não estão no valor.",
+   "naoInclui": "",
    "videos": [
     {
      "src": "video/aparecida-roteiro.mp4",
@@ -96,8 +100,8 @@
       ],
       [
        "12h00",
-       "Almoço",
-       "Refeição à definir"
+       "Almoço no Hotel Rainha dos Apóstolos",
+       "Incluso"
       ],
       [
        "13h30",
@@ -122,8 +126,8 @@
       ],
       [
        "20h00",
-       "Jantar",
-       "Refeição à definir"
+       "Jantar no Hotel Rainha dos Apóstolos",
+       "Incluso"
       ]
      ]
     },
@@ -147,8 +151,8 @@
       ],
       [
        "12h00",
-       "Almoço",
-       "Refeição à definir"
+       "Almoço no Hotel Rainha dos Apóstolos",
+       "Incluso"
       ],
       [
        "14h30",
@@ -168,8 +172,8 @@
       ],
       [
        "19h00",
-       "Jantar",
-       "Refeição à definir"
+       "Jantar no Hotel Rainha dos Apóstolos",
+       "Incluso"
       ]
      ]
     },
@@ -190,8 +194,8 @@
       ],
       [
        "12h30",
-       "Almoço",
-       "Refeição à definir"
+       "Almoço no Hotel Rainha dos Apóstolos",
+       "Incluso"
       ],
       [
        "14h00",
@@ -356,7 +360,7 @@
     ],
     "info": [
      "Valores por pessoa.",
-     "Refeições não inclusas (à definir)."
+     "Refeições inclusas, todas no próprio hotel."
     ]
    }
   },
