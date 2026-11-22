@@ -72,11 +72,12 @@ CSS = """
 .pay .op{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:16px;margin-bottom:12px}.pay .op .v{font-family:Archivo,sans-serif;font-size:30px;color:var(--sun)}.pay .op small{display:block;opacity:.85}.pay .ou{text-align:center;font-weight:800;opacity:.7;margin:4px 0 12px}
 .pay ul{margin:12px 0 0 18px;opacity:.9;font-size:14.5px;display:grid;gap:4px}
 .nao{color:var(--muted);font-size:14px;margin-top:10px}
+.po{display:none;text-align:center;font-weight:700;margin-top:14px}
 @media print{*{-webkit-print-color-adjust:exact;print-color-adjust:exact}body{background:#fff}.top,.sticky,#videos,.ctas,.back,.lb{display:none!important}
 .rt-grid{grid-template-columns:1.1fr .9fr!important}.atr{grid-template-columns:repeat(3,1fr)!important}.voos{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .gal{display:grid!important;grid-template-columns:repeat(4,1fr);gap:8px;overflow:visible!important;margin:0!important;padding:8px 0!important}.ft{width:auto!important}
 .dia,.at,.voo,.box,.pay,.hot,.det h2{break-inside:avoid}.det h2{break-after:avoid}.dia-h{break-after:avoid}
-.rt-hero{min-height:300px!important}.rt-hero h1{font-size:30px}.dia-img{height:190px!important}.at img{height:150px!important}.facts{margin:0 0 12px}footer{break-inside:avoid}}
+footer{display:none!important}.po{display:block!important}.rt-hero{min-height:300px!important}.rt-hero h1{font-size:30px}.dia-img{height:190px!important}.at img{height:150px!important}.facts{margin:0 0 12px}footer{break-inside:avoid}}
 .cod{font-weight:800;color:var(--ink)}.cod-pk{display:inline-block;margin-top:10px;font-size:13px;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 12px}.cod-pk b{color:var(--ink)}
 :root{--ink:#111111;--paper:#FAF7F0;--card:#FFFFFF;--muted:#5d5a54;--line:#E7E1D4;--sun:#FFD400;--wa:#1FA855;--wa-d:#178a45;--sea:#0E6E7E}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -805,7 +806,8 @@ def pagina_roteiro(p):
 <section class="det" id="info"><div class="box"><h2>ℹ️ Informações importantes das visitas</h2><ul class="pg-info">{''.join(f"<li>{e(x)}</li>" for x in p.get('infoVisitas', []))}</ul></div></section>
 <section class="det" id="pagamento"><div class="pay"><h2>💳 Investimento</h2>{''.join(ops)}<ul>{info}</ul></div>
 <div class="ctas" style="margin-top:16px"><a class="btn btn-wa" data-wa="{e(p['slug'])}-fim" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero reservar</a></div>
-<p class="aviso">*Valores sujeitos a disponibilidade e alteração a qualquer momento. O valor só fica garantido na reserva.</p></section>
+<p class="aviso">*Valores sujeitos a disponibilidade e alteração a qualquer momento. O valor só fica garantido na reserva.</p>
+<p class="po">Stefanello Viagens · 📲 WhatsApp bit.ly/stefanelloviagenswhats · 📸 instagram.com/stefanelloviagens<br><span style="font-weight:400">Roteiro completo: {e(url)}</span></p></section>
 </main>{rodape()}{JS}{LB_JS}</body></html>"""
     robots = '<meta name="robots" content="noindex">' if not p.get("inicial", True) else ""
     return head(f"{p['titulo']} | Stefanello Viagens", desc, url, p.get("fotoOg", "")) + robots + pixel(vc) + "</head>" + body
