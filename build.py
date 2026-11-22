@@ -48,6 +48,30 @@ WA_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 
 CSS = """
 .opc{display:block;margin:14px 0 4px;background:#fff8d6;border:2px solid #ffd400;border-radius:16px;padding:12px 14px}.opc span{display:block;font-weight:800;font-size:14px;margin-bottom:8px}.opc select{width:100%;font:inherit;font-weight:700;font-size:15px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:#fff}
 [hidden]{display:none!important}
+
+/* roteiro (tipo "roteiro") */
+.rt-hero{position:relative;border-radius:22px;overflow:hidden;margin:16px 0 22px;min-height:min(62vh,520px);display:flex;align-items:flex-end;background:#222 center/cover no-repeat}
+.rt-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.78))}
+.rt-hero .in{position:relative;z-index:1;color:#fff;padding:22px}
+.rt-hero h1{font-size:clamp(28px,5vw,46px);margin:10px 0 8px}.rt-hero p{max-width:640px;opacity:.95}
+.rt-hero .chip{background:rgba(255,255,255,.92);color:var(--ink)}
+.rt-grid{display:grid;gap:16px}@media(min-width:900px){.rt-grid{grid-template-columns:1.1fr .9fr;align-items:start}}
+.vids{display:grid;gap:14px}@media(min-width:760px){.vids{grid-template-columns:1fr 1fr}}
+.vid{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden}.vid video{width:100%;display:block;background:#000;aspect-ratio:16/9}.vid p{padding:12px 14px;font-weight:600;font-size:14.5px}
+.dias{display:grid;gap:16px}
+.dia{background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.dia-h{display:flex;gap:14px;align-items:center;padding:16px 18px;background:var(--ink);color:#fff}
+.dia-n{background:var(--sun);color:var(--ink);font-family:Archivo,sans-serif;font-weight:800;border-radius:14px;padding:8px 12px;text-align:center;line-height:1}.dia-n small{display:block;font:700 11px Inter,sans-serif;letter-spacing:.06em}
+.dia-h h3{font-size:19px}.dia-h span{display:block;font-size:13.5px;opacity:.85}
+.dia-img{width:100%;height:clamp(170px,28vw,300px)!important;object-fit:cover}
+.tl{list-style:none;padding:8px 18px 16px}.tl li{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:10px 0;border-bottom:1px dashed var(--line)}.tl li:last-child{border-bottom:0}
+.tl b{font-family:Archivo,sans-serif;font-size:15px}.tl .tg{display:inline-block;font-size:11.5px;font-weight:700;background:#E8F4F1;color:var(--sea);border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:1px}.tl .tg.ref{background:#F2EDE2;color:var(--muted)}
+.atr{display:grid;gap:14px}@media(min-width:760px){.atr{grid-template-columns:repeat(3,1fr)}}
+.at{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}.at img{width:100%;height:220px!important;object-fit:cover}.at div{padding:14px 16px;display:grid;gap:6px}.at h3{font-size:17px}.at p{font-size:14.5px;color:var(--muted)}.at a{font-weight:700;font-size:14px;color:var(--sea)}
+.pay{background:var(--ink);color:#fff;border-radius:22px;padding:24px}.pay h2{margin-bottom:14px}
+.pay .op{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:16px;margin-bottom:12px}.pay .op .v{font-family:Archivo,sans-serif;font-size:30px;color:var(--sun)}.pay .op small{display:block;opacity:.85}.pay .ou{text-align:center;font-weight:800;opacity:.7;margin:4px 0 12px}
+.pay ul{margin:12px 0 0 18px;opacity:.9;font-size:14.5px;display:grid;gap:4px}
+.nao{color:var(--muted);font-size:14px;margin-top:10px}
 .cod{font-weight:800;color:var(--ink)}.cod-pk{display:inline-block;margin-top:10px;font-size:13px;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 12px}.cod-pk b{color:var(--ink)}
 :root{--ink:#111111;--paper:#FAF7F0;--card:#FFFFFF;--muted:#5d5a54;--line:#E7E1D4;--sun:#FFD400;--wa:#1FA855;--wa-d:#178a45;--sea:#0E6E7E}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -726,7 +750,65 @@ def seletor_opcoes(p):
     return f'<label class="opc"><span>📋 Este orçamento tem {len(sib)} opções. Escolhe qual ver:</span><select onchange="location.href=this.value" aria-label="Opções do orçamento">{opts}</select></label>'
 
 
+def pagina_roteiro(p):
+    """Página de roteiro personalizado (dia a dia, vídeos, atrações) com pagamento só no fim."""
+    url = f"{SITE}/{p['slug']}"
+    msg = msg_pacote(p)
+    inc = "".join(f"<li><span>{i}</span><span>{e(t)}</span></li>" for i, t in p["inclui"])
+    vids = "".join(f'<div class="vid"><video controls playsinline preload="none" poster="/{e(v["poster"])}"><source src="/{e(v["src"])}" type="video/mp4"></video><p>🎬 {e(v["titulo"])}</p></div>' for v in p.get("videos", []))
+    def tag(g):
+        cls = "tg ref" if g.startswith("Refei") else "tg"
+        return f' <span class="{cls}">{e(g)}</span>'
+    def item(it):
+        hora, txt, tags = it[0], it[1], it[2:]
+        return f"<li><b>{e(hora)}</b><span>{e(txt)}{''.join(tag(g) for g in tags)}</span></li>"
+    dias = []
+    for d in p["roteiro"]:
+        itens = "".join(item(it) for it in d["itens"])
+        img = f'<img class="dia-img" src="/{e(d["foto"])}" alt="{e(d["titulo"])}" loading="lazy">' if d.get("foto") else ""
+        dias.append(f'<article class="dia"><div class="dia-h"><div class="dia-n"><small>DIA</small>{d["n"]}</div><div><h3>{e(d["titulo"])}</h3><span>{e(d["data"])}</span></div></div>{img}<ul class="tl">{itens}</ul></article>')
+    FALLBACK = "this.onerror=null;this.src='/img/aparecida/santuario-entrada.jpg'"
+    def card_at(a):
+        link = f'<a href="{e(a["link"])}" target="_blank" rel="noopener">Saiba mais →</a>' if a.get("link") else ""
+        return f'<article class="at"><img src="{e(a["foto"])}" alt="{e(a["nome"])}" loading="lazy" onerror="{FALLBACK}"><div><h3>📍 {e(a["nome"])}</h3><p>{e(a["texto"])}</p>{link}</div></article>'
+    atr = "".join(card_at(a) for a in p.get("atracoes", []))
+    h = p["hotel"]
+    pg = p["pagamento"]
+    ops = []
+    for i, o in enumerate(pg["opcoes"]):
+        if i: ops.append('<div class="ou">OU</div>')
+        ops.append(f'<div class="op"><span class="tag-voo">{e(o["rotulo"])}</span><div class="v">{e(o["valor"])}</div><small>{e(o["obs"])}</small></div>')
+    info = "".join(f"<li>{e(x)}</li>" for x in pg.get("info", []))
+    desc = f"{p['titulo']}: {p['dias']} dias / {p['noites']} noites, {p['idaTxt']} a {p['voltaTxt']}, saindo de Porto Alegre."
+    vc = f"fbq('track','ViewContent',{{content_name:{json.dumps(p['titulo'])},content_ids:[{json.dumps(p['slug'])}],content_type:'product'}});"
+    body = f"""<body>{topo()}
+<main class="wrap"><a class="back" href="/">← Todos os pacotes</a>
+<section class="rt-hero" style="background-image:url('/{e(p['capa'])}')"><div class="in"><span class="chip">{e(p.get('etiqueta','ROTEIRO PERSONALIZADO'))}</span>{f'<span class="selo">{e(p["selo"])}</span>' if p.get('selo') else ''}
+<h1>{e(p['titulo'])}</h1><p>{e(p['chamada'])}</p>{f'<span class="cod-pk">Código do pacote <b>{cod_txt(p)}</b></span>' if p.get('cod') else ''}</div></section>
+<div class="rt-grid"><div>
+<div class="facts"><div class="fact"><b>{p['dias']} dias</b><span>{p['noites']} noites</span></div><div class="fact"><b>{e(p['datasCurto'])}</b><span>{e(p['ano'])}</span></div><div class="fact"><b>Saída</b><span>Porto Alegre</span></div></div>
+<div class="box"><h2>O roteiro inclui</h2><ul class="inc">{inc}</ul><p class="nao">{e(p.get('naoInclui',''))}</p></div></div>
+<div><div class="box datas"><h2>Datas</h2><p>📅 <span><b>Ida:</b> {e(p['idaTxt'])}</span></p><p>📅 <span><b>Retorno:</b> {e(p['voltaTxt'])}</span></p></div>
+<div class="ctas"><a class="btn btn-wa" data-wa="{e(p['slug'])}" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero esse roteiro</a></div></div></div>
+{f'<section class="det" id="videos"><h2>🎬 Veja como é</h2><div class="vids">{vids}</div></section>' if vids else ''}
+<section class="det" id="roteiro"><h2>🗓️ Roteiro dia a dia</h2><div class="dias">{''.join(dias)}</div><p class="aviso">Horários de referência; podem ser ajustados conforme o agendamento das visitas.</p></section>
+<section class="det" id="atracoes"><h2>⛪ Os passeios do roteiro</h2><div class="atr">{atr}</div></section>
+<section class="det" id="galeria"><h2>📸 Visitas monitoradas no Santuário</h2><p>{e(p.get('galeriaTxt',''))}</p>{galeria(p.get('galeria', []), 'Visita monitorada no Santuário Nacional', 'gv')}</section>
+<section class="det" id="voos"><h2>✈️ Voos</h2><div class="voos">{''.join(bloco_voo(v) for v in p['voos'])}</div><p class="aviso">Horários da cotação atual. A companhia pode alterar até o embarque; a gente te avisa qualquer mudança.</p></section>
+<section class="det" id="hotel"><h2>🏨 Hospedagem</h2><div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}</p>
+<div class="hfacts"><span><b>{h['noites']}</b> noites</span><span>Check-in {e(h['checkin'])}</span><span>Check-out {e(h['checkout'])}</span></div><p>{e(h.get('descricao',''))}</p></div></div>{galeria(h.get('fotos', []), h['nome'], 'gh')}</section>
+<section class="det" id="info"><div class="box"><h2>ℹ️ Informações importantes das visitas</h2><ul class="pg-info">{''.join(f"<li>{e(x)}</li>" for x in p.get('infoVisitas', []))}</ul></div></section>
+<section class="det" id="pagamento"><div class="pay"><h2>💳 Investimento</h2>{''.join(ops)}<ul>{info}</ul></div>
+<div class="ctas" style="margin-top:16px"><a class="btn btn-wa" data-wa="{e(p['slug'])}-fim" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero reservar</a></div>
+<p class="aviso">*Valores sujeitos a disponibilidade e alteração a qualquer momento. O valor só fica garantido na reserva.</p></section>
+</main>{rodape()}{JS}{LB_JS}</body></html>"""
+    robots = '<meta name="robots" content="noindex">' if not p.get("inicial", True) else ""
+    return head(f"{p['titulo']} | Stefanello Viagens", desc, url, p.get("fotoOg", "")) + robots + pixel(vc) + "</head>" + body
+
+
 def pagina(p):
+    if p.get("tipo") == "roteiro":
+        return pagina_roteiro(p)
     url = f"{SITE}/{p['slug']}"
     msg = msg_pacote(p)
     media = fake_art(p, 1400)

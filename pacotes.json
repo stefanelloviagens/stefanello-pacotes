@@ -6,6 +6,361 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "tipo": "roteiro",
+   "slug": "aparecida-roteiro-personalizado-visitas-monitoradas-12-a-14-marco",
+   "cod": 138,
+   "inicial": false,
+   "black": false,
+   "destino": "Aparecida (SP)",
+   "titulo": "Aparecida: roteiro de fé com Visitas Monitoradas no Santuário Nacional",
+   "chamada": "Três dias em Aparecida com Jornada Bíblica Noturna, Trem do Devoto até o Porto Itaguaçu, Bondinho Aéreo e o circuito completo do Santuário, com voo direto de Porto Alegre pra Campinas.",
+   "etiqueta": "ROTEIRO PERSONALIZADO",
+   "selo": "Visitas monitoradas",
+   "capa": "img/aparecida/santuario-entrada.jpg",
+   "fotoOg": "https://pacotes.stefanelloviagens.com.br/img/aparecida/og.jpg",
+   "foto": "",
+   "img": "",
+   "pessoas": 1,
+   "pessoasTxt": "por pessoa",
+   "dias": 3,
+   "noites": 2,
+   "ida": "2027-03-12",
+   "volta": "2027-03-14",
+   "idaTxt": "sex, 12 de mar",
+   "voltaTxt": "dom, 14 de mar",
+   "datasCurto": "12 a 14/03",
+   "ano": "2027",
+   "pix": "2.500,00",
+   "parcelas": 4,
+   "parcela": "625,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-21",
+   "orcamento": "",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas Porto Alegre ⇄ Campinas (LATAM, voo direto)"
+    ],
+    [
+     "🏨",
+     "2 noites no Hotel Rainha dos Apóstolos"
+    ],
+    [
+     "🚐",
+     "Transfers Campinas ⇄ Aparecida e hotel ⇄ Santuário"
+    ],
+    [
+     "🌙",
+     "Roteiro Jornada Bíblica Noturna (monitorado)"
+    ],
+    [
+     "🚂",
+     "Trem do Devoto ida e volta até o Porto Itaguaçu"
+    ],
+    [
+     "🚡",
+     "Bondinho Aéreo + Mirante Morro do Cruzeiro"
+    ],
+    [
+     "⛪",
+     "Circuito de Visitação completo: Mirante, Museu, Fachadas e Cúpula Central"
+    ]
+   ],
+   "naoInclui": "Refeições (almoços e jantares) ficam à definir e não estão no valor.",
+   "videos": [
+    {
+     "src": "video/aparecida-roteiro.mp4",
+     "poster": "img/aparecida/aereo.jpg",
+     "titulo": "Aparecida: Santuário, Trem do Devoto, Caminho do Rosário e hotel"
+    },
+    {
+     "src": "video/aparecida-visitas-monitoradas.mp4",
+     "poster": "img/aparecida/poster-cit.jpg",
+     "titulo": "Visitas Monitoradas do Santuário Nacional"
+    }
+   ],
+   "roteiro": [
+    {
+     "n": 1,
+     "data": "Sexta, 12/03",
+     "titulo": "Chegada e Jornada Bíblica",
+     "foto": "img/aparecida/fachada-noite.jpg",
+     "itens": [
+      [
+       "05h25",
+       "Voo direto Porto Alegre → Campinas (chegada 07h15)"
+      ],
+      [
+       "07h45",
+       "Transfer de Campinas até Aparecida"
+      ],
+      [
+       "12h00",
+       "Almoço",
+       "Refeição à definir"
+      ],
+      [
+       "13h30",
+       "Check-in no Hotel Rainha dos Apóstolos"
+      ],
+      [
+       "15h00",
+       "Transfer do hotel para o Santuário Nacional"
+      ],
+      [
+       "16h00",
+       "Missa no Santuário"
+      ],
+      [
+       "18h00",
+       "Roteiro Jornada Bíblica Noturna",
+       "Monitorado"
+      ],
+      [
+       "19h30",
+       "Transfer de retorno ao Hotel Rainha dos Apóstolos"
+      ],
+      [
+       "20h00",
+       "Jantar",
+       "Refeição à definir"
+      ]
+     ]
+    },
+    {
+     "n": 2,
+     "data": "Sábado, 13/03",
+     "titulo": "Porto Itaguaçu e Morro do Cruzeiro",
+     "foto": "img/aparecida/trem-caminho-rosario.jpg",
+     "itens": [
+      [
+       "08h30",
+       "Embarque no Trem do Devoto (ida)"
+      ],
+      [
+       "09h00",
+       "Visita livre ao Porto Itaguaçu e Capela da Pesca Milagrosa"
+      ],
+      [
+       "10h15",
+       "Retorno no Trem do Devoto para o hotel"
+      ],
+      [
+       "12h00",
+       "Almoço",
+       "Refeição à definir"
+      ],
+      [
+       "14h30",
+       "Traslado do hotel para o Santuário Nacional"
+      ],
+      [
+       "15h00",
+       "Passeio de Bondinho Aéreo + Mirante Morro do Cruzeiro"
+      ],
+      [
+       "16h00",
+       "Tempo livre no complexo do Santuário"
+      ],
+      [
+       "17h45",
+       "Traslado de retorno ao Hotel Rainha dos Apóstolos"
+      ],
+      [
+       "19h00",
+       "Jantar",
+       "Refeição à definir"
+      ]
+     ]
+    },
+    {
+     "n": 3,
+     "data": "Domingo, 14/03",
+     "titulo": "Circuito de Visitação e retorno",
+     "foto": "img/aparecida/cupula-central.jpg",
+     "itens": [
+      [
+       "09h00",
+       "Circuito de Visitação completo (Mirante, Museu, Fachadas e Cúpula Central)",
+       "Monitorado"
+      ],
+      [
+       "11h00",
+       "Visita livre à Sala das Promessas (subsolo)"
+      ],
+      [
+       "12h30",
+       "Almoço",
+       "Refeição à definir"
+      ],
+      [
+       "14h00",
+       "Check-out no Hotel Rainha dos Apóstolos"
+      ],
+      [
+       "15h00",
+       "Transfer de retorno para Campinas"
+      ],
+      [
+       "20h20",
+       "Voo direto Campinas → Porto Alegre (chegada 22h10)"
+      ]
+     ]
+    }
+   ],
+   "atracoes": [
+    {
+     "nome": "Jornada Bíblica Noturna",
+     "foto": "/img/aparecida/jornada-noturna.jpg",
+     "texto": "Cerca de 1 hora pelas fachadas do Santuário, a maior Bíblia a céu aberto do mundo, contemplando a História da Salvação nos mosaicos do Centro Aletti, com monitor e fone de ouvido.",
+     "link": "https://www.a12.com/cit"
+    },
+    {
+     "nome": "Trem do Devoto",
+     "foto": "https://tremdodevoto.com.br/wp-content/uploads/2026/04/DB38253.jpg",
+     "texto": "Trem estilo Maria Fumaça que sai da Cidade do Romeiro e segue pelo Caminho do Rosário, com 20 cenas da vida de Jesus, até o Porto Itaguaçu.",
+     "link": "https://tremdodevoto.com.br/#tremdodevoto"
+    },
+    {
+     "nome": "Porto Itaguaçu e Capela da Pesca Milagrosa",
+     "foto": "https://images.a12.com/source/files/c/343272/Porto_Itaguacu_2024__Thiago_Leon_8-689568_725-483-0-0.jpg",
+     "texto": "Na curva do Rio Paraíba do Sul, onde os pescadores encontraram a imagem de Nossa Senhora Aparecida em 1717. Tem a capela revitalizada, o primeiro oratório à Padroeira e o relógio de sol.",
+     "link": "https://www.a12.com/santuario/circuito-de-visitacao/porto-itaguacu"
+    },
+    {
+     "nome": "Bondinho Aéreo e Mirante Morro do Cruzeiro",
+     "foto": "https://bondinhoaparecida.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-10-at-14.52.15-3-819x1024.jpeg",
+     "texto": "Subida de bondinho até o Morro do Cruzeiro, com acesso à Torre Mirante e vista do Santuário e do Vale do Paraíba.",
+     "link": "https://bondinhoaparecida.com.br/"
+    },
+    {
+     "nome": "Circuito de Visitação do Santuário",
+     "foto": "/img/aparecida/museu.jpg",
+     "texto": "Mirante, Museu Nossa Senhora Aparecida, fachadas e Cúpula Central, com explicações históricas, arquitetônicas e religiosas."
+    },
+    {
+     "nome": "Sala das Promessas",
+     "foto": "/img/aparecida/nicho-imagem.jpg",
+     "texto": "No subsolo do Santuário, reúne milhares de ex-votos e agradecimentos deixados pelos devotos."
+    }
+   ],
+   "galeriaTxt": "Monitores especializados, rádios transmissores e fones de ouvido: cada passo é uma oportunidade de aprendizado e encantamento.",
+   "galeria": [
+    "/img/aparecida/cupula-grupo.jpg",
+    "/img/aparecida/passarela-mosaicos.jpg",
+    "/img/aparecida/mosaico-detalhe.jpg",
+    "/img/aparecida/arcos-mosaicos.jpg",
+    "/img/aparecida/fachada-mosaico-familia.jpg",
+    "/img/aparecida/basilica-historica.jpg",
+    "/img/aparecida/basilica-historica-grupo.jpg",
+    "/img/aparecida/santuario-entrada.jpg",
+    "/img/aparecida/jornada-noturna.jpg",
+    "/img/aparecida/museu.jpg",
+    "/img/aparecida/cupula-central.jpg",
+    "/img/aparecida/nicho-imagem.jpg"
+   ],
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sex, 12 de mar",
+     "cia": "LATAM",
+     "resumo": "Voo direto · 1h50",
+     "bagagem": [],
+     "trechos": [
+      {
+       "saida": {
+        "data": "12/03",
+        "hora": "05:25",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "12/03",
+        "hora": "07:15",
+        "iata": "VCP",
+        "cidade": "Campinas",
+        "aeroporto": "Aeroporto de Viracopos"
+       },
+       "voo": "",
+       "duracao": "1h50"
+      }
+     ],
+     "conexoes": []
+    },
+    {
+     "tipo": "Volta",
+     "data": "dom, 14 de mar",
+     "cia": "LATAM",
+     "resumo": "Voo direto · 1h50",
+     "bagagem": [],
+     "trechos": [
+      {
+       "saida": {
+        "data": "14/03",
+        "hora": "20:20",
+        "iata": "VCP",
+        "cidade": "Campinas",
+        "aeroporto": "Aeroporto de Viracopos"
+       },
+       "chegada": {
+        "data": "14/03",
+        "hora": "22:10",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "",
+       "duracao": "1h50"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "Hotel Rainha dos Apóstolos",
+    "regime": "",
+    "noites": 2,
+    "checkin": "12/03 (13h30)",
+    "checkout": "14/03 (14h)",
+    "endereco": "Av. Isaac Ferreira Encarnação, 523 · Aparecida (SP)",
+    "descricao": "Hotel a cerca de 15 minutos a pé da Basílica do Santuário Nacional, com restaurante, jardim, Wi-Fi, recepção 24 horas e quartos com ar-condicionado, frigobar, cofre e TV.",
+    "fotos": [
+     "/img/aparecida/hotel-quarto.jpg",
+     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/4447835a.jpg?impolicy=fcrop&w=1200&h=800",
+     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/efd4bc60.jpg?impolicy=fcrop&w=1200&h=800",
+     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/e73dfc59.jpg?impolicy=fcrop&w=1200&h=800",
+     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/147bb9a7.jpg?impolicy=fcrop&w=1200&h=800",
+     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/9da0286a.jpg?impolicy=fcrop&w=1200&h=800",
+     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/237ed7d7.jpg?impolicy=fcrop&w=1200&h=800"
+    ]
+   },
+   "infoVisitas": [
+    "Grupo máximo de 40 pessoas por visita monitorada.",
+    "Chegar com pelo menos 10 minutos de antecedência no ponto inicial de cada visita.",
+    "Cadeirante ou pessoa com mobilidade reduzida: avise na reserva pra gente garantir a acessibilidade.",
+    "Não comparecer sem avisar com pelo menos 12 horas de antecedência cancela a visita, sem estorno."
+   ],
+   "pagamento": {
+    "opcoes": [
+     {
+      "rotulo": "PIX em 2 vezes",
+      "valor": "R$ 2.500,00 por pessoa",
+      "obs": "50% agora (R$ 1.250,00) e 50% na semana da viagem (R$ 1.250,00)"
+     },
+     {
+      "rotulo": "PIX parcelado",
+      "valor": "4x de R$ 625,00",
+      "obs": "por pessoa, no PIX"
+     }
+    ],
+    "info": [
+     "Valores por pessoa.",
+     "Refeições não inclusas (à definir)."
+    ]
+   }
+  },
+  {
    "slug": "porto-seguro-arcobaleno-all-inclusive-12-a-19-fev-2-adultos-2-criancas-12-anos",
    "destino": "Porto Seguro",
    "titulo": "Porto Seguro em família no Resort Arcobaleno All Inclusive",
