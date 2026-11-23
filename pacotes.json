@@ -6,6 +6,444 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "jericoacoara-ferias-de-agosto-pousada-numei-18-a-25-ago",
+   "destino": "Jericoacoara",
+   "titulo": "Jericoacoara nas férias de agosto com voo, pousada e transfer",
+   "chamada": "Sete noites na vila de Jeri, a 400 m da praia, com café da manhã, voo saindo de Porto Alegre e transfer 4x4 do aeroporto até a pousada. Agosto é temporada de vento e de lagoas cheias.",
+   "black": true,
+   "selo": "Férias de Agosto",
+   "foto": "https://images.unsplash.com/photo-1636651746051-d8dfe189d618?auto=format&fit=crop&w=1600&q=80",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "2 adultos",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-08-18",
+   "volta": "2027-08-25",
+   "idaTxt": "qua, 18 de ago",
+   "voltaTxt": "qua, 25 de ago",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Pousada Numei de Jeri, Quarto Duplo (café da manhã)"
+    ],
+    [
+     "🚙",
+     "Transfer aeroporto de Jeri / pousada / aeroporto em 4x4"
+    ]
+   ],
+   "pix": "6.592,17",
+   "parcelas": 15,
+   "parcela": "471,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-23",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MDg5MTV8MMqnmS5dYjIwYW476BjAf7Y",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qua, 18 de ago",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 7h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "18/08",
+        "hora": "04:55",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "18/08",
+        "hora": "06:50",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "G3 1241",
+       "duracao": "1h55"
+      },
+      {
+       "saida": {
+        "data": "18/08",
+        "hora": "08:45",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "18/08",
+        "hora": "12:10",
+        "iata": "JJD",
+        "cidade": "Jericoacoara",
+        "aeroporto": "Aeroporto de Jericoacoara (Cruz)"
+       },
+       "voo": "G3 1646",
+       "duracao": "3h25"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h55 em Guarulhos"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 25 de ago",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 11h40",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "25/08",
+        "hora": "12:50",
+        "iata": "JJD",
+        "cidade": "Jericoacoara",
+        "aeroporto": "Aeroporto de Jericoacoara (Cruz)"
+       },
+       "chegada": {
+        "data": "25/08",
+        "hora": "16:25",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "G3 1687",
+       "duracao": "3h35"
+      },
+      {
+       "saida": {
+        "data": "25/08",
+        "hora": "22:45",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "26/08",
+        "hora": "00:30",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1264",
+       "duracao": "1h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 6h20 em Guarulhos",
+      "Chegada em Porto Alegre à 00h30 de quinta (26/08)"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Pousada Numei de Jeri",
+    "regime": "Café da manhã",
+    "noites": 7,
+    "checkin": "18/08 (14h)",
+    "checkout": "25/08 (12h)",
+    "tarifa": "Cancelamento grátis até 18/07/2027",
+    "destaque": "Na vila, a 400 m da praia",
+    "endereco": "Rua Principal · Vila de Jericoacoara (CE)",
+    "descricao": "Pousada de ótimo custo-benefício na vila de Jericoacoara, a 400 m da praia e a poucos metros de restaurantes, bares, padaria, farmácia e mercado. Café da manhã incluso.",
+    "fotos": [
+     "https://media.omnibees.com/Images/17895/Property/5427598.jpeg",
+     "https://media.omnibees.com/Images/17895/Property/1092665.jpg",
+     "https://media.omnibees.com/Images/17895/Property/1092697.jpg",
+     "https://media.omnibees.com/Images/17895/Property/1092701.jpg",
+     "https://media.omnibees.com/Images/17895/Property/1092699.jpg",
+     "https://media.omnibees.com/Images/17895/Property/1092702.jpg",
+     "https://media.omnibees.com/Images/17895/Property/5427607.jpg",
+     "https://media.omnibees.com/Images/17895/Property/5427606.jpg",
+     "https://media.omnibees.com/Images/17895/Property/1092693.jpg",
+     "https://media.omnibees.com/Images/17895/Property/1092698.jpg"
+    ],
+    "quarto": {
+     "nome": "Quarto Duplo",
+     "descricao": "Quarto com cama de casal, ar-condicionado, frigobar, Smart TV, banheiro privativo com chuveiro quente e Wi-Fi.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Frigobar",
+      "Smart TV",
+      "Wi-Fi",
+      "Banheiro privativo",
+      "Chuveiro quente"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/17895/RoomTypes/1092649.jpg",
+      "https://media.omnibees.com/Images/17895/Property/1092700.jpg",
+      "https://media.omnibees.com/Images/17895/Property/1092704.jpg",
+      "https://media.omnibees.com/Images/17895/RoomTypes/5427639.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚙",
+     "nome": "Transfer aeroporto de Jeri / pousada / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular entre o Aeroporto de Jericoacoara (Cruz) e a pousada, em Hilux 4x4 ou SW4 climatizada, com guia. O trajeto leva cerca de 1h.",
+     "info": [
+      "Saídas regulares, com horário combinado",
+      "A Taxa de Turismo Sustentável de Jeri é paga à parte, direto na vila"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "7.056,00",
+     "por": "6.592,17",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 470,40 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.056,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 2,
+        "valor": "3.528,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 3,
+        "valor": "2.352,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 4,
+        "valor": "1.764,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 5,
+        "valor": "1.411,20",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 6,
+        "valor": "1.176,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 7,
+        "valor": "1.008,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 8,
+        "valor": "882,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 9,
+        "valor": "784,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 10,
+        "valor": "705,60",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 11,
+        "valor": "641,45",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 12,
+        "valor": "588,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 13,
+        "valor": "542,77",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 14,
+        "valor": "504,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 15,
+        "valor": "470,40",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.176,00 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.056,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 2,
+        "valor": "3.528,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 3,
+        "valor": "2.352,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 4,
+        "valor": "1.764,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 5,
+        "valor": "1.411,20",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 6,
+        "valor": "1.176,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 7,
+        "valor": "1.028,16",
+        "obs": "com acréscimo",
+        "total": "7.197,12"
+       },
+       {
+        "n": 8,
+        "valor": "904,05",
+        "obs": "com acréscimo",
+        "total": "7.232,40"
+       },
+       {
+        "n": 9,
+        "valor": "807,52",
+        "obs": "com acréscimo",
+        "total": "7.267,68"
+       },
+       {
+        "n": 10,
+        "valor": "730,30",
+        "obs": "com acréscimo",
+        "total": "7.302,96"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.176,00 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.056,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 2,
+        "valor": "3.528,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 3,
+        "valor": "2.352,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 4,
+        "valor": "1.764,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 5,
+        "valor": "1.411,20",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       },
+       {
+        "n": 6,
+        "valor": "1.176,00",
+        "obs": "sem acréscimo",
+        "total": "7.056,00"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 141,
+   "inicial": false,
+   "fotoOg": "https://images.unsplash.com/photo-1636651746051-d8dfe189d618?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
    "slug": "maceio-pratagy-all-inclusive-27-fev-a-6-mar-2-adultos-2-criancas",
    "destino": "Maceió",
    "titulo": "Maceió em família no Pratagy Beach Resort All Inclusive com Acqua Park e Transfer GRÁTIS",
