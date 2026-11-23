@@ -6,6 +6,487 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "maceio-acqua-inn-maragogi-milagres-27-fev-a-6-mar-casal",
+   "destino": "Maceió",
+   "titulo": "Maceió com Maragogi, São Miguel dos Milagres e Praia do Francês",
+   "chamada": "Sete noites em Ponta Verde, a uma quadra do mar, com city tour pela Praia do Francês e passeios a Maragogi e São Miguel dos Milagres.",
+   "black": true,
+   "selo": "3 passeios inclusos",
+   "foto": "https://images.unsplash.com/photo-1616180759439-7f6367792233?auto=format&fit=crop&w=1600&q=80",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "2 adultos",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-02-27",
+   "volta": "2027-03-06",
+   "idaTxt": "sáb, 27 de fev",
+   "voltaTxt": "sáb, 6 de mar",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Acqua Inn Ponta Verde, apto Standard Casal (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "🏖️",
+     "City tour panorâmico com Praia do Francês"
+    ],
+    [
+     "🏝️",
+     "Passeio a Maragogi"
+    ],
+    [
+     "🌿",
+     "Passeio a São Miguel dos Milagres"
+    ]
+   ],
+   "pix": "7.007,11",
+   "parcelas": 15,
+   "parcela": "501,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-23",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MDk2NDJ8MLerZjtsRuLizCCT58FONww",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sáb, 27 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão no Rio de Janeiro (Galeão) · 6h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "27/02",
+        "hora": "05:00",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "27/02",
+        "hora": "06:55",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "voo": "G3 2093",
+       "duracao": "1h55"
+      },
+      {
+       "saida": {
+        "data": "27/02",
+        "hora": "08:40",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "chegada": {
+        "data": "27/02",
+        "hora": "11:15",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto Zumbi dos Palmares"
+       },
+       "voo": "G3 2076",
+       "duracao": "2h35"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h45 no Galeão"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sáb, 6 de mar",
+     "cia": "GOL",
+     "resumo": "1 conexão em Salvador · 6h10",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "06/03",
+        "hora": "12:30",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto Zumbi dos Palmares"
+       },
+       "chegada": {
+        "data": "06/03",
+        "hora": "13:40",
+        "iata": "SSA",
+        "cidade": "Salvador",
+        "aeroporto": "Aeroporto de Salvador"
+       },
+       "voo": "G3 1917",
+       "duracao": "1h10"
+      },
+      {
+       "saida": {
+        "data": "06/03",
+        "hora": "14:50",
+        "iata": "SSA",
+        "cidade": "Salvador",
+        "aeroporto": "Aeroporto de Salvador"
+       },
+       "chegada": {
+        "data": "06/03",
+        "hora": "18:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1978",
+       "duracao": "3h50"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h10 em Salvador"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Acqua Inn",
+    "regime": "Café da manhã",
+    "noites": 7,
+    "checkin": "27/02 (15h)",
+    "checkout": "06/03 (12h)",
+    "tarifa": "Cancelamento grátis até 27/01/2027",
+    "destaque": "Ponta Verde, a uma quadra do mar",
+    "endereco": "Ponta Verde · Maceió (AL)",
+    "descricao": "Hotel econômico da rede MME na Praia de Ponta Verde, a uma quadra do mar, perto do letreiro \"Eu amo Maceió\", do Farol da Ponta Verde e do Caminho de Moisés. Café da manhã incluso.",
+    "fotos": [
+     "https://media.omnibees.com/Images/14140/Property/5352088.jpg",
+     "https://media.omnibees.com/Images/14140/Property/1411254.jpg",
+     "https://media.omnibees.com/Images/14140/Property/857371.jpg",
+     "https://media.omnibees.com/Images/14140/Property/857372.jpg",
+     "https://media.omnibees.com/Images/14140/Property/857370.jpg",
+     "https://media.omnibees.com/Images/14140/Property/857369.jpg",
+     "https://media.omnibees.com/Images/14140/Property/857375.jpg",
+     "https://media.omnibees.com/Images/14140/Property/857377.jpg",
+     "https://media.omnibees.com/Images/14140/Property/857379.jpg",
+     "https://media.omnibees.com/Images/14140/Property/857380.jpg",
+     "https://media.omnibees.com/Images/14140/Property/1307930.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard Duplo Casal",
+     "descricao": "Apartamento sem vista mar, com cama de casal, pra até 2 pessoas.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Smart TV",
+      "Frigobar",
+      "Cofre",
+      "Wi-Fi",
+      "Secador de cabelo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/14140/RoomTypes/1307951.jpg",
+      "https://media.omnibees.com/Images/14140/RoomTypes/930343.jpg",
+      "https://media.omnibees.com/Images/14140/RoomTypes/763106.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Traslado regular (compartilhado) entre o Aeroporto de Maceió e o hotel em Ponta Verde.",
+     "info": [
+      "Horário da volta informado um dia antes"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏖️",
+     "nome": "City tour panorâmico com Praia do Francês",
+     "quando": "Segundas, quartas e sextas",
+     "descricao": "Passeio pelos principais pontos de Maceió e pela orla, seguindo até a Praia do Francês.",
+     "info": [
+      "Passeio regular (compartilhado)",
+      "Refeições e opcionais pagos à parte"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏝️",
+     "nome": "Passeio a Maragogi",
+     "quando": "Previsto pra 28/02 (dá pra remarcar com o receptivo)",
+     "descricao": "O Caribe brasileiro, com águas cristalinas e piscinas naturais entre os corais. Acesso ao Beach Club Pontal de Maragogi sem pagar day use.",
+     "info": [
+      "Piscinas naturais, buggy e refeições pagos à parte",
+      "Melhor maré da estadia: 05/03 às 08h33 (0,24 m)"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🌿",
+     "nome": "Passeio a São Miguel dos Milagres",
+     "quando": "Previsto pra 01/03 (dá pra remarcar com o receptivo)",
+     "descricao": "Rota Ecológica dos Milagres, com praias calmas, coqueirais e piscinas naturais.",
+     "info": [
+      "Piscinas naturais e refeições pagos à parte",
+      "Boa maré também em 04/03 às 08h00 (0,37 m)"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "7.504,26",
+     "por": "7.007,11",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 500,28 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.504,26",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 2,
+        "valor": "3.752,13",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 3,
+        "valor": "2.501,42",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 4,
+        "valor": "1.876,07",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 5,
+        "valor": "1.500,85",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 6,
+        "valor": "1.250,71",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 7,
+        "valor": "1.072,04",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 8,
+        "valor": "938,03",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 9,
+        "valor": "833,81",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 10,
+        "valor": "750,43",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 11,
+        "valor": "682,21",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 12,
+        "valor": "625,36",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 13,
+        "valor": "577,25",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 14,
+        "valor": "536,02",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 15,
+        "valor": "500,28",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.250,71 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.504,26",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 2,
+        "valor": "3.752,13",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 3,
+        "valor": "2.501,42",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 4,
+        "valor": "1.876,07",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 5,
+        "valor": "1.500,85",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 6,
+        "valor": "1.250,71",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 7,
+        "valor": "1.093,48",
+        "obs": "com acréscimo",
+        "total": "7.654,35"
+       },
+       {
+        "n": 8,
+        "valor": "961,48",
+        "obs": "com acréscimo",
+        "total": "7.691,87"
+       },
+       {
+        "n": 9,
+        "valor": "858,82",
+        "obs": "com acréscimo",
+        "total": "7.729,39"
+       },
+       {
+        "n": 10,
+        "valor": "776,69",
+        "obs": "com acréscimo",
+        "total": "7.766,91"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.250,71 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.504,26",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 2,
+        "valor": "3.752,13",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 3,
+        "valor": "2.501,42",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 4,
+        "valor": "1.876,07",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 5,
+        "valor": "1.500,85",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       },
+       {
+        "n": 6,
+        "valor": "1.250,71",
+        "obs": "sem acréscimo",
+        "total": "7.504,26"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 143,
+   "inicial": false,
+   "fotoOg": "https://images.unsplash.com/photo-1616180759439-7f6367792233?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
    "slug": "recife-boa-viagem-maragogi-gratis-2-passeios-25-fev-a-3-mar",
    "destino": "Recife",
    "titulo": "Recife em Boa Viagem com 2 passeios + Maragogi GRÁTIS",
