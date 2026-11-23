@@ -6,6 +6,250 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "maceio-slim-pajucara-passeios-privados-20-a-26-fev-casal",
+   "destino": "Maceió",
+   "titulo": "Maceió com passeios privados: Maragogi, São Miguel dos Milagres e Praia do Francês",
+   "chamada": "Seis noites em Pajuçara, a poucos passos da praia, com três passeios privados pelas praias mais lindas de Alagoas, na semana da melhor maré do mês.",
+   "black": true,
+   "selo": "Passeios privados",
+   "foto": "https://images.unsplash.com/photo-1616180759439-7f6367792233?auto=format&fit=crop&w=1600&q=80",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "2 adultos",
+   "dias": 7,
+   "noites": 6,
+   "ida": "2027-02-20",
+   "volta": "2027-02-26",
+   "idaTxt": "sáb, 20 de fev",
+   "voltaTxt": "sex, 26 de fev",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Slim Pajuçara by Tropicalis, quarto Standard Casal (café da manhã)"
+    ],
+    [
+     "🏖️",
+     "City tour com Praia do Francês (privado)"
+    ],
+    [
+     "🏝️",
+     "Passeio a Maragogi (privado)"
+    ],
+    [
+     "🌿",
+     "Passeio a São Miguel dos Milagres (privado)"
+    ]
+   ],
+   "pix": "7.300,00",
+   "parcelas": 10,
+   "parcela": "762,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-23",
+   "orcamento": "",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sáb, 20 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão em Brasília · 6h20",
+     "bagagem": [],
+     "trechos": [
+      {
+       "saida": {
+        "data": "20/02",
+        "hora": "05:05",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "20/02",
+        "hora": "07:35",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "voo": "G3 1797",
+       "duracao": "2h30"
+      },
+      {
+       "saida": {
+        "data": "20/02",
+        "hora": "09:05",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "chegada": {
+        "data": "20/02",
+        "hora": "11:25",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto Zumbi dos Palmares"
+       },
+       "voo": "G3 1704",
+       "duracao": "2h20"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h30 em Brasília"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sex, 26 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 6h30",
+     "bagagem": [],
+     "trechos": [
+      {
+       "saida": {
+        "data": "26/02",
+        "hora": "18:00",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto Zumbi dos Palmares"
+       },
+       "chegada": {
+        "data": "26/02",
+        "hora": "21:10",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "G3 1671",
+       "duracao": "3h10"
+      },
+      {
+       "saida": {
+        "data": "26/02",
+        "hora": "22:45",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "27/02",
+        "hora": "00:30",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1264",
+       "duracao": "1h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h35 em Guarulhos",
+      "Chegada em Porto Alegre à 00h30 do sábado (27/02)"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Slim Pajuçara by Tropicalis",
+    "regime": "Café da manhã",
+    "noites": 6,
+    "checkin": "20/02 (14h)",
+    "checkout": "26/02 (12h)",
+    "tarifa": "",
+    "destaque": "A poucos passos da Praia de Pajuçara",
+    "endereco": "Rua Jangadeiros Alagoanos, 1292 · Pajuçara, Maceió (AL)",
+    "descricao": "Hotel moderno em Pajuçara, a poucos minutos a pé da praia e do ponto das jangadas pras piscinas naturais. Tem piscina no rooftop com vista pro mar, bar, restaurante e café da manhã em buffet todos os dias (6h às 10h).",
+    "fotos": [
+     "https://media.omnibees.com/Images/4907/Property/1068540.jpeg",
+     "https://media.omnibees.com/Images/4907/Property/1069367.jpeg",
+     "https://media.omnibees.com/Images/4907/Property/2216211.jpg",
+     "https://media.omnibees.com/Images/4907/Property/2216212.jpg",
+     "https://media.omnibees.com/Images/4907/Property/587013.JPG",
+     "https://media.omnibees.com/Images/4907/Property/587009.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard Casal",
+     "descricao": "Quarto de cerca de 22 m² com 1 cama de casal, pra até 2 pessoas, vista pra cidade.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Frigobar",
+      "Cofre",
+      "TV",
+      "Wi-Fi",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/4907/RoomTypes/1068542.jpeg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Passeio",
+     "icone": "🏖️",
+     "nome": "City tour com Praia do Francês · privado",
+     "quando": "Sugestão: 24/02",
+     "descricao": "Passeio privado pelos principais pontos de Maceió e pela orla, seguindo até a Praia do Francês, uma das mais famosas de Alagoas, com mar de águas mornas e barracas pé na areia.",
+     "info": [
+      "Veículo e guia exclusivos pro casal"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏝️",
+     "nome": "Passeio a Maragogi · privado",
+     "quando": "Sugestão: 21/02 (maré baixa às 10h12, a melhor do mês)",
+     "descricao": "Dia inteiro em Maragogi, o \"Caribe brasileiro\", com as piscinas naturais de águas cristalinas a cerca de 6 km da costa.",
+     "info": [
+      "Veículo exclusivo pro casal",
+      "O passeio de lancha às piscinas naturais depende da maré"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🌿",
+     "nome": "Passeio a São Miguel dos Milagres · privado",
+     "quando": "Sugestão: 22/02 (maré baixa às 10h49)",
+     "descricao": "Rota Ecológica dos Milagres, com praias calmas, coqueirais e piscinas naturais, um dos cantos mais charmosos do litoral de Alagoas.",
+     "info": [
+      "Veículo exclusivo pro casal",
+      "O banho nas piscinas naturais depende da maré"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "7.620,00",
+     "por": "7.300,00",
+     "texto": "Pagamento à vista por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Cartão de crédito",
+      "resumo": "10x de R$ 762,00",
+      "bandeiras": [
+       "Visa",
+       "Mastercard",
+       "Elo",
+       "Amex"
+      ],
+      "parcelas": [
+       {
+        "n": 10,
+        "valor": "762,00",
+        "obs": "",
+        "total": "7.620,00"
+       }
+      ]
+     }
+    ],
+    "outras": []
+   },
+   "cod": 139,
+   "inicial": false,
+   "fotoOg": "https://images.unsplash.com/photo-1616180759439-7f6367792233?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
    "tipo": "roteiro",
    "slug": "aparecida-roteiro-personalizado-visitas-monitoradas-12-a-14-marco",
    "cod": 138,
