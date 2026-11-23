@@ -16,10 +16,10 @@
    "img": "",
    "inicial": false,
    "pessoas": 2,
-   "dias": 8,
+   "dias": 7,
    "noites": 6,
    "ida": "2027-02-25",
-   "volta": "2027-03-04",
+   "volta": "2027-03-03",
    "idaTxt": "qui, 25 de fev",
    "voltaTxt": "qua, 3 de mar",
    "inclui": [
