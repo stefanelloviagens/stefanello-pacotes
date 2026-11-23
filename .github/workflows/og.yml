@@ -1,0 +1,20 @@
+name: Fotos de prévia (WhatsApp)
+on:
+  push:
+    paths: ["api/og-map.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  og:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Baixar fotos de prévia que faltam
+        run: python3 scripts/og_static.py
+      - run: |
+          git config user.name "og-bot"
+          git config user.email "og-bot@users.noreply.github.com"
+          git add og/*.jpg || true
+          git commit -m "Fotos de prévia estáticas" || echo "nada novo"
+          git push
