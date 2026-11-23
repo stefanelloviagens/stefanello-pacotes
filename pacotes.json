@@ -6,6 +6,469 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "maceio-pratagy-all-inclusive-27-fev-a-6-mar-2-adultos-2-criancas",
+   "destino": "Maceió",
+   "titulo": "Maceió em família no Pratagy Beach Resort All Inclusive com Acqua Park e Transfer GRÁTIS",
+   "chamada": "Sete noites all inclusive pé na areia na praia de Pratagy pra família de 4, com as 2 crianças até 12 anos grátis no resort, parque aquático liberado e transfer de presente.",
+   "black": true,
+   "selo": "2 crianças até 12 anos GRÁTIS no resort",
+   "foto": "https://media.omnibees.com/Images/3958/Property/1136852.jpg",
+   "img": "",
+   "pessoas": 4,
+   "pessoasTxt": "2 adultos + 2 crianças (10 anos)",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-02-27",
+   "volta": "2027-03-06",
+   "idaTxt": "sáb, 27 de fev",
+   "voltaTxt": "sáb, 6 de mar",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Pratagy Beach Resort, Suíte Família Superior (ALL INCLUSIVE)"
+    ],
+    [
+     "👧",
+     "2 crianças até 12 anos GRÁTIS no resort"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / resort / aeroporto GRÁTIS"
+    ],
+    [
+     "🌊",
+     "Ingressos pro Pratagy Acqua Park GRÁTIS"
+    ]
+   ],
+   "pix": "16.203,42",
+   "parcelas": 15,
+   "parcela": "1.158,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-23",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MDg4NTN8MAbSBfJH-AO667W4xhorLho",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sáb, 27 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão no Rio de Janeiro (Galeão) · 6h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "27/02",
+        "hora": "05:00",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "27/02",
+        "hora": "06:55",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "voo": "G3 2093",
+       "duracao": "1h55"
+      },
+      {
+       "saida": {
+        "data": "27/02",
+        "hora": "08:40",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "chegada": {
+        "data": "27/02",
+        "hora": "11:15",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto Zumbi dos Palmares"
+       },
+       "voo": "G3 2076",
+       "duracao": "2h35"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h45 no Galeão"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sáb, 6 de mar",
+     "cia": "GOL",
+     "resumo": "1 conexão em Salvador · 6h10",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "06/03",
+        "hora": "12:30",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto Zumbi dos Palmares"
+       },
+       "chegada": {
+        "data": "06/03",
+        "hora": "13:40",
+        "iata": "SSA",
+        "cidade": "Salvador",
+        "aeroporto": "Aeroporto de Salvador"
+       },
+       "voo": "G3 1917",
+       "duracao": "1h10"
+      },
+      {
+       "saida": {
+        "data": "06/03",
+        "hora": "14:50",
+        "iata": "SSA",
+        "cidade": "Salvador",
+        "aeroporto": "Aeroporto de Salvador"
+       },
+       "chegada": {
+        "data": "06/03",
+        "hora": "18:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1978",
+       "duracao": "3h50"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h10 em Salvador"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Pratagy Beach Resort All Inclusive",
+    "regime": "All inclusive",
+    "noites": 7,
+    "checkin": "27/02 (15h)",
+    "checkout": "06/03 (12h)",
+    "tarifa": "Não reembolsável",
+    "destaque": "Família de 4 no mesmo quarto · Acqua Park liberado",
+    "endereco": "Rodovia AL-101 Norte, km 10 · Praia de Pratagy, Maceió (AL)",
+    "descricao": "Primeiro all inclusive do Brasil, pé na areia na praia de Pratagy, no litoral norte de Maceió. Comida e bebida à vontade, piscinas, parque aquático, recreação infantil, shows à noite e restaurantes temáticos.",
+    "fotos": [
+     "https://media.omnibees.com/Images/3958/Property/1136851.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136843.png",
+     "https://media.omnibees.com/Images/3958/Property/1136844.png",
+     "https://media.omnibees.com/Images/3958/Property/1136853.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136868.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136852.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136880.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136850.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136869.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136870.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136871.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136881.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136876.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136877.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1136878.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1991131.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1991132.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1991134.jpg",
+     "https://media.omnibees.com/Images/3958/Property/1991135.jpg"
+    ],
+    "quarto": {
+     "nome": "Suíte Família Superior",
+     "descricao": "Apartamento com decoração moderna e varanda, perto do rio e da praia, pra famílias de até 4 pessoas. Ar-condicionado, TV, frigobar, cofre e secador.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "TV",
+      "Frigobar",
+      "Cofre",
+      "Wi-Fi",
+      "Secador de cabelo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/3958/RoomTypes/5321574.jpg",
+      "https://media.omnibees.com/Images/3958/RoomTypes/5321572.jpg",
+      "https://media.omnibees.com/Images/3958/RoomTypes/5321573.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / resort / aeroporto · GRÁTIS",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Maceió e o resort, de cortesia no pacote.",
+     "info": [
+      "O horário da volta é informado no dia anterior",
+      "O resort fica na praia de Pratagy, cerca de 30 km do aeroporto"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🌊",
+     "nome": "Pratagy Acqua Park · GRÁTIS",
+     "quando": "Durante a estadia",
+     "descricao": "Ingressos de cortesia pro parque aquático do Pratagy, com piscinas, toboáguas e área kids, colado no resort.",
+     "info": [
+      "Cortesia pra hospedagens a partir de 2 noites"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "17.362,81",
+     "por": "16.203,42",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.157,52 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.362,81",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 2,
+        "valor": "8.681,41",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 3,
+        "valor": "5.787,60",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 4,
+        "valor": "4.340,70",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 5,
+        "valor": "3.472,56",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 6,
+        "valor": "2.893,80",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 7,
+        "valor": "2.480,40",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 8,
+        "valor": "2.170,35",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 9,
+        "valor": "1.929,20",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 10,
+        "valor": "1.736,28",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 11,
+        "valor": "1.578,44",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 12,
+        "valor": "1.446,90",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 13,
+        "valor": "1.335,60",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 14,
+        "valor": "1.240,20",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 15,
+        "valor": "1.157,52",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.893,80 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.362,81",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 2,
+        "valor": "8.681,41",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 3,
+        "valor": "5.787,60",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 4,
+        "valor": "4.340,70",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 5,
+        "valor": "3.472,56",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 6,
+        "valor": "2.893,80",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 7,
+        "valor": "2.530,01",
+        "obs": "com acréscimo",
+        "total": "17.710,07"
+       },
+       {
+        "n": 8,
+        "valor": "2.224,61",
+        "obs": "com acréscimo",
+        "total": "17.796,88"
+       },
+       {
+        "n": 9,
+        "valor": "1.987,08",
+        "obs": "com acréscimo",
+        "total": "17.883,69"
+       },
+       {
+        "n": 10,
+        "valor": "1.797,05",
+        "obs": "com acréscimo",
+        "total": "17.970,51"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.893,80 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.362,81",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 2,
+        "valor": "8.681,41",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 3,
+        "valor": "5.787,60",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 4,
+        "valor": "4.340,70",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 5,
+        "valor": "3.472,56",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       },
+       {
+        "n": 6,
+        "valor": "2.893,80",
+        "obs": "sem acréscimo",
+        "total": "17.362,81"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 140,
+   "inicial": false
+  },
+  {
    "slug": "maceio-slim-pajucara-passeios-privados-20-a-26-fev-casal",
    "destino": "Maceió",
    "titulo": "Maceió com passeios privados: Maragogi, São Miguel dos Milagres e Praia do Francês",
