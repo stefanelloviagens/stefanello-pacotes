@@ -9,7 +9,7 @@
    "slug": "maceio-slim-pajucara-passeios-privados-20-a-26-fev-casal",
    "destino": "Maceió",
    "titulo": "Maceió com passeios privados: Maragogi, São Miguel dos Milagres e Praia do Francês",
-   "chamada": "Seis noites em Pajuçara, a poucos passos da praia, com três passeios privados pelas praias mais lindas de Alagoas, na semana da melhor maré do mês.",
+   "chamada": "Seis noites em Pajuçara, a poucos passos da praia, com três passeios privados pelas praias mais lindas de Alagoas.",
    "black": true,
    "selo": "Passeios privados",
    "foto": "https://images.unsplash.com/photo-1616180759439-7f6367792233?auto=format&fit=crop&w=1600&q=80",
@@ -18,14 +18,14 @@
    "pessoasTxt": "2 adultos",
    "dias": 7,
    "noites": 6,
-   "ida": "2027-02-20",
-   "volta": "2027-02-26",
-   "idaTxt": "sáb, 20 de fev",
-   "voltaTxt": "sex, 26 de fev",
+   "ida": "2027-02-12",
+   "volta": "2027-02-18",
+   "idaTxt": "sex, 12 de fev",
+   "voltaTxt": "qui, 18 de fev",
    "inclui": [
     [
      "✈️",
-     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+     "Passagens aéreas de ida e volta (LATAM na ida e GOL na volta, saindo de Porto Alegre)"
     ],
     [
      "🏨",
@@ -53,99 +53,98 @@
    "voos": [
     {
      "tipo": "Ida",
-     "data": "sáb, 20 de fev",
-     "cia": "GOL",
-     "resumo": "1 conexão em Brasília · 6h20",
+     "data": "sex, 12 de fev",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 6h30",
      "bagagem": [],
      "trechos": [
       {
        "saida": {
-        "data": "20/02",
-        "hora": "05:05",
+        "data": "12/02",
+        "hora": "08:40",
         "iata": "POA",
         "cidade": "Porto Alegre",
         "aeroporto": "Aeroporto Salgado Filho"
        },
        "chegada": {
-        "data": "20/02",
-        "hora": "07:35",
-        "iata": "BSB",
-        "cidade": "Brasília",
-        "aeroporto": "Aeroporto de Brasília"
+        "data": "12/02",
+        "hora": "10:15",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
        },
-       "voo": "G3 1797",
-       "duracao": "2h30"
+       "voo": "LA 3153",
+       "duracao": "1h35"
       },
       {
        "saida": {
-        "data": "20/02",
-        "hora": "09:05",
-        "iata": "BSB",
-        "cidade": "Brasília",
-        "aeroporto": "Aeroporto de Brasília"
+        "data": "12/02",
+        "hora": "12:15",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
        },
        "chegada": {
-        "data": "20/02",
-        "hora": "11:25",
+        "data": "12/02",
+        "hora": "15:10",
         "iata": "MCZ",
         "cidade": "Maceió",
         "aeroporto": "Aeroporto Zumbi dos Palmares"
        },
-       "voo": "G3 1704",
-       "duracao": "2h20"
+       "voo": "LA 3746",
+       "duracao": "2h55"
       }
      ],
      "conexoes": [
-      "Espera de 1h30 em Brasília"
+      "Espera de 2h em Congonhas"
      ]
     },
     {
      "tipo": "Volta",
-     "data": "sex, 26 de fev",
+     "data": "qui, 18 de fev",
      "cia": "GOL",
-     "resumo": "1 conexão em São Paulo (Guarulhos) · 6h30",
+     "resumo": "1 conexão em Brasília · 6h25",
      "bagagem": [],
      "trechos": [
       {
        "saida": {
-        "data": "26/02",
-        "hora": "18:00",
+        "data": "18/02",
+        "hora": "16:55",
         "iata": "MCZ",
         "cidade": "Maceió",
         "aeroporto": "Aeroporto Zumbi dos Palmares"
        },
        "chegada": {
-        "data": "26/02",
-        "hora": "21:10",
-        "iata": "GRU",
-        "cidade": "São Paulo",
-        "aeroporto": "Guarulhos"
+        "data": "18/02",
+        "hora": "19:25",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
        },
-       "voo": "G3 1671",
-       "duracao": "3h10"
+       "voo": "G3 1707",
+       "duracao": "2h30"
       },
       {
        "saida": {
-        "data": "26/02",
-        "hora": "22:45",
-        "iata": "GRU",
-        "cidade": "São Paulo",
-        "aeroporto": "Guarulhos"
+        "data": "18/02",
+        "hora": "20:40",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
        },
        "chegada": {
-        "data": "27/02",
-        "hora": "00:30",
+        "data": "18/02",
+        "hora": "23:20",
         "iata": "POA",
         "cidade": "Porto Alegre",
         "aeroporto": "Aeroporto Salgado Filho"
        },
-       "voo": "G3 1264",
-       "duracao": "1h45"
+       "voo": "G3 1796",
+       "duracao": "2h40"
       }
      ],
      "conexoes": [
-      "Espera de 1h35 em Guarulhos",
-      "Chegada em Porto Alegre à 00h30 do sábado (27/02)"
+      "Espera de 1h15 em Brasília"
      ]
     }
    ],
@@ -153,8 +152,8 @@
     "nome": "Slim Pajuçara by Tropicalis",
     "regime": "Café da manhã",
     "noites": 6,
-    "checkin": "20/02 (14h)",
-    "checkout": "26/02 (12h)",
+    "checkin": "12/02 (14h)",
+    "checkout": "18/02 (12h)",
     "tarifa": "",
     "destaque": "A poucos passos da Praia de Pajuçara",
     "endereco": "Rua Jangadeiros Alagoanos, 1292 · Pajuçara, Maceió (AL)",
@@ -188,7 +187,7 @@
      "tipo": "Passeio",
      "icone": "🏖️",
      "nome": "City tour com Praia do Francês · privado",
-     "quando": "Sugestão: 24/02",
+     "quando": "Sugestão: 13/02",
      "descricao": "Passeio privado pelos principais pontos de Maceió e pela orla, seguindo até a Praia do Francês, uma das mais famosas de Alagoas, com mar de águas mornas e barracas pé na areia.",
      "info": [
       "Veículo e guia exclusivos pro casal"
@@ -198,7 +197,7 @@
      "tipo": "Passeio",
      "icone": "🏝️",
      "nome": "Passeio a Maragogi · privado",
-     "quando": "Sugestão: 21/02 (maré baixa às 10h12, a melhor do mês)",
+     "quando": "Sugestão: 17/02 (maré baixa às 07h11, a melhor da estadia)",
      "descricao": "Dia inteiro em Maragogi, o \"Caribe brasileiro\", com as piscinas naturais de águas cristalinas a cerca de 6 km da costa.",
      "info": [
       "Veículo exclusivo pro casal",
@@ -209,7 +208,7 @@
      "tipo": "Passeio",
      "icone": "🌿",
      "nome": "Passeio a São Miguel dos Milagres · privado",
-     "quando": "Sugestão: 22/02 (maré baixa às 10h49)",
+     "quando": "Data a combinar conforme a maré",
      "descricao": "Rota Ecológica dos Milagres, com praias calmas, coqueirais e piscinas naturais, um dos cantos mais charmosos do litoral de Alagoas.",
      "info": [
       "Veículo exclusivo pro casal",
