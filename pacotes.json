@@ -6,6 +6,433 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "salvador-city-tour-ilha-dos-frades-itaparica-8-a-15-jan-casal",
+   "destino": "Salvador",
+   "titulo": "Salvador com City Tour Histórico e Ilha dos Frades com Itaparica",
+   "chamada": "Sete noites em Amaralina, de frente pro mar de Salvador, com voo direto de Porto Alegre, city tour pelo Pelourinho e passeio de escuna pela Ilha dos Frades e Itaparica.",
+   "black": true,
+   "selo": "Voo direto",
+   "foto": "https://images.unsplash.com/photo-1631417141582-d2d8f7e19856?auto=format&fit=crop&w=1600&q=80",
+   "img": "",
+   "inicial": false,
+   "pessoas": 2,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-01-08",
+   "volta": "2027-01-15",
+   "idaTxt": "sex, 8 de jan",
+   "voltaTxt": "sex, 15 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL, voo direto de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "B Hotel Salvador, Quarto Superior (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "⛪",
+     "City Tour Histórico (Pelourinho e Centro Histórico)"
+    ],
+    [
+     "⛵",
+     "Passeio à Ilha dos Frades com Itaparica"
+    ]
+   ],
+   "pix": "5.422,79",
+   "parcelas": 15,
+   "parcela": "387,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-23",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MTIxNzN8MGxb17jYqh_qOnfEwedSld8",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sex, 8 de jan",
+     "cia": "GOL",
+     "resumo": "Voo direto · 3h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "08/01",
+        "hora": "00:20",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "08/01",
+        "hora": "03:35",
+        "iata": "SSA",
+        "cidade": "Salvador",
+        "aeroporto": "Aeroporto de Salvador"
+       },
+       "voo": "G3 9100",
+       "duracao": "3h15"
+      }
+     ],
+     "conexoes": [
+      "Embarque na madrugada de quinta (07/01) pra sexta (08/01)"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sex, 15 de jan",
+     "cia": "GOL",
+     "resumo": "Voo direto · 3h30",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "15/01",
+        "hora": "00:15",
+        "iata": "SSA",
+        "cidade": "Salvador",
+        "aeroporto": "Aeroporto de Salvador"
+       },
+       "chegada": {
+        "data": "15/01",
+        "hora": "03:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 9102",
+       "duracao": "3h30"
+      }
+     ],
+     "conexoes": [
+      "Embarque na madrugada de quinta (14/01) pra sexta (15/01)"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "B Hotel Salvador",
+    "regime": "Café da manhã",
+    "noites": 7,
+    "checkin": "08/01 (14h)",
+    "checkout": "15/01 (12h)",
+    "tarifa": "Cancelamento grátis até 03/01/2027",
+    "destaque": "Em Amaralina, de frente pro mar",
+    "endereco": "Av. Amaralina, 74 · Amaralina, Salvador (BA)",
+    "descricao": "Hotel moderno na orla de Amaralina, com café da manhã servido de frente pro mar e Wi-Fi grátis. Fica no caminho entre a Barra e a Pituba.",
+    "fotos": [
+     "https://media.omnibees.com/Images/6116/Property/885915.jpg",
+     "https://media.omnibees.com/Images/6116/Property/885916.jpg",
+     "https://media.omnibees.com/Images/6116/Property/885830.jpg",
+     "https://media.omnibees.com/Images/6116/Property/885854.jpg",
+     "https://media.omnibees.com/Images/6116/Property/885843.jpg",
+     "https://media.omnibees.com/Images/6116/Property/885831.jpg",
+     "https://media.omnibees.com/Images/6116/Property/885850.jpg",
+     "https://media.omnibees.com/Images/6116/Property/885917.jpg",
+     "https://media.omnibees.com/Images/6116/Property/893334.jpg"
+    ],
+    "quarto": {
+     "nome": "Quarto Superior",
+     "descricao": "Quarto de 18 m² com cama de casal ou duas de solteiro e vista lateral restrita. Ar-condicionado, TV de tela plana, frigobar, cofre e Wi-Fi.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV de tela plana",
+      "Frigobar",
+      "Cofre",
+      "Wi-Fi",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/6116/RoomTypes/885874.jpg",
+      "https://media.omnibees.com/Images/6116/RoomTypes/885877.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular entre o Aeroporto de Salvador e o hotel. No aeroporto, a recepção é com placa da Adval Turismo.",
+     "info": [
+      "Previsto 1 mala de 23 kg por pessoa no transfer",
+      "Mudanças no transfer de volta até 24h antes"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "⛪",
+     "nome": "City Tour Histórico",
+     "quando": "Segundas, quartas, sextas e sábados, pela manhã",
+     "descricao": "Passeio pelo Centro Histórico de Salvador e pelo Pelourinho, com guia.",
+     "info": [
+      "Passeio regular (compartilhado)",
+      "Entradas em igrejas e museus pagas à parte"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "⛵",
+     "nome": "Passeio à Ilha dos Frades com Itaparica",
+     "quando": "Dia combinado com o receptivo",
+     "descricao": "Passeio de escuna pela Baía de Todos-os-Santos, com paradas na Ilha dos Frades e em Itaparica.",
+     "info": [
+      "Refeições pagas à parte"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "5.798,61",
+     "por": "5.422,79",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 386,57 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.798,61",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 2,
+        "valor": "2.899,31",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 3,
+        "valor": "1.932,87",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 4,
+        "valor": "1.449,65",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 5,
+        "valor": "1.159,72",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 6,
+        "valor": "966,44",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 7,
+        "valor": "828,37",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 8,
+        "valor": "724,83",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 9,
+        "valor": "644,29",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 10,
+        "valor": "579,86",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 11,
+        "valor": "527,15",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 12,
+        "valor": "483,22",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 13,
+        "valor": "446,05",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 14,
+        "valor": "414,19",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 15,
+        "valor": "386,57",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 966,44 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.798,61",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 2,
+        "valor": "2.899,31",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 3,
+        "valor": "1.932,87",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 4,
+        "valor": "1.449,65",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 5,
+        "valor": "1.159,72",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 6,
+        "valor": "966,44",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 7,
+        "valor": "844,94",
+        "obs": "com acréscimo",
+        "total": "5.914,58"
+       },
+       {
+        "n": 8,
+        "valor": "742,95",
+        "obs": "com acréscimo",
+        "total": "5.943,58"
+       },
+       {
+        "n": 9,
+        "valor": "663,62",
+        "obs": "com acréscimo",
+        "total": "5.972,57"
+       },
+       {
+        "n": 10,
+        "valor": "600,16",
+        "obs": "com acréscimo",
+        "total": "6.001,56"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 966,44 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.798,61",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 2,
+        "valor": "2.899,31",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 3,
+        "valor": "1.932,87",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 4,
+        "valor": "1.449,65",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 5,
+        "valor": "1.159,72",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       },
+       {
+        "n": 6,
+        "valor": "966,44",
+        "obs": "sem acréscimo",
+        "total": "5.798,61"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 146,
+   "pessoasTxt": "2 adultos",
+   "fotoOg": "https://images.unsplash.com/photo-1631417141582-d2d8f7e19856?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
    "slug": "maceio-verano-pajucara-maragogi-milagres-gunga-27-fev-a-6-mar-casal",
    "destino": "Maceió",
    "titulo": "Maceió com Maragogi, São Miguel dos Milagres, Praia do Gunga e Praia do Francês",
