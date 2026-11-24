@@ -6,6 +6,486 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "porto-seguro-trancoso-arraial-porto-geraes-marco-black-november",
+   "destino": "Porto Seguro",
+   "titulo": "Bahia 3 em 1: Porto Seguro + Trancoso + Arraial d'Ajuda com Transfer GRÁTIS",
+   "chamada": "Sete noites em Porto Seguro em março, com transfer de presente, city tour com praia, Trancoso e Arraial d'Ajuda.",
+   "black": true,
+   "selo": "Transfer GRÁTIS",
+   "foto": "34722367",
+   "img": "",
+   "inicial": false,
+   "pessoas": 2,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-03-08",
+   "volta": "2027-03-15",
+   "idaTxt": "seg, 8 de mar",
+   "voltaTxt": "seg, 15 de mar",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Porto Geraes Praia Hotel, apto Duplo Econômico (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto GRÁTIS"
+    ],
+    [
+     "🏛️",
+     "City tour com praia em Porto Seguro"
+    ],
+    [
+     "🏖️",
+     "Passeio a Trancoso"
+    ],
+    [
+     "🌊",
+     "Passeio de praia em Arraial d'Ajuda"
+    ]
+   ],
+   "pix": "6.195,08",
+   "parcelas": 15,
+   "parcela": "443,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-24",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MTgxNDd8MA57fp3rzJRALKYlkiHO0sg",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "seg, 8 de mar",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 5h45",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "08/03",
+        "hora": "07:20",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "08/03",
+        "hora": "09:00",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1273",
+       "duracao": "1h40"
+      },
+      {
+       "saida": {
+        "data": "08/03",
+        "hora": "11:05",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "08/03",
+        "hora": "13:05",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "voo": "G3 1502",
+       "duracao": "2h"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h05 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "seg, 15 de mar",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 5h20",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "15/03",
+        "hora": "13:35",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "chegada": {
+        "data": "15/03",
+        "hora": "15:55",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1503",
+       "duracao": "2h20"
+      },
+      {
+       "saida": {
+        "data": "15/03",
+        "hora": "17:05",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "15/03",
+        "hora": "18:55",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1282",
+       "duracao": "1h50"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h10 em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Porto Geraes Praia Hotel",
+    "regime": "Café da manhã",
+    "noites": 7,
+    "checkin": "08/03",
+    "checkout": "15/03",
+    "endereco": "Rua dos Hibiscos, 260 · Praia de Taperapuã, Porto Seguro (BA)",
+    "descricao": "Hotel na Praia de Taperapuã, perto das barracas Axé Moi e Tôa Tôa e da Praia de Ponta Grande. Tem piscina externa, jardim, Wi-Fi grátis e ajuda pra organizar passeios.",
+    "fotos": [
+     "https://i.travelapi.com/lodging/7000000/6480000/6473300/6473203/c6906748_z.jpg",
+     "https://i.travelapi.com/lodging/7000000/6480000/6473300/6473203/d424bc44_z.jpg",
+     "https://i.travelapi.com/lodging/7000000/6480000/6473300/6473203/2d7cff6a_z.jpg",
+     "https://i.travelapi.com/lodging/7000000/6480000/6473300/6473203/f0bb6aa3_z.jpg",
+     "https://i.travelapi.com/lodging/7000000/6480000/6473300/6473203/5bc61be4_z.jpg",
+     "https://i.travelapi.com/lodging/7000000/6480000/6473300/6473203/be7afe87_z.jpg",
+     "https://i.travelapi.com/lodging/7000000/6480000/6473300/6473203/5746b72f_z.jpg",
+     "https://i.travelapi.com/lodging/7000000/6480000/6473300/6473203/780f35ea_z.jpg",
+     "https://i.travelapi.com/lodging/7000000/6480000/6473300/6473203/90216dd4_z.jpg",
+     "https://i.travelapi.com/lodging/7000000/6480000/6473300/6473203/daf874c2_z.jpg",
+     "https://i.travelapi.com/lodging/7000000/6480000/6473300/6473203/705ab648_z.jpg",
+     "https://i.travelapi.com/lodging/7000000/6480000/6473300/6473203/18270241_z.jpg"
+    ],
+    "quarto": {
+     "nome": "Duplo Econômico",
+     "descricao": "Quarto para até 2 pessoas, com ar-condicionado split, Smart TV, frigobar e Wi-Fi.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Smart TV",
+      "Frigobar",
+      "Cofre",
+      "Wi-Fi",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/18559/RoomTypes/1184165.jpg",
+      "https://media.omnibees.com/Images/18559/RoomTypes/1177128.jpg",
+      "https://media.omnibees.com/Images/18559/RoomTypes/1177129.jpg"
+     ]
+    },
+    "tarifa": "Cancelamento grátis até 05/02/2027"
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto · GRÁTIS",
+     "quando": "Na chegada e na saída",
+     "descricao": "Serviço regular do aeroporto de Porto Seguro até o hotel e de volta, de cortesia no pacote.",
+     "info": [
+      "Sai cerca de 40 min depois do pouso",
+      "Válido para hotéis em Porto Seguro"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏛️",
+     "nome": "City tour com praia em Porto Seguro",
+     "quando": "Retorno por volta das 15h",
+     "descricao": "Passeio pela Cidade Alta, berço do Brasil, com igrejas do século XVI e vista do mar.",
+     "info": [
+      "Saída do hotel",
+      "Passeio em veículo compartilhado (regular)"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏖️",
+     "nome": "Passeio a Trancoso",
+     "quando": "Saída entre 8h e 9h · retorno por volta das 15h30",
+     "descricao": "Dia em Trancoso, a 68 km, com o famoso Quadrado e praias de água clara.",
+     "info": [
+      "Saída do hotel",
+      "Passeio em veículo compartilhado (regular)"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🌊",
+     "nome": "Passeio de praia em Arraial d'Ajuda",
+     "quando": "Dia inteiro",
+     "descricao": "Visita ao charmoso vilarejo de Arraial d'Ajuda, com até 4h livres nas praias.",
+     "info": [
+      "Saída do hotel",
+      "Passeio em veículo compartilhado (regular)"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "6.631,11",
+     "por": "6.195,08",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 442,07 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "6.631,11",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 2,
+        "valor": "3.315,56",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 3,
+        "valor": "2.210,37",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 4,
+        "valor": "1.657,78",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 5,
+        "valor": "1.326,22",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 6,
+        "valor": "1.105,19",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 7,
+        "valor": "947,30",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 8,
+        "valor": "828,89",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 9,
+        "valor": "736,79",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 10,
+        "valor": "663,11",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 11,
+        "valor": "602,83",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 12,
+        "valor": "552,59",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 13,
+        "valor": "510,09",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 14,
+        "valor": "473,65",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 15,
+        "valor": "442,07",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.105,19 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "6.631,11",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 2,
+        "valor": "3.315,56",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 3,
+        "valor": "2.210,37",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 4,
+        "valor": "1.657,78",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 5,
+        "valor": "1.326,22",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 6,
+        "valor": "1.105,19",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 7,
+        "valor": "966,25",
+        "obs": "com acréscimo",
+        "total": "6.763,73"
+       },
+       {
+        "n": 8,
+        "valor": "849,61",
+        "obs": "com acréscimo",
+        "total": "6.796,89"
+       },
+       {
+        "n": 9,
+        "valor": "758,89",
+        "obs": "com acréscimo",
+        "total": "6.830,04"
+       },
+       {
+        "n": 10,
+        "valor": "686,32",
+        "obs": "com acréscimo",
+        "total": "6.863,20"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.105,19 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "6.631,11",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 2,
+        "valor": "3.315,56",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 3,
+        "valor": "2.210,37",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 4,
+        "valor": "1.657,78",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 5,
+        "valor": "1.326,22",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       },
+       {
+        "n": 6,
+        "valor": "1.105,19",
+        "obs": "sem acréscimo",
+        "total": "6.631,11"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 147
+  },
+  {
    "slug": "salvador-city-tour-ilha-dos-frades-itaparica-8-a-15-jan-casal",
    "destino": "Salvador",
    "titulo": "Salvador com City Tour Histórico e Ilha dos Frades com Itaparica",
