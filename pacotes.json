@@ -6,6 +6,492 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "natal-praiamar-fique-7-pague-6-pipa-genipabu-cunhau-7-a-14-mai",
+   "destino": "Natal",
+   "titulo": "Natal com City Tour + Pipa, Genipabu e Cunhaú",
+   "chamada": "Sete noites em Ponta Negra, pertinho do Morro do Careca, com café da manhã e jantar no hotel e passeios a Pipa, Genipabu e Cunhaú.",
+   "black": true,
+   "selo": "Fique 7, pague 6",
+   "img": "",
+   "pessoas": 2,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-05-07",
+   "volta": "2027-05-14",
+   "idaTxt": "sex, 7 de mai",
+   "voltaTxt": "sex, 14 de mai",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Praiamar Natal Hotel, quarto Standard (café da manhã e jantar)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "🏙️",
+     "City Tour com Praia de Camurupim"
+    ],
+    [
+     "🐬",
+     "Passeio à Praia de Pipa"
+    ],
+    [
+     "🏜️",
+     "Passeio às Dunas de Genipabu"
+    ],
+    [
+     "🏝️",
+     "Passeio à Praia de Cunhaú"
+    ]
+   ],
+   "pix": "7.014,21",
+   "parcelas": 15,
+   "parcela": "501,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-24",
+   "foto": "31021957",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sex, 7 de mai",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 6h50",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "07/05",
+        "hora": "13:25",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "07/05",
+        "hora": "15:00",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1281",
+       "duracao": "1h35"
+      },
+      {
+       "saida": {
+        "data": "07/05",
+        "hora": "16:35",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "07/05",
+        "hora": "20:15",
+        "iata": "NAT",
+        "cidade": "Natal",
+        "aeroporto": "Aeroporto de Natal"
+       },
+       "voo": "G3 1564",
+       "duracao": "3h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h35 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sex, 14 de mai",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 11h55 · chega 00:30 de sáb",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "14/05",
+        "hora": "12:35",
+        "iata": "NAT",
+        "cidade": "Natal",
+        "aeroporto": "Aeroporto de Natal"
+       },
+       "chegada": {
+        "data": "14/05",
+        "hora": "16:05",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "G3 1677",
+       "duracao": "3h30"
+      },
+      {
+       "saida": {
+        "data": "14/05",
+        "hora": "22:45",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "15/05",
+        "hora": "00:30",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1264",
+       "duracao": "1h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 6h40 em Guarulhos"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Praiamar Natal Hotel",
+    "regime": "Café da manhã e jantar",
+    "noites": 7,
+    "checkin": "07/05",
+    "checkout": "14/05",
+    "tarifa": "Cancelamento grátis até 05/05/2027",
+    "destaque": "Em Ponta Negra, a poucos passos da praia",
+    "endereco": "Rua Francisco Gurgel, 33 · Ponta Negra, Natal (RN)",
+    "descricao": "No coração de Ponta Negra, a poucos passos da praia e a 2 km do Morro do Careca. Tem o Praiamar Beach Club à beira-mar, com parque aquático infantil, piscinas e playground, o Terraço Atlântico com piscina e hidromassagem com vista para o mar, e mais uma piscina com sauna na área central. Os restaurantes Aquarium e Jangadeiros servem o café da manhã e o jantar.",
+    "fotos": [
+     "https://media.omnibees.com/Images/2623/Property/744281.jpg",
+     "https://media.omnibees.com/Images/2623/Property/744282.jpg",
+     "https://media.omnibees.com/Images/2623/Property/972421.jpg",
+     "https://media.omnibees.com/Images/2623/Property/972434.jpg",
+     "https://media.omnibees.com/Images/2623/Property/972456.jpg",
+     "https://media.omnibees.com/Images/2623/Property/972418.jpg",
+     "https://media.omnibees.com/Images/2623/Property/641096.jpg",
+     "https://media.omnibees.com/Images/2623/Property/972453.jpg",
+     "https://media.omnibees.com/Images/2623/Property/972446.jpg",
+     "https://media.omnibees.com/Images/2623/Property/972454.jpg",
+     "https://media.omnibees.com/Images/2623/Property/972449.jpg",
+     "https://media.omnibees.com/Images/2623/Property/842521.jpg",
+     "https://media.omnibees.com/Images/2623/Property/972445.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard",
+     "descricao": "Quarto amplo, para até 4 pessoas, com vista para a piscina central ou para as áreas internas do hotel.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV a cabo",
+      "Frigobar",
+      "Cofre",
+      "Wi-Fi",
+      "Secador de cabelo",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/2623/RoomTypes/5940883.jpg",
+      "https://media.omnibees.com/Images/2623/RoomTypes/972566.jpg",
+      "https://media.omnibees.com/Images/2623/RoomTypes/972564.jpg",
+      "https://media.omnibees.com/Images/2623/Property/972457.jpg",
+      "https://media.omnibees.com/Images/2623/Property/972461.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto → hotel → aeroporto",
+     "quando": "Na chegada e na volta",
+     "descricao": "Transfer entre o Aeroporto de Natal e o hotel, na ida e na volta.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏙️",
+     "nome": "City Tour com Praia de Camurupim",
+     "quando": "Saídas diárias",
+     "descricao": "Via Costeira, praias urbanas, Fortaleza dos Reis Magos, centro histórico e artesanato, com parada na Praia de Camurupim.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🐬",
+     "nome": "Passeio à Praia de Pipa",
+     "quando": "Seg, qui e sáb",
+     "descricao": "Dia na Pipa, com suas falésias, a Baía dos Golfinhos e o centrinho cheio de restaurantes e lojinhas.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏜️",
+     "nome": "Passeio às Dunas de Genipabu",
+     "quando": "Ter, qui e sáb",
+     "descricao": "As dunas e lagoas de Genipabu, no litoral norte, com opcionais de buggy e dromedário.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏝️",
+     "nome": "Passeio à Praia de Cunhaú",
+     "quando": "Qua e sáb",
+     "descricao": "Litoral sul até Cunhaú, praia tranquila de águas mornas, na foz do rio Curimataú.",
+     "info": []
+    }
+   ],
+   "cod": 149,
+   "pagamento": {
+    "pix": {
+     "de": "7.509,80",
+     "por": "7.014,21",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 500,65 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.509,80",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 2,
+        "valor": "3.754,90",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 3,
+        "valor": "2.503,27",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 4,
+        "valor": "1.877,45",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 5,
+        "valor": "1.501,96",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 6,
+        "valor": "1.251,63",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 7,
+        "valor": "1.072,83",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 8,
+        "valor": "938,73",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 9,
+        "valor": "834,42",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 10,
+        "valor": "750,98",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 11,
+        "valor": "682,71",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 12,
+        "valor": "625,82",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 13,
+        "valor": "577,68",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 14,
+        "valor": "536,41",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 15,
+        "valor": "500,65",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.251,63 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.509,80",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 2,
+        "valor": "3.754,90",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 3,
+        "valor": "2.503,27",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 4,
+        "valor": "1.877,45",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 5,
+        "valor": "1.501,96",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 6,
+        "valor": "1.251,63",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 7,
+        "valor": "1.094,29",
+        "obs": "com acréscimo",
+        "total": "7.660,00"
+       },
+       {
+        "n": 8,
+        "valor": "962,19",
+        "obs": "com acréscimo",
+        "total": "7.697,55"
+       },
+       {
+        "n": 9,
+        "valor": "859,45",
+        "obs": "com acréscimo",
+        "total": "7.735,09"
+       },
+       {
+        "n": 10,
+        "valor": "777,26",
+        "obs": "com acréscimo",
+        "total": "7.772,64"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.251,63 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.509,80",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 2,
+        "valor": "3.754,90",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 3,
+        "valor": "2.503,27",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 4,
+        "valor": "1.877,45",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 5,
+        "valor": "1.501,96",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       },
+       {
+        "n": 6,
+        "valor": "1.251,63",
+        "obs": "sem acréscimo",
+        "total": "7.509,80"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "inicial": false,
+   "pessoasTxt": "2 adultos",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MTgyNzN8MNAVku61Mh__bCOLGFO3o1U"
+  },
+  {
    "slug": "ilheus-itacare-fazenda-de-cacau-pousada-praia-bela-super-promo-black",
    "destino": "Ilhéus",
    "titulo": "Ilhéus com City Tour + Fazenda de Cacau + Itacaré",
