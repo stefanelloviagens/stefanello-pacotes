@@ -6,6 +6,475 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "ilheus-itacare-fazenda-de-cacau-pousada-praia-bela-super-promo-black",
+   "destino": "Ilhéus",
+   "titulo": "Ilhéus com City Tour + Fazenda de Cacau + Itacaré",
+   "chamada": "Sete noites na Praia dos Milionários, em Ilhéus: a terra de Jorge Amado, do chocolate e das praias mais lindas do sul da Bahia.",
+   "black": true,
+   "selo": "Super promo Black",
+   "img": "",
+   "pessoas": 2,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-02-27",
+   "volta": "2027-03-06",
+   "idaTxt": "sáb, 27 de fev",
+   "voltaTxt": "sáb, 6 de mar",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Pousada Praia Bela, Suíte Standard Térrea (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "🏛️",
+     "City Tour Histórico e Panorâmico em Ilhéus"
+    ],
+    [
+     "🍫",
+     "Passeio a Fazenda de Cacau"
+    ],
+    [
+     "🏝️",
+     "Passeio a Itacaré"
+    ]
+   ],
+   "pix": "6.118,03",
+   "parcelas": 15,
+   "parcela": "437,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-24",
+   "foto": "30096921",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sáb, 27 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão no Rio de Janeiro (Galeão) · 6h",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "27/02",
+        "hora": "07:55",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "27/02",
+        "hora": "09:45",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "voo": "G3 1853",
+       "duracao": "1h50"
+      },
+      {
+       "saida": {
+        "data": "27/02",
+        "hora": "12:10",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "chegada": {
+        "data": "27/02",
+        "hora": "13:55",
+        "iata": "IOS",
+        "cidade": "Ilhéus",
+        "aeroporto": "Aeroporto Jorge Amado"
+       },
+       "voo": "G3 2044",
+       "duracao": "1h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h25 no Galeão"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sáb, 6 de mar",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 8h",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "06/03",
+        "hora": "11:55",
+        "iata": "IOS",
+        "cidade": "Ilhéus",
+        "aeroporto": "Aeroporto Jorge Amado"
+       },
+       "chegada": {
+        "data": "06/03",
+        "hora": "14:10",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1527",
+       "duracao": "2h15"
+      },
+      {
+       "saida": {
+        "data": "06/03",
+        "hora": "18:10",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "06/03",
+        "hora": "19:55",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1284",
+       "duracao": "1h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 4h em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Pousada Praia Bela - Ilhéus",
+    "regime": "Café da manhã",
+    "noites": 7,
+    "checkin": "27/02",
+    "checkout": "06/03",
+    "tarifa": "Cancelamento grátis até 27/01/2027",
+    "destaque": "Na Praia dos Milionários, com piscinas",
+    "endereco": "Rodovia Ilhéus–Olivença, km 2,5 · Praia dos Milionários, Ilhéus (BA)",
+    "descricao": "Pousada na Praia dos Milionários, no caminho de Olivença, com piscinas, área de lazer, café da manhã caprichado e Wi-Fi.",
+    "fotos": [
+     "https://media.omnibees.com/Images/4071/Property/5372946.jpg",
+     "https://media.omnibees.com/Images/4071/Property/5372948.jpg",
+     "https://media.omnibees.com/Images/4071/Property/1281201.jpg",
+     "https://media.omnibees.com/Images/4071/Property/1281207.jpg",
+     "https://media.omnibees.com/Images/4071/Property/1281219.jpg",
+     "https://media.omnibees.com/Images/4071/Property/1281221.jpg",
+     "https://media.omnibees.com/Images/4071/Property/5372950.jpg",
+     "https://media.omnibees.com/Images/4071/Property/5372956.jpg",
+     "https://media.omnibees.com/Images/4071/Property/1281210.jpg",
+     "https://media.omnibees.com/Images/4071/Property/1032007.jpg",
+     "https://media.omnibees.com/Images/4071/Property/1086413.jpg"
+    ],
+    "quarto": {
+     "nome": "Suíte Standard Térrea",
+     "descricao": "Suíte no térreo, com fácil acesso às áreas comuns e às piscinas da pousada.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Frigobar",
+      "Wi-Fi",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/4071/RoomTypes/5363412.jpg",
+      "https://media.omnibees.com/Images/4071/RoomTypes/1077821.jpg",
+      "https://media.omnibees.com/Images/4071/RoomTypes/5363425.jpg",
+      "https://media.omnibees.com/Images/4071/Property/1077935.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto → hotel → aeroporto",
+     "quando": "Na chegada e na volta",
+     "descricao": "Transfer regular entre o Aeroporto Jorge Amado e o hotel, na ida e na volta.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏛️",
+     "nome": "City Tour Histórico e Panorâmico em Ilhéus",
+     "quando": "Seg, qua e sex · 8h às 12h",
+     "descricao": "Um passeio pela Ilhéus de Jorge Amado: Catedral de São Sebastião, o famoso Bar Vesúvio e o centro histórico, com as histórias dos romances do escritor.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🍫",
+     "nome": "Fazenda de Cacau e seus derivados",
+     "quando": "Ter e qui · 8h às 13h",
+     "descricao": "Visita a uma fazenda de cacau: da plantação e do fruto até o chocolate de origem, com as histórias e causos da época dos coronéis do cacau.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏝️",
+     "nome": "Itacaré com praias urbanas",
+     "quando": "Sábados · 8h às 17h (ou conforme programação)",
+     "descricao": "Estrada pela BA-001 no meio da Mata Atlântica até Itacaré, com paradas nas praias do Resende, Tiririca e da Concha.",
+     "info": []
+    }
+   ],
+   "cod": 148,
+   "pagamento": {
+    "pix": {
+     "de": "6.546,16",
+     "por": "6.118,03",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 436,41 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "6.546,16",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 2,
+        "valor": "3.273,08",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 3,
+        "valor": "2.182,05",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 4,
+        "valor": "1.636,54",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 5,
+        "valor": "1.309,23",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 6,
+        "valor": "1.091,03",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 7,
+        "valor": "935,17",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 8,
+        "valor": "818,27",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 9,
+        "valor": "727,35",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 10,
+        "valor": "654,62",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 11,
+        "valor": "595,11",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 12,
+        "valor": "545,51",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 13,
+        "valor": "503,55",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 14,
+        "valor": "467,58",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 15,
+        "valor": "436,41",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.091,03 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "6.546,16",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 2,
+        "valor": "3.273,08",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 3,
+        "valor": "2.182,05",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 4,
+        "valor": "1.636,54",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 5,
+        "valor": "1.309,23",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 6,
+        "valor": "1.091,03",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 7,
+        "valor": "953,87",
+        "obs": "com acréscimo",
+        "total": "6.677,08"
+       },
+       {
+        "n": 8,
+        "valor": "838,73",
+        "obs": "com acréscimo",
+        "total": "6.709,81"
+       },
+       {
+        "n": 9,
+        "valor": "749,17",
+        "obs": "com acréscimo",
+        "total": "6.742,54"
+       },
+       {
+        "n": 10,
+        "valor": "677,53",
+        "obs": "com acréscimo",
+        "total": "6.775,28"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.091,03 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "6.546,16",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 2,
+        "valor": "3.273,08",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 3,
+        "valor": "2.182,05",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 4,
+        "valor": "1.636,54",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 5,
+        "valor": "1.309,23",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       },
+       {
+        "n": 6,
+        "valor": "1.091,03",
+        "obs": "sem acréscimo",
+        "total": "6.546,16"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "inicial": false,
+   "pessoasTxt": "2 adultos",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MTgxOTR8MFwN1LUMbHa0eYu_fEgH2uI"
+  },
+  {
    "slug": "porto-seguro-trancoso-arraial-porto-geraes-marco-black-november",
    "destino": "Porto Seguro",
    "titulo": "Bahia 3 em 1: Porto Seguro + Trancoso + Arraial d'Ajuda com Transfer GRÁTIS",
