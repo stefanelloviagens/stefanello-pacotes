@@ -6,6 +6,493 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "nordeste-ferias-janeiro-3-adultos-opcoes-punta-cana-grand-sirenis",
+   "destino": "Punta Cana",
+   "titulo": "🌎 Internacional: Punta Cana no Grand Sirenis All Inclusive, com parque aquático",
+   "chamada": "Opção internacional: sete noites all inclusive no Caribe, na República Dominicana, com mar azul-turquesa, parque aquático e transfer grátis de Black November.",
+   "black": true,
+   "selo": "🌎 INTERNACIONAL · All inclusive",
+   "foto": "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/b5afe8a6_z.jpg",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "3 adultos",
+   "dias": 9,
+   "noites": 7,
+   "ida": "2027-01-24",
+   "volta": "2027-02-01",
+   "idaTxt": "dom, 24 de jan",
+   "voltaTxt": "seg, 1 de fev (chegada)",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas internacionais de ida e volta (LATAM saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Grand Sirenis Punta Cana Resort, quarto Standard (ALL INCLUSIVE)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / resort / aeroporto GRÁTIS (promo Black November)"
+    ],
+    [
+     "🛡️",
+     "Seguro viagem internacional"
+    ]
+   ],
+   "pix": "32.621,03",
+   "parcelas": 15,
+   "parcela": "2.306,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MzAzODl8MCuhkTeQTYVdH0KyRvxkVuE",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "dom, 24 de jan",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 11h55",
+     "bagagem": [
+      "1 mochila ou bolsa",
+      "1 mala de mão"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "24/01",
+        "hora": "09:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "24/01",
+        "hora": "11:05",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "LA 3503",
+       "duracao": "1h50"
+      },
+      {
+       "saida": {
+        "data": "24/01",
+        "hora": "14:00",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "24/01",
+        "hora": "20:10",
+        "iata": "PUJ",
+        "cidade": "Punta Cana",
+        "aeroporto": "Aeroporto Internacional de Punta Cana"
+       },
+       "voo": "LA 8082",
+       "duracao": "7h10"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h55 em Guarulhos"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "dom, 31 de jan",
+     "cia": "LATAM",
+     "resumo": "1 conexão em Lima (Peru) · 12h25 · chega seg, 1/02 às 06:40",
+     "bagagem": [
+      "1 mochila ou bolsa",
+      "1 mala de mão"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "31/01",
+        "hora": "17:15",
+        "iata": "PUJ",
+        "cidade": "Punta Cana",
+        "aeroporto": "Aeroporto Internacional de Punta Cana"
+       },
+       "chegada": {
+        "data": "31/01",
+        "hora": "21:25",
+        "iata": "LIM",
+        "cidade": "Lima",
+        "aeroporto": "Aeroporto Jorge Chávez"
+       },
+       "voo": "LA 2453",
+       "duracao": "5h10"
+      },
+      {
+       "saida": {
+        "data": "31/01",
+        "hora": "23:55",
+        "iata": "LIM",
+        "cidade": "Lima",
+        "aeroporto": "Aeroporto Jorge Chávez"
+       },
+       "chegada": {
+        "data": "01/02",
+        "hora": "06:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "LA 2422",
+       "duracao": "4h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h30 em Lima"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Grand Sirenis Punta Cana Resort",
+    "regime": "All inclusive",
+    "noites": 7,
+    "checkin": "24/01",
+    "checkout": "31/01",
+    "tarifa": "Cancelamento grátis até 21/01/2027",
+    "destaque": "Caribe pé na areia, com parque aquático",
+    "endereco": "Uvero Alto · Punta Cana, República Dominicana",
+    "descricao": "Resort all inclusive de frente para o mar do Caribe em Uvero Alto, uma das praias mais bonitas e tranquilas de Punta Cana. Tem várias piscinas, parque aquático com toboáguas, bares na piscina e na praia, restaurantes à la carte e buffet, spa, academia, quadras, caiaque e bicicletas grátis, com shows e animação à noite.",
+    "regimeDetalhe": {
+     "ai": true,
+     "titulo": "ALL INCLUSIVE: comida, bebida e lanches à vontade",
+     "resumo": "Tudo que é servido nos restaurantes e bares do resort já está pago, o dia inteiro, além do Wi-Fi.",
+     "inclui": [
+      "Café da manhã, almoço e jantar (buffet e restaurantes à la carte)",
+      "Lanches e petiscos ao longo do dia",
+      "Bebidas à vontade, com e sem álcool, nos bares do resort",
+      "Minibar no quarto",
+      "Wi-Fi grátis",
+      "Parque aquático, piscinas, caiaque e bicicletas"
+     ],
+     "naoInclui": [
+      "Bebidas e vinhos premium",
+      "Spa e massagens",
+      "Passeios fora do resort"
+     ]
+    },
+    "fotos": [
+     "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/b5afe8a6_z.jpg",
+     "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/5264a191_z.jpg",
+     "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/77e81d5b_z.jpg",
+     "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/39246011_z.jpg",
+     "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/16c1a818_z.jpg",
+     "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/1065bf56_z.jpg",
+     "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/62466a64_z.jpg",
+     "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/c9d90741_z.jpg",
+     "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/93d49f6b_z.jpg",
+     "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/01640bb3_z.jpg",
+     "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/e614ce4c_z.jpg",
+     "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/94d4ab07_z.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard (1 cama king ou 2 camas de casal)",
+     "descricao": "Quarto de 37 m² com sacada, 1 cama king ou 2 camas de casal e sofá-cama queen. Ideal para os 3.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Sacada",
+      "TV",
+      "Minibar",
+      "Cafeteira",
+      "Cofre",
+      "Wi-Fi grátis",
+      "Arrumação diária"
+     ],
+     "fotos": [
+      "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/543a22b3_z.jpg",
+      "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/8a6e9dd0_z.jpg",
+      "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/b6943b89_z.jpg",
+      "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/543569a8_z.jpg",
+      "https://i.travelapi.com/lodging/2000000/1700000/1691900/1691881/257f330f_z.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / resort / aeroporto · GRÁTIS",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular entre o Aeroporto de Punta Cana e o resort, de cortesia na promoção de Black November.",
+     "info": [
+      "No aeroporto, procure a equipe uniformizada da Brasil Passeios Punta Cana na área dos operadores",
+      "Permite 1 mala grande e 1 bolsa de mão por pessoa",
+      "O horário da volta é combinado com o representante no hotel"
+     ]
+    },
+    {
+     "tipo": "Seguro",
+     "icone": "🛡️",
+     "nome": "Seguro viagem internacional",
+     "quando": "24/01 a 01/02",
+     "descricao": "Seguro viagem para os 3, cobrindo toda a viagem.",
+     "info": []
+    },
+    {
+     "tipo": "Documentos",
+     "icone": "🛂",
+     "nome": "Passaporte válido",
+     "quando": "Antes de viajar",
+     "descricao": "Brasileiro não precisa de visto para a República Dominicana, mas precisa de passaporte válido. A taxa de turismo já vem incluída na passagem.",
+     "info": [
+      "Confira a validade do passaporte com antecedência"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "34.579,92",
+     "por": "32.621,03",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 2.305,33 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "34.579,92",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 2,
+        "valor": "17.289,96",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 3,
+        "valor": "11.526,64",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 4,
+        "valor": "8.644,98",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 5,
+        "valor": "6.915,98",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 6,
+        "valor": "5.763,32",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 7,
+        "valor": "4.939,99",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 8,
+        "valor": "4.322,49",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 9,
+        "valor": "3.842,21",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 10,
+        "valor": "3.457,99",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 11,
+        "valor": "3.143,63",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 12,
+        "valor": "2.881,66",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 13,
+        "valor": "2.659,99",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 14,
+        "valor": "2.469,99",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 15,
+        "valor": "2.305,33",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 5.763,32 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "34.579,92",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 2,
+        "valor": "17.289,96",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 3,
+        "valor": "11.526,64",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 4,
+        "valor": "8.644,98",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 5,
+        "valor": "6.915,98",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 6,
+        "valor": "5.763,32",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 7,
+        "valor": "5.038,79",
+        "obs": "com acréscimo",
+        "total": "35.271,52"
+       },
+       {
+        "n": 8,
+        "valor": "4.430,55",
+        "obs": "com acréscimo",
+        "total": "35.444,42"
+       },
+       {
+        "n": 9,
+        "valor": "3.957,48",
+        "obs": "com acréscimo",
+        "total": "35.617,32"
+       },
+       {
+        "n": 10,
+        "valor": "3.579,02",
+        "obs": "com acréscimo",
+        "total": "35.790,22"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 5.763,32 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "34.579,92",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 2,
+        "valor": "17.289,96",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 3,
+        "valor": "11.526,64",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 4,
+        "valor": "8.644,98",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 5,
+        "valor": "6.915,98",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       },
+       {
+        "n": 6,
+        "valor": "5.763,32",
+        "obs": "sem acréscimo",
+        "total": "34.579,92"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 160,
+   "inicial": false,
+   "grupo": "nordeste-janeiro-2027-3-adultos",
+   "opcao": 5,
+   "opcaoNome": "🌎 INTERNACIONAL · Punta Cana · Grand Sirenis (all inclusive)",
+   "comparar": true,
+   "internacional": true
+  },
+  {
    "slug": "nordeste-ferias-janeiro-3-adultos-opcoes",
    "destino": "Aracaju",
    "titulo": "Aracaju no Makai All Inclusive Resort, pé na areia",

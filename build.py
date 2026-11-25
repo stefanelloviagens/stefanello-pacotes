@@ -227,7 +227,7 @@ footer a{color:#fff}
 .reg h4{font-size:14px;text-transform:uppercase;letter-spacing:.04em;margin:0 0 4px;opacity:.8}
 .cmp{overflow-x:auto;margin:0 0 34px}.cmp table{width:100%;border-collapse:collapse;background:var(--card);border-radius:16px;overflow:hidden;font-size:14.5px;min-width:620px}
 .cmp th,.cmp td{padding:11px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}.cmp th{background:var(--ink);color:var(--sun);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em}
-.cmp tr.atual td{background:#FFF6C7}.cmp a{font-weight:800;color:var(--ink)}.cmp .rg{display:inline-block;border-radius:999px;padding:2px 10px;font-weight:800;font-size:12.5px;background:var(--line)}.cmp .rg.ai{background:#111;color:var(--sun)}
+.cmp tr.atual td{background:#FFF6C7}.cmp a{font-weight:800;color:var(--ink)}.cmp .rg{display:inline-block;border-radius:999px;padding:2px 10px;font-weight:800;font-size:12.5px;background:var(--line)}.cmp .rg.ai{background:#111;color:var(--sun)}.cmp .rg.intl{background:#0E6E7E;color:#fff;margin-top:4px}
 .det>h2{font-size:clamp(22px,3.4vw,28px);margin-bottom:14px}
 .voos{display:grid;gap:16px}
 @media(min-width:900px){.voos{grid-template-columns:1fr 1fr}}
@@ -701,7 +701,7 @@ def comparativo(p):
         ai = (h.get("regimeDetalhe") or {}).get("ai")
         atual = ' class="atual"' if x["slug"] == p["slug"] else ''
         ver = "📍 vendo agora" if atual else f'<a href="/{e(x["slug"])}">Ver opção →</a>'
-        rows.append(f'<tr{atual}><td><b>Opção {x.get("opcao")}</b><br>{e(x["destino"])}</td><td>{e(h.get("nome",""))}</td><td><span class="rg{" ai" if ai else ""}">{e(h.get("regime",""))}</span></td><td>{e(x["idaTxt"])} → {e(x["voltaTxt"])}<br><small>{x["noites"]} noites</small></td><td><b>R$ {e(x["pix"])}</b><br><small>no PIX · ou {x["parcelas"]}x R$ {e(x["parcela"])}</small></td><td>{ver}</td></tr>')
+        rows.append(f'<tr{atual}><td><b>Opção {x.get("opcao")}</b><br>{e(x["destino"])}{'<br><span class="rg intl">🌎 Internacional</span>' if x.get("internacional") else ''}</td><td>{e(h.get("nome",""))}</td><td><span class="rg{" ai" if ai else ""}">{e(h.get("regime",""))}</span></td><td>{e(x["idaTxt"])} → {e(x["voltaTxt"])}<br><small>{x["noites"]} noites</small></td><td><b>R$ {e(x["pix"])}</b><br><small>no PIX · ou {x["parcelas"]}x R$ {e(x["parcela"])}</small></td><td>{ver}</td></tr>')
     return ('<section class="det" id="comparar"><h2>⚖️ Compare as opções</h2><div class="cmp"><table><thead><tr><th>Opção</th><th>Hotel</th><th>Alimentação</th><th>Datas</th><th>Valor (' + e(p.get("pessoasTxt") or "total") + ')</th><th></th></tr></thead><tbody>'
             + "".join(rows) + '</tbody></table></div></section>')
 
