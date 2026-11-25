@@ -8,10 +8,10 @@
   {
    "slug": "maceio-verano-pajucara-maragogi-milagres-27-fev-a-6-mar-orcamento-6428881",
    "destino": "Maceió",
-   "titulo": "Maceió com Maragogi, São Miguel dos Milagres e Praia do Francês",
-   "chamada": "Sete noites em Pajuçara, a 50 m da praia e do ponto das jangadas, com city tour pela Praia do Francês e passeios a Maragogi e São Miguel dos Milagres.",
+   "titulo": "Maceió com Maragogi, São Miguel dos Milagres, Praia do Gunga e Praia do Francês",
+   "chamada": "Sete noites em Pajuçara, a 50 m da praia e do ponto das jangadas, com quatro passeios: city tour com Praia do Francês, Maragogi, São Miguel dos Milagres e Praia do Gunga.",
    "black": true,
-   "selo": "3 passeios inclusos",
+   "selo": "4 passeios inclusos",
    "foto": "https://images.unsplash.com/photo-1616180759439-7f6367792233?auto=format&fit=crop&w=1600&q=80",
    "img": "",
    "pessoas": 2,
@@ -46,6 +46,10 @@
     [
      "🌿",
      "Passeio a São Miguel dos Milagres"
+    ],
+    [
+     "🥥",
+     "Passeio à Praia do Gunga"
     ]
    ],
    "pix": "7.434,37",
@@ -240,6 +244,18 @@
      "info": [
       "Piscinas naturais e refeições pagos à parte",
       "Boa maré também em 04/03 às 08h00 (0,37 m)"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🥥",
+     "nome": "Passeio à Praia do Gunga",
+     "quando": "Previsto pra 04/03",
+     "descricao": "Uma das praias mais bonitas do Brasil, com coqueirais e águas cristalinas no litoral sul de Alagoas. A Luck chega e sai pelo lado do Gunga, sem depender de travessia.",
+     "info": [
+      "O barco com acesso à praia é pago à parte",
+      "Refeições no Gunga Beach pagas à parte",
+      "Não tem acessibilidade pra cadeirantes"
      ]
     }
    ],
@@ -488,10 +504,10 @@
   {
    "slug": "maceio-verano-pajucara-maragogi-milagres-3-a-10-mar-casal",
    "destino": "Maceió",
-   "titulo": "Maceió com Maragogi, São Miguel dos Milagres e Praia do Francês",
-   "chamada": "Sete noites em Pajuçara, a 50 m da praia e do ponto das jangadas, com city tour pela Praia do Francês e passeios a Maragogi e São Miguel dos Milagres.",
+   "titulo": "Maceió com Maragogi, São Miguel dos Milagres, Praia do Gunga e Praia do Francês",
+   "chamada": "Sete noites em Pajuçara, a 50 m da praia e do ponto das jangadas, com quatro passeios: city tour com Praia do Francês, Maragogi, São Miguel dos Milagres e Praia do Gunga.",
    "black": true,
-   "selo": "3 passeios inclusos",
+   "selo": "4 passeios inclusos",
    "foto": "https://images.unsplash.com/photo-1616180759439-7f6367792233?auto=format&fit=crop&w=1600&q=80",
    "img": "",
    "pessoas": 2,
@@ -526,6 +542,10 @@
     [
      "🌿",
      "Passeio a São Miguel dos Milagres"
+    ],
+    [
+     "🥥",
+     "Passeio à Praia do Gunga"
     ]
    ],
    "pix": "7.555,13",
@@ -715,11 +735,23 @@
      "tipo": "Passeio",
      "icone": "🌿",
      "nome": "Passeio a São Miguel dos Milagres",
-     "quando": "Data a combinar com o receptivo",
+     "quando": "Previsto pra 05/03 (dá pra remarcar com o receptivo)",
      "descricao": "Rota Ecológica dos Milagres, com praias calmas, coqueirais e piscinas naturais.",
      "info": [
       "Piscinas naturais e refeições pagos à parte",
       "Boa maré também em 04/03 às 08h00 (0,37 m)"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🥥",
+     "nome": "Passeio à Praia do Gunga",
+     "quando": "Previsto pra 06/03",
+     "descricao": "Uma das praias mais bonitas do Brasil, com coqueirais e águas cristalinas no litoral sul de Alagoas. A Luck chega e sai pelo lado do Gunga, sem depender de travessia.",
+     "info": [
+      "O barco com acesso à praia é pago à parte",
+      "Refeições no Gunga Beach pagas à parte",
+      "Não tem acessibilidade pra cadeirantes"
      ]
     }
    ],
