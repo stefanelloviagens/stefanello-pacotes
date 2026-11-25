@@ -446,7 +446,7 @@
    "cod": 164,
    "inicial": false,
    "grupo": "nordeste-janeiro-2027-3-adultos",
-   "opcao": 3,
+   "opcao": 6,
    "opcaoNome": "Porto de Galinhas · Enotel (all inclusive)",
    "comparar": true
   },
@@ -881,7 +881,7 @@
    "cod": 163,
    "inicial": false,
    "grupo": "nordeste-janeiro-2027-3-adultos",
-   "opcao": 6,
+   "opcao": 3,
    "opcaoNome": "Porto de Galinhas · Marulhos Resort (meia pensão)",
    "comparar": true
   },
@@ -3236,7 +3236,7 @@
    "cod": 157,
    "inicial": false,
    "grupo": "nordeste-janeiro-2027-3-adultos",
-   "opcao": 2,
+   "opcao": 5,
    "opcaoNome": "Ilhéus · Cana Brava (all inclusive)",
    "comparar": true
   },
@@ -3692,7 +3692,7 @@
    "cod": 158,
    "inicial": false,
    "grupo": "nordeste-janeiro-2027-3-adultos",
-   "opcao": 4,
+   "opcao": 2,
    "opcaoNome": "Porto Seguro · Portobello (meia pensão)",
    "comparar": true
   },
@@ -4184,7 +4184,7 @@
    "cod": 159,
    "inicial": false,
    "grupo": "nordeste-janeiro-2027-3-adultos",
-   "opcao": 5,
+   "opcao": 4,
    "opcaoNome": "Maceió · Maceió Mar (meia pensão)",
    "comparar": true
   },
