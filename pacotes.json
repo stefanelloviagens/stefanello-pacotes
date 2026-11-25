@@ -6,6 +6,510 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "uruguai-montevideu-punta-del-este-colonia-pascoa-26-a-31-mar",
+   "destino": "Uruguai",
+   "titulo": "Uruguai: Montevidéu + Punta del Este + Colonia del Sacramento",
+   "chamada": "Feriado de Páscoa no Uruguai: 4 noites em Montevidéu com city tour, dia inteiro em Punta del Este, dia inteiro em Colonia del Sacramento e degustação de vinhos na Bodega Bouza.",
+   "black": false,
+   "selo": "🌎 Internacional · Páscoa",
+   "img": "",
+   "pessoas": 2,
+   "dias": 6,
+   "noites": 4,
+   "ida": "2027-03-26",
+   "volta": "2027-03-31",
+   "idaTxt": "sex, 26 de mar",
+   "voltaTxt": "ter, 30 de mar",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (LATAM saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "4 noites no Crystal Palace Hotel, em Montevidéu (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "🏙️",
+     "City tour por Montevidéu"
+    ],
+    [
+     "🏖️",
+     "Passeio de dia inteiro a Punta del Este"
+    ],
+    [
+     "🏛️",
+     "Passeio de dia inteiro a Colonia del Sacramento"
+    ],
+    [
+     "🍷",
+     "Visita e degustação na Bodega Bouza"
+    ],
+    [
+     "🛡️",
+     "Seguro viagem internacional"
+    ]
+   ],
+   "pix": "11.536,75",
+   "parcelas": 15,
+   "parcela": "821,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "foto": "18986795",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sex, 26 de mar",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 7h05",
+     "bagagem": [
+      "1 mochila ou bolsa",
+      "1 mala de mão de até 12 kg"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "26/03",
+        "hora": "10:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "26/03",
+        "hora": "12:35",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "LA 3417",
+       "duracao": "1h50"
+      },
+      {
+       "saida": {
+        "data": "26/03",
+        "hora": "15:10",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "26/03",
+        "hora": "17:50",
+        "iata": "MVD",
+        "cidade": "Montevidéu",
+        "aeroporto": "Aeroporto de Carrasco"
+       },
+       "voo": "LA 8110",
+       "duracao": "2h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h35 em Guarulhos"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "ter, 30 de mar",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 7h40 · chega 00:35 de qua",
+     "bagagem": [
+      "1 mochila ou bolsa",
+      "1 mala de mão de até 12 kg"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "30/03",
+        "hora": "16:55",
+        "iata": "MVD",
+        "cidade": "Montevidéu",
+        "aeroporto": "Aeroporto de Carrasco"
+       },
+       "chegada": {
+        "data": "30/03",
+        "hora": "19:40",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "LA 8097",
+       "duracao": "2h45"
+      },
+      {
+       "saida": {
+        "data": "30/03",
+        "hora": "22:50",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "31/03",
+        "hora": "00:35",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "LA 4678",
+       "duracao": "1h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 3h10 em Guarulhos"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Crystal Palace Hotel",
+    "regime": "Café da manhã",
+    "noites": 4,
+    "checkin": "26/03",
+    "checkout": "30/03",
+    "tarifa": "Cancelamento grátis até 23/03/2027",
+    "destaque": "Na Av. 18 de Julio, no centro de Montevidéu",
+    "endereco": "Av. 18 de Julio, 1210 · Centro, Montevidéu (Uruguai)",
+    "descricao": "Hotel no centro de Montevidéu, na avenida principal da cidade, a poucos minutos a pé da Praça Independência, da Cidade Velha e do Mercado del Puerto. Tem café da manhã em buffet, restaurante, lobby amplo e quartos com ar-condicionado e calefação.",
+    "fotos": [
+     "https://hg-static.hyperguest.com/60432/images/image_4242617_original.jpg",
+     "https://hg-static.hyperguest.com/60432/images/image_4242620_original.jpg",
+     "https://hg-static.hyperguest.com/60432/images/image_4242614_original.jpg",
+     "https://hg-static.hyperguest.com/60432/images/image_4242615_original.jpg",
+     "https://hg-static.hyperguest.com/60432/images/image_4242630_original.jpg",
+     "https://hg-static.hyperguest.com/60432/images/image_4242628_original.jpg",
+     "https://hg-static.hyperguest.com/60432/images/image_4242622_original.jpg",
+     "https://hg-static.hyperguest.com/60432/images/image_4242627_original.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard Twin",
+     "descricao": "Quarto com 2 camas de solteiro, mesa de trabalho e banheiro privativo.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Calefação",
+      "TV",
+      "Frigobar",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://hg-static.hyperguest.com/60432/images/image_4242641_original.jpg",
+      "https://hg-static.hyperguest.com/60432/images/image_4242646_original.jpg",
+      "https://hg-static.hyperguest.com/60432/images/image_4242640_original.jpg",
+      "https://hg-static.hyperguest.com/60432/images/image_4265661_original.jpg",
+      "https://hg-static.hyperguest.com/60432/images/image_4242645_original.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular entre o Aeroporto de Carrasco e o hotel em Montevidéu.",
+     "info": [
+      "1 mala e 1 bolsa de mão por pessoa"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏙️",
+     "nome": "City tour por Montevidéu",
+     "quando": "Pela manhã, saída a partir das 8h · cerca de 3h",
+     "descricao": "Praça Independência, Palácio Legislativo, Mercado Agrícola, Parque Batlle, o letreiro de Montevidéu e os bairros de Punta Carretas e Carrasco, com vista para a Rambla.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏖️",
+     "nome": "Dia inteiro em Punta del Este",
+     "quando": "Saídas diárias, a partir das 8h",
+     "descricao": "Parada em Piriápolis e no Cerro San Antonio, Casapueblo em Punta Ballena, Playa Mansa, Playa Brava, a ponte ondulada de La Barra e o monumento La Mano.",
+     "info": [
+      "Entrada na Casapueblo e almoço pagos à parte"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏛️",
+     "nome": "Dia inteiro em Colonia del Sacramento",
+     "quando": "Terças, quintas e sábados · nesta viagem, sábado 27/03",
+     "descricao": "Centro histórico Patrimônio da Humanidade pela UNESCO: ruas de pedra, a Calle de los Suspiros, o farol, a basílica e o Real de San Carlos, com parada numa casa de campo com doces caseiros.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🍷",
+     "nome": "Bodega Bouza com degustação",
+     "quando": "Saídas diárias, a partir das 10h · cerca de 3h",
+     "descricao": "Visita a uma das vinícolas mais premiadas do Uruguai, com degustação de vinhos, incluindo o Tannat, a uva símbolo do país.",
+     "info": []
+    },
+    {
+     "tipo": "Seguro",
+     "icone": "🛡️",
+     "nome": "Seguro viagem internacional",
+     "quando": "26 a 31/03",
+     "descricao": "Cobertura de despesas médicas de até US$ 30 mil, bagagem, atraso de voo e regresso sanitário.",
+     "info": []
+    },
+    {
+     "tipo": "Documentos",
+     "icone": "🛂",
+     "nome": "Documento de viagem",
+     "quando": "Antes de viajar",
+     "descricao": "Brasileiro entra no Uruguai com RG (emitido há menos de 10 anos e em bom estado) ou passaporte válido.",
+     "info": []
+    }
+   ],
+   "cod": 161,
+   "pagamento": {
+    "pix": {
+     "de": "12.300,61",
+     "por": "11.536,75",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 820,04 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "12.300,61",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 2,
+        "valor": "6.150,31",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 3,
+        "valor": "4.100,20",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 4,
+        "valor": "3.075,15",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 5,
+        "valor": "2.460,12",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 6,
+        "valor": "2.050,10",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 7,
+        "valor": "1.757,23",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 8,
+        "valor": "1.537,58",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 9,
+        "valor": "1.366,73",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 10,
+        "valor": "1.230,06",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 11,
+        "valor": "1.118,24",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 12,
+        "valor": "1.025,05",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 13,
+        "valor": "946,20",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 14,
+        "valor": "878,62",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 15,
+        "valor": "820,04",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.050,10 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "12.300,61",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 2,
+        "valor": "6.150,31",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 3,
+        "valor": "4.100,20",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 4,
+        "valor": "3.075,15",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 5,
+        "valor": "2.460,12",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 6,
+        "valor": "2.050,10",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 7,
+        "valor": "1.792,37",
+        "obs": "com acréscimo",
+        "total": "12.546,62"
+       },
+       {
+        "n": 8,
+        "valor": "1.576,02",
+        "obs": "com acréscimo",
+        "total": "12.608,13"
+       },
+       {
+        "n": 9,
+        "valor": "1.407,74",
+        "obs": "com acréscimo",
+        "total": "12.669,63"
+       },
+       {
+        "n": 10,
+        "valor": "1.273,11",
+        "obs": "com acréscimo",
+        "total": "12.731,13"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.050,10 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "12.300,61",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 2,
+        "valor": "6.150,31",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 3,
+        "valor": "4.100,20",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 4,
+        "valor": "3.075,15",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 5,
+        "valor": "2.460,12",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       },
+       {
+        "n": 6,
+        "valor": "2.050,10",
+        "obs": "sem acréscimo",
+        "total": "12.300,61"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "inicial": true,
+   "pessoasTxt": "2 adultos",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MzIzNjF8MFZFcAJ0KLyecKTHCcCO4ZU",
+   "internacional": true
+  },
+  {
    "slug": "nordeste-ferias-janeiro-3-adultos-opcoes-punta-cana-grand-sirenis",
    "destino": "Punta Cana",
    "titulo": "🌎 Internacional: Punta Cana no Grand Sirenis All Inclusive, com parque aquático",
