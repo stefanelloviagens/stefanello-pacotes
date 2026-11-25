@@ -36,12 +36,12 @@
      "Transfer aeroporto do Recife / resort / aeroporto"
     ]
    ],
-   "pix": "18.025,39",
+   "pix": "18.550,28",
    "parcelas": 15,
-   "parcela": "1.291,00",
+   "parcela": "1.328,00",
    "outrasDatas": "",
    "publicado": "2026-11-25",
-   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MzM0MTV8MMmIUXoXA3BBl5wvEaUHGg0",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MzM1ODJ8MITeuY6VYsqXXin8-2S09dw",
    "voos": [
     {
      "tipo": "Ida",
@@ -96,9 +96,9 @@
     },
     {
      "tipo": "Volta",
-     "data": "qua, 27 de jan (madrugada)",
+     "data": "qua, 27 de jan",
      "cia": "Azul",
-     "resumo": "1 conexão em São Paulo (Congonhas) · 6h40 · sai às 02:45, na madrugada de terça pra quarta",
+     "resumo": "Voo direto · 4h30",
      "bagagem": [
       "1 mala de mão",
       "1 item pessoal"
@@ -107,43 +107,23 @@
       {
        "saida": {
         "data": "27/01",
-        "hora": "02:45",
+        "hora": "17:25",
         "iata": "REC",
         "cidade": "Recife",
         "aeroporto": "Aeroporto do Recife (Guararapes)"
        },
        "chegada": {
         "data": "27/01",
-        "hora": "06:05",
-        "iata": "CGH",
-        "cidade": "São Paulo",
-        "aeroporto": "Congonhas"
-       },
-       "voo": "AD 4716",
-       "duracao": "3h20"
-      },
-      {
-       "saida": {
-        "data": "27/01",
-        "hora": "07:45",
-        "iata": "CGH",
-        "cidade": "São Paulo",
-        "aeroporto": "Congonhas"
-       },
-       "chegada": {
-        "data": "27/01",
-        "hora": "09:25",
+        "hora": "21:55",
         "iata": "POA",
         "cidade": "Porto Alegre",
         "aeroporto": "Aeroporto Salgado Filho"
        },
-       "voo": "AD 6030",
-       "duracao": "1h40"
+       "voo": "AD 4150",
+       "duracao": "4h30"
       }
      ],
-     "conexoes": [
-      "Espera de 1h40 em Congonhas"
-     ]
+     "conexoes": []
     }
    ],
    "hotel": {
@@ -211,20 +191,20 @@
      "quando": "Na chegada e na saída",
      "descricao": "Transfer regular entre o Aeroporto do Recife e o resort em Porto de Galinhas, na ida e na volta.",
      "info": [
-      "Como o voo de volta sai às 02:45, o transfer pega vocês no resort na noite de terça (26/01)"
+      "O horário da volta é informado no dia anterior"
      ]
     }
    ],
    "pagamento": {
     "pix": {
-     "de": "19.352,07",
-     "por": "18.025,39",
+     "de": "19.916,47",
+     "por": "18.550,28",
      "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
     },
     "cartoes": [
      {
       "nome": "Visa e Mastercard",
-      "resumo": "Até 15x de R$ 1.290,14 sem acréscimo",
+      "resumo": "Até 15x de R$ 1.327,76 sem acréscimo",
       "bandeiras": [
        "Visa",
        "Mastercard"
@@ -232,99 +212,99 @@
       "parcelas": [
        {
         "n": 1,
-        "valor": "19.352,07",
+        "valor": "19.916,47",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 2,
-        "valor": "9.676,04",
+        "valor": "9.958,24",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 3,
-        "valor": "6.450,69",
+        "valor": "6.638,82",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 4,
-        "valor": "4.838,02",
+        "valor": "4.979,12",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 5,
-        "valor": "3.870,41",
+        "valor": "3.983,29",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 6,
-        "valor": "3.225,35",
+        "valor": "3.319,41",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 7,
-        "valor": "2.764,58",
+        "valor": "2.845,21",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 8,
-        "valor": "2.419,01",
+        "valor": "2.489,56",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 9,
-        "valor": "2.150,23",
+        "valor": "2.212,94",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 10,
-        "valor": "1.935,21",
+        "valor": "1.991,65",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 11,
-        "valor": "1.759,28",
+        "valor": "1.810,59",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 12,
-        "valor": "1.612,67",
+        "valor": "1.659,71",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 13,
-        "valor": "1.488,62",
+        "valor": "1.532,04",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 14,
-        "valor": "1.382,29",
+        "valor": "1.422,61",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 15,
-        "valor": "1.290,14",
+        "valor": "1.327,76",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        }
       ]
      },
      {
       "nome": "Amex e Elo",
-      "resumo": "Até 6x de R$ 3.225,35 sem acréscimo ou até 10x com acréscimo",
+      "resumo": "Até 6x de R$ 3.319,41 sem acréscimo ou até 10x com acréscimo",
       "bandeiras": [
        "Amex",
        "Elo"
@@ -332,69 +312,69 @@
       "parcelas": [
        {
         "n": 1,
-        "valor": "19.352,07",
+        "valor": "19.916,47",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 2,
-        "valor": "9.676,04",
+        "valor": "9.958,24",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 3,
-        "valor": "6.450,69",
+        "valor": "6.638,82",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 4,
-        "valor": "4.838,02",
+        "valor": "4.979,12",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 5,
-        "valor": "3.870,41",
+        "valor": "3.983,29",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 6,
-        "valor": "3.225,35",
+        "valor": "3.319,41",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 7,
-        "valor": "2.819,87",
+        "valor": "2.902,11",
         "obs": "com acréscimo",
-        "total": "19.739,11"
+        "total": "20.314,80"
        },
        {
         "n": 8,
-        "valor": "2.479,48",
+        "valor": "2.551,80",
         "obs": "com acréscimo",
-        "total": "19.835,87"
+        "total": "20.414,38"
        },
        {
         "n": 9,
-        "valor": "2.214,74",
+        "valor": "2.279,33",
         "obs": "com acréscimo",
-        "total": "19.932,63"
+        "total": "20.513,96"
        },
        {
         "n": 10,
-        "valor": "2.002,94",
+        "valor": "2.061,35",
         "obs": "com acréscimo",
-        "total": "20.029,39"
+        "total": "20.613,55"
        }
       ]
      },
      {
       "nome": "Hipercard e Diners",
-      "resumo": "Até 6x de R$ 3.225,35 sem acréscimo",
+      "resumo": "Até 6x de R$ 3.319,41 sem acréscimo",
       "bandeiras": [
        "Hipercard",
        "Diners"
@@ -402,39 +382,39 @@
       "parcelas": [
        {
         "n": 1,
-        "valor": "19.352,07",
+        "valor": "19.916,47",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 2,
-        "valor": "9.676,04",
+        "valor": "9.958,24",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 3,
-        "valor": "6.450,69",
+        "valor": "6.638,82",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 4,
-        "valor": "4.838,02",
+        "valor": "4.979,12",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 5,
-        "valor": "3.870,41",
+        "valor": "3.983,29",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        },
        {
         "n": 6,
-        "valor": "3.225,35",
+        "valor": "3.319,41",
         "obs": "sem acréscimo",
-        "total": "19.352,07"
+        "total": "19.916,47"
        }
       ]
      }
