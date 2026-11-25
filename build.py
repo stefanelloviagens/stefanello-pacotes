@@ -218,6 +218,16 @@ footer a{color:#fff}
 .btn-sun{background:var(--sun);color:var(--ink)}.btn-sun:hover{background:#ffe34d}
 .btn-glass{background:rgba(255,255,255,.14);color:#fff;border:1.5px solid rgba(255,255,255,.7);backdrop-filter:blur(6px)}.btn-glass:hover{background:#fff;color:var(--ink)}
 .det{margin:8px 0 34px}
+.reg{margin:16px 0 4px;border-radius:18px;padding:18px;border:2px solid var(--ink);background:var(--card)}
+.reg.ai{background:#111;color:#fff;border-color:#111}.reg.ai h3{color:var(--sun)}
+.reg h3{font-size:19px;margin-bottom:6px}.reg p.rs{margin:0 0 10px;opacity:.85}
+.reg-g{display:grid;gap:14px}@media(min-width:760px){.reg-g{grid-template-columns:1fr 1fr}}
+.reg ul{list-style:none;margin:0;padding:0}.reg li{padding:5px 0 5px 26px;position:relative;line-height:1.4}
+.reg .ok li:before{content:"✅";position:absolute;left:0}.reg .no li:before{content:"➖";position:absolute;left:0}
+.reg h4{font-size:14px;text-transform:uppercase;letter-spacing:.04em;margin:0 0 4px;opacity:.8}
+.cmp{overflow-x:auto;margin:0 0 34px}.cmp table{width:100%;border-collapse:collapse;background:var(--card);border-radius:16px;overflow:hidden;font-size:14.5px;min-width:620px}
+.cmp th,.cmp td{padding:11px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}.cmp th{background:var(--ink);color:var(--sun);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em}
+.cmp tr.atual td{background:#FFF6C7}.cmp a{font-weight:800;color:var(--ink)}.cmp .rg{display:inline-block;border-radius:999px;padding:2px 10px;font-weight:800;font-size:12.5px;background:var(--line)}.cmp .rg.ai{background:#111;color:var(--sun)}
 .det>h2{font-size:clamp(22px,3.4vw,28px);margin-bottom:14px}
 .voos{display:grid;gap:16px}
 @media(min-width:900px){.voos{grid-template-columns:1fr 1fr}}
@@ -668,10 +678,39 @@ def bloco_pagamento(pg):
             + '<p class="aviso">Condições da cotação atual. Na hora da reserva eu te confirmo tudo pelo WhatsApp.</p></section>')
 
 
+def regime_box(h):
+    r = h.get("regimeDetalhe")
+    if not r:
+        return ""
+    ok = "".join(f"<li>{e(x)}</li>" for x in r.get("inclui", []))
+    no = "".join(f"<li>{e(x)}</li>" for x in r.get("naoInclui", []))
+    cls = "reg ai" if r.get("ai") else "reg"
+    return (f'<div class="{cls}"><h3>🍽️ {e(r.get("titulo",""))}</h3>' + (f'<p class="rs">{e(r["resumo"])}</p>' if r.get("resumo") else '')
+            + f'<div class="reg-g"><div><h4>Está incluso</h4><ul class="ok">{ok}</ul></div>'
+            + (f'<div><h4>Não está incluso</h4><ul class="no">{no}</ul></div>' if no else '') + '</div></div>')
+
+
+def comparativo(p):
+    g = p.get("grupo")
+    if not g or not p.get("comparar"):
+        return ""
+    sib = sorted([x for x in cfg["pacotes"] if x.get("grupo") == g], key=lambda x: x.get("opcao", 0))
+    rows = []
+    for x in sib:
+        h = x.get("hotel") or {}
+        ai = (h.get("regimeDetalhe") or {}).get("ai")
+        atual = ' class="atual"' if x["slug"] == p["slug"] else ''
+        ver = "📍 vendo agora" if atual else f'<a href="/{e(x["slug"])}">Ver opção →</a>'
+        rows.append(f'<tr{atual}><td><b>Opção {x.get("opcao")}</b><br>{e(x["destino"])}</td><td>{e(h.get("nome",""))}</td><td><span class="rg{" ai" if ai else ""}">{e(h.get("regime",""))}</span></td><td>{e(x["idaTxt"])} → {e(x["voltaTxt"])}<br><small>{x["noites"]} noites</small></td><td><b>R$ {e(x["pix"])}</b><br><small>no PIX · ou {x["parcelas"]}x R$ {e(x["parcela"])}</small></td><td>{ver}</td></tr>')
+    return ('<section class="det" id="comparar"><h2>⚖️ Compare as opções</h2><div class="cmp"><table><thead><tr><th>Opção</th><th>Hotel</th><th>Alimentação</th><th>Datas</th><th>Valor (' + e(p.get("pessoasTxt") or "total") + ')</th><th></th></tr></thead><tbody>'
+            + "".join(rows) + '</tbody></table></div></section>')
+
+
 def detalhes(p):
     out = []
     if p.get("black"):
         out.append(marquee())
+    out.append(comparativo(p))
     if p.get("voos"):
         out.append('<section class="det" id="voos"><h2>✈️ Voos do pacote</h2><div class="voos">' + "".join(bloco_voo(v) for v in p["voos"]) + '</div><p class="aviso">Horários e números de voo da cotação atual. A companhia pode alterar até o embarque; a gente te avisa qualquer mudança.</p></section>')
     h = p.get("hotel")
@@ -681,7 +720,7 @@ def detalhes(p):
         out.append(f"""<section class="det" id="hotel"><h2>🏨 Hospedagem</h2>
 <div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}</p>
 <div class="hfacts"><span><b>{h.get('noites','')}</b> noites</span><span>🍽️ {e(h.get('regime',''))}</span><span>Check-in {e(h.get('checkin',''))}</span><span>Check-out {e(h.get('checkout',''))}</span>{tarifa_chip(h)}</div>{destaque_hotel(h)}
-<p>{e(h.get('descricao',''))}</p></div></div>
+<p>{e(h.get('descricao',''))}</p>{regime_box(h)}</div></div>
 {galeria(h.get('fotos', []), h['nome'], 'gh')}
 <div class="quarto"><div><span class="tag-voo">Quarto</span><h3>{e(q.get('nome',''))}</h3><p>{e(q.get('descricao',''))}</p><ul class="com">{com}</ul></div>
 {galeria(q.get('fotos', []), q.get('nome','quarto'), 'gq')}</div></section>""")

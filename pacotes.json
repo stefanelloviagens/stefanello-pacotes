@@ -6,6 +6,1865 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "nordeste-ferias-janeiro-3-adultos-opcoes",
+   "destino": "Aracaju",
+   "titulo": "Aracaju no Makai All Inclusive Resort, pé na areia",
+   "chamada": "Sete noites all inclusive pé na areia em Aracaju, com comida e bebida à vontade, mais de 10 atrações de lazer e jantares temáticos à noite.",
+   "black": false,
+   "selo": "All inclusive",
+   "foto": "https://media.omnibees.com/Images/6758/Property/1684917.jpg",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "3 adultos",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-01-19",
+   "volta": "2027-01-26",
+   "idaTxt": "ter, 19 de jan",
+   "voltaTxt": "ter, 26 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (LATAM saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Makai Resort Aracaju, apto Superior (ALL INCLUSIVE)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / resort / aeroporto"
+    ]
+   ],
+   "pix": "17.258,74",
+   "parcelas": 15,
+   "parcela": "1.236,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0Mjk5MjV8MA5_qa9HZTifktVMEMkzR9s",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "ter, 19 de jan",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 6h15",
+     "bagagem": [
+      "1 mochila ou bolsa",
+      "1 mala de mão de até 12 kg"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "19/01",
+        "hora": "11:05",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "19/01",
+        "hora": "12:55",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "LA 4597",
+       "duracao": "1h50"
+      },
+      {
+       "saida": {
+        "data": "19/01",
+        "hora": "14:45",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "19/01",
+        "hora": "17:20",
+        "iata": "AJU",
+        "cidade": "Aracaju",
+        "aeroporto": "Aeroporto Santa Maria"
+       },
+       "voo": "LA 4646",
+       "duracao": "2h35"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h50 em Guarulhos"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "ter, 26 de jan",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 8h30",
+     "bagagem": [
+      "1 mochila ou bolsa",
+      "1 mala de mão de até 12 kg"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "26/01",
+        "hora": "10:45",
+        "iata": "AJU",
+        "cidade": "Aracaju",
+        "aeroporto": "Aeroporto Santa Maria"
+       },
+       "chegada": {
+        "data": "26/01",
+        "hora": "13:30",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "LA 4703",
+       "duracao": "2h45"
+      },
+      {
+       "saida": {
+        "data": "26/01",
+        "hora": "17:30",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "26/01",
+        "hora": "19:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "LA 3422",
+       "duracao": "1h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 4h em Guarulhos"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Makai Resort Aracaju - All Inclusive",
+    "regime": "All inclusive",
+    "noites": 7,
+    "checkin": "19/01",
+    "checkout": "26/01 (12h)",
+    "tarifa": "Cancelamento grátis até 11/01/2027",
+    "destaque": "Resort pé na areia, a 6 km do centro de Aracaju",
+    "endereco": "Rodovia dos Náufragos · Praia de Aruana, Aracaju (SE)",
+    "descricao": "Resort pé na areia com 208 apartamentos amplos, piscinas de frente para o mar e mais de 10 atrações de lazer: paintball, quadras poliesportivas, slackline, recreação com monitores e Kids Club. À noite tem jantares temáticos e danceteria.",
+    "regimeDetalhe": {
+     "ai": true,
+     "titulo": "ALL INCLUSIVE: comida e bebida à vontade",
+     "resumo": "Tudo que é servido nos restaurantes e bares do resort já está pago, a qualquer hora, sem pulseira de consumo pra acertar no fim.",
+     "inclui": [
+      "Café da manhã, almoço e jantar",
+      "Lanches e petiscos ao longo do dia",
+      "Bebidas à vontade, com e sem álcool (cervejas, drinks da casa, refrigerantes, sucos e água)",
+      "Uso da estrutura de lazer e da programação de recreação",
+      "Jantares temáticos e danceteria à noite",
+      "Atividades como paintball, quadras e slackline"
+     ],
+     "naoInclui": [
+      "Bebidas importadas e rótulos premium",
+      "Serviços de spa e massagens",
+      "Passeios fora do resort"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/6758/Property/1684917.jpg",
+     "https://media.omnibees.com/Images/6758/Property/1684916.jpg",
+     "https://media.omnibees.com/Images/6758/Property/1684914.jpg",
+     "https://media.omnibees.com/Images/6758/Property/1684939.jpg",
+     "https://media.omnibees.com/Images/6758/Property/1684938.jpg",
+     "https://media.omnibees.com/Images/6758/Property/1684944.jpg",
+     "https://media.omnibees.com/Images/6758/Property/1684934.jpg",
+     "https://media.omnibees.com/Images/6758/Property/1684937.jpg",
+     "https://media.omnibees.com/Images/6758/Property/1684946.jpg",
+     "https://media.omnibees.com/Images/6758/Property/1684943.jpg",
+     "https://media.omnibees.com/Images/6758/Property/1684964.jpg",
+     "https://media.omnibees.com/Images/6758/Property/1684949.jpg"
+    ],
+    "quarto": {
+     "nome": "Superior",
+     "descricao": "Apartamento de 30 m² com varanda e vista para o jardim, com 1 cama de casal + cama extra de solteiro. Acomoda até 3 pessoas.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "TV a cabo",
+      "Cofre",
+      "Wi-Fi",
+      "Secador de cabelo",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/6758/RoomTypes/1685264.jpg",
+      "https://media.omnibees.com/Images/6758/RoomTypes/1685256.jpg",
+      "https://media.omnibees.com/Images/6758/RoomTypes/1685255.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular entre o Aeroporto de Aracaju e o resort, na ida e na volta.",
+     "info": [
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "18.529,76",
+     "por": "17.258,74",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.235,32 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "18.529,76",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 2,
+        "valor": "9.264,88",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 3,
+        "valor": "6.176,59",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 4,
+        "valor": "4.632,44",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 5,
+        "valor": "3.705,95",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 6,
+        "valor": "3.088,29",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 7,
+        "valor": "2.647,11",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 8,
+        "valor": "2.316,22",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 9,
+        "valor": "2.058,86",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 10,
+        "valor": "1.852,98",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 11,
+        "valor": "1.684,52",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 12,
+        "valor": "1.544,15",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 13,
+        "valor": "1.425,37",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 14,
+        "valor": "1.323,55",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 15,
+        "valor": "1.235,32",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 3.088,29 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "18.529,76",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 2,
+        "valor": "9.264,88",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 3,
+        "valor": "6.176,59",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 4,
+        "valor": "4.632,44",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 5,
+        "valor": "3.705,95",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 6,
+        "valor": "3.088,29",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 7,
+        "valor": "2.700,05",
+        "obs": "com acréscimo",
+        "total": "18.900,36"
+       },
+       {
+        "n": 8,
+        "valor": "2.374,13",
+        "obs": "com acréscimo",
+        "total": "18.993,00"
+       },
+       {
+        "n": 9,
+        "valor": "2.120,63",
+        "obs": "com acréscimo",
+        "total": "19.085,65"
+       },
+       {
+        "n": 10,
+        "valor": "1.917,83",
+        "obs": "com acréscimo",
+        "total": "19.178,30"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 3.088,29 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "18.529,76",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 2,
+        "valor": "9.264,88",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 3,
+        "valor": "6.176,59",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 4,
+        "valor": "4.632,44",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 5,
+        "valor": "3.705,95",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       },
+       {
+        "n": 6,
+        "valor": "3.088,29",
+        "obs": "sem acréscimo",
+        "total": "18.529,76"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 156,
+   "inicial": false,
+   "grupo": "nordeste-janeiro-2027-3-adultos",
+   "opcao": 1,
+   "opcaoNome": "Aracaju · Makai (all inclusive)",
+   "comparar": true
+  },
+  {
+   "slug": "nordeste-ferias-janeiro-3-adultos-opcoes-ilheus-cana-brava",
+   "destino": "Ilhéus",
+   "titulo": "Ilhéus no Cana Brava All Inclusive Resort",
+   "chamada": "Sete noites all inclusive no litoral sul da Bahia, com acesso direto à praia, piscina de borda infinita, tirolesa e arvorismo, 3 restaurantes e 7 bares.",
+   "black": false,
+   "selo": "All inclusive",
+   "foto": "https://images.trvl-media.com/lodging/4000000/3960000/3957900/3957885/a263d454.jpg",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "3 adultos",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-01-23",
+   "volta": "2027-01-30",
+   "idaTxt": "sáb, 23 de jan",
+   "voltaTxt": "sáb, 30 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Cana Brava Resort, Apartamento Luxo (ALL INCLUSIVE)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / resort / aeroporto"
+    ]
+   ],
+   "pix": "28.181,73",
+   "parcelas": 15,
+   "parcela": "2.015,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0Mjk3MjB8MFF9dDEoT9Y_gVpnvYH1GYE",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sáb, 23 de jan",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 4h50",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "23/01",
+        "hora": "06:25",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "23/01",
+        "hora": "08:00",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1271",
+       "duracao": "1h35"
+      },
+      {
+       "saida": {
+        "data": "23/01",
+        "hora": "09:05",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "23/01",
+        "hora": "11:15",
+        "iata": "IOS",
+        "cidade": "Ilhéus",
+        "aeroporto": "Aeroporto Jorge Amado"
+       },
+       "voo": "G3 1526",
+       "duracao": "2h10"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h05 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sáb, 30 de jan",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 4h50",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "30/01",
+        "hora": "11:55",
+        "iata": "IOS",
+        "cidade": "Ilhéus",
+        "aeroporto": "Aeroporto Jorge Amado"
+       },
+       "chegada": {
+        "data": "30/01",
+        "hora": "14:10",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1527",
+       "duracao": "2h15"
+      },
+      {
+       "saida": {
+        "data": "30/01",
+        "hora": "14:55",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "30/01",
+        "hora": "16:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1280",
+       "duracao": "1h50"
+      }
+     ],
+     "conexoes": [
+      "Espera de 45min em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Cana Brava All Inclusive Resort",
+    "regime": "All inclusive",
+    "noites": 7,
+    "checkin": "23/01 (15h)",
+    "checkout": "30/01 (12h)",
+    "tarifa": "Não reembolsável",
+    "destaque": "Acesso direto à praia · piscina de borda infinita",
+    "endereco": "Rodovia Ilhéus–Canavieiras · Ilhéus (BA)",
+    "descricao": "Resort no litoral sul da Bahia, na terra do chocolate, com acesso direto à praia e três piscinas, entre elas a nova piscina de borda infinita. Tem caiaque e stand-up paddle, o Cana Adventure (tirolesa, arvorismo e parede de escalada), quadras, recreação com monitores, Clubinho do Sol para crianças a partir de 3 anos e Baby Copa 24h.",
+    "regimeDetalhe": {
+     "ai": true,
+     "titulo": "ALL INCLUSIVE: 3 restaurantes e 7 bares liberados",
+     "resumo": "Tudo que é servido nos restaurantes e bares do resort já está pago, o dia inteiro.",
+     "inclui": [
+      "Café da manhã completo",
+      "Almoço variado",
+      "Jantares temáticos todos os dias",
+      "Petiscos ao longo do dia: pizzas, hambúrgueres, massas e frutos do mar",
+      "Bebidas à vontade nos 7 bares, com e sem álcool",
+      "Atividades: caiaque, stand-up paddle, tirolesa, arvorismo e escalada"
+     ],
+     "naoInclui": [
+      "Bebidas importadas e rótulos premium",
+      "Serviços de spa e massagens",
+      "Passeios fora do resort"
+     ]
+    },
+    "fotos": [
+     "https://images.trvl-media.com/lodging/4000000/3960000/3957900/3957885/a263d454.jpg",
+     "https://images.trvl-media.com/lodging/4000000/3960000/3957900/3957885/ce989636.jpg",
+     "https://images.trvl-media.com/lodging/4000000/3960000/3957900/3957885/7cc51722.jpg",
+     "https://images.trvl-media.com/lodging/4000000/3960000/3957900/3957885/e1d360c3.jpg",
+     "https://images.trvl-media.com/lodging/4000000/3960000/3957900/3957885/c0a65163.jpg",
+     "https://media.infotravel.com.br/image/upload/c_crop,h_480,w_800/340A4B965C503EC713987E7449D9CFDF.png"
+    ],
+    "quarto": {
+     "nome": "Apartamento Luxo",
+     "descricao": "Apartamento com varanda e brisa do mar, com 1 cama de casal + 2 de solteiro (ou casal + solteiro + sofá-cama). Acomoda até 4 pessoas.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "TV",
+      "Frigobar",
+      "Cofre",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/2281/RoomTypes/5903083.png",
+      "https://media.omnibees.com/Images/2281/RoomTypes/1496275.jpg",
+      "https://media.omnibees.com/Images/2281/RoomTypes/1497133.jpeg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular entre o Aeroporto de Ilhéus e o resort, na ida e na volta.",
+     "info": [
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "30.215,91",
+     "por": "28.181,73",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 2.014,39 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "30.215,91",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 2,
+        "valor": "15.107,96",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 3,
+        "valor": "10.071,97",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 4,
+        "valor": "7.553,98",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 5,
+        "valor": "6.043,18",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 6,
+        "valor": "5.035,99",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 7,
+        "valor": "4.316,56",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 8,
+        "valor": "3.776,99",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 9,
+        "valor": "3.357,32",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 10,
+        "valor": "3.021,59",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 11,
+        "valor": "2.746,90",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 12,
+        "valor": "2.517,99",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 13,
+        "valor": "2.324,30",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 14,
+        "valor": "2.158,28",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 15,
+        "valor": "2.014,39",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 5.035,99 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "30.215,91",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 2,
+        "valor": "15.107,96",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 3,
+        "valor": "10.071,97",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 4,
+        "valor": "7.553,98",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 5,
+        "valor": "6.043,18",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 6,
+        "valor": "5.035,99",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 7,
+        "valor": "4.402,89",
+        "obs": "com acréscimo",
+        "total": "30.820,23"
+       },
+       {
+        "n": 8,
+        "valor": "3.871,41",
+        "obs": "com acréscimo",
+        "total": "30.971,31"
+       },
+       {
+        "n": 9,
+        "valor": "3.458,04",
+        "obs": "com acréscimo",
+        "total": "31.122,39"
+       },
+       {
+        "n": 10,
+        "valor": "3.127,35",
+        "obs": "com acréscimo",
+        "total": "31.273,47"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 5.035,99 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "30.215,91",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 2,
+        "valor": "15.107,96",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 3,
+        "valor": "10.071,97",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 4,
+        "valor": "7.553,98",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 5,
+        "valor": "6.043,18",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       },
+       {
+        "n": 6,
+        "valor": "5.035,99",
+        "obs": "sem acréscimo",
+        "total": "30.215,91"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 157,
+   "inicial": false,
+   "grupo": "nordeste-janeiro-2027-3-adultos",
+   "opcao": 2,
+   "opcaoNome": "Ilhéus · Cana Brava (all inclusive)",
+   "comparar": true
+  },
+  {
+   "slug": "nordeste-ferias-janeiro-3-adultos-opcoes-porto-seguro-portobello",
+   "destino": "Porto Seguro",
+   "titulo": "Porto Seguro no Portobello Praia Hotel, com meia pensão",
+   "chamada": "Sete noites de frente para o mar na Praia de Taperapuã, a praia das barracas mais animadas de Porto Seguro, com café da manhã e jantar no hotel.",
+   "black": false,
+   "selo": "Meia pensão",
+   "foto": "34722367",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "3 adultos",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-01-20",
+   "volta": "2027-01-27",
+   "idaTxt": "qua, 20 de jan",
+   "voltaTxt": "qua, 27 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Portobello Praia Hotel, apto Standard (MEIA PENSÃO: café da manhã e jantar)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ]
+   ],
+   "pix": "18.316,64",
+   "parcelas": 15,
+   "parcela": "1.312,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0Mjk3NjB8MB_TkNynDNzBMhz3YeALjVQ",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qua, 20 de jan",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 6h50",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "10:35",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "12:15",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1277",
+       "duracao": "1h40"
+      },
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "15:30",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "17:25",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "voo": "G3 1522",
+       "duracao": "1h55"
+      }
+     ],
+     "conexoes": [
+      "Espera de 3h15 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 27 de jan",
+     "cia": "GOL",
+     "resumo": "1 conexão em Brasília · 5h40",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "27/01",
+        "hora": "18:00",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "chegada": {
+        "data": "27/01",
+        "hora": "19:40",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "voo": "G3 1765",
+       "duracao": "1h40"
+      },
+      {
+       "saida": {
+        "data": "27/01",
+        "hora": "20:55",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "chegada": {
+        "data": "27/01",
+        "hora": "23:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1796",
+       "duracao": "2h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h15 em Brasília"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Portobello Praia Hotel",
+    "regime": "Meia pensão",
+    "noites": 7,
+    "checkin": "20/01 (14h)",
+    "checkout": "27/01",
+    "tarifa": "Não reembolsável",
+    "destaque": "De frente para o mar, na Praia de Taperapuã",
+    "endereco": "Av. Beira Mar · Praia de Taperapuã, Porto Seguro (BA)",
+    "descricao": "Hotel de frente para o mar na Praia de Taperapuã, a 8 km do centro e 20 minutos do aeroporto. Tem piscina, campo de futebol, quadra de tênis, beach tennis, sauna, salão de jogos, academia, bar de praia, recreação para a família e copa do bebê. O restaurante serve cozinha brasileira e internacional.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "MEIA PENSÃO: café da manhã + jantar",
+     "resumo": "Duas refeições por dia no restaurante do hotel. O almoço fica livre pra aproveitar as barracas de praia e o centrinho.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Jantar todos os dias no restaurante do hotel",
+      "Uso da estrutura: piscina, quadras, sauna, academia e recreação"
+     ],
+     "naoInclui": [
+      "Almoço",
+      "Bebidas (inclusive no jantar), pagas à parte",
+      "Petiscos e consumo no bar de praia"
+     ]
+    },
+    "fotos": [
+     "https://media.staticontent.com/media/pictures/2264d00e-710f-4288-a24e-efbdfd69358c",
+     "https://media.staticontent.com/media/pictures/8518b880-3746-4d83-b817-04a7a5cd7fc2",
+     "https://media.staticontent.com/media/pictures/a415b2b0-7a97-4bd8-a614-8084b421bf64",
+     "https://media.staticontent.com/media/pictures/3988b98f-29cf-4016-b340-51e6d0c94799",
+     "https://media.staticontent.com/media/pictures/56195280-4d2a-40eb-82b3-af056f1c9fee",
+     "https://media.staticontent.com/media/pictures/1b38c78d-4102-43c0-b9e1-9c4d69d31b14",
+     "https://media.staticontent.com/media/pictures/5c0dc76f-2e9a-4e70-8c1a-f499c0fd1e42",
+     "https://media.staticontent.com/media/pictures/1966989a-27b4-42e0-b398-30ea0ae16bab",
+     "https://media.staticontent.com/media/pictures/624c079b-6ac7-4ccc-9476-0a49ae87620a",
+     "https://media.staticontent.com/media/pictures/3cedae33-1f90-4bba-9d0a-b233e33920a1",
+     "https://media.staticontent.com/media/pictures/70f010aa-309b-4f71-96ff-d7058aa0fe84",
+     "https://media.staticontent.com/media/pictures/d0224e83-3ca5-407f-b4f9-b539850e8a02"
+    ],
+    "quarto": {
+     "nome": "Standard com vista interna",
+     "descricao": "Apartamento com vista para os jardins e áreas internas do hotel, com varanda com rede.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Frigobar",
+      "Wi-Fi",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.staticontent.com/media/pictures/1b80c7d9-a84f-4836-892a-425952a781ca",
+      "https://media.staticontent.com/media/pictures/2d09afcf-f5eb-4699-b704-1a975372e135",
+      "https://media.staticontent.com/media/pictures/18136d92-18df-421d-854d-93134443f165",
+      "https://media.staticontent.com/media/pictures/90a36f41-0eee-499b-aa64-ab2593cb8ed2",
+      "https://media.staticontent.com/media/pictures/bd43e1ab-f21b-49e4-94f4-3e3896778736"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular entre o Aeroporto de Porto Seguro e o hotel, na ida e na volta, com city tour de cortesia em Porto Seguro.",
+     "info": [
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "19.670,48",
+     "por": "18.316,64",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.311,37 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "19.670,48",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 2,
+        "valor": "9.835,24",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 3,
+        "valor": "6.556,83",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 4,
+        "valor": "4.917,62",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 5,
+        "valor": "3.934,10",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 6,
+        "valor": "3.278,41",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 7,
+        "valor": "2.810,07",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 8,
+        "valor": "2.458,81",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 9,
+        "valor": "2.185,61",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 10,
+        "valor": "1.967,05",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 11,
+        "valor": "1.788,23",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 12,
+        "valor": "1.639,21",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 13,
+        "valor": "1.513,11",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 14,
+        "valor": "1.405,03",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 15,
+        "valor": "1.311,37",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 3.278,41 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "19.670,48",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 2,
+        "valor": "9.835,24",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 3,
+        "valor": "6.556,83",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 4,
+        "valor": "4.917,62",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 5,
+        "valor": "3.934,10",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 6,
+        "valor": "3.278,41",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 7,
+        "valor": "2.866,27",
+        "obs": "com acréscimo",
+        "total": "20.063,89"
+       },
+       {
+        "n": 8,
+        "valor": "2.520,28",
+        "obs": "com acréscimo",
+        "total": "20.162,24"
+       },
+       {
+        "n": 9,
+        "valor": "2.251,18",
+        "obs": "com acréscimo",
+        "total": "20.260,59"
+       },
+       {
+        "n": 10,
+        "valor": "2.035,89",
+        "obs": "com acréscimo",
+        "total": "20.358,95"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 3.278,41 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "19.670,48",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 2,
+        "valor": "9.835,24",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 3,
+        "valor": "6.556,83",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 4,
+        "valor": "4.917,62",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 5,
+        "valor": "3.934,10",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       },
+       {
+        "n": 6,
+        "valor": "3.278,41",
+        "obs": "sem acréscimo",
+        "total": "19.670,48"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 158,
+   "inicial": false,
+   "grupo": "nordeste-janeiro-2027-3-adultos",
+   "opcao": 3,
+   "opcaoNome": "Porto Seguro · Portobello (meia pensão)",
+   "comparar": true
+  },
+  {
+   "slug": "nordeste-ferias-janeiro-3-adultos-opcoes-maceio-mar",
+   "destino": "Maceió",
+   "titulo": "Maceió no Maceió Mar Hotel, na Ponta Verde, com meia pensão",
+   "chamada": "Sete noites à beira-mar na Ponta Verde, o cartão-postal de Maceió, com café da manhã e jantar no hotel e o maior apartamento do hotel para os 3.",
+   "black": false,
+   "selo": "Meia pensão",
+   "foto": "https://images.unsplash.com/photo-1616180759439-7f6367792233?auto=format&fit=crop&w=1600&q=80",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "3 adultos",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-01-19",
+   "volta": "2027-01-26",
+   "idaTxt": "ter, 19 de jan",
+   "voltaTxt": "ter, 26 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Maceió Mar Hotel, apto Premium Family (MEIA PENSÃO: café da manhã e jantar)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ]
+   ],
+   "pix": "19.582,32",
+   "parcelas": 15,
+   "parcela": "1.402,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0Mjk4OTN8MIPJUr5buXYdRU5AQnhYPzU",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "ter, 19 de jan",
+     "cia": "GOL",
+     "resumo": "2 conexões (Congonhas e Galeão) · 9h25",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "19/01",
+        "hora": "07:25",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "19/01",
+        "hora": "09:00",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1273",
+       "duracao": "1h35"
+      },
+      {
+       "saida": {
+        "data": "19/01",
+        "hora": "11:10",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "19/01",
+        "hora": "12:15",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "voo": "G3 1446",
+       "duracao": "1h05"
+      },
+      {
+       "saida": {
+        "data": "19/01",
+        "hora": "14:15",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "chegada": {
+        "data": "19/01",
+        "hora": "16:50",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto Zumbi dos Palmares"
+       },
+       "voo": "G3 2078",
+       "duracao": "2h35"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h10 em Congonhas",
+      "Espera de 2h no Galeão"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "ter, 26 de jan",
+     "cia": "GOL",
+     "resumo": "2 conexões (Salvador e Galeão) · 7h40",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "26/01",
+        "hora": "12:50",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto Zumbi dos Palmares"
+       },
+       "chegada": {
+        "data": "26/01",
+        "hora": "14:00",
+        "iata": "SSA",
+        "cidade": "Salvador",
+        "aeroporto": "Aeroporto de Salvador"
+       },
+       "voo": "G3 1917",
+       "duracao": "1h10"
+      },
+      {
+       "saida": {
+        "data": "26/01",
+        "hora": "14:50",
+        "iata": "SSA",
+        "cidade": "Salvador",
+        "aeroporto": "Aeroporto de Salvador"
+       },
+       "chegada": {
+        "data": "26/01",
+        "hora": "17:00",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "voo": "G3 1891",
+       "duracao": "2h10"
+      },
+      {
+       "saida": {
+        "data": "26/01",
+        "hora": "18:20",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "chegada": {
+        "data": "26/01",
+        "hora": "20:30",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1824",
+       "duracao": "2h10"
+      }
+     ],
+     "conexoes": [
+      "Espera de 50min em Salvador",
+      "Espera de 1h20 no Galeão"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Maceió Mar Hotel",
+    "regime": "Meia pensão",
+    "noites": 7,
+    "checkin": "19/01 (15h)",
+    "checkout": "26/01 (12h)",
+    "tarifa": "Cancelamento grátis até 19/12/2026",
+    "destaque": "À beira-mar na Ponta Verde, perto de tudo",
+    "endereco": "Av. Álvaro Otacílio · Ponta Verde, Maceió (AL)",
+    "descricao": "Hotel 4 estrelas à beira-mar na Praia da Ponta Verde, um dos cartões-postais de Maceió, perto dos melhores restaurantes, da feirinha de artesanato e do ponto das jangadas para as piscinas naturais. Tem piscina com bar, sala de jogos, miniclube para crianças e restaurante.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "MEIA PENSÃO: café da manhã + jantar",
+     "resumo": "Duas refeições por dia no restaurante do hotel. O almoço fica livre pros passeios e pra comer na orla.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Jantar todos os dias no restaurante do hotel",
+      "Uso da estrutura: piscina, sala de jogos e miniclube"
+     ],
+     "naoInclui": [
+      "Almoço",
+      "Bebidas (inclusive no jantar), pagas à parte",
+      "Consumo no bar da piscina"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/1083/Property/53351.jpg",
+     "https://media.omnibees.com/Images/1083/Property/13277.jpg",
+     "https://media.omnibees.com/Images/1083/Property/53339.jpg",
+     "https://media.omnibees.com/Images/1083/Property/53344.jpg",
+     "https://media.omnibees.com/Images/1083/Property/53346.jpg",
+     "https://media.omnibees.com/Images/1083/Property/53345.jpg",
+     "https://media.omnibees.com/Images/1083/Property/53343.jpg",
+     "https://media.omnibees.com/Images/1083/Property/53352.jpg",
+     "https://media.omnibees.com/Images/1083/Property/53342.jpg",
+     "https://media.omnibees.com/Images/1083/Property/91487.jpg"
+    ],
+    "quarto": {
+     "nome": "Premium Family (sem vista mar)",
+     "descricao": "O maior apartamento do hotel, com 1 cama de casal king + 2 camas de solteiro. Acomoda até 4 adultos. Não tem vista para o mar.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Frigobar",
+      "Cofre",
+      "Wi-Fi",
+      "Secador de cabelo",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/1083/RoomTypes/2171584.jpg",
+      "https://media.omnibees.com/Images/1083/RoomTypes/2171583.jpg",
+      "https://media.omnibees.com/Images/1083/Property/22962.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular entre o Aeroporto de Maceió e o hotel, na ida e na volta.",
+     "info": [
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "21.028,38",
+     "por": "19.582,32",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.401,89 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "21.028,38",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 2,
+        "valor": "10.514,19",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 3,
+        "valor": "7.009,46",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 4,
+        "valor": "5.257,10",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 5,
+        "valor": "4.205,68",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 6,
+        "valor": "3.504,73",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 7,
+        "valor": "3.004,05",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 8,
+        "valor": "2.628,55",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 9,
+        "valor": "2.336,49",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 10,
+        "valor": "2.102,84",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 11,
+        "valor": "1.911,67",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 12,
+        "valor": "1.752,37",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 13,
+        "valor": "1.617,57",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 14,
+        "valor": "1.502,03",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 15,
+        "valor": "1.401,89",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 3.504,73 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "21.028,38",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 2,
+        "valor": "10.514,19",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 3,
+        "valor": "7.009,46",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 4,
+        "valor": "5.257,10",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 5,
+        "valor": "4.205,68",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 6,
+        "valor": "3.504,73",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 7,
+        "valor": "3.064,14",
+        "obs": "com acréscimo",
+        "total": "21.448,95"
+       },
+       {
+        "n": 8,
+        "valor": "2.694,26",
+        "obs": "com acréscimo",
+        "total": "21.554,09"
+       },
+       {
+        "n": 9,
+        "valor": "2.406,58",
+        "obs": "com acréscimo",
+        "total": "21.659,23"
+       },
+       {
+        "n": 10,
+        "valor": "2.176,44",
+        "obs": "com acréscimo",
+        "total": "21.764,37"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 3.504,73 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "21.028,38",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 2,
+        "valor": "10.514,19",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 3,
+        "valor": "7.009,46",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 4,
+        "valor": "5.257,10",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 5,
+        "valor": "4.205,68",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       },
+       {
+        "n": 6,
+        "valor": "3.504,73",
+        "obs": "sem acréscimo",
+        "total": "21.028,38"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 159,
+   "inicial": false,
+   "grupo": "nordeste-janeiro-2027-3-adultos",
+   "opcao": 4,
+   "opcaoNome": "Maceió · Maceió Mar (meia pensão)",
+   "comparar": true
+  },
+  {
    "slug": "maceio-verano-pajucara-maragogi-milagres-27-fev-a-6-mar-orcamento-6428881",
    "destino": "Maceió",
    "titulo": "Maceió com Maragogi, São Miguel dos Milagres, Praia do Gunga e Praia do Francês",
