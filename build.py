@@ -837,7 +837,7 @@ def pagina_roteiro(p):
 <h1>{e(p['titulo'])}</h1><p>{e(p['chamada'])}</p>{f'<span class="cod-pk">Código do pacote <b>{cod_txt(p)}</b></span>' if p.get('cod') else ''}</div></section>
 <div class="rt-grid"><div>
 <div class="facts"><div class="fact"><b>{p['dias']} dias</b><span>{p['noites']} noites</span></div><div class="fact"><b>{e(p['datasCurto'])}</b><span>{e(p['ano'])}</span></div><div class="fact"><b>Saída</b><span>Porto Alegre</span></div></div>
-<div class="box"><h2>O roteiro inclui</h2><ul class="inc">{inc}</ul><p class="nao">{e(p.get('naoInclui',''))}</p></div>{reemb}</div>
+<div class="box"><h2>O roteiro inclui</h2><ul class="inc">{inc}</ul><p class="nao">{e(p.get('naoInclui',''))}</p></div></div>
 <div><div class="box datas"><h2>Datas</h2><p>📅 <span><b>Ida:</b> {e(p['idaTxt'])}</span></p><p>📅 <span><b>Retorno:</b> {e(p['voltaTxt'])}</span></p></div>
 <div class="ctas"><a class="btn btn-wa" data-wa="{e(p['slug'])}" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero esse roteiro</a></div></div></div>
 {f'<section class="det" id="videos"><h2>🎬 Veja como é</h2><div class="vids">{vids}</div></section>' if vids else ''}
