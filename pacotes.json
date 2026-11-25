@@ -4616,7 +4616,7 @@
     ],
     [
      "🏨",
-     "2 noites no Hotel Rainha dos Apóstolos"
+     "2 noites no Hotel Rainha dos Apóstolos, em quartos duplos"
     ],
     [
      "🍽️",
@@ -4901,7 +4901,7 @@
     "checkin": "14/05 (13h30)",
     "checkout": "16/05 (14h)",
     "endereco": "Av. Isaac Ferreira Encarnação, 523 · Aparecida (SP)",
-    "descricao": "Hotel a cerca de 15 minutos a pé da Basílica do Santuário Nacional, com restaurante, jardim, Wi-Fi, recepção 24 horas e quartos com ar-condicionado, frigobar, cofre e TV.",
+    "descricao": "Hotel a cerca de 15 minutos a pé da Basílica do Santuário Nacional, com restaurante, jardim, Wi-Fi, recepção 24 horas e quartos com ar-condicionado, frigobar, cofre e TV. A hospedagem é em quartos duplos.",
     "fotos": [
      "/img/aparecida/hotel-quarto.jpg",
      "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/4447835a.jpg?impolicy=fcrop&w=1200&h=800",
@@ -4910,7 +4910,8 @@
      "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/147bb9a7.jpg?impolicy=fcrop&w=1200&h=800",
      "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/9da0286a.jpg?impolicy=fcrop&w=1200&h=800",
      "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/237ed7d7.jpg?impolicy=fcrop&w=1200&h=800"
-    ]
+    ],
+    "acomodacao": "Quartos duplos"
    },
    "infoVisitas": [
     "Grupo máximo de 40 pessoas por visita monitorada.",
@@ -4928,12 +4929,14 @@
      {
       "rotulo": "Parcelado",
       "valor": "4x de R$ 675,00",
-      "obs": "por pessoa (total R$ 2.700,00), pagamento todo dia 10: 10/12, 10/01, 10/02 e 10/03"
+      "obs": "por pessoa (total R$ 2.700,00)"
      }
     ],
     "info": [
      "Valores por pessoa.",
-     "Refeições inclusas, todas no próprio hotel."
+     "Refeições inclusas, todas no próprio hotel.",
+     "Até o dia 31/05/2027 é possível desistir da viagem com reembolso total. É importante que ajude a encontrar outras pessoas interessadas em ir no seu lugar.",
+     "Total de vagas ainda a ser definido, inicialmente focado em 15 vagas."
     ]
    }
   },
@@ -9905,7 +9908,7 @@
     ],
     [
      "🏨",
-     "2 noites no Hotel Rainha dos Apóstolos"
+     "2 noites no Hotel Rainha dos Apóstolos, em quartos duplos"
     ],
     [
      "🍽️",
@@ -10190,7 +10193,7 @@
     "checkin": "14/05 (13h30)",
     "checkout": "16/05 (14h)",
     "endereco": "Av. Isaac Ferreira Encarnação, 523 · Aparecida (SP)",
-    "descricao": "Hotel a cerca de 15 minutos a pé da Basílica do Santuário Nacional, com restaurante, jardim, Wi-Fi, recepção 24 horas e quartos com ar-condicionado, frigobar, cofre e TV.",
+    "descricao": "Hotel a cerca de 15 minutos a pé da Basílica do Santuário Nacional, com restaurante, jardim, Wi-Fi, recepção 24 horas e quartos com ar-condicionado, frigobar, cofre e TV. A hospedagem é em quartos duplos.",
     "fotos": [
      "/img/aparecida/hotel-quarto.jpg",
      "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/4447835a.jpg?impolicy=fcrop&w=1200&h=800",
@@ -10199,7 +10202,8 @@
      "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/147bb9a7.jpg?impolicy=fcrop&w=1200&h=800",
      "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/9da0286a.jpg?impolicy=fcrop&w=1200&h=800",
      "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/237ed7d7.jpg?impolicy=fcrop&w=1200&h=800"
-    ]
+    ],
+    "acomodacao": "Quartos duplos"
    },
    "infoVisitas": [
     "Grupo máximo de 40 pessoas por visita monitorada.",
@@ -10217,12 +10221,14 @@
      {
       "rotulo": "Parcelado",
       "valor": "4x de R$ 675,00",
-      "obs": "por pessoa (total R$ 2.700,00), pagamento todo dia 10: 10/12, 10/01, 10/02 e 10/03"
+      "obs": "por pessoa (total R$ 2.700,00)"
      }
     ],
     "info": [
      "Valores por pessoa.",
-     "Refeições inclusas, todas no próprio hotel."
+     "Refeições inclusas, todas no próprio hotel.",
+     "Até o dia 31/05/2027 é possível desistir da viagem com reembolso total. É importante que ajude a encontrar outras pessoas interessadas em ir no seu lugar.",
+     "Total de vagas ainda a ser definido, inicialmente focado em 15 vagas."
     ]
    }
   },

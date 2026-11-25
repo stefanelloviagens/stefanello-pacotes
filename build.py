@@ -841,7 +841,7 @@ def pagina_roteiro(p):
 <section class="det" id="galeria"><h2>📸 Visitas monitoradas no Santuário</h2><p>{e(p.get('galeriaTxt',''))}</p>{galeria(p.get('galeria', []), 'Visita monitorada no Santuário Nacional', 'gv')}</section>
 <section class="det" id="voos"><h2>✈️ Voos</h2><div class="voos">{''.join(bloco_voo(v) for v in p['voos'])}</div><p class="aviso">Horários da cotação atual. A companhia pode alterar até o embarque; a gente te avisa qualquer mudança.</p></section>
 <section class="det" id="hotel"><h2>🏨 Hospedagem</h2><div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}</p>
-<div class="hfacts"><span><b>{h['noites']}</b> noites</span><span>Check-in {e(h['checkin'])}</span><span>Check-out {e(h['checkout'])}</span></div><p>{e(h.get('descricao',''))}</p></div></div>{galeria(h.get('fotos', []), h['nome'], 'gh')}</section>
+<div class="hfacts"><span><b>{h['noites']}</b> noites</span>{f'<span>🛏️ {e(h["acomodacao"])}</span>' if h.get('acomodacao') else ''}<span>Check-in {e(h['checkin'])}</span><span>Check-out {e(h['checkout'])}</span></div><p>{e(h.get('descricao',''))}</p></div></div>{galeria(h.get('fotos', []), h['nome'], 'gh')}</section>
 <section class="det" id="info"><div class="box"><h2>ℹ️ Informações importantes das visitas</h2><ul class="pg-info">{''.join(f"<li>{e(x)}</li>" for x in p.get('infoVisitas', []))}</ul></div></section>
 <section class="det" id="pagamento"><div class="pay"><h2>💳 Investimento</h2>{''.join(ops)}<ul>{info}</ul></div>
 <div class="ctas" style="margin-top:16px"><a class="btn btn-wa" data-wa="{e(p['slug'])}-fim" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero reservar</a></div>
