@@ -221,11 +221,14 @@ footer a{color:#fff}
 .btn-sun{background:var(--sun);color:var(--ink)}.btn-sun:hover{background:#ffe34d}
 .btn-glass{background:rgba(255,255,255,.14);color:#fff;border:1.5px solid rgba(255,255,255,.7);backdrop-filter:blur(6px)}.btn-glass:hover{background:#fff;color:var(--ink)}
 .det{margin:8px 0 34px}
-.mapa{margin:16px 0 4px;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:var(--card)}
-.mapa iframe{display:block;width:100%;height:300px;border:0}
-.mapa a{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 16px;font-weight:800;color:var(--ink);text-decoration:none;font-size:14.5px}
-.mapa a span{color:var(--muted);font-weight:600}
-@media(min-width:900px){.mapa iframe{height:340px}}
+.btn-mapa{display:inline-flex;align-items:center;gap:6px;margin-left:8px;padding:5px 12px;border-radius:999px;border:1.5px solid var(--ink);background:var(--card);color:var(--ink);font:800 13px/1.2 inherit;cursor:pointer;vertical-align:middle;white-space:nowrap}
+.btn-mapa:hover{background:var(--ink);color:var(--sun)}
+dialog.dmapa{margin:auto;inset:0;position:fixed;color:var(--ink);background:var(--card);border:0;padding:0;border-radius:20px;width:min(920px,94vw);max-height:90vh;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+dialog.dmapa::backdrop{background:rgba(0,0,0,.6)}
+.dmapa header{position:static!important;background:var(--card)!important;box-shadow:none!important;backdrop-filter:none!important;height:auto!important;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.dmapa header b{font-size:15px}.dmapa header button{border:0;background:var(--ink);color:#fff;border-radius:999px;width:34px;height:34px;font-size:18px;cursor:pointer}
+.dmapa iframe{display:block;width:100%;height:min(70vh,560px);border:0}
+.dmapa footer{background:var(--card)!important;color:var(--ink)!important;padding:0!important;margin:0!important;border:0!important;text-align:left!important}.dmapa footer a{display:block;padding:12px 16px;font-weight:800;color:var(--ink);text-decoration:none;font-size:14.5px}
 .reg{margin:16px 0 4px;border-radius:18px;padding:18px;border:2px solid var(--ink);background:var(--card)}
 .reg.ai{background:#111;color:#fff;border-color:#111}.reg.ai h3{color:var(--sun)}
 .reg h3{font-size:19px;margin-bottom:6px}.reg p.rs{margin:0 0 10px;opacity:.85}
@@ -687,15 +690,16 @@ def bloco_pagamento(pg):
 
 
 def mapa_hotel(h):
+    """Botão 'Abrir mapa' ao lado do endereço; o mapa abre num modal (iframe só carrega ao abrir)."""
     from urllib.parse import quote
     q = h.get("mapa") or (h.get("nome", "") + ", " + (h.get("endereco", "") or "").replace(" · ", ", "))
     if not q.strip(", "):
-        return ""
+        return ("", "")
     qq = quote(q)
-    return (f'<div class="mapa"><iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localização de {e(h.get("nome",""))}" '
-            f'src="https://maps.google.com/maps?q={qq}&z=14&output=embed"></iframe>'
-            f'<a href="https://www.google.com/maps/search/?api=1&query={qq}" target="_blank" rel="noopener">📍 Ver localização no Google Maps <span>abrir →</span></a></div>')
-
+    nome = e(h.get("nome", ""))
+    return (f'<button type="button" class="btn-mapa" onclick="var d=document.getElementById(\'dmapa\');var f=d.querySelector(\'iframe\');if(!f.src)f.src=f.dataset.src;d.showModal()">📍 Abrir mapa</button>', f'<dialog class="dmapa" id="dmapa" onclick="if(event.target===this)this.close()"><header><b>📍 {nome}</b><button type="button" aria-label="Fechar" onclick="this.closest(\'dialog\').close()">✕</button></header>'
+            f'<iframe title="Localização de {nome}" referrerpolicy="no-referrer-when-downgrade" data-src="https://maps.google.com/maps?q={qq}&z=14&output=embed"></iframe>'
+            f'<footer><a href="https://www.google.com/maps/search/?api=1&query={qq}" target="_blank" rel="noopener">Abrir no app do Google Maps →</a></footer></dialog>')
 
 def regime_box(h):
     r = h.get("regimeDetalhe")
@@ -737,9 +741,9 @@ def detalhes(p):
         q = h.get("quarto") or {}
         com = "".join(f"<li>{e(c)}</li>" for c in q.get("comodidades", []))
         out.append(f"""<section class="det" id="hotel"><h2>🏨 Hospedagem</h2>
-<div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}</p>
+<div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}{mapa_hotel(h)[0]}</p>{mapa_hotel(h)[1]}
 <div class="hfacts"><span><b>{h.get('noites','')}</b> noites</span><span>🍽️ {e(h.get('regime',''))}</span><span>Check-in {e(h.get('checkin',''))}</span><span>Check-out {e(h.get('checkout',''))}</span>{tarifa_chip(h)}</div>{destaque_hotel(h)}
-<p>{e(h.get('descricao',''))}</p>{regime_box(h)}{mapa_hotel(h)}</div></div>
+<p>{e(h.get('descricao',''))}</p>{regime_box(h)}</div></div>
 {galeria(h.get('fotos', []), h['nome'], 'gh')}
 <div class="quarto"><div><span class="tag-voo">Quarto</span><h3>{e(q.get('nome',''))}</h3><p>{e(q.get('descricao',''))}</p><ul class="com">{com}</ul></div>
 {galeria(q.get('fotos', []), q.get('nome','quarto'), 'gq')}</div></section>""")
@@ -861,8 +865,8 @@ def pagina_roteiro(p):
 <section class="det" id="atracoes"><h2>⛪ Os passeios do roteiro</h2><div class="atr">{atr}</div></section>
 <section class="det" id="galeria"><h2>📸 Visitas monitoradas no Santuário</h2><p>{e(p.get('galeriaTxt',''))}</p>{galeria(p.get('galeria', []), 'Visita monitorada no Santuário Nacional', 'gv')}</section>
 <section class="det" id="voos"><h2>✈️ Voos</h2><div class="voos">{''.join(bloco_voo(v) for v in p['voos'])}</div><p class="aviso">Horários da cotação atual. A companhia pode alterar até o embarque; a gente te avisa qualquer mudança.</p></section>
-<section class="det" id="hotel"><h2>🏨 Hospedagem</h2><div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}</p>
-<div class="hfacts"><span><b>{h['noites']}</b> noites</span>{f'<span>🛏️ {e(h["acomodacao"])}</span>' if h.get('acomodacao') else ''}<span>Check-in {e(h['checkin'])}</span><span>Check-out {e(h['checkout'])}</span></div><p>{e(h.get('descricao',''))}</p>{mapa_hotel(h)}</div></div>{galeria(h.get('fotos', []), h['nome'], 'gh')}</section>
+<section class="det" id="hotel"><h2>🏨 Hospedagem</h2><div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}{mapa_hotel(h)[0]}</p>{mapa_hotel(h)[1]}
+<div class="hfacts"><span><b>{h['noites']}</b> noites</span>{f'<span>🛏️ {e(h["acomodacao"])}</span>' if h.get('acomodacao') else ''}<span>Check-in {e(h['checkin'])}</span><span>Check-out {e(h['checkout'])}</span></div><p>{e(h.get('descricao',''))}</p></div></div>{galeria(h.get('fotos', []), h['nome'], 'gh')}</section>
 <section class="det" id="info"><div class="box"><h2>ℹ️ Informações importantes das visitas</h2><ul class="pg-info">{''.join(f"<li>{e(x)}</li>" for x in p.get('infoVisitas', []))}</ul></div></section>
 <section class="det" id="pagamento"><div class="pay"><h2>💳 Investimento</h2>{''.join(ops)}{reemb}<ul>{info}</ul></div>
 <div class="ctas" style="margin-top:16px"><a class="btn btn-wa" data-wa="{e(p['slug'])}-fim" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero reservar</a></div>
