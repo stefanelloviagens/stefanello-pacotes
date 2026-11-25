@@ -6,6 +6,461 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "nordeste-ferias-janeiro-3-adultos-opcoes-porto-de-galinhas-marulhos",
+   "destino": "Porto de Galinhas",
+   "titulo": "Porto de Galinhas no Marulhos Resort, pé na areia em Muro Alto, com meia pensão",
+   "chamada": "Sete noites pé na areia na Praia de Muro Alto, em Porto de Galinhas, com cinco piscinas, café da manhã e jantar no resort, bem na semana das melhores marés para as piscinas naturais.",
+   "black": false,
+   "selo": "Meia pensão",
+   "foto": "4716938",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "3 adultos",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-01-20",
+   "volta": "2027-01-27",
+   "idaTxt": "qua, 20 de jan",
+   "voltaTxt": "qua, 27 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (Azul saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Marulhos Resort, apto Superior (MEIA PENSÃO: café da manhã e jantar)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto do Recife / resort / aeroporto"
+    ]
+   ],
+   "pix": "18.025,39",
+   "parcelas": 15,
+   "parcela": "1.291,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MzM0MTV8MMmIUXoXA3BBl5wvEaUHGg0",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qua, 20 de jan",
+     "cia": "Azul",
+     "resumo": "1 conexão em São Paulo · 5h40",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "14:00",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "15:50",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "AD 2628",
+       "duracao": "1h50"
+      },
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "16:40",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "19:40",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "voo": "AD 5092",
+       "duracao": "3h"
+      }
+     ],
+     "conexoes": [
+      "Espera de 50min em São Paulo"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 27 de jan (madrugada)",
+     "cia": "Azul",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 6h40 · sai às 02:45, na madrugada de terça pra quarta",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "27/01",
+        "hora": "02:45",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "chegada": {
+        "data": "27/01",
+        "hora": "06:05",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "AD 4716",
+       "duracao": "3h20"
+      },
+      {
+       "saida": {
+        "data": "27/01",
+        "hora": "07:45",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "27/01",
+        "hora": "09:25",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "AD 6030",
+       "duracao": "1h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h40 em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Marulhos Resort by MAI",
+    "regime": "Meia pensão",
+    "noites": 7,
+    "checkin": "20/01 (14h)",
+    "checkout": "27/01 (12h)",
+    "tarifa": "Não reembolsável",
+    "destaque": "Pé na areia na Praia de Muro Alto",
+    "endereco": "Praia de Muro Alto · Porto de Galinhas, Ipojuca (PE)",
+    "descricao": "Resort pé na areia em frente à Praia de Muro Alto, com 40 mil m², cinco piscinas, restaurantes, bar, quadra poliesportiva, campo de futebol, tênis, kids club e salão de jogos. Fica a 6 km do centrinho de Porto de Galinhas e a 60 km do aeroporto do Recife.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "MEIA PENSÃO: café da manhã + jantar",
+     "resumo": "Duas refeições por dia no restaurante do resort. O almoço fica livre pros passeios e pras piscinas naturais.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Jantar todos os dias no restaurante do resort",
+      "Uso da estrutura: 5 piscinas, quadras, kids club e salão de jogos"
+     ],
+     "naoInclui": [
+      "Almoço",
+      "Bebidas (inclusive no jantar), pagas à parte",
+      "Consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/6022/Property/208784.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208786.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208780.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208782.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208783.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208781.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208772.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208779.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208773.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208775.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208788.jpg"
+    ],
+    "quarto": {
+     "nome": "Superior",
+     "descricao": "Apartamento de 35 m² com varanda, 1 cama de casal e 1 de solteiro. Acomoda até 3 pessoas.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "TV a cabo",
+      "Frigobar",
+      "Wi-Fi",
+      "Secador de cabelo",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/6022/RoomTypes/1180345.jpg",
+      "https://media.omnibees.com/Images/6022/RoomTypes/1180346.jpeg",
+      "https://media.omnibees.com/Images/6022/RoomTypes/1180352.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / resort / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular entre o Aeroporto do Recife e o resort em Porto de Galinhas, na ida e na volta.",
+     "info": [
+      "Como o voo de volta sai às 02:45, o transfer pega vocês no resort na noite de terça (26/01)"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "19.352,07",
+     "por": "18.025,39",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.290,14 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "19.352,07",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 2,
+        "valor": "9.676,04",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 3,
+        "valor": "6.450,69",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 4,
+        "valor": "4.838,02",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 5,
+        "valor": "3.870,41",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 6,
+        "valor": "3.225,35",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 7,
+        "valor": "2.764,58",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 8,
+        "valor": "2.419,01",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 9,
+        "valor": "2.150,23",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 10,
+        "valor": "1.935,21",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 11,
+        "valor": "1.759,28",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 12,
+        "valor": "1.612,67",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 13,
+        "valor": "1.488,62",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 14,
+        "valor": "1.382,29",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 15,
+        "valor": "1.290,14",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 3.225,35 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "19.352,07",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 2,
+        "valor": "9.676,04",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 3,
+        "valor": "6.450,69",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 4,
+        "valor": "4.838,02",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 5,
+        "valor": "3.870,41",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 6,
+        "valor": "3.225,35",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 7,
+        "valor": "2.819,87",
+        "obs": "com acréscimo",
+        "total": "19.739,11"
+       },
+       {
+        "n": 8,
+        "valor": "2.479,48",
+        "obs": "com acréscimo",
+        "total": "19.835,87"
+       },
+       {
+        "n": 9,
+        "valor": "2.214,74",
+        "obs": "com acréscimo",
+        "total": "19.932,63"
+       },
+       {
+        "n": 10,
+        "valor": "2.002,94",
+        "obs": "com acréscimo",
+        "total": "20.029,39"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 3.225,35 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "19.352,07",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 2,
+        "valor": "9.676,04",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 3,
+        "valor": "6.450,69",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 4,
+        "valor": "4.838,02",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 5,
+        "valor": "3.870,41",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       },
+       {
+        "n": 6,
+        "valor": "3.225,35",
+        "obs": "sem acréscimo",
+        "total": "19.352,07"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 163,
+   "inicial": false,
+   "grupo": "nordeste-janeiro-2027-3-adultos",
+   "opcao": 5,
+   "opcaoNome": "Porto de Galinhas · Marulhos Resort (meia pensão)",
+   "comparar": true
+  },
+  {
    "slug": "comandatuba-transamerica-all-inclusive-black-november-5-a-12-jun",
    "destino": "Comandatuba",
    "titulo": "Transamérica Resort Comandatuba All Inclusive, na Bahia",
@@ -1444,7 +1899,7 @@
    "cod": 160,
    "inicial": false,
    "grupo": "nordeste-janeiro-2027-3-adultos",
-   "opcao": 5,
+   "opcao": 6,
    "opcaoNome": "🌎 INTERNACIONAL · Punta Cana · Grand Sirenis (all inclusive)",
    "comparar": true,
    "internacional": true
