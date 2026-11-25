@@ -6,6 +6,486 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "maceio-verano-pajucara-maragogi-milagres-3-a-10-mar-casal",
+   "destino": "Maceió",
+   "titulo": "Maceió com Maragogi, São Miguel dos Milagres e Praia do Francês",
+   "chamada": "Sete noites em Pajuçara, a 50 m da praia e do ponto das jangadas, com city tour pela Praia do Francês e passeios a Maragogi e São Miguel dos Milagres.",
+   "black": true,
+   "selo": "3 passeios inclusos",
+   "foto": "https://images.unsplash.com/photo-1616180759439-7f6367792233?auto=format&fit=crop&w=1600&q=80",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "2 adultos",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-03-03",
+   "volta": "2027-03-10",
+   "idaTxt": "qua, 3 de mar",
+   "voltaTxt": "qua, 10 de mar",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Verano Pajuçara by Tropicalis, apto Econômico Casal (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "🏖️",
+     "City tour panorâmico com Praia do Francês"
+    ],
+    [
+     "🏝️",
+     "Passeio a Maragogi"
+    ],
+    [
+     "🌿",
+     "Passeio a São Miguel dos Milagres"
+    ]
+   ],
+   "pix": "7.555,13",
+   "parcelas": 15,
+   "parcela": "540,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0Mjg2MjR8MH_MMX1x5f7aOVGXiEEbU0M",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qua, 3 de mar",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 5h35",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "03/03",
+        "hora": "11:20",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "03/03",
+        "hora": "13:10",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "G3 1235",
+       "duracao": "1h50"
+      },
+      {
+       "saida": {
+        "data": "03/03",
+        "hora": "14:00",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "03/03",
+        "hora": "16:55",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto Zumbi dos Palmares"
+       },
+       "voo": "G3 1670",
+       "duracao": "2h55"
+      }
+     ],
+     "conexoes": [
+      "Espera de 50min em Guarulhos"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 10 de mar",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 6h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "10/03",
+        "hora": "12:40",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto Zumbi dos Palmares"
+       },
+       "chegada": {
+        "data": "10/03",
+        "hora": "15:45",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "G3 1669",
+       "duracao": "3h05"
+      },
+      {
+       "saida": {
+        "data": "10/03",
+        "hora": "17:10",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "10/03",
+        "hora": "18:55",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1238",
+       "duracao": "1h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h25 em Guarulhos"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Verano Pajuçara by Tropicalis",
+    "regime": "Café da manhã",
+    "noites": 7,
+    "checkin": "03/03 (14h)",
+    "checkout": "10/03 (12h)",
+    "tarifa": "Cancelamento grátis até 28/02/2027",
+    "destaque": "A 50 m da Praia de Pajuçara",
+    "endereco": "Rua Jangadeiros Alagoanos, 1071 · Pajuçara, Maceió (AL)",
+    "descricao": "Hotel a uma quadra da Praia de Pajuçara, de onde saem as jangadas pras piscinas naturais. Tem piscina no rooftop com vista pro mar, restaurante e café da manhã. A 3 quadras ficam as feirinhas de artesanato.",
+    "fotos": [
+     "https://media.omnibees.com/Images/10894/Property/1520842.jpg",
+     "https://media.omnibees.com/Images/10894/Property/1337287.jpg",
+     "https://media.omnibees.com/Images/10894/Property/1337284.jpg",
+     "https://media.omnibees.com/Images/10894/Property/1329520.jpg",
+     "https://media.omnibees.com/Images/10894/Property/1337299.jpg",
+     "https://media.omnibees.com/Images/10894/Property/1337306.jpg",
+     "https://media.omnibees.com/Images/10894/Property/879551.jpeg",
+     "https://media.omnibees.com/Images/10894/Property/1068582.jpeg",
+     "https://media.omnibees.com/Images/10894/Property/1337300.jpg",
+     "https://media.omnibees.com/Images/10894/Property/1337283.jpg"
+    ],
+    "quarto": {
+     "nome": "Econômico Casal",
+     "descricao": "Apto com cama de casal e os mesmos itens das categorias standard, no andar mezanino (sem as variações de vista dos andares superiores).",
+     "comodidades": [
+      "Ar-condicionado",
+      "Área de estar",
+      "Cofre",
+      "TV",
+      "Wi-Fi",
+      "Telefone"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/10894/RoomTypes/1337315.jpg",
+      "https://media.omnibees.com/Images/10894/RoomTypes/887782.jpeg",
+      "https://media.omnibees.com/Images/10894/RoomTypes/1337316.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Traslado regular (compartilhado) entre o Aeroporto de Maceió e o hotel em Ponta Verde.",
+     "info": [
+      "Horário da volta informado um dia antes"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏖️",
+     "nome": "City tour panorâmico com Praia do Francês",
+     "quando": "Segundas, quartas e sextas",
+     "descricao": "Passeio pelos principais pontos de Maceió e pela orla, seguindo até a Praia do Francês.",
+     "info": [
+      "Passeio regular (compartilhado)",
+      "Refeições e opcionais pagos à parte"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏝️",
+     "nome": "Passeio a Maragogi",
+     "quando": "Previsto pra 04/03 (dá pra remarcar com o receptivo)",
+     "descricao": "O Caribe brasileiro, com águas cristalinas e piscinas naturais entre os corais. Acesso ao Beach Club Pontal de Maragogi sem pagar day use.",
+     "info": [
+      "Piscinas naturais, buggy e refeições pagos à parte",
+      "Melhor maré da estadia: 05/03 às 08h33 (0,24 m)"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🌿",
+     "nome": "Passeio a São Miguel dos Milagres",
+     "quando": "Data a combinar com o receptivo",
+     "descricao": "Rota Ecológica dos Milagres, com praias calmas, coqueirais e piscinas naturais.",
+     "info": [
+      "Piscinas naturais e refeições pagos à parte",
+      "Boa maré também em 04/03 às 08h00 (0,37 m)"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "8.093,52",
+     "por": "7.555,13",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 539,57 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "8.093,52",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 2,
+        "valor": "4.046,76",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 3,
+        "valor": "2.697,84",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 4,
+        "valor": "2.023,38",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 5,
+        "valor": "1.618,70",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 6,
+        "valor": "1.348,92",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 7,
+        "valor": "1.156,22",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 8,
+        "valor": "1.011,69",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 9,
+        "valor": "899,28",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 10,
+        "valor": "809,35",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 11,
+        "valor": "735,77",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 12,
+        "valor": "674,46",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 13,
+        "valor": "622,58",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 14,
+        "valor": "578,11",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 15,
+        "valor": "539,57",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.348,92 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "8.093,52",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 2,
+        "valor": "4.046,76",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 3,
+        "valor": "2.697,84",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 4,
+        "valor": "2.023,38",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 5,
+        "valor": "1.618,70",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 6,
+        "valor": "1.348,92",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 7,
+        "valor": "1.179,34",
+        "obs": "com acréscimo",
+        "total": "8.255,39"
+       },
+       {
+        "n": 8,
+        "valor": "1.036,98",
+        "obs": "com acréscimo",
+        "total": "8.295,86"
+       },
+       {
+        "n": 9,
+        "valor": "926,26",
+        "obs": "com acréscimo",
+        "total": "8.336,33"
+       },
+       {
+        "n": 10,
+        "valor": "837,68",
+        "obs": "com acréscimo",
+        "total": "8.376,79"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.348,92 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "8.093,52",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 2,
+        "valor": "4.046,76",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 3,
+        "valor": "2.697,84",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 4,
+        "valor": "2.023,38",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 5,
+        "valor": "1.618,70",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       },
+       {
+        "n": 6,
+        "valor": "1.348,92",
+        "obs": "sem acréscimo",
+        "total": "8.093,52"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 154,
+   "inicial": false,
+   "fotoOg": "https://images.unsplash.com/photo-1616180759439-7f6367792233?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
    "slug": "porto-de-galinhas-enotel-all-inclusive-35-off-25-fev-a-3-mar",
    "destino": "Porto de Galinhas",
    "titulo": "Porto de Galinhas no Enotel Resort All Inclusive com 35% OFF",
