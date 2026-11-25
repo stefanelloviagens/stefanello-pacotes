@@ -70,6 +70,9 @@ CSS = """
 .at{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}.at img{width:100%;height:220px!important;object-fit:cover}.at div{padding:14px 16px;display:grid;gap:6px}.at h3{font-size:17px}.at p{font-size:14.5px;color:var(--muted)}.at a{font-weight:700;font-size:14px;color:var(--sea)}
 .pay{background:var(--ink);color:#fff;border-radius:22px;padding:24px}.pay h2{margin-bottom:14px}
 .pay .op{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:16px;margin-bottom:12px}.pay .op .v{font-family:Archivo,sans-serif;font-size:30px;color:var(--sun)}.pay .op small{display:block;opacity:.85}.pay .ou{text-align:center;font-weight:800;opacity:.7;margin:4px 0 12px}
+.reemb{background:var(--sun);color:var(--ink);border-radius:18px;padding:18px 18px 16px;margin:16px 0 4px;border:3px solid var(--ink);box-shadow:0 6px 0 rgba(0,0,0,.18)}
+.reemb b.t{display:block;font-family:Archivo,sans-serif;font-size:21px;line-height:1.2;margin-bottom:6px}.reemb p{margin:0;font-size:15.5px;line-height:1.45}
+.pay .reemb{margin:4px 0 14px}
 .pay ul{margin:12px 0 0 18px;opacity:.9;font-size:14.5px;display:grid;gap:4px}
 .nao{color:var(--muted);font-size:14px;margin-top:10px}
 .po{display:none;text-align:center;font-weight:700;margin-top:14px}
@@ -824,6 +827,8 @@ def pagina_roteiro(p):
         if i: ops.append('<div class="ou">OU</div>')
         ops.append(f'<div class="op"><span class="tag-voo">{e(o["rotulo"])}</span><div class="v">{e(o["valor"])}</div><small>{e(o["obs"])}</small></div>')
     info = "".join(f"<li>{e(x)}</li>" for x in pg.get("info", []))
+    rb = p.get("reembolso")
+    reemb = f'<div class="reemb"><b class="t">🔁 {e(rb["titulo"])}</b><p>{e(rb["texto"])}</p></div>' if rb else ""
     desc = f"{p['titulo']}: {p['dias']} dias / {p['noites']} noites, {p['idaTxt']} a {p['voltaTxt']}, saindo de Porto Alegre."
     vc = f"fbq('track','ViewContent',{{content_name:{json.dumps(p['titulo'])},content_ids:[{json.dumps(p['slug'])}],content_type:'product'}});"
     body = f"""<body>{topo()}
@@ -832,7 +837,7 @@ def pagina_roteiro(p):
 <h1>{e(p['titulo'])}</h1><p>{e(p['chamada'])}</p>{f'<span class="cod-pk">Código do pacote <b>{cod_txt(p)}</b></span>' if p.get('cod') else ''}</div></section>
 <div class="rt-grid"><div>
 <div class="facts"><div class="fact"><b>{p['dias']} dias</b><span>{p['noites']} noites</span></div><div class="fact"><b>{e(p['datasCurto'])}</b><span>{e(p['ano'])}</span></div><div class="fact"><b>Saída</b><span>Porto Alegre</span></div></div>
-<div class="box"><h2>O roteiro inclui</h2><ul class="inc">{inc}</ul><p class="nao">{e(p.get('naoInclui',''))}</p></div></div>
+<div class="box"><h2>O roteiro inclui</h2><ul class="inc">{inc}</ul><p class="nao">{e(p.get('naoInclui',''))}</p></div>{reemb}</div>
 <div><div class="box datas"><h2>Datas</h2><p>📅 <span><b>Ida:</b> {e(p['idaTxt'])}</span></p><p>📅 <span><b>Retorno:</b> {e(p['voltaTxt'])}</span></p></div>
 <div class="ctas"><a class="btn btn-wa" data-wa="{e(p['slug'])}" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero esse roteiro</a></div></div></div>
 {f'<section class="det" id="videos"><h2>🎬 Veja como é</h2><div class="vids">{vids}</div></section>' if vids else ''}
@@ -843,7 +848,7 @@ def pagina_roteiro(p):
 <section class="det" id="hotel"><h2>🏨 Hospedagem</h2><div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}</p>
 <div class="hfacts"><span><b>{h['noites']}</b> noites</span>{f'<span>🛏️ {e(h["acomodacao"])}</span>' if h.get('acomodacao') else ''}<span>Check-in {e(h['checkin'])}</span><span>Check-out {e(h['checkout'])}</span></div><p>{e(h.get('descricao',''))}</p></div></div>{galeria(h.get('fotos', []), h['nome'], 'gh')}</section>
 <section class="det" id="info"><div class="box"><h2>ℹ️ Informações importantes das visitas</h2><ul class="pg-info">{''.join(f"<li>{e(x)}</li>" for x in p.get('infoVisitas', []))}</ul></div></section>
-<section class="det" id="pagamento"><div class="pay"><h2>💳 Investimento</h2>{''.join(ops)}<ul>{info}</ul></div>
+<section class="det" id="pagamento"><div class="pay"><h2>💳 Investimento</h2>{''.join(ops)}{reemb}<ul>{info}</ul></div>
 <div class="ctas" style="margin-top:16px"><a class="btn btn-wa" data-wa="{e(p['slug'])}-fim" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero reservar</a></div>
 <p class="aviso">*Valores sujeitos a disponibilidade e alteração a qualquer momento. O valor só fica garantido na reserva.</p>
 <p class="po">Stefanello Viagens · 📲 WhatsApp bit.ly/stefanelloviagenswhats · 📸 instagram.com/stefanelloviagens<br><span style="font-weight:400">Roteiro completo: {e(url)}</span></p></section>

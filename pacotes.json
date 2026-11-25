@@ -4935,9 +4935,12 @@
     "info": [
      "Valores por pessoa.",
      "Refeições inclusas, todas no próprio hotel.",
-     "Até o dia 31/05/2027 é possível desistir da viagem com reembolso total. É importante que ajude a encontrar outras pessoas interessadas em ir no seu lugar.",
      "Total de vagas ainda a ser definido, inicialmente focado em 15 vagas."
     ]
+   },
+   "reembolso": {
+    "titulo": "Até 31/05/2027 dá pra desistir com reembolso total",
+    "texto": "Até o dia 31/05/2027 é possível desistir da viagem com reembolso total. É importante que ajude a encontrar outras pessoas interessadas em ir no seu lugar."
    }
   },
   {
@@ -10227,9 +10230,12 @@
     "info": [
      "Valores por pessoa.",
      "Refeições inclusas, todas no próprio hotel.",
-     "Até o dia 31/05/2027 é possível desistir da viagem com reembolso total. É importante que ajude a encontrar outras pessoas interessadas em ir no seu lugar.",
      "Total de vagas ainda a ser definido, inicialmente focado em 15 vagas."
     ]
+   },
+   "reembolso": {
+    "titulo": "Até 31/05/2027 dá pra desistir com reembolso total",
+    "texto": "Até o dia 31/05/2027 é possível desistir da viagem com reembolso total. É importante que ajude a encontrar outras pessoas interessadas em ir no seu lugar."
    }
   },
   {
