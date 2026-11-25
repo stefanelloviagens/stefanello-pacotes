@@ -6,6 +6,897 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "nordeste-ferias-janeiro-2-adultos-porto-de-galinhas-marulhos",
+   "destino": "Porto de Galinhas",
+   "titulo": "Porto de Galinhas no Marulhos Resort, pé na areia em Muro Alto, com meia pensão",
+   "chamada": "Sete noites pé na areia na Praia de Muro Alto, em Porto de Galinhas, com cinco piscinas, café da manhã e jantar no resort, bem na semana das melhores marés para as piscinas naturais.",
+   "black": true,
+   "selo": "Black November · Meia pensão",
+   "foto": "4716938",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "2 adultos",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-01-20",
+   "volta": "2027-01-27",
+   "idaTxt": "qua, 20 de jan",
+   "voltaTxt": "qua, 27 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (Azul saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Marulhos Resort, apto Superior (MEIA PENSÃO: café da manhã e jantar)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto do Recife / resort / aeroporto"
+    ]
+   ],
+   "pix": "13.943,10",
+   "parcelas": 15,
+   "parcela": "999,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MzM5MzN8MNWEM5ao7hrIDS2vBe7DsF0",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qua, 20 de jan",
+     "cia": "Azul",
+     "resumo": "1 conexão em São Paulo · 5h40",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "14:00",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "15:50",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "AD 2628",
+       "duracao": "1h50"
+      },
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "16:40",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "19:40",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "voo": "AD 5092",
+       "duracao": "3h"
+      }
+     ],
+     "conexoes": [
+      "Espera de 50min em São Paulo"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 27 de jan",
+     "cia": "Azul",
+     "resumo": "Voo direto · 4h30",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "27/01",
+        "hora": "17:25",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "chegada": {
+        "data": "27/01",
+        "hora": "21:55",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "AD 4150",
+       "duracao": "4h30"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "Marulhos Resort by MAI",
+    "regime": "Meia pensão",
+    "noites": 7,
+    "checkin": "20/01 (14h)",
+    "checkout": "27/01 (12h)",
+    "tarifa": "Não reembolsável",
+    "destaque": "Pé na areia na Praia de Muro Alto",
+    "endereco": "Praia de Muro Alto · Porto de Galinhas, Ipojuca (PE)",
+    "descricao": "Resort pé na areia em frente à Praia de Muro Alto, com 40 mil m², cinco piscinas, restaurantes, bar, quadra poliesportiva, campo de futebol, tênis, kids club e salão de jogos. Fica a 6 km do centrinho de Porto de Galinhas e a 60 km do aeroporto do Recife.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "MEIA PENSÃO: café da manhã + jantar",
+     "resumo": "Duas refeições por dia no restaurante do resort. O almoço fica livre pros passeios e pras piscinas naturais.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Jantar todos os dias no restaurante do resort",
+      "Uso da estrutura: 5 piscinas, quadras, kids club e salão de jogos"
+     ],
+     "naoInclui": [
+      "Almoço",
+      "Bebidas (inclusive no jantar), pagas à parte",
+      "Consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/6022/Property/208784.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208786.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208780.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208782.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208783.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208781.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208772.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208779.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208773.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208775.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208788.jpg"
+    ],
+    "quarto": {
+     "nome": "Superior",
+     "descricao": "Apartamento de 35 m² com varanda, 1 cama de casal e 1 de solteiro.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "TV a cabo",
+      "Frigobar",
+      "Wi-Fi",
+      "Secador de cabelo",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/6022/RoomTypes/1180345.jpg",
+      "https://media.omnibees.com/Images/6022/RoomTypes/1180346.jpeg",
+      "https://media.omnibees.com/Images/6022/RoomTypes/1180352.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / resort / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular entre o Aeroporto do Recife e o resort em Porto de Galinhas, na ida e na volta.",
+     "info": [
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "14.972,43",
+     "por": "13.943,10",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 998,16 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "14.972,43",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 2,
+        "valor": "7.486,22",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 3,
+        "valor": "4.990,81",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 4,
+        "valor": "3.743,11",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 5,
+        "valor": "2.994,49",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 6,
+        "valor": "2.495,41",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 7,
+        "valor": "2.138,92",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 8,
+        "valor": "1.871,55",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 9,
+        "valor": "1.663,60",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 10,
+        "valor": "1.497,24",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 11,
+        "valor": "1.361,13",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 12,
+        "valor": "1.247,70",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 13,
+        "valor": "1.151,73",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 14,
+        "valor": "1.069,46",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 15,
+        "valor": "998,16",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.495,41 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "14.972,43",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 2,
+        "valor": "7.486,22",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 3,
+        "valor": "4.990,81",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 4,
+        "valor": "3.743,11",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 5,
+        "valor": "2.994,49",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 6,
+        "valor": "2.495,41",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 7,
+        "valor": "2.181,70",
+        "obs": "com acréscimo",
+        "total": "15.271,88"
+       },
+       {
+        "n": 8,
+        "valor": "1.918,34",
+        "obs": "com acréscimo",
+        "total": "15.346,74"
+       },
+       {
+        "n": 9,
+        "valor": "1.713,51",
+        "obs": "com acréscimo",
+        "total": "15.421,60"
+       },
+       {
+        "n": 10,
+        "valor": "1.549,65",
+        "obs": "com acréscimo",
+        "total": "15.496,47"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.495,41 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "14.972,43",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 2,
+        "valor": "7.486,22",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 3,
+        "valor": "4.990,81",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 4,
+        "valor": "3.743,11",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 5,
+        "valor": "2.994,49",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       },
+       {
+        "n": 6,
+        "valor": "2.495,41",
+        "obs": "sem acréscimo",
+        "total": "14.972,43"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 166,
+   "inicial": false,
+   "grupo": "nordeste-janeiro-2027-3-adultos",
+   "opcao": 9,
+   "opcaoNome": "2 ADULTOS · Porto de Galinhas · Marulhos Resort (meia pensão)",
+   "comparar": true
+  },
+  {
+   "slug": "nordeste-ferias-janeiro-2-adultos-porto-seguro-portobello",
+   "destino": "Porto Seguro",
+   "titulo": "Porto Seguro no Portobello Praia Hotel, com meia pensão",
+   "chamada": "Sete noites de frente para o mar na Praia de Taperapuã, a praia das barracas mais animadas de Porto Seguro, com café da manhã e jantar no hotel.",
+   "black": true,
+   "selo": "Black November · Meia pensão",
+   "foto": "34722367",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "2 adultos",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-01-20",
+   "volta": "2027-01-27",
+   "idaTxt": "qua, 20 de jan",
+   "voltaTxt": "qua, 27 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Portobello Praia Hotel, apto Standard (MEIA PENSÃO: café da manhã e jantar)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ]
+   ],
+   "pix": "12.247,96",
+   "parcelas": 15,
+   "parcela": "877,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MzM5NTZ8MEgVF9hcqpzScelmxAS3Auw",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qua, 20 de jan",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 6h50",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "10:35",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "12:15",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1277",
+       "duracao": "1h40"
+      },
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "15:30",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "17:25",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "voo": "G3 1522",
+       "duracao": "1h55"
+      }
+     ],
+     "conexoes": [
+      "Espera de 3h15 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 27 de jan",
+     "cia": "GOL",
+     "resumo": "1 conexão em Brasília · 5h40",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "27/01",
+        "hora": "18:00",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "chegada": {
+        "data": "27/01",
+        "hora": "19:40",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "voo": "G3 1765",
+       "duracao": "1h40"
+      },
+      {
+       "saida": {
+        "data": "27/01",
+        "hora": "20:55",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "chegada": {
+        "data": "27/01",
+        "hora": "23:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1796",
+       "duracao": "2h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h15 em Brasília"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Portobello Praia Hotel",
+    "regime": "Meia pensão",
+    "noites": 7,
+    "checkin": "20/01 (14h)",
+    "checkout": "27/01",
+    "tarifa": "Cancelamento grátis até 20/12/2026",
+    "destaque": "De frente para o mar, na Praia de Taperapuã",
+    "endereco": "Av. Beira Mar · Praia de Taperapuã, Porto Seguro (BA)",
+    "descricao": "Hotel de frente para o mar na Praia de Taperapuã, a 8 km do centro e 20 minutos do aeroporto. Tem piscina, campo de futebol, quadra de tênis, beach tennis, sauna, salão de jogos, academia, bar de praia, recreação para a família e copa do bebê. O restaurante serve cozinha brasileira e internacional.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "MEIA PENSÃO: café da manhã + jantar",
+     "resumo": "Duas refeições por dia no restaurante do hotel. O almoço fica livre pra aproveitar as barracas de praia e o centrinho.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Jantar todos os dias no restaurante do hotel",
+      "Uso da estrutura: piscina, quadras, sauna, academia e recreação"
+     ],
+     "naoInclui": [
+      "Almoço",
+      "Bebidas (inclusive no jantar), pagas à parte",
+      "Petiscos e consumo no bar de praia"
+     ]
+    },
+    "fotos": [
+     "https://media.staticontent.com/media/pictures/2264d00e-710f-4288-a24e-efbdfd69358c",
+     "https://media.staticontent.com/media/pictures/8518b880-3746-4d83-b817-04a7a5cd7fc2",
+     "https://media.staticontent.com/media/pictures/a415b2b0-7a97-4bd8-a614-8084b421bf64",
+     "https://media.staticontent.com/media/pictures/3988b98f-29cf-4016-b340-51e6d0c94799",
+     "https://media.staticontent.com/media/pictures/56195280-4d2a-40eb-82b3-af056f1c9fee",
+     "https://media.staticontent.com/media/pictures/1b38c78d-4102-43c0-b9e1-9c4d69d31b14",
+     "https://media.staticontent.com/media/pictures/5c0dc76f-2e9a-4e70-8c1a-f499c0fd1e42",
+     "https://media.staticontent.com/media/pictures/1966989a-27b4-42e0-b398-30ea0ae16bab",
+     "https://media.staticontent.com/media/pictures/624c079b-6ac7-4ccc-9476-0a49ae87620a",
+     "https://media.staticontent.com/media/pictures/3cedae33-1f90-4bba-9d0a-b233e33920a1",
+     "https://media.staticontent.com/media/pictures/70f010aa-309b-4f71-96ff-d7058aa0fe84",
+     "https://media.staticontent.com/media/pictures/d0224e83-3ca5-407f-b4f9-b539850e8a02"
+    ],
+    "quarto": {
+     "nome": "Standard",
+     "descricao": "Apartamento Standard com varanda, para o casal.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Frigobar",
+      "Wi-Fi",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.staticontent.com/media/pictures/1b80c7d9-a84f-4836-892a-425952a781ca",
+      "https://media.staticontent.com/media/pictures/2d09afcf-f5eb-4699-b704-1a975372e135",
+      "https://media.staticontent.com/media/pictures/18136d92-18df-421d-854d-93134443f165",
+      "https://media.staticontent.com/media/pictures/90a36f41-0eee-499b-aa64-ab2593cb8ed2",
+      "https://media.staticontent.com/media/pictures/bd43e1ab-f21b-49e4-94f4-3e3896778736"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular entre o Aeroporto de Porto Seguro e o hotel, na ida e na volta, com city tour de cortesia em Porto Seguro.",
+     "info": [
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "13.153,19",
+     "por": "12.247,96",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 876,88 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "13.153,19",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 2,
+        "valor": "6.576,60",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 3,
+        "valor": "4.384,40",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 4,
+        "valor": "3.288,30",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 5,
+        "valor": "2.630,64",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 6,
+        "valor": "2.192,20",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 7,
+        "valor": "1.879,03",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 8,
+        "valor": "1.644,15",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 9,
+        "valor": "1.461,47",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 10,
+        "valor": "1.315,32",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 11,
+        "valor": "1.195,74",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 12,
+        "valor": "1.096,10",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 13,
+        "valor": "1.011,78",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 14,
+        "valor": "939,51",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 15,
+        "valor": "876,88",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.192,20 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "13.153,19",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 2,
+        "valor": "6.576,60",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 3,
+        "valor": "4.384,40",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 4,
+        "valor": "3.288,30",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 5,
+        "valor": "2.630,64",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 6,
+        "valor": "2.192,20",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 7,
+        "valor": "1.916,61",
+        "obs": "com acréscimo",
+        "total": "13.416,25"
+       },
+       {
+        "n": 8,
+        "valor": "1.685,25",
+        "obs": "com acréscimo",
+        "total": "13.482,02"
+       },
+       {
+        "n": 9,
+        "valor": "1.505,31",
+        "obs": "com acréscimo",
+        "total": "13.547,79"
+       },
+       {
+        "n": 10,
+        "valor": "1.361,36",
+        "obs": "com acréscimo",
+        "total": "13.613,55"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.192,20 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "13.153,19",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 2,
+        "valor": "6.576,60",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 3,
+        "valor": "4.384,40",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 4,
+        "valor": "3.288,30",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 5,
+        "valor": "2.630,64",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       },
+       {
+        "n": 6,
+        "valor": "2.192,20",
+        "obs": "sem acréscimo",
+        "total": "13.153,19"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 165,
+   "inicial": false,
+   "grupo": "nordeste-janeiro-2027-3-adultos",
+   "opcao": 8,
+   "opcaoNome": "2 ADULTOS · Porto Seguro · Portobello (meia pensão)",
+   "comparar": true
+  },
+  {
    "slug": "nordeste-ferias-janeiro-3-adultos-opcoes-porto-de-galinhas-enotel",
    "destino": "Porto de Galinhas",
    "titulo": "Porto de Galinhas no Enotel Resort All Inclusive",
