@@ -6,6 +6,459 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "comandatuba-transamerica-all-inclusive-black-november-5-a-12-jun",
+   "destino": "Comandatuba",
+   "titulo": "Transamérica Resort Comandatuba All Inclusive, na Bahia",
+   "chamada": "Sete noites all inclusive numa ilha particular no sul da Bahia, com quilômetros de praia, natureza preservada e estrutura completa de resort. E duas crianças até 11 anos são cortesia.",
+   "black": true,
+   "selo": "2 crianças até 11 anos cortesia",
+   "foto": "https://images.trvl-media.com/lodging/1000000/440000/438500/438434/698667e7.jpg",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "2 adultos",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-06-05",
+   "volta": "2027-06-12",
+   "idaTxt": "sáb, 5 de jun",
+   "voltaTxt": "sáb, 12 de jun",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Transamérica Resort Comandatuba, Bangalô Standard (ALL INCLUSIVE)"
+    ],
+    [
+     "👧",
+     "2 crianças até 11 anos cortesia no resort"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto de Ilhéus / resort / aeroporto"
+    ]
+   ],
+   "pix": "15.604,75",
+   "parcelas": 15,
+   "parcela": "1.116,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MzI5NTh8MFzF26zMPA8yllKV-R0Ph-Y",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sáb, 5 de jun",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 4h50",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "05/06",
+        "hora": "06:25",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "05/06",
+        "hora": "08:00",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1271",
+       "duracao": "1h35"
+      },
+      {
+       "saida": {
+        "data": "05/06",
+        "hora": "09:05",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "05/06",
+        "hora": "11:15",
+        "iata": "IOS",
+        "cidade": "Ilhéus",
+        "aeroporto": "Aeroporto Jorge Amado"
+       },
+       "voo": "G3 1526",
+       "duracao": "2h10"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h05 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sáb, 12 de jun",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 4h50",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "12/06",
+        "hora": "11:55",
+        "iata": "IOS",
+        "cidade": "Ilhéus",
+        "aeroporto": "Aeroporto Jorge Amado"
+       },
+       "chegada": {
+        "data": "12/06",
+        "hora": "14:10",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1527",
+       "duracao": "2h15"
+      },
+      {
+       "saida": {
+        "data": "12/06",
+        "hora": "14:55",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "12/06",
+        "hora": "16:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1280",
+       "duracao": "1h50"
+      }
+     ],
+     "conexoes": [
+      "Espera de 45min em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Transamérica Resort Comandatuba",
+    "regime": "All inclusive",
+    "noites": 7,
+    "checkin": "05/06",
+    "checkout": "12/06",
+    "tarifa": "Não reembolsável",
+    "destaque": "Ilha particular no sul da Bahia, pé na areia",
+    "endereco": "Ilha de Comandatuba · Una (BA)",
+    "descricao": "Resort numa ilha no sul da Bahia, entre o mar e o manguezal, com quilômetros de praia, coqueirais e natureza preservada. Tem piscinas, campo de golfe, quadras, esportes náuticos, spa, recreação para crianças e programação o dia inteiro. O acesso é pelo aeroporto de Ilhéus, com transfer incluso.",
+    "regimeDetalhe": {
+     "ai": true,
+     "titulo": "ALL INCLUSIVE: comida e bebida à vontade",
+     "resumo": "Tudo que é servido nos restaurantes e bares do resort já está pago, o dia inteiro.",
+     "inclui": [
+      "Café da manhã, almoço e jantar",
+      "Lanches e petiscos ao longo do dia",
+      "Bebidas à vontade, com e sem álcool, nos bares do resort",
+      "Recreação e programação de lazer"
+     ],
+     "naoInclui": [
+      "Bebidas e rótulos premium",
+      "Spa e massagens",
+      "Passeios fora do resort"
+     ]
+    },
+    "fotos": [
+     "https://images.trvl-media.com/lodging/1000000/440000/438500/438434/698667e7.jpg",
+     "https://images.trvl-media.com/lodging/1000000/440000/438500/438434/dba273b5.jpg",
+     "https://images.trvl-media.com/lodging/1000000/440000/438500/438434/4eaf7aed.jpg",
+     "https://images.trvl-media.com/lodging/1000000/440000/438500/438434/7ac7058f.jpg",
+     "https://media.infotravel.com.br/image/upload/c_crop,h_480,w_800/F208E9B599E064FB692965BF03917516.jpg",
+     "https://media.infotravel.com.br/image/upload/c_crop,h_480,w_800/074341F44C5632D15D9CCF10ABBBC741.png",
+     "https://media.infotravel.com.br/image/upload/c_crop,h_480,w_800/C122681DB8A2AE7B45D082D9FAC7E4E2.png"
+    ],
+    "quarto": {
+     "nome": "Bangalô Standard",
+     "descricao": "Bangalô de 24 m² com varanda de 12 m², 1 cama queen e 1 de solteiro. Acomoda 3 adultos ou 2 adultos e 1 criança. Fica entre 300 e 600 metros do prédio principal.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "TV",
+      "Frigobar",
+      "Cofre",
+      "Secador de cabelo",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/4820/RoomTypes/1186260.jpg",
+      "https://media.omnibees.com/Images/4820/RoomTypes/1186258.jpg",
+      "https://media.omnibees.com/Images/4820/RoomTypes/1186259.jpg",
+      "https://images.trvl-media.com/lodging/1000000/440000/438500/438434/af83d454.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / resort / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer entre o Aeroporto de Ilhéus e o Transamérica Comandatuba, na ida e na volta.",
+     "info": [
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "16.737,91",
+     "por": "15.604,75",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.115,86 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.737,91",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 2,
+        "valor": "8.368,96",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 3,
+        "valor": "5.579,30",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 4,
+        "valor": "4.184,48",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 5,
+        "valor": "3.347,58",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 6,
+        "valor": "2.789,65",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 7,
+        "valor": "2.391,13",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 8,
+        "valor": "2.092,24",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 9,
+        "valor": "1.859,77",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 10,
+        "valor": "1.673,79",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 11,
+        "valor": "1.521,63",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 12,
+        "valor": "1.394,83",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 13,
+        "valor": "1.287,53",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 14,
+        "valor": "1.195,57",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 15,
+        "valor": "1.115,86",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.789,65 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.737,91",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 2,
+        "valor": "8.368,96",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 3,
+        "valor": "5.579,30",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 4,
+        "valor": "4.184,48",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 5,
+        "valor": "3.347,58",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 6,
+        "valor": "2.789,65",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 7,
+        "valor": "2.438,95",
+        "obs": "com acréscimo",
+        "total": "17.072,67"
+       },
+       {
+        "n": 8,
+        "valor": "2.144,54",
+        "obs": "com acréscimo",
+        "total": "17.156,36"
+       },
+       {
+        "n": 9,
+        "valor": "1.915,56",
+        "obs": "com acréscimo",
+        "total": "17.240,05"
+       },
+       {
+        "n": 10,
+        "valor": "1.732,37",
+        "obs": "com acréscimo",
+        "total": "17.323,74"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.789,65 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.737,91",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 2,
+        "valor": "8.368,96",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 3,
+        "valor": "5.579,30",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 4,
+        "valor": "4.184,48",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 5,
+        "valor": "3.347,58",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       },
+       {
+        "n": 6,
+        "valor": "2.789,65",
+        "obs": "sem acréscimo",
+        "total": "16.737,91"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 162,
+   "inicial": true
+  },
+  {
    "slug": "uruguai-montevideu-punta-del-este-colonia-pascoa-26-a-31-mar",
    "destino": "Uruguai",
    "titulo": "Uruguai: Montevidéu + Punta del Este + Colonia del Sacramento",
