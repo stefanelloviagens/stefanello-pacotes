@@ -6,6 +6,1241 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "porto-de-galinhas-enotel-all-inclusive-35-off-25-fev-a-3-mar",
+   "destino": "Porto de Galinhas",
+   "titulo": "Porto de Galinhas no Enotel Resort All Inclusive com 35% OFF",
+   "chamada": "Seis noites all inclusive 24h no maior resort de Pernambuco, à beira-mar em Porto de Galinhas, com 15 piscinas, rio lento e parque aquático, e crianças até 12 anos grátis no resort.",
+   "black": true,
+   "selo": "35% OFF no resort",
+   "foto": "https://media.omnibees.com/Images/3090/Property/1076624.jpg",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "2 adultos",
+   "dias": 7,
+   "noites": 6,
+   "ida": "2027-02-25",
+   "volta": "2027-03-03",
+   "idaTxt": "qui, 25 de fev",
+   "voltaTxt": "qua, 3 de mar",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (Azul, voo direto saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Enotel Porto de Galinhas, apartamento Luxo (ALL INCLUSIVE)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / resort / aeroporto"
+    ]
+   ],
+   "pix": "14.939,10",
+   "parcelas": 15,
+   "parcela": "1.069,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0Mjc4ODN8MMhyujZLExKujgsyBslTCYA",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qui, 25 de fev",
+     "cia": "Azul",
+     "resumo": "Voo direto · 4h05",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "25/02",
+        "hora": "07:35",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "25/02",
+        "hora": "11:40",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "voo": "AD 4151",
+       "duracao": "4h05"
+      }
+     ],
+     "conexoes": []
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 3 de mar",
+     "cia": "Azul",
+     "resumo": "Voo direto · 4h30",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "03/03",
+        "hora": "17:20",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "chegada": {
+        "data": "03/03",
+        "hora": "21:50",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "AD 4150",
+       "duracao": "4h30"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "Enotel Porto de Galinhas - All Inclusive",
+    "regime": "All inclusive",
+    "noites": 6,
+    "checkin": "25/02",
+    "checkout": "03/03",
+    "tarifa": "Não reembolsável",
+    "destaque": "O maior resort all inclusive de Pernambuco, à beira-mar",
+    "endereco": "PE-009, Porto de Galinhas · Ipojuca (PE)",
+    "descricao": "À beira-mar, a poucos minutos da Vila de Porto de Galinhas e a 48 km do aeroporto do Recife. São 15 piscinas, parque aquático infantil, rio lento, spa, shows ao vivo e atividades pra todas as idades, com all inclusive 24h: bebidas, petiscos, sorvetes e refeições em vários pontos do resort, e jantares temáticos todos os dias. Crianças até 12 anos não pagam hospedagem (até 2 por apartamento).",
+    "fotos": [
+     "https://media.omnibees.com/Images/3090/Property/1076624.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542080.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542082.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542075.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542066.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542084.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542063.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542077.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542056.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542042.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542086.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542060.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542081.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542052.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542069.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542085.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542057.jpg"
+    ],
+    "quarto": {
+     "nome": "Luxo",
+     "descricao": "Apartamento de 41 a 52 m², com varanda com vista para o jardim, para até 4 pessoas.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "TV a cabo",
+      "Frigobar",
+      "Cofre",
+      "Wi-Fi",
+      "Secador de cabelo",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/3090/RoomTypes/1550994.jpg",
+      "https://media.omnibees.com/Images/3090/RoomTypes/1550996.jpg",
+      "https://media.omnibees.com/Images/3090/RoomTypes/1550995.jpg",
+      "https://media.omnibees.com/Images/3090/Property/1542080.jpg",
+      "https://media.omnibees.com/Images/3090/Property/1542075.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / resort / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto do Recife e o resort em Porto de Galinhas, na ida e na volta.",
+     "info": [
+      "No desembarque, um receptivo te espera com uma placa com o nome do titular",
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "16.031,19",
+     "por": "14.939,10",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.068,75 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.031,19",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 2,
+        "valor": "8.015,60",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 3,
+        "valor": "5.343,73",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 4,
+        "valor": "4.007,80",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 5,
+        "valor": "3.206,24",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 6,
+        "valor": "2.671,87",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 7,
+        "valor": "2.290,17",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 8,
+        "valor": "2.003,90",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 9,
+        "valor": "1.781,24",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 10,
+        "valor": "1.603,12",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 11,
+        "valor": "1.457,38",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 12,
+        "valor": "1.335,93",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 13,
+        "valor": "1.233,17",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 14,
+        "valor": "1.145,09",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 15,
+        "valor": "1.068,75",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.671,87 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.031,19",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 2,
+        "valor": "8.015,60",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 3,
+        "valor": "5.343,73",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 4,
+        "valor": "4.007,80",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 5,
+        "valor": "3.206,24",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 6,
+        "valor": "2.671,87",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 7,
+        "valor": "2.335,97",
+        "obs": "com acréscimo",
+        "total": "16.351,81"
+       },
+       {
+        "n": 8,
+        "valor": "2.054,00",
+        "obs": "com acréscimo",
+        "total": "16.431,97"
+       },
+       {
+        "n": 9,
+        "valor": "1.834,68",
+        "obs": "com acréscimo",
+        "total": "16.512,13"
+       },
+       {
+        "n": 10,
+        "valor": "1.659,23",
+        "obs": "com acréscimo",
+        "total": "16.592,28"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.671,87 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.031,19",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 2,
+        "valor": "8.015,60",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 3,
+        "valor": "5.343,73",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 4,
+        "valor": "4.007,80",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 5,
+        "valor": "3.206,24",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       },
+       {
+        "n": 6,
+        "valor": "2.671,87",
+        "obs": "sem acréscimo",
+        "total": "16.031,19"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 151,
+   "inicial": true,
+   "grupo": "porto-de-galinhas-enotel-fev-2027",
+   "opcao": 1,
+   "opcaoNome": "2 adultos"
+  },
+  {
+   "slug": "porto-de-galinhas-enotel-all-inclusive-35-off-25-fev-a-3-mar-2-adultos-1-crianca",
+   "destino": "Porto de Galinhas",
+   "titulo": "Porto de Galinhas no Enotel Resort All Inclusive com 35% OFF",
+   "chamada": "Seis noites all inclusive 24h no maior resort de Pernambuco, à beira-mar em Porto de Galinhas, com 15 piscinas, rio lento e parque aquático, e crianças até 12 anos grátis no resort.",
+   "black": true,
+   "selo": "35% OFF no resort",
+   "foto": "https://media.omnibees.com/Images/3090/Property/1076624.jpg",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "2 adultos + 1 criança (11 anos)",
+   "dias": 7,
+   "noites": 6,
+   "ida": "2027-02-25",
+   "volta": "2027-03-03",
+   "idaTxt": "qui, 25 de fev",
+   "voltaTxt": "qua, 3 de mar",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (Azul, voo direto saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Enotel Porto de Galinhas, apartamento Luxo (ALL INCLUSIVE)"
+    ],
+    [
+     "👧",
+     "Criança até 12 anos GRÁTIS no resort"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / resort / aeroporto"
+    ]
+   ],
+   "pix": "16.733,18",
+   "parcelas": 15,
+   "parcela": "1.197,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0Mjc5OTJ8MCRWvuj-6P6-QMRWpkVGeXY",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qui, 25 de fev",
+     "cia": "Azul",
+     "resumo": "Voo direto · 4h05",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "25/02",
+        "hora": "07:35",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "25/02",
+        "hora": "11:40",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "voo": "AD 4151",
+       "duracao": "4h05"
+      }
+     ],
+     "conexoes": []
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 3 de mar",
+     "cia": "Azul",
+     "resumo": "Voo direto · 4h30",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "03/03",
+        "hora": "17:20",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "chegada": {
+        "data": "03/03",
+        "hora": "21:50",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "AD 4150",
+       "duracao": "4h30"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "Enotel Porto de Galinhas - All Inclusive",
+    "regime": "All inclusive",
+    "noites": 6,
+    "checkin": "25/02",
+    "checkout": "03/03",
+    "tarifa": "Não reembolsável",
+    "destaque": "O maior resort all inclusive de Pernambuco, à beira-mar",
+    "endereco": "PE-009, Porto de Galinhas · Ipojuca (PE)",
+    "descricao": "À beira-mar, a poucos minutos da Vila de Porto de Galinhas e a 48 km do aeroporto do Recife. São 15 piscinas, parque aquático infantil, rio lento, spa, shows ao vivo e atividades pra todas as idades, com all inclusive 24h: bebidas, petiscos, sorvetes e refeições em vários pontos do resort, e jantares temáticos todos os dias. Crianças até 12 anos não pagam hospedagem (até 2 por apartamento).",
+    "fotos": [
+     "https://media.omnibees.com/Images/3090/Property/1076624.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542080.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542082.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542075.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542066.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542084.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542063.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542077.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542056.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542042.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542086.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542060.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542081.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542052.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542069.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542085.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542057.jpg"
+    ],
+    "quarto": {
+     "nome": "Luxo",
+     "descricao": "Apartamento de 41 a 52 m², com varanda com vista para o jardim, para até 4 pessoas.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "TV a cabo",
+      "Frigobar",
+      "Cofre",
+      "Wi-Fi",
+      "Secador de cabelo",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/3090/RoomTypes/1550994.jpg",
+      "https://media.omnibees.com/Images/3090/RoomTypes/1550996.jpg",
+      "https://media.omnibees.com/Images/3090/RoomTypes/1550995.jpg",
+      "https://media.omnibees.com/Images/3090/Property/1542080.jpg",
+      "https://media.omnibees.com/Images/3090/Property/1542075.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / resort / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto do Recife e o resort em Porto de Galinhas, na ida e na volta.",
+     "info": [
+      "No desembarque, um receptivo te espera com uma placa com o nome do titular",
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "17.944,29",
+     "por": "16.733,18",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.196,29 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.944,29",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 2,
+        "valor": "8.972,15",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 3,
+        "valor": "5.981,43",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 4,
+        "valor": "4.486,07",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 5,
+        "valor": "3.588,86",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 6,
+        "valor": "2.990,72",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 7,
+        "valor": "2.563,47",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 8,
+        "valor": "2.243,04",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 9,
+        "valor": "1.993,81",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 10,
+        "valor": "1.794,43",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 11,
+        "valor": "1.631,30",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 12,
+        "valor": "1.495,36",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 13,
+        "valor": "1.380,33",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 14,
+        "valor": "1.281,74",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 15,
+        "valor": "1.196,29",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.990,72 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.944,29",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 2,
+        "valor": "8.972,15",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 3,
+        "valor": "5.981,43",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 4,
+        "valor": "4.486,07",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 5,
+        "valor": "3.588,86",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 6,
+        "valor": "2.990,72",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 7,
+        "valor": "2.614,74",
+        "obs": "com acréscimo",
+        "total": "18.303,18"
+       },
+       {
+        "n": 8,
+        "valor": "2.299,11",
+        "obs": "com acréscimo",
+        "total": "18.392,90"
+       },
+       {
+        "n": 9,
+        "valor": "2.053,62",
+        "obs": "com acréscimo",
+        "total": "18.482,62"
+       },
+       {
+        "n": 10,
+        "valor": "1.857,23",
+        "obs": "com acréscimo",
+        "total": "18.572,34"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.990,72 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.944,29",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 2,
+        "valor": "8.972,15",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 3,
+        "valor": "5.981,43",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 4,
+        "valor": "4.486,07",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 5,
+        "valor": "3.588,86",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       },
+       {
+        "n": 6,
+        "valor": "2.990,72",
+        "obs": "sem acréscimo",
+        "total": "17.944,29"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 152,
+   "inicial": false,
+   "grupo": "porto-de-galinhas-enotel-fev-2027",
+   "opcao": 2,
+   "opcaoNome": "2 adultos + 1 criança"
+  },
+  {
+   "slug": "porto-de-galinhas-enotel-all-inclusive-35-off-25-fev-a-3-mar-2-adultos-2-criancas",
+   "destino": "Porto de Galinhas",
+   "titulo": "Porto de Galinhas no Enotel Resort All Inclusive com 35% OFF",
+   "chamada": "Seis noites all inclusive 24h no maior resort de Pernambuco, à beira-mar em Porto de Galinhas, com 15 piscinas, rio lento e parque aquático, e crianças até 12 anos grátis no resort.",
+   "black": true,
+   "selo": "35% OFF no resort",
+   "foto": "https://media.omnibees.com/Images/3090/Property/1076624.jpg",
+   "img": "",
+   "pessoas": 4,
+   "pessoasTxt": "2 adultos + 2 crianças (10 e 11 anos)",
+   "dias": 7,
+   "noites": 6,
+   "ida": "2027-02-25",
+   "volta": "2027-03-03",
+   "idaTxt": "qui, 25 de fev",
+   "voltaTxt": "qua, 3 de mar",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (Azul, voo direto saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Enotel Porto de Galinhas, apartamento Luxo (ALL INCLUSIVE)"
+    ],
+    [
+     "👧",
+     "2 crianças até 12 anos GRÁTIS no resort"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / resort / aeroporto"
+    ]
+   ],
+   "pix": "18.527,28",
+   "parcelas": 15,
+   "parcela": "1.324,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-25",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MjgwMTV8MDHNYXf8XpJRoD9oAtWch4Y",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qui, 25 de fev",
+     "cia": "Azul",
+     "resumo": "Voo direto · 4h05",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "25/02",
+        "hora": "07:35",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "25/02",
+        "hora": "11:40",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "voo": "AD 4151",
+       "duracao": "4h05"
+      }
+     ],
+     "conexoes": []
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 3 de mar",
+     "cia": "Azul",
+     "resumo": "Voo direto · 4h30",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "03/03",
+        "hora": "17:20",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "chegada": {
+        "data": "03/03",
+        "hora": "21:50",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "AD 4150",
+       "duracao": "4h30"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "Enotel Porto de Galinhas - All Inclusive",
+    "regime": "All inclusive",
+    "noites": 6,
+    "checkin": "25/02",
+    "checkout": "03/03",
+    "tarifa": "Não reembolsável",
+    "destaque": "O maior resort all inclusive de Pernambuco, à beira-mar",
+    "endereco": "PE-009, Porto de Galinhas · Ipojuca (PE)",
+    "descricao": "À beira-mar, a poucos minutos da Vila de Porto de Galinhas e a 48 km do aeroporto do Recife. São 15 piscinas, parque aquático infantil, rio lento, spa, shows ao vivo e atividades pra todas as idades, com all inclusive 24h: bebidas, petiscos, sorvetes e refeições em vários pontos do resort, e jantares temáticos todos os dias. Crianças até 12 anos não pagam hospedagem (até 2 por apartamento).",
+    "fotos": [
+     "https://media.omnibees.com/Images/3090/Property/1076624.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542080.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542082.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542075.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542066.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542084.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542063.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542077.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542056.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542042.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542086.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542060.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542081.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542052.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542069.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542085.jpg",
+     "https://media.omnibees.com/Images/3090/Property/1542057.jpg"
+    ],
+    "quarto": {
+     "nome": "Luxo",
+     "descricao": "Apartamento de 41 a 52 m², com varanda com vista para o jardim, para até 4 pessoas.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "TV a cabo",
+      "Frigobar",
+      "Cofre",
+      "Wi-Fi",
+      "Secador de cabelo",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/3090/RoomTypes/1550994.jpg",
+      "https://media.omnibees.com/Images/3090/RoomTypes/1550996.jpg",
+      "https://media.omnibees.com/Images/3090/RoomTypes/1550995.jpg",
+      "https://media.omnibees.com/Images/3090/Property/1542080.jpg",
+      "https://media.omnibees.com/Images/3090/Property/1542075.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / resort / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto do Recife e o resort em Porto de Galinhas, na ida e na volta.",
+     "info": [
+      "No desembarque, um receptivo te espera com uma placa com o nome do titular",
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "19.857,40",
+     "por": "18.527,28",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.323,83 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "19.857,40",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 2,
+        "valor": "9.928,70",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 3,
+        "valor": "6.619,13",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 4,
+        "valor": "4.964,35",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 5,
+        "valor": "3.971,48",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 6,
+        "valor": "3.309,57",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 7,
+        "valor": "2.836,77",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 8,
+        "valor": "2.482,18",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 9,
+        "valor": "2.206,38",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 10,
+        "valor": "1.985,74",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 11,
+        "valor": "1.805,22",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 12,
+        "valor": "1.654,78",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 13,
+        "valor": "1.527,49",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 14,
+        "valor": "1.418,39",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 15,
+        "valor": "1.323,83",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 3.309,57 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "19.857,40",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 2,
+        "valor": "9.928,70",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 3,
+        "valor": "6.619,13",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 4,
+        "valor": "4.964,35",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 5,
+        "valor": "3.971,48",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 6,
+        "valor": "3.309,57",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 7,
+        "valor": "2.893,51",
+        "obs": "com acréscimo",
+        "total": "20.254,55"
+       },
+       {
+        "n": 8,
+        "valor": "2.544,23",
+        "obs": "com acréscimo",
+        "total": "20.353,84"
+       },
+       {
+        "n": 9,
+        "valor": "2.272,57",
+        "obs": "com acréscimo",
+        "total": "20.453,12"
+       },
+       {
+        "n": 10,
+        "valor": "2.055,24",
+        "obs": "com acréscimo",
+        "total": "20.552,41"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 3.309,57 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "19.857,40",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 2,
+        "valor": "9.928,70",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 3,
+        "valor": "6.619,13",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 4,
+        "valor": "4.964,35",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 5,
+        "valor": "3.971,48",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       },
+       {
+        "n": 6,
+        "valor": "3.309,57",
+        "obs": "sem acréscimo",
+        "total": "19.857,40"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 153,
+   "inicial": false,
+   "grupo": "porto-de-galinhas-enotel-fev-2027",
+   "opcao": 3,
+   "opcaoNome": "2 adultos + 2 crianças"
+  },
+  {
    "tipo": "roteiro",
    "slug": "aparecida-roteiro-personalizado-visitas-monitoradas-grupo-de-maes-2027",
    "cod": 150,
