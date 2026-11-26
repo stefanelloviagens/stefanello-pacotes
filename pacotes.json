@@ -6,6 +6,1861 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "porto-seguro-all-inclusive-fevereiro-opcoes",
+   "destino": "Porto Seguro",
+   "titulo": "Porto Seguro no Coroa Vermelha Beach All Inclusive",
+   "chamada": "Cinco noites all inclusive em frente à Praia do Mutá, com comida e bebida à vontade, piscinas com toboágua e kids club pra criança.",
+   "black": false,
+   "selo": "All inclusive",
+   "foto": "https://media.omnibees.com/Images/7281/Property/678297.jpg",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "2 adultos + 1 criança (7 anos)",
+   "dias": 6,
+   "noites": 5,
+   "ida": "2027-02-09",
+   "volta": "2027-02-14",
+   "idaTxt": "ter, 9 de fev",
+   "voltaTxt": "dom, 14 de fev (chegada em POA à 0h15 de seg, 15)",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (Azul saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Hotel Coroa Vermelha Beach, apto Superior (ALL INCLUSIVE)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "⛪",
+     "City Tour pelo Centro Histórico de Porto Seguro (cortesia)"
+    ]
+   ],
+   "pix": "14.229,64",
+   "parcelas": 15,
+   "parcela": "1.019,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NDIxMDF8MANnsDIstX8dWmnbWWOKE2M&option=3",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "ter, 9 de fev",
+     "cia": "Azul",
+     "resumo": "1 conexão em Belo Horizonte (Confins) · 6h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "05:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "07:25",
+        "iata": "CNF",
+        "cidade": "Belo Horizonte",
+        "aeroporto": "Aeroporto de Confins"
+       },
+       "voo": "AD 2909",
+       "duracao": "2h10"
+      },
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "10:15",
+        "iata": "CNF",
+        "cidade": "Belo Horizonte",
+        "aeroporto": "Aeroporto de Confins"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "11:30",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "voo": "AD 2892",
+       "duracao": "1h15"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h50 em Confins"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "dom, 14 de fev",
+     "cia": "Azul",
+     "resumo": "1 conexão em Campinas (Viracopos) · 4h45 · chega seg, 15 de fev",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "19:30",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "chegada": {
+        "data": "14/02",
+        "hora": "21:35",
+        "iata": "VCP",
+        "cidade": "Campinas",
+        "aeroporto": "Aeroporto de Viracopos"
+       },
+       "voo": "AD 2499",
+       "duracao": "2h05"
+      },
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "22:35",
+        "iata": "VCP",
+        "cidade": "Campinas",
+        "aeroporto": "Aeroporto de Viracopos"
+       },
+       "chegada": {
+        "data": "15/02",
+        "hora": "00:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "AD 2680",
+       "duracao": "1h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h em Viracopos"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Hotel Coroa Vermelha Beach All Inclusive",
+    "regime": "All inclusive",
+    "noites": 5,
+    "checkin": "09/02",
+    "checkout": "14/02 (12h)",
+    "tarifa": "Cancelamento grátis até 09/01/2027",
+    "destaque": "Em frente à Praia do Mutá, com acesso direto à praia",
+    "endereco": "Av. Beira Mar, 12649 · Praia do Mutá, Porto Seguro (BA)",
+    "mapa": "Hotel Coroa Vermelha Beach, Av. Beira Mar 12649, Porto Seguro",
+    "descricao": "Hotel all inclusive em frente à Praia do Mutá, com acesso direto à praia. Tem 164 apartamentos, piscinas adulto e infantil com toboágua, kids club, academia, salão de jogos com bilhar, restaurante buffet e bar na piscina.",
+    "regimeDetalhe": {
+     "ai": true,
+     "titulo": "ALL INCLUSIVE: comida e bebida à vontade",
+     "resumo": "Tudo que é servido nos restaurantes e bares do resort já está pago, sem conta pra acertar no fim.",
+     "inclui": [
+      "Café da manhã, almoço e jantar",
+      "Lanches e petiscos ao longo do dia",
+      "Bebidas à vontade, com e sem álcool (cervejas, drinks da casa, refrigerantes, sucos e água)",
+      "Uso da estrutura de lazer e da programação de recreação",
+      "Kids club e recreação"
+     ],
+     "naoInclui": [
+      "Bebidas importadas e rótulos premium",
+      "Serviços de spa e massagens",
+      "Passeios fora do resort"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/7281/Property/678297.jpg",
+     "https://media.omnibees.com/Images/7281/Property/1548281.jpg",
+     "https://media.omnibees.com/Images/7281/Property/1548256.jpg",
+     "https://media.omnibees.com/Images/7281/Property/1548285.png",
+     "https://media.omnibees.com/Images/7281/Property/1548288.jpg",
+     "https://media.omnibees.com/Images/7281/Property/1548259.jpg",
+     "https://media.omnibees.com/Images/7281/Property/1548289.png",
+     "https://media.omnibees.com/Images/7281/Property/1548286.png",
+     "https://media.omnibees.com/Images/7281/Property/1548294.jpg",
+     "https://media.omnibees.com/Images/7281/Property/1548302.jpg",
+     "https://media.omnibees.com/Images/7281/Property/1548257.jpg",
+     "https://media.omnibees.com/Images/7281/Property/1548296.jpg"
+    ],
+    "quarto": {
+     "nome": "Superior",
+     "descricao": "Apartamento Superior para os 2 adultos e a criança, com ar-condicionado, TV e frigobar.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Frigobar",
+      "Cofre",
+      "Wi-Fi",
+      "Banheiro privativo"
+     ],
+     "fotos": []
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto + City Tour",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Porto Seguro e o hotel, na ida e na volta, com City Tour de cortesia pelo Centro Histórico de Porto Seguro.",
+     "info": [
+      "Saída do aeroporto cerca de 40 minutos após o pouso",
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "15.275,86",
+     "por": "14.229,64",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.018,39 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "15.275,86",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 2,
+        "valor": "7.637,93",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 3,
+        "valor": "5.091,95",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 4,
+        "valor": "3.818,97",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 5,
+        "valor": "3.055,17",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 6,
+        "valor": "2.545,98",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 7,
+        "valor": "2.182,27",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 8,
+        "valor": "1.909,48",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 9,
+        "valor": "1.697,32",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 10,
+        "valor": "1.527,59",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 11,
+        "valor": "1.388,71",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 12,
+        "valor": "1.272,99",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 13,
+        "valor": "1.175,07",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 14,
+        "valor": "1.091,13",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 15,
+        "valor": "1.018,39",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.545,98 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "15.275,86",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 2,
+        "valor": "7.637,93",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 3,
+        "valor": "5.091,95",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 4,
+        "valor": "3.818,97",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 5,
+        "valor": "3.055,17",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 6,
+        "valor": "2.545,98",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 7,
+        "valor": "2.225,91",
+        "obs": "com acréscimo",
+        "total": "15.581,38"
+       },
+       {
+        "n": 8,
+        "valor": "1.957,22",
+        "obs": "com acréscimo",
+        "total": "15.657,76"
+       },
+       {
+        "n": 9,
+        "valor": "1.748,24",
+        "obs": "com acréscimo",
+        "total": "15.734,14"
+       },
+       {
+        "n": 10,
+        "valor": "1.581,05",
+        "obs": "com acréscimo",
+        "total": "15.810,52"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.545,98 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "15.275,86",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 2,
+        "valor": "7.637,93",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 3,
+        "valor": "5.091,95",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 4,
+        "valor": "3.818,97",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 5,
+        "valor": "3.055,17",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       },
+       {
+        "n": 6,
+        "valor": "2.545,98",
+        "obs": "sem acréscimo",
+        "total": "15.275,86"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 178,
+   "inicial": false,
+   "grupo": "sander-porto-seguro-fev-2027",
+   "opcao": 1,
+   "opcaoNome": "2 ADULTOS + 1 CRIANÇA · Coroa Vermelha Beach (all inclusive)",
+   "comparar": true
+  },
+  {
+   "slug": "porto-seguro-all-inclusive-fevereiro-opcoes-arcobaleno",
+   "destino": "Porto Seguro",
+   "titulo": "Porto Seguro no Resort Villaggio Arcobaleno All Inclusive Premium",
+   "chamada": "Cinco noites pé na areia na Praia de Taperapuã, no all inclusive premium, com 3 piscinas, miniclube e recreação pra criança.",
+   "black": false,
+   "selo": "All inclusive premium",
+   "foto": "https://media.omnibees.com/Images/1900/Property/1213499.jpg",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "2 adultos + 1 criança (7 anos)",
+   "dias": 6,
+   "noites": 5,
+   "ida": "2027-02-09",
+   "volta": "2027-02-14",
+   "idaTxt": "ter, 9 de fev",
+   "voltaTxt": "dom, 14 de fev (chegada em POA à 0h15 de seg, 15)",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (Azul saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Resort Villaggio Arcobaleno, apto Standard (ALL INCLUSIVE PREMIUM)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "⛪",
+     "City Tour pelo Centro Histórico de Porto Seguro (cortesia)"
+    ]
+   ],
+   "pix": "15.457,49",
+   "parcelas": 15,
+   "parcela": "1.107,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NDIxMDF8MANnsDIstX8dWmnbWWOKE2M",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "ter, 9 de fev",
+     "cia": "Azul",
+     "resumo": "1 conexão em Belo Horizonte (Confins) · 6h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "05:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "07:25",
+        "iata": "CNF",
+        "cidade": "Belo Horizonte",
+        "aeroporto": "Aeroporto de Confins"
+       },
+       "voo": "AD 2909",
+       "duracao": "2h10"
+      },
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "10:15",
+        "iata": "CNF",
+        "cidade": "Belo Horizonte",
+        "aeroporto": "Aeroporto de Confins"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "11:30",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "voo": "AD 2892",
+       "duracao": "1h15"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h50 em Confins"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "dom, 14 de fev",
+     "cia": "Azul",
+     "resumo": "1 conexão em Campinas (Viracopos) · 4h45 · chega seg, 15 de fev",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "19:30",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "chegada": {
+        "data": "14/02",
+        "hora": "21:35",
+        "iata": "VCP",
+        "cidade": "Campinas",
+        "aeroporto": "Aeroporto de Viracopos"
+       },
+       "voo": "AD 2499",
+       "duracao": "2h05"
+      },
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "22:35",
+        "iata": "VCP",
+        "cidade": "Campinas",
+        "aeroporto": "Aeroporto de Viracopos"
+       },
+       "chegada": {
+        "data": "15/02",
+        "hora": "00:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "AD 2680",
+       "duracao": "1h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h em Viracopos"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Resort Villaggio Arcobaleno",
+    "regime": "All inclusive premium",
+    "noites": 5,
+    "checkin": "09/02 (15h)",
+    "checkout": "14/02 (12h)",
+    "tarifa": "Cancelamento grátis até 25/01/2027",
+    "destaque": "Pé na areia na Praia de Taperapuã",
+    "endereco": "Av. Beira Mar · Praia de Taperapuã, Porto Seguro (BA)",
+    "descricao": "Resort pé na areia na Praia de Taperapuã, a 6 km do aeroporto e do centro de Porto Seguro. Tem 3 piscinas (infantil, adulto e esportes), hidromassagem, saunas, sala de massagem, salão de jogos, academia, playground, miniclube, 2 restaurantes, 2 bares e quadra de tênis.",
+    "fotos": [
+     "https://media.omnibees.com/Images/1900/Property/1213499.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213491.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213492.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213493.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213494.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213495.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213496.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213497.jpg",
+     "https://media.omnibees.com/Images/1900/Property/1213498.jpg",
+     "https://media.omnibees.com/Images/1900/Property/174525.jpg",
+     "https://media.omnibees.com/Images/1900/Property/174526.jpg",
+     "https://media.omnibees.com/Images/1900/Property/174527.jpg",
+     "https://media.omnibees.com/Images/1900/Property/174530.jpg",
+     "https://media.omnibees.com/Images/1900/Property/174534.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard – All Inclusive Premium",
+     "descricao": "Apto de 35 m² com varanda (vista lateral ou jardim), com 1 cama de casal + 1 de solteiro ou 2 de casal. Acomoda os 2 adultos e a criança.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "Frigobar",
+      "Cofre",
+      "TV a cabo",
+      "Wi-Fi",
+      "Secador de cabelo",
+      "Telefone"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/1900/RoomTypes/268335.jpg",
+      "https://media.omnibees.com/Images/1900/RoomTypes/268333.jpg",
+      "https://media.omnibees.com/Images/1900/RoomTypes/268334.jpg"
+     ]
+    },
+    "mapa": "Resort Villaggio Arcobaleno, Porto Seguro",
+    "regimeDetalhe": {
+     "ai": true,
+     "titulo": "ALL INCLUSIVE PREMIUM: comida e bebida à vontade",
+     "resumo": "Tudo que é servido nos restaurantes e bares do resort já está pago, sem conta pra acertar no fim.",
+     "inclui": [
+      "Café da manhã, almoço e jantar",
+      "Lanches e petiscos ao longo do dia",
+      "Bebidas à vontade, com e sem álcool (cervejas, drinks da casa, refrigerantes, sucos e água)",
+      "Uso da estrutura de lazer e da programação de recreação",
+      "Bebidas premium do pacote All Inclusive Premium"
+     ],
+     "naoInclui": [
+      "Bebidas importadas e rótulos premium",
+      "Serviços de spa e massagens",
+      "Passeios fora do resort"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto + City Tour",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Porto Seguro e o hotel, na ida e na volta, com City Tour de cortesia pelo Centro Histórico de Porto Seguro.",
+     "info": [
+      "Saída do aeroporto cerca de 40 minutos após o pouso",
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "16.596,13",
+     "por": "15.457,49",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.106,41 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.596,13",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 2,
+        "valor": "8.298,07",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 3,
+        "valor": "5.532,04",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 4,
+        "valor": "4.149,03",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 5,
+        "valor": "3.319,23",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 6,
+        "valor": "2.766,02",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 7,
+        "valor": "2.370,88",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 8,
+        "valor": "2.074,52",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 9,
+        "valor": "1.844,01",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 10,
+        "valor": "1.659,61",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 11,
+        "valor": "1.508,74",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 12,
+        "valor": "1.383,01",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 13,
+        "valor": "1.276,63",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 14,
+        "valor": "1.185,44",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 15,
+        "valor": "1.106,41",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.766,02 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.596,13",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 2,
+        "valor": "8.298,07",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 3,
+        "valor": "5.532,04",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 4,
+        "valor": "4.149,03",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 5,
+        "valor": "3.319,23",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 6,
+        "valor": "2.766,02",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 7,
+        "valor": "2.418,29",
+        "obs": "com acréscimo",
+        "total": "16.928,05"
+       },
+       {
+        "n": 8,
+        "valor": "2.126,38",
+        "obs": "com acréscimo",
+        "total": "17.011,03"
+       },
+       {
+        "n": 9,
+        "valor": "1.899,33",
+        "obs": "com acréscimo",
+        "total": "17.094,01"
+       },
+       {
+        "n": 10,
+        "valor": "1.717,70",
+        "obs": "com acréscimo",
+        "total": "17.176,99"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.766,02 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.596,13",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 2,
+        "valor": "8.298,07",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 3,
+        "valor": "5.532,04",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 4,
+        "valor": "4.149,03",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 5,
+        "valor": "3.319,23",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       },
+       {
+        "n": 6,
+        "valor": "2.766,02",
+        "obs": "sem acréscimo",
+        "total": "16.596,13"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 179,
+   "inicial": false,
+   "grupo": "sander-porto-seguro-fev-2027",
+   "opcao": 2,
+   "opcaoNome": "2 ADULTOS + 1 CRIANÇA · Villaggio Arcobaleno (all inclusive premium)",
+   "comparar": true
+  },
+  {
+   "slug": "porto-seguro-all-inclusive-fevereiro-opcoes-nauticomar",
+   "destino": "Porto Seguro",
+   "titulo": "Porto Seguro no Nauticomar Resort All Inclusive & Beach Club",
+   "chamada": "Cinco noites all inclusive perto da Praia de Taperapuã, com jantares temáticos todas as noites e Beach Club com comida e bebida à vontade na praia.",
+   "black": false,
+   "selo": "All inclusive",
+   "foto": "https://media.staticontent.com/media/pictures/71f9874a-fab1-45bb-8be0-33ee2e00ffc9",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "2 adultos + 1 criança (7 anos)",
+   "dias": 6,
+   "noites": 5,
+   "ida": "2027-02-09",
+   "volta": "2027-02-14",
+   "idaTxt": "ter, 9 de fev",
+   "voltaTxt": "dom, 14 de fev (chegada em POA à 0h15 de seg, 15)",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (Azul saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Nauticomar Resort & Beach Club, apto Standard (ALL INCLUSIVE)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "🏖️",
+     "Acesso ao Beach Club Paradiso, com comida e bebida à vontade na praia"
+    ],
+    [
+     "⛪",
+     "City Tour pelo Centro Histórico de Porto Seguro (cortesia)"
+    ]
+   ],
+   "pix": "16.742,84",
+   "parcelas": 15,
+   "parcela": "1.199,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NDIxMDF8MANnsDIstX8dWmnbWWOKE2M&option=2",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "ter, 9 de fev",
+     "cia": "Azul",
+     "resumo": "1 conexão em Belo Horizonte (Confins) · 6h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "05:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "07:25",
+        "iata": "CNF",
+        "cidade": "Belo Horizonte",
+        "aeroporto": "Aeroporto de Confins"
+       },
+       "voo": "AD 2909",
+       "duracao": "2h10"
+      },
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "10:15",
+        "iata": "CNF",
+        "cidade": "Belo Horizonte",
+        "aeroporto": "Aeroporto de Confins"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "11:30",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "voo": "AD 2892",
+       "duracao": "1h15"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h50 em Confins"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "dom, 14 de fev",
+     "cia": "Azul",
+     "resumo": "1 conexão em Campinas (Viracopos) · 4h45 · chega seg, 15 de fev",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "19:30",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "chegada": {
+        "data": "14/02",
+        "hora": "21:35",
+        "iata": "VCP",
+        "cidade": "Campinas",
+        "aeroporto": "Aeroporto de Viracopos"
+       },
+       "voo": "AD 2499",
+       "duracao": "2h05"
+      },
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "22:35",
+        "iata": "VCP",
+        "cidade": "Campinas",
+        "aeroporto": "Aeroporto de Viracopos"
+       },
+       "chegada": {
+        "data": "15/02",
+        "hora": "00:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "AD 2680",
+       "duracao": "1h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h em Viracopos"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Nauticomar Resort All Inclusive & Beach Club",
+    "regime": "All inclusive",
+    "noites": 5,
+    "checkin": "09/02",
+    "checkout": "14/02 (12h)",
+    "tarifa": "Cancelamento grátis até 31/01/2027",
+    "destaque": "A 200 m da Praia de Taperapuã, com Beach Club incluso",
+    "endereco": "Rua do Telégrafo, 1965 · Orla Norte, Porto Seguro (BA)",
+    "mapa": "Nauticomar Resort All Inclusive, Rua do Telégrafo 1965, Porto Seguro",
+    "descricao": "Resort all inclusive a 200 m da Praia de Taperapuã e a 600 m do Axé Moi. Tem 2 piscinas (adulto e infantil), sauna, espaço kids, salão de jogos com fliperamas e jantares temáticos todas as noites. Inclui acesso ao Beach Club Paradiso, a 6 km, com piscina, restaurante e serviço Beach Inclusive (refeições, petiscos e bebidas à vontade na praia).",
+    "regimeDetalhe": {
+     "ai": true,
+     "titulo": "ALL INCLUSIVE: comida e bebida à vontade",
+     "resumo": "Tudo que é servido nos restaurantes e bares do resort já está pago, sem conta pra acertar no fim.",
+     "inclui": [
+      "Café da manhã, almoço e jantar",
+      "Lanches e petiscos ao longo do dia",
+      "Bebidas à vontade, com e sem álcool (cervejas, drinks da casa, refrigerantes, sucos e água)",
+      "Uso da estrutura de lazer e da programação de recreação",
+      "Jantares temáticos todas as noites",
+      "Beach Club Paradiso com comida e bebida à vontade na praia"
+     ],
+     "naoInclui": [
+      "Bebidas importadas e rótulos premium",
+      "Serviços de spa e massagens",
+      "Passeios fora do resort"
+     ]
+    },
+    "fotos": [
+     "https://media.staticontent.com/media/pictures/71f9874a-fab1-45bb-8be0-33ee2e00ffc9",
+     "https://media.staticontent.com/media/pictures/cd12aab0-8010-4617-858a-c9fad0c32b60",
+     "https://media.staticontent.com/media/pictures/00d3ca52-4cd7-4291-8457-35e7ccc57001",
+     "https://media.staticontent.com/media/pictures/9c4e10ae-d33b-4c6b-89f8-26e5e6304ea6",
+     "https://media.staticontent.com/media/pictures/c4758152-3fca-46e1-aeef-53a884cc488f",
+     "https://media.staticontent.com/media/pictures/ca41378b-7fcc-4826-aceb-277fd7501683",
+     "https://media.staticontent.com/media/pictures/8a610dd5-bad9-405f-88b7-e9292a964e4b",
+     "https://media.staticontent.com/media/pictures/eafaf9be-e9b6-41b2-be99-9de1c359588d",
+     "https://media.staticontent.com/media/pictures/513b028a-e5b1-4e94-a55b-a6216a32c3ce",
+     "https://media.staticontent.com/media/pictures/42792adf-ce77-4e14-88fc-1518ba26101b",
+     "https://media.staticontent.com/media/pictures/394861aa-d351-45d5-ac47-28c457ad89e8",
+     "https://media.staticontent.com/media/pictures/6a9e478e-a4b2-4fe2-bceb-17a3cc92fa33"
+    ],
+    "quarto": {
+     "nome": "Standard",
+     "descricao": "Apartamento Standard para os 2 adultos e a criança, com ar-condicionado, TV e frigobar.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Frigobar",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.staticontent.com/media/pictures/5717489d-ebe9-4a55-bbbc-9f0bbe867722",
+      "https://media.staticontent.com/media/pictures/d423993b-14d4-4c8d-a6ab-0bc81a8ea822",
+      "https://media.staticontent.com/media/pictures/4bd8a38f-a1a6-4f10-9590-39628d2b7a62"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto + City Tour",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Porto Seguro e o hotel, na ida e na volta, com City Tour de cortesia pelo Centro Histórico de Porto Seguro.",
+     "info": [
+      "Saída do aeroporto cerca de 40 minutos após o pouso",
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "17.978,22",
+     "por": "16.742,84",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.198,55 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.978,22",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 2,
+        "valor": "8.989,11",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 3,
+        "valor": "5.992,74",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 4,
+        "valor": "4.494,56",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 5,
+        "valor": "3.595,64",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 6,
+        "valor": "2.996,37",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 7,
+        "valor": "2.568,32",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 8,
+        "valor": "2.247,28",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 9,
+        "valor": "1.997,58",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 10,
+        "valor": "1.797,82",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 11,
+        "valor": "1.634,38",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 12,
+        "valor": "1.498,19",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 13,
+        "valor": "1.382,94",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 14,
+        "valor": "1.284,16",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 15,
+        "valor": "1.198,55",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.996,37 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.978,22",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 2,
+        "valor": "8.989,11",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 3,
+        "valor": "5.992,74",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 4,
+        "valor": "4.494,56",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 5,
+        "valor": "3.595,64",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 6,
+        "valor": "2.996,37",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 7,
+        "valor": "2.619,68",
+        "obs": "com acréscimo",
+        "total": "18.337,78"
+       },
+       {
+        "n": 8,
+        "valor": "2.303,46",
+        "obs": "com acréscimo",
+        "total": "18.427,68"
+       },
+       {
+        "n": 9,
+        "valor": "2.057,51",
+        "obs": "com acréscimo",
+        "total": "18.517,57"
+       },
+       {
+        "n": 10,
+        "valor": "1.860,75",
+        "obs": "com acréscimo",
+        "total": "18.607,46"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.996,37 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "17.978,22",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 2,
+        "valor": "8.989,11",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 3,
+        "valor": "5.992,74",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 4,
+        "valor": "4.494,56",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 5,
+        "valor": "3.595,64",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       },
+       {
+        "n": 6,
+        "valor": "2.996,37",
+        "obs": "sem acréscimo",
+        "total": "17.978,22"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 180,
+   "inicial": false,
+   "grupo": "sander-porto-seguro-fev-2027",
+   "opcao": 3,
+   "opcaoNome": "2 ADULTOS + 1 CRIANÇA · Nauticomar + Beach Club (all inclusive)",
+   "comparar": true
+  },
+  {
+   "slug": "porto-seguro-all-inclusive-fevereiro-opcoes-la-torre",
+   "destino": "Porto Seguro",
+   "titulo": "Porto Seguro no La Torre Resort All Inclusive",
+   "chamada": "Cinco noites no resort all inclusive pé na areia mais completo da Praia do Mutá, com praia privativa, restaurantes temáticos, shows à noite e kids club.",
+   "black": false,
+   "selo": "All inclusive",
+   "foto": "https://media.omnibees.com/Images/3081/Property/5482833.jpg",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "2 adultos + 1 criança (7 anos)",
+   "dias": 6,
+   "noites": 5,
+   "ida": "2027-02-09",
+   "volta": "2027-02-14",
+   "idaTxt": "ter, 9 de fev",
+   "voltaTxt": "dom, 14 de fev (chegada em POA à 0h15 de seg, 15)",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (Azul saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "La Torre Resort, Suíte Superior (ALL INCLUSIVE)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "⛪",
+     "City Tour pelo Centro Histórico de Porto Seguro (cortesia)"
+    ]
+   ],
+   "pix": "19.972,18",
+   "parcelas": 15,
+   "parcela": "1.431,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NDIxMDF8MANnsDIstX8dWmnbWWOKE2M&option=4",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "ter, 9 de fev",
+     "cia": "Azul",
+     "resumo": "1 conexão em Belo Horizonte (Confins) · 6h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "05:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "07:25",
+        "iata": "CNF",
+        "cidade": "Belo Horizonte",
+        "aeroporto": "Aeroporto de Confins"
+       },
+       "voo": "AD 2909",
+       "duracao": "2h10"
+      },
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "10:15",
+        "iata": "CNF",
+        "cidade": "Belo Horizonte",
+        "aeroporto": "Aeroporto de Confins"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "11:30",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "voo": "AD 2892",
+       "duracao": "1h15"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h50 em Confins"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "dom, 14 de fev",
+     "cia": "Azul",
+     "resumo": "1 conexão em Campinas (Viracopos) · 4h45 · chega seg, 15 de fev",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "19:30",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "chegada": {
+        "data": "14/02",
+        "hora": "21:35",
+        "iata": "VCP",
+        "cidade": "Campinas",
+        "aeroporto": "Aeroporto de Viracopos"
+       },
+       "voo": "AD 2499",
+       "duracao": "2h05"
+      },
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "22:35",
+        "iata": "VCP",
+        "cidade": "Campinas",
+        "aeroporto": "Aeroporto de Viracopos"
+       },
+       "chegada": {
+        "data": "15/02",
+        "hora": "00:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "AD 2680",
+       "duracao": "1h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h em Viracopos"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "La Torre Resort All Inclusive",
+    "regime": "All inclusive",
+    "noites": 5,
+    "checkin": "09/02",
+    "checkout": "14/02 (12h)",
+    "tarifa": "Tarifa não reembolsável",
+    "destaque": "Pé na areia na Praia do Mutá, com praia privativa",
+    "endereco": "Av. Beira Mar, 9999 · Praia do Mutá, Porto Seguro (BA)",
+    "mapa": "La Torre Resort, Av. Beira Mar 9999, Porto Seguro",
+    "descricao": "Resort all inclusive pé na areia na Praia do Mutá, com área de praia privativa, várias piscinas em meio a jardins, restaurantes temáticos, bares, shows à noite, kids club, quadra de tênis, academia e spa.",
+    "regimeDetalhe": {
+     "ai": true,
+     "titulo": "ALL INCLUSIVE: comida e bebida à vontade",
+     "resumo": "Tudo que é servido nos restaurantes e bares do resort já está pago, sem conta pra acertar no fim.",
+     "inclui": [
+      "Café da manhã, almoço e jantar",
+      "Lanches e petiscos ao longo do dia",
+      "Bebidas à vontade, com e sem álcool (cervejas, drinks da casa, refrigerantes, sucos e água)",
+      "Uso da estrutura de lazer e da programação de recreação",
+      "Restaurantes temáticos e shows à noite",
+      "Kids club e recreação para todas as idades"
+     ],
+     "naoInclui": [
+      "Bebidas importadas e rótulos premium",
+      "Serviços de spa e massagens",
+      "Passeios fora do resort"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/3081/Property/5482833.jpg",
+     "https://media.omnibees.com/Images/3081/Property/5908723.jpg",
+     "https://media.omnibees.com/Images/3081/Property/5908732.jpg",
+     "https://media.omnibees.com/Images/3081/Property/5908599.jpg",
+     "https://media.omnibees.com/Images/3081/Property/5908595.jpg",
+     "https://media.omnibees.com/Images/3081/Property/5908720.jpg",
+     "https://media.omnibees.com/Images/3081/Property/5908734.jpg",
+     "https://media.omnibees.com/Images/3081/Property/5908610.jpg",
+     "https://media.omnibees.com/Images/3081/Property/5908717.jpg",
+     "https://media.omnibees.com/Images/3081/Property/5908658.jpg",
+     "https://media.omnibees.com/Images/3081/Property/5908792.jpg",
+     "https://media.omnibees.com/Images/3081/Property/5908636.jpg"
+    ],
+    "quarto": {
+     "nome": "Suíte Superior",
+     "descricao": "Suíte Superior para os 2 adultos e a criança.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Frigobar",
+      "Cofre",
+      "Wi-Fi",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/3081/Property/5908593.jpg",
+      "https://media.omnibees.com/Images/3081/Property/5908594.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto + City Tour",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Porto Seguro e o hotel, na ida e na volta, com City Tour de cortesia pelo Centro Histórico de Porto Seguro.",
+     "info": [
+      "Saída do aeroporto cerca de 40 minutos após o pouso",
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "21.450,63",
+     "por": "19.972,18",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.430,04 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "21.450,63",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 2,
+        "valor": "10.725,32",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 3,
+        "valor": "7.150,21",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 4,
+        "valor": "5.362,66",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 5,
+        "valor": "4.290,13",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 6,
+        "valor": "3.575,11",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 7,
+        "valor": "3.064,38",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 8,
+        "valor": "2.681,33",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 9,
+        "valor": "2.383,40",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 10,
+        "valor": "2.145,06",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 11,
+        "valor": "1.950,06",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 12,
+        "valor": "1.787,55",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 13,
+        "valor": "1.650,05",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 14,
+        "valor": "1.532,19",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 15,
+        "valor": "1.430,04",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 3.575,11 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "21.450,63",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 2,
+        "valor": "10.725,32",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 3,
+        "valor": "7.150,21",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 4,
+        "valor": "5.362,66",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 5,
+        "valor": "4.290,13",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 6,
+        "valor": "3.575,11",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 7,
+        "valor": "3.125,66",
+        "obs": "com acréscimo",
+        "total": "21.879,64"
+       },
+       {
+        "n": 8,
+        "valor": "2.748,36",
+        "obs": "com acréscimo",
+        "total": "21.986,90"
+       },
+       {
+        "n": 9,
+        "valor": "2.454,91",
+        "obs": "com acréscimo",
+        "total": "22.094,15"
+       },
+       {
+        "n": 10,
+        "valor": "2.220,14",
+        "obs": "com acréscimo",
+        "total": "22.201,40"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 3.575,11 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "21.450,63",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 2,
+        "valor": "10.725,32",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 3,
+        "valor": "7.150,21",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 4,
+        "valor": "5.362,66",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 5,
+        "valor": "4.290,13",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       },
+       {
+        "n": 6,
+        "valor": "3.575,11",
+        "obs": "sem acréscimo",
+        "total": "21.450,63"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 181,
+   "inicial": false,
+   "grupo": "sander-porto-seguro-fev-2027",
+   "opcao": 4,
+   "opcaoNome": "2 ADULTOS + 1 CRIANÇA · La Torre Resort (all inclusive)",
+   "comparar": true
+  },
+  {
    "slug": "rio-e-recife-janeiro-opcoes-natal-cabo-frio-green",
    "destino": "Cabo Frio",
    "titulo": "Natal em Cabo Frio no Green Hotéis",
