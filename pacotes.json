@@ -6,6 +6,541 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "espirito-santo-festa-da-penha-grupo-com-guia-30-mar-a-6-abr",
+   "destino": "Espírito Santo",
+   "titulo": "Espírito Santo com a Festa da Penha: Guarapari + Vitória, em grupo com guia",
+   "chamada": "Uma semana no Espírito Santo, com 2 noites em Guarapari e 5 em Vitória, a Festa de Nossa Senhora da Penha, o Santuário de Anchieta, as Serras Capixabas e uma moqueca capixaba de verdade. Tudo em grupo, com guia acompanhando do começo ao fim.",
+   "black": true,
+   "selo": "Grupo com guia acompanhante",
+   "img": "",
+   "pessoas": 2,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-03-30",
+   "volta": "2027-04-06",
+   "idaTxt": "ter, 30 de mar",
+   "voltaTxt": "ter, 6 de abr",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "2 noites em Guarapari (Gaeta Hotel ou similar), com café da manhã"
+    ],
+    [
+     "🏨",
+     "5 noites em Vitória (Alameda Vitória Hotel ou similar), com café da manhã"
+    ],
+    [
+     "🚐",
+     "Todos os transfers: aeroporto, Guarapari, Vitória e aeroporto"
+    ],
+    [
+     "⛪",
+     "Santuário Nacional de São José de Anchieta + Praia de Anchieta"
+    ],
+    [
+     "🏖️",
+     "City tour em Guarapari"
+    ],
+    [
+     "⛰️",
+     "Tour nas Serras Capixabas (Domingos Martins)"
+    ],
+    [
+     "🏙️",
+     "City tour em Vitória e Vila Velha"
+    ],
+    [
+     "🙏",
+     "Convento da Penha + Museu da Baleia Jubarte"
+    ],
+    [
+     "🍲",
+     "Praia de Manguinhos com almoço de moqueca capixaba"
+    ],
+    [
+     "🧘",
+     "Visita ao Buda Gigante"
+    ],
+    [
+     "🎉",
+     "Participação na Festa de Nossa Senhora da Penha"
+    ],
+    [
+     "🧑‍🏫",
+     "Guia acompanhante"
+    ]
+   ],
+   "pix": "10.573,27",
+   "parcelas": 15,
+   "parcela": "756,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "foto": "9545492",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "ter, 30 de mar",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 4h30",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "30/03",
+        "hora": "06:00",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "30/03",
+        "hora": "07:55",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "G3 1241",
+       "duracao": "1h55"
+      },
+      {
+       "saida": {
+        "data": "30/03",
+        "hora": "09:00",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "30/03",
+        "hora": "10:30",
+        "iata": "VIX",
+        "cidade": "Vitória",
+        "aeroporto": "Aeroporto de Vitória"
+       },
+       "voo": "G3 1384",
+       "duracao": "1h30"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h05 em Guarulhos"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "ter, 6 de abr",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 5h25",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "06/04",
+        "hora": "17:15",
+        "iata": "VIX",
+        "cidade": "Vitória",
+        "aeroporto": "Aeroporto de Vitória"
+       },
+       "chegada": {
+        "data": "06/04",
+        "hora": "18:50",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1651",
+       "duracao": "1h35"
+      },
+      {
+       "saida": {
+        "data": "06/04",
+        "hora": "20:50",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "06/04",
+        "hora": "22:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1286",
+       "duracao": "1h50"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Gaeta Hotel (Guarapari) + Alameda Vitória Hotel (Vitória)",
+    "regime": "Café da manhã",
+    "noites": 7,
+    "checkin": "30/03",
+    "checkout": "06/04",
+    "tarifa": "Não reembolsável",
+    "destaque": "Hotéis previstos ou similares, com café da manhã",
+    "endereco": "2 noites em Guarapari · 5 noites em Vitória (ES)",
+    "mapa": "Alameda Vitória Hotel, Vitória, ES",
+    "descricao": "As 2 primeiras noites são em Guarapari, no Gaeta Hotel, e as outras 5 em Vitória, no Alameda Vitória Hotel (ou hotéis similares, definidos pela operadora). Os dois com café da manhã e apartamento duplo de casal.",
+    "fotos": [
+     "https://images.trvl-media.com/lodging/92000000/91630000/91625200/91625111/846986f3.jpg",
+     "https://images.trvl-media.com/lodging/92000000/91630000/91625200/91625111/7f4d1cca.jpg",
+     "https://images.trvl-media.com/lodging/92000000/91630000/91625200/91625111/f116c567.jpg",
+     "https://images.trvl-media.com/lodging/6000000/5390000/5389400/5389357/fd6f7363.jpg",
+     "https://images.trvl-media.com/lodging/6000000/5390000/5389400/5389357/37a3ebe5.jpg",
+     "https://images.trvl-media.com/lodging/6000000/5390000/5389400/5389357/1ef04b1a.jpg"
+    ],
+    "quarto": {
+     "nome": "Apartamento Duplo Casal",
+     "descricao": "Apartamento de casal nos dois hotéis.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Frigobar",
+      "Wi-Fi",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://images.trvl-media.com/lodging/92000000/91630000/91625200/91625111/2242cc23.jpg",
+      "https://images.trvl-media.com/lodging/92000000/91630000/91625200/91625111/bfa7b9cb.jpg",
+      "https://images.trvl-media.com/lodging/6000000/5390000/5389400/5389357/17f89f08.jpg",
+      "https://images.trvl-media.com/lodging/6000000/5390000/5389400/5389357/341ede1e.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfers do roteiro inteiro",
+     "quando": "Chegada, troca de cidade e saída",
+     "descricao": "Aeroporto de Vitória → hotel em Guarapari, Guarapari → hotel em Vitória e hotel em Vitória → aeroporto.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "⛪",
+     "nome": "Santuário de Anchieta + Praia de Anchieta",
+     "quando": "Em Guarapari",
+     "descricao": "Visita ao histórico Santuário Nacional de São José de Anchieta e passeio pela praia de Anchieta.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏖️",
+     "nome": "City tour em Guarapari",
+     "quando": "Em Guarapari",
+     "descricao": "Passeio pelas praias e pontos principais de Guarapari.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "⛰️",
+     "nome": "Serras Capixabas (Domingos Martins)",
+     "quando": "Em Vitória",
+     "descricao": "Tour pela região serrana, com clima de montanha e a colonização alemã e italiana de Domingos Martins.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏙️",
+     "nome": "City tour em Vitória e Vila Velha",
+     "quando": "Em Vitória",
+     "descricao": "Pontos principais das duas cidades, com visita ao Convento da Penha e ao Museu da Baleia Jubarte.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🍲",
+     "nome": "Praia de Manguinhos com moqueca capixaba",
+     "quando": "Em Vitória",
+     "descricao": "Passeio à vila de Manguinhos, na Serra, com almoço da tradicional moqueca capixaba incluso.",
+     "info": []
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🧘",
+     "nome": "Buda Gigante",
+     "quando": "Em Vitória",
+     "descricao": "Visita ao Buda Gigante do Mosteiro Zen, em Ibiraçu.",
+     "info": []
+    },
+    {
+     "tipo": "Evento",
+     "icone": "🎉",
+     "nome": "Festa de Nossa Senhora da Penha",
+     "quando": "Semana após a Páscoa",
+     "descricao": "Participação na festa da padroeira do Espírito Santo, uma das maiores festas religiosas do Brasil, no Convento da Penha, em Vila Velha.",
+     "info": []
+    },
+    {
+     "tipo": "Guia",
+     "icone": "🧑‍🏫",
+     "nome": "Guia acompanhante",
+     "quando": "Durante o roteiro",
+     "descricao": "Viagem em grupo, com guia acompanhando os passeios.",
+     "info": [
+      "Não estão inclusas taxas de visitação, refeições (exceto o almoço em Manguinhos), ingressos e gastos pessoais"
+     ]
+    }
+   ],
+   "cod": 167,
+   "pagamento": {
+    "pix": {
+     "de": "11.338,85",
+     "por": "10.573,27",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 755,92 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "11.338,85",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 2,
+        "valor": "5.669,43",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 3,
+        "valor": "3.779,62",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 4,
+        "valor": "2.834,71",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 5,
+        "valor": "2.267,77",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 6,
+        "valor": "1.889,81",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 7,
+        "valor": "1.619,84",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 8,
+        "valor": "1.417,36",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 9,
+        "valor": "1.259,87",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 10,
+        "valor": "1.133,89",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 11,
+        "valor": "1.030,80",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 12,
+        "valor": "944,90",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 13,
+        "valor": "872,22",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 14,
+        "valor": "809,92",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 15,
+        "valor": "755,92",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.889,81 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "11.338,85",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 2,
+        "valor": "5.669,43",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 3,
+        "valor": "3.779,62",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 4,
+        "valor": "2.834,71",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 5,
+        "valor": "2.267,77",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 6,
+        "valor": "1.889,81",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 7,
+        "valor": "1.652,23",
+        "obs": "com acréscimo",
+        "total": "11.565,63"
+       },
+       {
+        "n": 8,
+        "valor": "1.452,79",
+        "obs": "com acréscimo",
+        "total": "11.622,32"
+       },
+       {
+        "n": 9,
+        "valor": "1.297,67",
+        "obs": "com acréscimo",
+        "total": "11.679,02"
+       },
+       {
+        "n": 10,
+        "valor": "1.173,57",
+        "obs": "com acréscimo",
+        "total": "11.735,71"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.889,81 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "11.338,85",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 2,
+        "valor": "5.669,43",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 3,
+        "valor": "3.779,62",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 4,
+        "valor": "2.834,71",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 5,
+        "valor": "2.267,77",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       },
+       {
+        "n": 6,
+        "valor": "1.889,81",
+        "obs": "sem acréscimo",
+        "total": "11.338,85"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "inicial": true,
+   "pessoasTxt": "2 adultos",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0Mzg3MTV8MGujA9-e6hvjR7M1oAL__B4"
+  },
+  {
    "slug": "nordeste-ferias-janeiro-2-adultos-porto-de-galinhas-marulhos",
    "destino": "Porto de Galinhas",
    "titulo": "Porto de Galinhas no Marulhos Resort, pé na areia em Muro Alto, com meia pensão",
