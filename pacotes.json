@@ -6,6 +6,472 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "nordeste-ferias-janeiro-2-adultos-porto-de-galinhas-marulhos-passeios",
+   "destino": "Porto de Galinhas",
+   "titulo": "Porto de Galinhas no Marulhos Resort, com Carneiros e Maragogi",
+   "chamada": "Sete noites pé na areia em Muro Alto, com café da manhã e jantar no resort e passeios à Praia dos Carneiros e a Maragogi, bem na semana das melhores marés.",
+   "black": true,
+   "selo": "Black November · Meia pensão",
+   "foto": "4716938",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "2 adultos",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-01-20",
+   "volta": "2027-01-27",
+   "idaTxt": "qua, 20 de jan",
+   "voltaTxt": "qua, 27 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (Azul saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Marulhos Resort, apto Superior (MEIA PENSÃO: café da manhã e jantar)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto do Recife / resort / aeroporto"
+    ],
+    [
+     "🏝️",
+     "Passeio à Praia dos Carneiros"
+    ],
+    [
+     "🐠",
+     "Passeio a Maragogi"
+    ]
+   ],
+   "pix": "15.126,11",
+   "parcelas": 15,
+   "parcela": "1.083,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MzkxODh8MKRnFNA3ddlTgN3BwEDn1t8",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qua, 20 de jan",
+     "cia": "Azul",
+     "resumo": "1 conexão em São Paulo · 6h35",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "10:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "12:25",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "AD 2838",
+       "duracao": "1h45"
+      },
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "14:10",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "17:15",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "voo": "AD 2959",
+       "duracao": "3h05"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h45 em São Paulo"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 27 de jan",
+     "cia": "Azul",
+     "resumo": "Voo direto · 4h30",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "27/01",
+        "hora": "17:25",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "chegada": {
+        "data": "27/01",
+        "hora": "21:55",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "AD 4150",
+       "duracao": "4h30"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "Marulhos Resort by MAI",
+    "regime": "Meia pensão",
+    "noites": 7,
+    "checkin": "20/01 (14h)",
+    "checkout": "27/01 (12h)",
+    "tarifa": "Não reembolsável",
+    "destaque": "Pé na areia na Praia de Muro Alto",
+    "endereco": "Praia de Muro Alto · Porto de Galinhas, Ipojuca (PE)",
+    "descricao": "Resort pé na areia em frente à Praia de Muro Alto, com 40 mil m², cinco piscinas, restaurantes, bar, quadra poliesportiva, campo de futebol, tênis, kids club e salão de jogos. Fica a 6 km do centrinho de Porto de Galinhas e a 60 km do aeroporto do Recife.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "MEIA PENSÃO: café da manhã + jantar",
+     "resumo": "Duas refeições por dia no restaurante do resort. O almoço fica livre pros passeios e pras piscinas naturais.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Jantar todos os dias no restaurante do resort",
+      "Uso da estrutura: 5 piscinas, quadras, kids club e salão de jogos"
+     ],
+     "naoInclui": [
+      "Almoço",
+      "Bebidas (inclusive no jantar), pagas à parte",
+      "Consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/6022/Property/208784.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208786.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208780.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208782.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208783.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208781.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208772.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208779.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208773.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208775.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208788.jpg"
+    ],
+    "quarto": {
+     "nome": "Superior",
+     "descricao": "Apartamento de 35 m² com varanda, 1 cama de casal e 1 de solteiro.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "TV a cabo",
+      "Frigobar",
+      "Wi-Fi",
+      "Secador de cabelo",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/6022/RoomTypes/1180345.jpg",
+      "https://media.omnibees.com/Images/6022/RoomTypes/1180346.jpeg",
+      "https://media.omnibees.com/Images/6022/RoomTypes/1180352.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / resort / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular entre o Aeroporto do Recife e o resort em Porto de Galinhas, na ida e na volta.",
+     "info": [
+      "O horário da volta é informado no dia anterior"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏝️",
+     "nome": "Praia dos Carneiros",
+     "quando": "Previsto pra 22/01",
+     "descricao": "A praia da igrejinha de São Benedito, com piscinas naturais, coqueiral e banho de argila.",
+     "info": [
+      "Passeio regular (compartilhado), saindo de Porto de Galinhas",
+      "Catamarã, refeições e bebidas pagos à parte"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🐠",
+     "nome": "Maragogi",
+     "quando": "Previsto pra 24/01",
+     "descricao": "O Caribe brasileiro, com piscinas naturais de água cristalina em Alagoas.",
+     "info": [
+      "Semana de lua cheia (22/01), com marés baixas boas pras piscinas naturais",
+      "Passeio regular (compartilhado), saindo de Porto de Galinhas",
+      "Catamarã, refeições e bebidas pagos à parte"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "16.244,78",
+     "por": "15.126,11",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.082,99 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.244,78",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 2,
+        "valor": "8.122,39",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 3,
+        "valor": "5.414,93",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 4,
+        "valor": "4.061,20",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 5,
+        "valor": "3.248,96",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 6,
+        "valor": "2.707,46",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 7,
+        "valor": "2.320,68",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 8,
+        "valor": "2.030,60",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 9,
+        "valor": "1.804,98",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 10,
+        "valor": "1.624,48",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 11,
+        "valor": "1.476,80",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 12,
+        "valor": "1.353,73",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 13,
+        "valor": "1.249,60",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 14,
+        "valor": "1.160,34",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 15,
+        "valor": "1.082,99",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.707,46 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.244,78",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 2,
+        "valor": "8.122,39",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 3,
+        "valor": "5.414,93",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 4,
+        "valor": "4.061,20",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 5,
+        "valor": "3.248,96",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 6,
+        "valor": "2.707,46",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 7,
+        "valor": "2.367,10",
+        "obs": "com acréscimo",
+        "total": "16.569,68"
+       },
+       {
+        "n": 8,
+        "valor": "2.081,36",
+        "obs": "com acréscimo",
+        "total": "16.650,90"
+       },
+       {
+        "n": 9,
+        "valor": "1.859,12",
+        "obs": "com acréscimo",
+        "total": "16.732,12"
+       },
+       {
+        "n": 10,
+        "valor": "1.681,33",
+        "obs": "com acréscimo",
+        "total": "16.813,35"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.707,46 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.244,78",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 2,
+        "valor": "8.122,39",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 3,
+        "valor": "5.414,93",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 4,
+        "valor": "4.061,20",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 5,
+        "valor": "3.248,96",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       },
+       {
+        "n": 6,
+        "valor": "2.707,46",
+        "obs": "sem acréscimo",
+        "total": "16.244,78"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 170,
+   "inicial": false,
+   "grupo": "nordeste-janeiro-2027-3-adultos",
+   "opcao": 10,
+   "opcaoNome": "2 ADULTOS · Porto de Galinhas · Marulhos + Carneiros e Maragogi (meia pensão)",
+   "comparar": true
+  },
+  {
    "slug": "natal-praiamar-fique-7-pague-6-black-november-29-abr-a-6-mai",
    "destino": "Natal",
    "titulo": "Natal com City Tour + Pipa, Genipabu e Cunhaú",
