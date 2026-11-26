@@ -6,6 +6,470 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "recife-boa-viagem-maragogi-gratis-black-november-28-fev-a-6-mar",
+   "destino": "Recife",
+   "titulo": "Recife em Boa Viagem + Maragogi GRÁTIS",
+   "chamada": "Seis noites em Boa Viagem, de frente pro mar de Recife, com Maragogi de presente e mais um passeio à tua escolha.",
+   "black": true,
+   "selo": "Maragogi GRÁTIS",
+   "foto": "4716938",
+   "img": "",
+   "inicial": true,
+   "pessoas": 2,
+   "dias": 7,
+   "noites": 6,
+   "ida": "2027-02-28",
+   "volta": "2027-03-06",
+   "idaTxt": "dom, 28 de fev",
+   "voltaTxt": "sáb, 6 de mar",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "El Aram Beach Boa Viagem Hotel (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "🏝️",
+     "Passeio a Maragogi GRÁTIS"
+    ],
+    [
+     "🌴",
+     "1 passeio à tua escolha no destino"
+    ]
+   ],
+   "pix": "5.186,04",
+   "parcelas": 15,
+   "parcela": "370,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0Mzg3Nzh8MPdq_6Nmx4y1hzs3a-vGwZM",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "dom, 28 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 6h35",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "28/02",
+        "hora": "07:25",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "28/02",
+        "hora": "09:00",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1273",
+       "duracao": "1h35"
+      },
+      {
+       "saida": {
+        "data": "28/02",
+        "hora": "10:50",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "28/02",
+        "hora": "14:00",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "voo": "G3 1614",
+       "duracao": "3h10"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h50 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sáb, 6 de mar",
+     "cia": "GOL",
+     "resumo": "1 conexão no Rio de Janeiro (Galeão) · 6h10",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "06/03",
+        "hora": "17:30",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "chegada": {
+        "data": "06/03",
+        "hora": "20:30",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "voo": "G3 1879",
+       "duracao": "3h"
+      },
+      {
+       "saida": {
+        "data": "06/03",
+        "hora": "21:25",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "chegada": {
+        "data": "06/03",
+        "hora": "23:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 2092",
+       "duracao": "2h15"
+      }
+     ],
+     "conexoes": [
+      "Espera de 55min no Galeão"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "El Aram Beach Boa Viagem Hotel",
+    "regime": "Café da manhã",
+    "noites": 6,
+    "checkin": "28/02",
+    "checkout": "06/03",
+    "tarifa": "Cancelamento grátis até 24/02/2027",
+    "endereco": "Rua dos Navegantes, 435 · Boa Viagem, Recife (PE)",
+    "descricao": "Hotel em Boa Viagem, a praia mais famosa de Recife, a uma quadra do mar e perto de restaurantes, do Shopping Recife e do aeroporto.",
+    "fotos": [
+     "https://media.infotravel.com.br/image/upload/c_crop,h_480,w_800/51C090B2399DDDA0C5073A034D3B69B7.webp",
+     "https://media.omnibees.com/Images/14849/Property/1193377.jpg",
+     "https://media.omnibees.com/Images/14849/Property/1193372.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2177004.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2176998.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2177003.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217212.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217216.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217217.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217219.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard",
+     "descricao": "Quarto com 1 cama de casal e 2 de solteiro, para até 4 hóspedes, vista interna. Criança até 12 anos é cortesia no quarto dos pais.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Frigobar",
+      "Wi-Fi",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/14849/Property/5207178.jpg",
+      "https://media.omnibees.com/Images/14849/Property/5207180.jpg",
+      "https://media.omnibees.com/Images/14849/Property/5207182.jpg",
+      "https://media.omnibees.com/Images/14849/RoomTypes/5207169.jpg",
+      "https://media.omnibees.com/Images/14849/RoomTypes/5207167.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Recife e o hotel em Boa Viagem.",
+     "info": [
+      "Horário da volta informado um dia antes",
+      "O aeroporto fica a poucos minutos de Boa Viagem"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏝️",
+     "nome": "Passeio a Maragogi · GRÁTIS",
+     "quando": "Dia combinado com o receptivo",
+     "descricao": "O Caribe brasileiro, com piscinas naturais de água cristalina em Alagoas.",
+     "info": [
+      "Melhores dias pras piscinas naturais nessa viagem: 4 e 5 de março (maré baixa pela manhã, de 0,37 m e 0,24 m)",
+      "Catamarã, jangada e refeições pagos à parte"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🌴",
+     "nome": "1 passeio à tua escolha",
+     "quando": "Dias de cada passeio conforme o receptivo",
+     "descricao": "Escolhe no destino entre Praia dos Carneiros, City Tour Recife e Olinda, Porto de Galinhas, João Pessoa, Cabo de Santo Agostinho, Litoral Norte ou Praia de São José da Coroa Grande.",
+     "info": [
+      "Passeios em veículo compartilhado",
+      "Refeições, bebidas e opcionais (buggy, jangada, ingressos) pagos à parte"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "5.546,13",
+     "por": "5.186,04",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 369,74 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.546,13",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 2,
+        "valor": "2.773,07",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 3,
+        "valor": "1.848,71",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 4,
+        "valor": "1.386,53",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 5,
+        "valor": "1.109,23",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 6,
+        "valor": "924,36",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 7,
+        "valor": "792,30",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 8,
+        "valor": "693,27",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 9,
+        "valor": "616,24",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 10,
+        "valor": "554,61",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 11,
+        "valor": "504,19",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 12,
+        "valor": "462,18",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 13,
+        "valor": "426,63",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 14,
+        "valor": "396,15",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 15,
+        "valor": "369,74",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 924,36 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.546,13",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 2,
+        "valor": "2.773,07",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 3,
+        "valor": "1.848,71",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 4,
+        "valor": "1.386,53",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 5,
+        "valor": "1.109,23",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 6,
+        "valor": "924,36",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 7,
+        "valor": "808,15",
+        "obs": "com acréscimo",
+        "total": "5.657,05"
+       },
+       {
+        "n": 8,
+        "valor": "710,60",
+        "obs": "com acréscimo",
+        "total": "5.684,78"
+       },
+       {
+        "n": 9,
+        "valor": "634,72",
+        "obs": "com acréscimo",
+        "total": "5.712,51"
+       },
+       {
+        "n": 10,
+        "valor": "574,02",
+        "obs": "com acréscimo",
+        "total": "5.740,24"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 924,36 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.546,13",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 2,
+        "valor": "2.773,07",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 3,
+        "valor": "1.848,71",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 4,
+        "valor": "1.386,53",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 5,
+        "valor": "1.109,23",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       },
+       {
+        "n": 6,
+        "valor": "924,36",
+        "obs": "sem acréscimo",
+        "total": "5.546,13"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 168
+  },
+  {
    "slug": "espirito-santo-festa-da-penha-grupo-com-guia-30-mar-a-6-abr",
    "destino": "Espírito Santo",
    "titulo": "Espírito Santo com a Festa da Penha: Guarapari + Vitória, em grupo com guia",
