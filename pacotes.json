@@ -6,6 +6,504 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "rio-e-recife-janeiro-opcoes-porto-seguro-orquideas",
+   "destino": "Porto Seguro",
+   "titulo": "Porto Seguro no Orquídeas Praia Hotel, com City Tour e Trancoso",
+   "chamada": "Cinco noites a 500 m da Praia de Taperapuã, no hotel mais novo de Porto Seguro, com café da manhã, City Tour pelo Centro Histórico e passeio a Trancoso.",
+   "black": false,
+   "selo": "Café da manhã · Com passeios",
+   "foto": "https://media.infotravel.com.br/image/upload/c_crop,h_480,w_800/F551D8CFAE46D4591EFC9DEDDD31EFF0.jfif",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "1 adulto + 1 criança (7 anos)",
+   "dias": 6,
+   "noites": 5,
+   "ida": "2027-01-13",
+   "volta": "2027-01-18",
+   "idaTxt": "qua, 13 de jan",
+   "voltaTxt": "seg, 18 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Orquídeas Praia Hotel, apto Standard (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "⛪",
+     "City Tour pelo Centro Histórico de Porto Seguro"
+    ],
+    [
+     "🌴",
+     "Passeio a Trancoso"
+    ],
+    [
+     "🛡️",
+     "Cobertura de cancelamento involuntário de viagem (até R$ 4.000)"
+    ]
+   ],
+   "pix": "6.831,55",
+   "parcelas": 15,
+   "parcela": "488,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NDAyMzV8MFT5psa5xjh88HNnKkOcRVw",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qua, 13 de jan",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 5h45",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "13/01",
+        "hora": "07:20",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "13/01",
+        "hora": "09:00",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1273",
+       "duracao": "1h40"
+      },
+      {
+       "saida": {
+        "data": "13/01",
+        "hora": "11:05",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "13/01",
+        "hora": "13:05",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "voo": "G3 1502",
+       "duracao": "2h"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h05 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "seg, 18 de jan",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 6h40",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "18/01",
+        "hora": "13:35",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "chegada": {
+        "data": "18/01",
+        "hora": "15:55",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1503",
+       "duracao": "2h20"
+      },
+      {
+       "saida": {
+        "data": "18/01",
+        "hora": "18:25",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "18/01",
+        "hora": "20:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1284",
+       "duracao": "1h50"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h30 em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Orquídeas Praia Hotel",
+    "regime": "Café da manhã",
+    "noites": 5,
+    "checkin": "13/01 (14h)",
+    "checkout": "18/01 (12h)",
+    "tarifa": "Cancelamento grátis até 05/01/2027",
+    "destaque": "O hotel mais novo de Porto Seguro, a 500 m da Praia de Taperapuã",
+    "endereco": "Rua das Azaleias, 09 · Village 1, Porto Seguro (BA)",
+    "mapa": "Orquídeas Praia Hotel, Rua das Azaleias 09, Porto Seguro",
+    "descricao": "O hotel mais novo de Porto Seguro, a 500 metros da Praia de Taperapuã, perto do Axé Moi e do Tôa Tôa. Tem piscina ao ar livre com área para crianças, bar na piscina, restaurante, sauna, jardim, recepção 24 horas, estacionamento grátis e Wi-Fi. Buffet de café da manhã todos os dias.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "CAFÉ DA MANHÃ incluído",
+     "resumo": "Buffet de café da manhã todos os dias. Almoço e jantar ficam livres pra aproveitar as barracas de praia e os restaurantes.",
+     "inclui": [
+      "Buffet de café da manhã todos os dias",
+      "Wi-Fi",
+      "Uso da piscina, sauna e área kids da piscina"
+     ],
+     "naoInclui": [
+      "Almoço e jantar",
+      "Bebidas e consumo no bar da piscina"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/10328/Property/529766.jpeg",
+     "https://media.omnibees.com/Images/10328/Property/1251216.jpg",
+     "https://media.omnibees.com/Images/10328/Property/613126.jpg",
+     "https://media.omnibees.com/Images/10328/Property/5422199.jpg",
+     "https://media.omnibees.com/Images/10328/Property/5422201.jpg",
+     "https://media.omnibees.com/Images/10328/Property/613134.jpg",
+     "https://media.omnibees.com/Images/10328/Property/1227648.jpg",
+     "https://media.omnibees.com/Images/10328/Property/529765.jpeg",
+     "https://media.omnibees.com/Images/10328/Property/5422210.jpg",
+     "https://media.omnibees.com/Images/10328/Property/5422205.jpg",
+     "https://media.omnibees.com/Images/10328/Property/1227642.jpg",
+     "https://media.omnibees.com/Images/10328/Property/5422196.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard",
+     "descricao": "Apartamento com ar-condicionado, TV de tela plana, guarda-roupa, Wi-Fi e banheiro privativo.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV de tela plana",
+      "Wi-Fi grátis",
+      "Guarda-roupa",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/10328/Property/1227632.jpg",
+      "https://media.omnibees.com/Images/10328/Property/1227634.jpg",
+      "https://media.omnibees.com/Images/10328/Property/1227640.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Porto Seguro e o hotel, com a Taípe.",
+     "info": [
+      "Saída do aeroporto cerca de 40 minutos após o pouso",
+      "O horário da volta é informado no dia anterior"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "⛪",
+     "nome": "City Tour em Porto Seguro",
+     "quando": "Dia combinado com o receptivo",
+     "descricao": "A Cidade Histórica, onde o Brasil começou: igrejas do século XVI, o Marco do Descobrimento e o mirante com vista pro mar.",
+     "info": [
+      "Passeio regular (compartilhado), com guia em português, saindo do hotel"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🌴",
+     "nome": "Trancoso",
+     "quando": "Dia combinado com o receptivo",
+     "descricao": "O Quadrado de Trancoso, com a igrejinha de São João Batista, as casinhas coloridas e as praias de falésia.",
+     "info": [
+      "Passeio regular (compartilhado), saindo do hotel",
+      "Refeições e bebidas pagos à parte"
+     ]
+    },
+    {
+     "tipo": "Seguro",
+     "icone": "🛡️",
+     "nome": "Cobertura de cancelamento involuntário de viagem",
+     "quando": "Desde a compra",
+     "descricao": "Se precisar cancelar a viagem por um motivo coberto (como doença ou acidente), tu recebe de volta até R$ 4.000 do que foi pago.",
+     "info": [
+      "Consulta com a gente a lista de motivos cobertos"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "7.315,79",
+     "por": "6.831,55",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 487,72 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.315,79",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 2,
+        "valor": "3.657,90",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 3,
+        "valor": "2.438,60",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 4,
+        "valor": "1.828,95",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 5,
+        "valor": "1.463,16",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 6,
+        "valor": "1.219,30",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 7,
+        "valor": "1.045,11",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 8,
+        "valor": "914,47",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 9,
+        "valor": "812,87",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 10,
+        "valor": "731,58",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 11,
+        "valor": "665,07",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 12,
+        "valor": "609,65",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 13,
+        "valor": "562,75",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 14,
+        "valor": "522,56",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 15,
+        "valor": "487,72",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.219,30 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.315,79",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 2,
+        "valor": "3.657,90",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 3,
+        "valor": "2.438,60",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 4,
+        "valor": "1.828,95",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 5,
+        "valor": "1.463,16",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 6,
+        "valor": "1.219,30",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 7,
+        "valor": "1.066,02",
+        "obs": "com acréscimo",
+        "total": "7.462,11"
+       },
+       {
+        "n": 8,
+        "valor": "937,34",
+        "obs": "com acréscimo",
+        "total": "7.498,68"
+       },
+       {
+        "n": 9,
+        "valor": "837,25",
+        "obs": "com acréscimo",
+        "total": "7.535,26"
+       },
+       {
+        "n": 10,
+        "valor": "757,18",
+        "obs": "com acréscimo",
+        "total": "7.571,84"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.219,30 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.315,79",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 2,
+        "valor": "3.657,90",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 3,
+        "valor": "2.438,60",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 4,
+        "valor": "1.828,95",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 5,
+        "valor": "1.463,16",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       },
+       {
+        "n": 6,
+        "valor": "1.219,30",
+        "obs": "sem acréscimo",
+        "total": "7.315,79"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 176,
+   "inicial": false,
+   "grupo": "veridiana-janeiro-2027",
+   "opcao": 5,
+   "opcaoNome": "1 ADULTO + 1 CRIANÇA · Porto Seguro · Orquídeas Praia Hotel + City Tour e Trancoso (café da manhã)",
+   "comparar": true
+  },
+  {
    "slug": "rio-e-recife-janeiro-opcoes",
    "destino": "Arraial do Cabo",
    "titulo": "Arraial do Cabo na Capitão N’Areia Pousada",
@@ -438,7 +936,7 @@
    "foto": "https://media.infotravel.com.br/image/upload/c_crop,h_480,w_800/a172ce8bcb5ed8f600ad1f4fa8999c83.jpg",
    "img": "",
    "pessoas": 2,
-   "pessoasTxt": "2 adultos",
+   "pessoasTxt": "1 adulto + 1 criança (7 anos)",
    "dias": 5,
    "noites": 4,
    "ida": "2027-01-16",
@@ -600,7 +1098,7 @@
      "icone": "🛡️",
      "nome": "Cobertura de cancelamento involuntário de viagem",
      "quando": "Desde a compra",
-     "descricao": "Se precisar cancelar a viagem por um motivo coberto (como doença ou acidente), vocês recebem de volta até R$ 2.000 do que foi pago.",
+     "descricao": "Se precisar cancelar a viagem por um motivo coberto (como doença ou acidente), tu recebe de volta até R$ 2.000 do que foi pago.",
      "info": [
       "Consulta com a gente a lista de motivos cobertos"
      ]
@@ -848,7 +1346,7 @@
    "inicial": false,
    "grupo": "veridiana-janeiro-2027",
    "opcao": 2,
-   "opcaoNome": "2 ADULTOS · Cabo Frio · Green Hotéis (café da manhã)",
+   "opcaoNome": "1 ADULTO + 1 CRIANÇA · Cabo Frio · Green Hotéis (café da manhã)",
    "comparar": true
   },
   {
@@ -861,7 +1359,7 @@
    "foto": "4716938",
    "img": "",
    "pessoas": 2,
-   "pessoasTxt": "2 adultos",
+   "pessoasTxt": "1 adulto + 1 criança (7 anos)",
    "dias": 7,
    "noites": 6,
    "ida": "2027-01-15",
@@ -994,7 +1492,7 @@
     ],
     "quarto": {
      "nome": "Standard",
-     "descricao": "Apartamento moderno para 2 pessoas, com ar-condicionado, TV, Wi-Fi e frigobar.",
+     "descricao": "Apartamento moderno para 1 adulto e 1 criança, com ar-condicionado, TV, Wi-Fi e frigobar.",
      "comodidades": [
       "Ar-condicionado",
       "TV",
@@ -1264,7 +1762,7 @@
    "inicial": false,
    "grupo": "veridiana-janeiro-2027",
    "opcao": 3,
-   "opcaoNome": "2 ADULTOS · Recife · El Aram Beach Boa Viagem (café da manhã)",
+   "opcaoNome": "1 ADULTO + 1 CRIANÇA · Recife · El Aram Beach Boa Viagem (café da manhã)",
    "comparar": true
   },
   {
@@ -1277,7 +1775,7 @@
    "foto": "4716938",
    "img": "",
    "pessoas": 2,
-   "pessoasTxt": "2 adultos",
+   "pessoasTxt": "1 adulto + 1 criança (7 anos)",
    "dias": 7,
    "noites": 6,
    "ida": "2027-01-15",
@@ -1418,7 +1916,7 @@
     ],
     "quarto": {
      "nome": "Standard",
-     "descricao": "Apartamento moderno para 2 pessoas, com ar-condicionado, TV, Wi-Fi e frigobar.",
+     "descricao": "Apartamento moderno para 1 adulto e 1 criança, com ar-condicionado, TV, Wi-Fi e frigobar.",
      "comodidades": [
       "Ar-condicionado",
       "TV",
@@ -1711,7 +2209,7 @@
    "inicial": false,
    "grupo": "veridiana-janeiro-2027",
    "opcao": 4,
-   "opcaoNome": "2 ADULTOS · Recife · El Aram + Porto de Galinhas e Maragogi (café da manhã)",
+   "opcaoNome": "1 ADULTO + 1 CRIANÇA · Recife · El Aram + Porto de Galinhas e Maragogi (café da manhã)",
    "comparar": true
   },
   {
