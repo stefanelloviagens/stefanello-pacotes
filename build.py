@@ -46,7 +46,7 @@ STAR = '<svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0C50 27.6 72.
 WA_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>'
 
 CSS = """
-.opc{display:block;margin:14px 0 4px;background:#fff8d6;border:2px solid #ffd400;border-radius:16px;padding:12px 14px}.opc span{display:block;font-weight:800;font-size:14px;margin-bottom:8px}.opc select{width:100%;font:inherit;font-weight:700;font-size:15px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:#fff}
+.opc{display:block;margin:14px 0 4px;background:#fff8d6;border:2px solid #ffd400;border-radius:16px;padding:12px 14px}.opc span{display:block;font-weight:800;font-size:14px;margin-bottom:8px}.opc select{width:100%;max-width:100%;min-width:0;text-overflow:ellipsis;font:inherit;font-weight:700;font-size:15px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:#fff}
 [hidden]{display:none!important}
 
 /* roteiro (tipo "roteiro") */
@@ -144,7 +144,7 @@ h1,h2,h3,.display{font-family:'Archivo',Inter,sans-serif;letter-spacing:-.01em;l
 .band h2{font-size:clamp(22px,3.4vw,30px)}
 .band p{max-width:560px}
 /* página do pacote */
-.pk{padding:28px 0 40px;display:grid;grid-template-columns:1fr;gap:28px}
+.pk{padding:28px 0 40px;display:grid;grid-template-columns:minmax(0,1fr);gap:28px}.pk>*{min-width:0}
 @media(min-width:900px){.pk{grid-template-columns:minmax(0,460px) 1fr;gap:44px;align-items:start}.pk .media{position:sticky;top:84px}}
 .pk .media img,.pk .media .fake-art{border-radius:20px;box-shadow:0 18px 40px rgba(17,17,17,.14)}
 .back{display:inline-block;margin-top:18px;font-size:14px;font-weight:600;color:var(--muted);text-decoration:none}
@@ -239,6 +239,8 @@ dialog.dmapa::backdrop{background:rgba(0,0,0,.6)}
 .cmp{overflow-x:auto;margin:0 0 34px}.cmp table{width:100%;border-collapse:collapse;background:var(--card);border-radius:16px;overflow:hidden;font-size:14.5px;min-width:620px}
 .cmp th,.cmp td{padding:11px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}.cmp th{background:var(--ink);color:var(--sun);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em}
 .cmp tr.atual td{background:#FFF6C7}.cmp a{font-weight:800;color:var(--ink)}.cmp .rg{display:inline-block;border-radius:999px;padding:2px 10px;font-weight:800;font-size:12.5px;background:var(--line)}.cmp .rg.ai{background:#111;color:var(--sun)}.cmp .rg.pess{margin-top:4px;background:#FFF1B8}.cmp .rg.intl{background:#0E6E7E;color:#fff;margin-top:4px}
+@media(max-width:700px){.cmp{overflow:visible}.cmp table{min-width:0;background:none;border-radius:0}.cmp thead{display:none}.cmp table,.cmp tbody,.cmp tr,.cmp td{display:block;width:auto}.cmp tr{background:var(--card);border:1px solid var(--line);border-radius:16px;margin-bottom:12px;overflow:hidden}.cmp td{border:0;padding:6px 14px}.cmp td.c-op{background:var(--ink);color:#fff;padding:10px 14px}.cmp td.c-op br{display:none}.cmp td.c-op b{color:var(--sun);margin-right:6px}.cmp td.c-op .rg.intl{margin:0 0 0 6px}.cmp td[data-l]::before{content:attr(data-l);display:block;font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:#8a8478;margin-bottom:2px}.cmp td.c-ver{padding:8px 14px 14px}.cmp tr.atual td{background:#FFF6C7}.cmp tr.atual td.c-op{background:var(--ink)}.cmp tr.atual{border:2px solid var(--sun)}}
+@media(max-width:420px){.pbox{padding:20px 14px}.pbox .row{gap:6px}.pbox .v{font-size:clamp(16px,5vw,22px)}.pbox .ou{width:32px;height:32px;font-size:12px}.pbox small{font-size:11.5px}}
 .det>h2{font-size:clamp(22px,3.4vw,28px);margin-bottom:14px}
 .voos{display:grid;gap:16px}
 @media(min-width:900px){.voos{grid-template-columns:1fr 1fr}}
@@ -725,7 +727,7 @@ def comparativo(p):
         ai = (h.get("regimeDetalhe") or {}).get("ai")
         atual = ' class="atual"' if x["slug"] == p["slug"] else ''
         ver = "📍 vendo agora" if atual else f'<a href="/{e(x["slug"])}">Ver opção →</a>'
-        rows.append(f'<tr{atual}><td><b>Opção {x.get("opcao")}</b><br>{e(x["destino"])}{'<br><span class="rg intl">🌎 Internacional</span>' if x.get("internacional") else ''}</td><td>{e(h.get("nome",""))}</td><td><span class="rg{" ai" if ai else ""}">{e(h.get("regime",""))}</span></td><td>{e(x["idaTxt"])} → {e(x["voltaTxt"])}<br><small>{x["noites"]} noites</small></td><td><b>R$ {e(x["pix"])}</b><br><small>no PIX · ou {x["parcelas"]}x R$ {e(x["parcela"])}</small>{f'<br><span class="rg pess">👥 {e(x.get("pessoasTxt",""))}</span>' if varia else ''}</td><td>{ver}</td></tr>')
+        rows.append(f'<tr{atual}><td class="c-op"><b>Opção {x.get("opcao")}</b><br>{e(x["destino"])}{'<br><span class="rg intl">🌎 Internacional</span>' if x.get("internacional") else ''}</td><td class="c-ho" data-l="Hotel">{e(h.get("nome",""))}</td><td class="c-rg" data-l="Alimentação"><span class="rg{" ai" if ai else ""}">{e(h.get("regime",""))}</span></td><td class="c-dt" data-l="Datas">{e(x["idaTxt"])} → {e(x["voltaTxt"])}<br><small>{x["noites"]} noites</small></td><td class="c-vl" data-l="Valor"><b>R$ {e(x["pix"])}</b><br><small>no PIX · ou {x["parcelas"]}x R$ {e(x["parcela"])}</small>{f'<br><span class="rg pess">👥 {e(x.get("pessoasTxt",""))}</span>' if varia else ''}</td><td class="c-ver">{ver}</td></tr>')
     return ('<section class="det" id="comparar"><h2>⚖️ Compare as opções</h2><div class="cmp"><table><thead><tr><th>Opção</th><th>Hotel</th><th>Alimentação</th><th>Datas</th><th>Valor (' + ("total" if varia else e(p.get("pessoasTxt") or "total")) + ')</th><th></th></tr></thead><tbody>'
             + "".join(rows) + '</tbody></table></div></section>')
 
