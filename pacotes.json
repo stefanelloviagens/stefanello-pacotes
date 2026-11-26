@@ -6,6 +6,1715 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "rio-e-recife-janeiro-opcoes",
+   "destino": "Arraial do Cabo",
+   "titulo": "Arraial do Cabo na Capitão N’Areia Pousada",
+   "chamada": "Quatro noites na Praia dos Anjos, de onde saem os barcos pras praias de água cristalina de Arraial, com café da manhã e voo direto de Porto Alegre pro Rio.",
+   "black": false,
+   "selo": "Voo direto · Café da manhã",
+   "foto": "https://media.infotravel.com.br/image/upload/c_crop,h_480,w_800/75b630d571558311bb6cbfb534a82c08.jpg",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "1 adulto + 1 criança (7 anos)",
+   "dias": 5,
+   "noites": 4,
+   "ida": "2027-01-16",
+   "volta": "2027-01-20",
+   "idaTxt": "sáb, 16 de jan",
+   "voltaTxt": "qua, 20 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL, voo direto saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Capitão N’Areia Pousada, apto Standard (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto do Rio / pousada / aeroporto"
+    ],
+    [
+     "🛡️",
+     "Cobertura de cancelamento involuntário de viagem (até R$ 4.000)"
+    ]
+   ],
+   "pix": "5.046,78",
+   "parcelas": 15,
+   "parcela": "360,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0Mzk4NTJ8MOjqIAbi69E-LdX-LKLWeNQ",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sáb, 16 de jan",
+     "cia": "GOL",
+     "resumo": "Voo direto · 1h55",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "16/01",
+        "hora": "05:00",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "16/01",
+        "hora": "06:55",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Aeroporto do Galeão"
+       },
+       "voo": "G3 2093",
+       "duracao": "1h55"
+      }
+     ],
+     "conexoes": []
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 20 de jan",
+     "cia": "GOL",
+     "resumo": "Voo direto · 2h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "21:25",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Aeroporto do Galeão"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "23:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 2092",
+       "duracao": "2h15"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "Capitão N’Areia Pousada",
+    "regime": "Café da manhã",
+    "noites": 4,
+    "checkin": "16/01 (14h)",
+    "checkout": "20/01 (11h)",
+    "tarifa": "Tarifa não reembolsável",
+    "destaque": "Na Praia dos Anjos, perto do cais dos passeios de barco",
+    "endereco": "Rua Santa Cruz, 7 · Praia dos Anjos, Arraial do Cabo (RJ)",
+    "mapa": "Capitão N Areia Pousada, Rua Santa Cruz 7, Arraial do Cabo",
+    "descricao": "Pousada charmosa na Praia dos Anjos, com acesso direto à praia e a poucos passos do cais de onde saem os passeios de barco pra Prainhas do Pontal do Atalaia, Ilha do Farol e Gruta Azul. Tem piscina externa, jacuzzi, sauna, bar e Wi-Fi grátis. Café da manhã das 7h30 às 9h30.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "CAFÉ DA MANHÃ incluído",
+     "resumo": "Café da manhã todos os dias. Almoço e jantar ficam livres pra aproveitar os restaurantes da região.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Wi-Fi"
+     ],
+     "naoInclui": [
+      "Almoço e jantar",
+      "Bebidas e consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/10928/Property/557154.jpg",
+     "https://media.omnibees.com/Images/10928/Property/557155.jpg",
+     "https://media.omnibees.com/Images/10928/Property/557160.jpg",
+     "https://media.omnibees.com/Images/10928/Property/557156.jpg",
+     "https://media.omnibees.com/Images/10928/Property/557159.jpg",
+     "https://media.omnibees.com/Images/10928/Property/557147.jpg",
+     "https://media.omnibees.com/Images/10928/Property/557143.jpg",
+     "https://media.omnibees.com/Images/10928/Property/557150.jpg",
+     "https://media.omnibees.com/Images/10928/Property/557151.jpg",
+     "https://media.omnibees.com/Images/10928/Property/557161.jpg",
+     "https://media.omnibees.com/Images/10928/Property/557162.jpg",
+     "https://media.omnibees.com/Images/10928/Property/557142.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard (2 camas de solteiro)",
+     "descricao": "Apartamento com 2 camas de solteiro, para o adulto e a criança.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Wi-Fi grátis",
+      "Banheiro privativo"
+     ],
+     "fotos": []
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto do Rio / pousada / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o aeroporto do Rio de Janeiro e a pousada em Arraial do Cabo, na ida e na volta.",
+     "info": [
+      "O trajeto Rio x Arraial leva em torno de 3 horas",
+      "O horário da volta é informado no dia anterior"
+     ]
+    },
+    {
+     "tipo": "Seguro",
+     "icone": "🛡️",
+     "nome": "Cobertura de cancelamento involuntário de viagem",
+     "quando": "Desde a compra",
+     "descricao": "Se precisar cancelar a viagem por um motivo coberto (como doença ou acidente), tu recebe de volta até R$ 4.000 do que foi pago.",
+     "info": [
+      "Consulta com a gente a lista de motivos cobertos"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "5.396,69",
+     "por": "5.046,78",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 359,78 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.396,69",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 2,
+        "valor": "2.698,35",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 3,
+        "valor": "1.798,90",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 4,
+        "valor": "1.349,17",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 5,
+        "valor": "1.079,34",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 6,
+        "valor": "899,45",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 7,
+        "valor": "770,96",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 8,
+        "valor": "674,59",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 9,
+        "valor": "599,63",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 10,
+        "valor": "539,67",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 11,
+        "valor": "490,61",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 12,
+        "valor": "449,72",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 13,
+        "valor": "415,13",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 14,
+        "valor": "385,48",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 15,
+        "valor": "359,78",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 899,45 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.396,69",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 2,
+        "valor": "2.698,35",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 3,
+        "valor": "1.798,90",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 4,
+        "valor": "1.349,17",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 5,
+        "valor": "1.079,34",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 6,
+        "valor": "899,45",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 7,
+        "valor": "786,37",
+        "obs": "com acréscimo",
+        "total": "5.504,62"
+       },
+       {
+        "n": 8,
+        "valor": "691,45",
+        "obs": "com acréscimo",
+        "total": "5.531,61"
+       },
+       {
+        "n": 9,
+        "valor": "617,62",
+        "obs": "com acréscimo",
+        "total": "5.558,59"
+       },
+       {
+        "n": 10,
+        "valor": "558,56",
+        "obs": "com acréscimo",
+        "total": "5.585,57"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 899,45 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.396,69",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 2,
+        "valor": "2.698,35",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 3,
+        "valor": "1.798,90",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 4,
+        "valor": "1.349,17",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 5,
+        "valor": "1.079,34",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       },
+       {
+        "n": 6,
+        "valor": "899,45",
+        "obs": "sem acréscimo",
+        "total": "5.396,69"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 172,
+   "inicial": false,
+   "grupo": "veridiana-janeiro-2027",
+   "opcao": 1,
+   "opcaoNome": "1 ADULTO + 1 CRIANÇA · Arraial do Cabo · Capitão N’Areia Pousada (café da manhã)",
+   "comparar": true
+  },
+  {
+   "slug": "rio-e-recife-janeiro-opcoes-cabo-frio-green",
+   "destino": "Cabo Frio",
+   "titulo": "Cabo Frio no Green Hotéis",
+   "chamada": "Quatro noites no centro de Cabo Frio, a 5 minutos da Praia do Forte e da Ilha do Japonês, com café da manhã e voo direto de Porto Alegre pro Rio.",
+   "black": false,
+   "selo": "Voo direto · Café da manhã",
+   "foto": "https://media.infotravel.com.br/image/upload/c_crop,h_480,w_800/a172ce8bcb5ed8f600ad1f4fa8999c83.jpg",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "2 adultos",
+   "dias": 5,
+   "noites": 4,
+   "ida": "2027-01-16",
+   "volta": "2027-01-20",
+   "idaTxt": "sáb, 16 de jan",
+   "voltaTxt": "qua, 20 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL, voo direto saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Green Hotéis Cabo Frio, apto Twin Standard (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto do Rio / hotel / aeroporto"
+    ],
+    [
+     "🛡️",
+     "Cobertura de cancelamento involuntário de viagem (até R$ 2.000)"
+    ]
+   ],
+   "pix": "5.128,86",
+   "parcelas": 15,
+   "parcela": "366,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NDAxMjl8MM218lvggLSZYT2mCVioB4I",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sáb, 16 de jan",
+     "cia": "GOL",
+     "resumo": "Voo direto · 1h55",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "16/01",
+        "hora": "05:00",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "16/01",
+        "hora": "06:55",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Aeroporto do Galeão"
+       },
+       "voo": "G3 2093",
+       "duracao": "1h55"
+      }
+     ],
+     "conexoes": []
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 20 de jan",
+     "cia": "GOL",
+     "resumo": "Voo direto · 2h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "21:25",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Aeroporto do Galeão"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "23:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 2092",
+       "duracao": "2h15"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "Green Hotéis Cabo Frio",
+    "regime": "Café da manhã",
+    "noites": 4,
+    "checkin": "16/01",
+    "checkout": "20/01",
+    "tarifa": "Cancelamento grátis até 06/01/2027",
+    "destaque": "No centro, a 5 min da Praia do Forte",
+    "endereco": "Av. Teixeira e Souza, 1056 · Centro, Cabo Frio (RJ)",
+    "mapa": "Green Hoteis, Av. Teixeira e Souza 1056, Cabo Frio",
+    "descricao": "Hotel no centro de Cabo Frio, a 5 minutos de carro da Praia do Forte e da Ilha do Japonês. Tem piscina externa no terraço com vista da cidade, sauna, restaurante Green Gastrobar e Wi-Fi grátis. Os 102 quartos têm ar-condicionado, frigobar, TV LED, cofre e secador de cabelo.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "CAFÉ DA MANHÃ incluído",
+     "resumo": "Café da manhã todos os dias. Almoço e jantar ficam livres pra aproveitar os restaurantes da região.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Wi-Fi"
+     ],
+     "naoInclui": [
+      "Almoço e jantar",
+      "Bebidas e consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property425860.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property192686.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property192687.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property200169.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property200170.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property200165.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property437739.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property192689.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property192691.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property437741.jpg"
+    ],
+    "quarto": {
+     "nome": "Twin Standard (2 camas de solteiro)",
+     "descricao": "Apartamento com 2 camas de solteiro, ar-condicionado, frigobar, TV LED com canais a cabo, cofre e secador de cabelo.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV LED",
+      "Wi-Fi grátis",
+      "Frigobar",
+      "Cofre",
+      "Secador de cabelo"
+     ],
+     "fotos": []
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto do Rio / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o aeroporto do Rio de Janeiro e o hotel em Cabo Frio, na ida e na volta.",
+     "info": [
+      "O trajeto Rio x Cabo Frio leva em torno de 2h30 a 3 horas",
+      "O horário da volta é informado no dia anterior"
+     ]
+    },
+    {
+     "tipo": "Seguro",
+     "icone": "🛡️",
+     "nome": "Cobertura de cancelamento involuntário de viagem",
+     "quando": "Desde a compra",
+     "descricao": "Se precisar cancelar a viagem por um motivo coberto (como doença ou acidente), vocês recebem de volta até R$ 2.000 do que foi pago.",
+     "info": [
+      "Consulta com a gente a lista de motivos cobertos"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "5.484,94",
+     "por": "5.128,86",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 365,66 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.484,94",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 2,
+        "valor": "2.742,47",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 3,
+        "valor": "1.828,31",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 4,
+        "valor": "1.371,24",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 5,
+        "valor": "1.096,99",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 6,
+        "valor": "914,16",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 7,
+        "valor": "783,56",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 8,
+        "valor": "685,62",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 9,
+        "valor": "609,44",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 10,
+        "valor": "548,49",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 11,
+        "valor": "498,63",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 12,
+        "valor": "457,08",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 13,
+        "valor": "421,92",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 14,
+        "valor": "391,78",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 15,
+        "valor": "365,66",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 914,16 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.484,94",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 2,
+        "valor": "2.742,47",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 3,
+        "valor": "1.828,31",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 4,
+        "valor": "1.371,24",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 5,
+        "valor": "1.096,99",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 6,
+        "valor": "914,16",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 7,
+        "valor": "799,23",
+        "obs": "com acréscimo",
+        "total": "5.594,64"
+       },
+       {
+        "n": 8,
+        "valor": "702,76",
+        "obs": "com acréscimo",
+        "total": "5.622,06"
+       },
+       {
+        "n": 9,
+        "valor": "627,72",
+        "obs": "com acréscimo",
+        "total": "5.649,49"
+       },
+       {
+        "n": 10,
+        "valor": "567,69",
+        "obs": "com acréscimo",
+        "total": "5.676,91"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 914,16 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.484,94",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 2,
+        "valor": "2.742,47",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 3,
+        "valor": "1.828,31",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 4,
+        "valor": "1.371,24",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 5,
+        "valor": "1.096,99",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       },
+       {
+        "n": 6,
+        "valor": "914,16",
+        "obs": "sem acréscimo",
+        "total": "5.484,94"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 173,
+   "inicial": false,
+   "grupo": "veridiana-janeiro-2027",
+   "opcao": 2,
+   "opcaoNome": "2 ADULTOS · Cabo Frio · Green Hotéis (café da manhã)",
+   "comparar": true
+  },
+  {
+   "slug": "rio-e-recife-janeiro-opcoes-recife-el-aram",
+   "destino": "Recife",
+   "titulo": "Recife no El Aram Beach Boa Viagem",
+   "chamada": "Seis noites a uma quadra da Praia de Boa Viagem, com café da manhã e voo direto da Azul de Porto Alegre pra Recife.",
+   "black": false,
+   "selo": "Voo direto · Café da manhã",
+   "foto": "4716938",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "2 adultos",
+   "dias": 7,
+   "noites": 6,
+   "ida": "2027-01-15",
+   "volta": "2027-01-21",
+   "idaTxt": "sex, 15 de jan",
+   "voltaTxt": "qui, 21 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (Azul, voo direto saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "El Aram Beach Boa Viagem Hotel, apto Standard (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ]
+   ],
+   "pix": "6.186,39",
+   "parcelas": 15,
+   "parcela": "443,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NDAwMjB8MET4nBZH34LYRMc2Dd3VaJ4",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sex, 15 de jan",
+     "cia": "Azul",
+     "resumo": "Voo direto · 4h05",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "15/01",
+        "hora": "07:35",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "15/01",
+        "hora": "11:40",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "voo": "AD 4151",
+       "duracao": "4h05"
+      }
+     ],
+     "conexoes": []
+    },
+    {
+     "tipo": "Volta",
+     "data": "qui, 21 de jan",
+     "cia": "Azul",
+     "resumo": "Voo direto · 4h30",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "21/01",
+        "hora": "17:25",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "chegada": {
+        "data": "21/01",
+        "hora": "21:55",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "AD 4150",
+       "duracao": "4h30"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "El Aram Beach Boa Viagem Hotel",
+    "regime": "Café da manhã",
+    "noites": 6,
+    "checkin": "15/01 (14h)",
+    "checkout": "21/01 (12h)",
+    "tarifa": "Cancelamento grátis até 31/12/2026",
+    "destaque": "A uma quadra da Praia de Boa Viagem",
+    "endereco": "Rua dos Navegantes, 435 · Boa Viagem, Recife (PE)",
+    "mapa": "El Aram Beach Boa Viagem Hotel, Rua dos Navegantes 435, Recife",
+    "descricao": "Hotel a uma quadra da Praia de Boa Viagem, perto de shoppings, do polo gastronômico e com acesso fácil a Olinda e ao aeroporto. Tem 140 apartamentos com TV, Wi-Fi, frigobar e ar-condicionado, piscina, restaurante com buffet de café da manhã e opções à la carte no almoço e no jantar. É pet friendly (animais até 15 kg, com taxa).",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "CAFÉ DA MANHÃ incluído",
+     "resumo": "Café da manhã todos os dias. Almoço e jantar ficam livres pra aproveitar os restaurantes da região.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Wi-Fi"
+     ],
+     "naoInclui": [
+      "Almoço e jantar",
+      "Bebidas e consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/14849/Property/1193370.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2177004.jpg",
+     "https://media.omnibees.com/Images/14849/Property/816710.jpg",
+     "https://media.omnibees.com/Images/14849/Property/1193372.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5207178.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217216.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2034290.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2177003.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5207180.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217212.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217217.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217215.jpg",
+     "https://media.omnibees.com/Images/14849/Property/1093077.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217219.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard",
+     "descricao": "Apartamento moderno para 2 pessoas, com ar-condicionado, TV, Wi-Fi e frigobar.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Wi-Fi grátis",
+      "Frigobar",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/14849/Property/5207178.jpg",
+      "https://media.omnibees.com/Images/14849/Property/5207180.jpg",
+      "https://media.omnibees.com/Images/14849/Property/816710.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Recife e o hotel em Boa Viagem, com a Luck Receptivo.",
+     "info": [
+      "Na chegada, um funcionário da Luck (blusa verde) te espera com uma placa no teu nome",
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "6.632,18",
+     "por": "6.186,39",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 442,15 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "6.632,18",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 2,
+        "valor": "3.316,09",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 3,
+        "valor": "2.210,73",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 4,
+        "valor": "1.658,05",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 5,
+        "valor": "1.326,44",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 6,
+        "valor": "1.105,36",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 7,
+        "valor": "947,45",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 8,
+        "valor": "829,02",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 9,
+        "valor": "736,91",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 10,
+        "valor": "663,22",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 11,
+        "valor": "602,93",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 12,
+        "valor": "552,68",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 13,
+        "valor": "510,17",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 14,
+        "valor": "473,73",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 15,
+        "valor": "442,15",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.105,36 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "6.632,18",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 2,
+        "valor": "3.316,09",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 3,
+        "valor": "2.210,73",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 4,
+        "valor": "1.658,05",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 5,
+        "valor": "1.326,44",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 6,
+        "valor": "1.105,36",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 7,
+        "valor": "966,40",
+        "obs": "com acréscimo",
+        "total": "6.764,82"
+       },
+       {
+        "n": 8,
+        "valor": "849,75",
+        "obs": "com acréscimo",
+        "total": "6.797,98"
+       },
+       {
+        "n": 9,
+        "valor": "759,02",
+        "obs": "com acréscimo",
+        "total": "6.831,15"
+       },
+       {
+        "n": 10,
+        "valor": "686,43",
+        "obs": "com acréscimo",
+        "total": "6.864,31"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.105,36 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "6.632,18",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 2,
+        "valor": "3.316,09",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 3,
+        "valor": "2.210,73",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 4,
+        "valor": "1.658,05",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 5,
+        "valor": "1.326,44",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       },
+       {
+        "n": 6,
+        "valor": "1.105,36",
+        "obs": "sem acréscimo",
+        "total": "6.632,18"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 174,
+   "inicial": false,
+   "grupo": "veridiana-janeiro-2027",
+   "opcao": 3,
+   "opcaoNome": "2 ADULTOS · Recife · El Aram Beach Boa Viagem (café da manhã)",
+   "comparar": true
+  },
+  {
+   "slug": "rio-e-recife-janeiro-opcoes-recife-el-aram-passeios",
+   "destino": "Recife",
+   "titulo": "Recife no El Aram Beach, com Porto de Galinhas e Maragogi",
+   "chamada": "Seis noites a uma quadra da Praia de Boa Viagem, com café da manhã, voo direto da Azul e passeios às piscinas naturais de Porto de Galinhas e de Maragogi.",
+   "black": false,
+   "selo": "Voo direto · Com passeios",
+   "foto": "4716938",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "2 adultos",
+   "dias": 7,
+   "noites": 6,
+   "ida": "2027-01-15",
+   "volta": "2027-01-21",
+   "idaTxt": "sex, 15 de jan",
+   "voltaTxt": "qui, 21 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (Azul, voo direto saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "El Aram Beach Boa Viagem Hotel, apto Standard (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "🐠",
+     "Passeio a Porto de Galinhas"
+    ],
+    [
+     "🏝️",
+     "Passeio a Maragogi"
+    ]
+   ],
+   "pix": "6.774,96",
+   "parcelas": 15,
+   "parcela": "485,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NDAwMjB8MET4nBZH34LYRMc2Dd3VaJ4&option=2",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sex, 15 de jan",
+     "cia": "Azul",
+     "resumo": "Voo direto · 4h05",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "15/01",
+        "hora": "07:35",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "15/01",
+        "hora": "11:40",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "voo": "AD 4151",
+       "duracao": "4h05"
+      }
+     ],
+     "conexoes": []
+    },
+    {
+     "tipo": "Volta",
+     "data": "qui, 21 de jan",
+     "cia": "Azul",
+     "resumo": "Voo direto · 4h30",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "21/01",
+        "hora": "17:25",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife (Guararapes)"
+       },
+       "chegada": {
+        "data": "21/01",
+        "hora": "21:55",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "AD 4150",
+       "duracao": "4h30"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "El Aram Beach Boa Viagem Hotel",
+    "regime": "Café da manhã",
+    "noites": 6,
+    "checkin": "15/01 (14h)",
+    "checkout": "21/01 (12h)",
+    "tarifa": "Cancelamento grátis até 31/12/2026",
+    "destaque": "A uma quadra da Praia de Boa Viagem",
+    "endereco": "Rua dos Navegantes, 435 · Boa Viagem, Recife (PE)",
+    "mapa": "El Aram Beach Boa Viagem Hotel, Rua dos Navegantes 435, Recife",
+    "descricao": "Hotel a uma quadra da Praia de Boa Viagem, perto de shoppings, do polo gastronômico e com acesso fácil a Olinda e ao aeroporto. Tem 140 apartamentos com TV, Wi-Fi, frigobar e ar-condicionado, piscina, restaurante com buffet de café da manhã e opções à la carte no almoço e no jantar. É pet friendly (animais até 15 kg, com taxa).",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "CAFÉ DA MANHÃ incluído",
+     "resumo": "Café da manhã todos os dias. Almoço e jantar ficam livres pra aproveitar os restaurantes da região.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Wi-Fi"
+     ],
+     "naoInclui": [
+      "Almoço e jantar",
+      "Bebidas e consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/14849/Property/1193370.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2177004.jpg",
+     "https://media.omnibees.com/Images/14849/Property/816710.jpg",
+     "https://media.omnibees.com/Images/14849/Property/1193372.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5207178.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217216.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2034290.jpg",
+     "https://media.omnibees.com/Images/14849/Property/2177003.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5207180.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217212.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217217.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217215.jpg",
+     "https://media.omnibees.com/Images/14849/Property/1093077.jpg",
+     "https://media.omnibees.com/Images/14849/Property/5217219.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard",
+     "descricao": "Apartamento moderno para 2 pessoas, com ar-condicionado, TV, Wi-Fi e frigobar.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Wi-Fi grátis",
+      "Frigobar",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/14849/Property/5207178.jpg",
+      "https://media.omnibees.com/Images/14849/Property/5207180.jpg",
+      "https://media.omnibees.com/Images/14849/Property/816710.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Recife e o hotel em Boa Viagem, com a Luck Receptivo.",
+     "info": [
+      "Na chegada, um funcionário da Luck (blusa verde) te espera com uma placa no teu nome",
+      "O horário da volta é informado no dia anterior"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🐠",
+     "nome": "Porto de Galinhas",
+     "quando": "Previsto pra 18/01",
+     "descricao": "Dia inteiro em Porto de Galinhas, com as piscinas naturais cheias de peixinhos na maré baixa e a vila cheia de lojinhas e restaurantes.",
+     "info": [
+      "Passeio regular (compartilhado), saindo do hotel",
+      "Jangada até as piscinas naturais, refeições e bebidas pagos à parte"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏝️",
+     "nome": "Maragogi (AL)",
+     "quando": "Previsto pra 20/01",
+     "descricao": "O Caribe brasileiro, com as piscinas naturais de água cristalina das Galés de Maragogi.",
+     "info": [
+      "Viagem perto da lua cheia (22/01), período de marés mais baixas, bom pras piscinas naturais",
+      "Passeio regular (compartilhado), saindo do hotel",
+      "Catamarã até as piscinas naturais, refeições e bebidas pagos à parte"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "7.265,05",
+     "por": "6.774,96",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 484,34 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.265,05",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 2,
+        "valor": "3.632,53",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 3,
+        "valor": "2.421,68",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 4,
+        "valor": "1.816,26",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 5,
+        "valor": "1.453,01",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 6,
+        "valor": "1.210,84",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 7,
+        "valor": "1.037,86",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 8,
+        "valor": "908,13",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 9,
+        "valor": "807,23",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 10,
+        "valor": "726,51",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 11,
+        "valor": "660,46",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 12,
+        "valor": "605,42",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 13,
+        "valor": "558,85",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 14,
+        "valor": "518,93",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 15,
+        "valor": "484,34",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.210,84 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.265,05",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 2,
+        "valor": "3.632,53",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 3,
+        "valor": "2.421,68",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 4,
+        "valor": "1.816,26",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 5,
+        "valor": "1.453,01",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 6,
+        "valor": "1.210,84",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 7,
+        "valor": "1.058,62",
+        "obs": "com acréscimo",
+        "total": "7.410,35"
+       },
+       {
+        "n": 8,
+        "valor": "930,83",
+        "obs": "com acréscimo",
+        "total": "7.446,68"
+       },
+       {
+        "n": 9,
+        "valor": "831,44",
+        "obs": "com acréscimo",
+        "total": "7.483,00"
+       },
+       {
+        "n": 10,
+        "valor": "751,93",
+        "obs": "com acréscimo",
+        "total": "7.519,33"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.210,84 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.265,05",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 2,
+        "valor": "3.632,53",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 3,
+        "valor": "2.421,68",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 4,
+        "valor": "1.816,26",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 5,
+        "valor": "1.453,01",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       },
+       {
+        "n": 6,
+        "valor": "1.210,84",
+        "obs": "sem acréscimo",
+        "total": "7.265,05"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 175,
+   "inicial": false,
+   "grupo": "veridiana-janeiro-2027",
+   "opcao": 4,
+   "opcaoNome": "2 ADULTOS · Recife · El Aram + Porto de Galinhas e Maragogi (café da manhã)",
+   "comparar": true
+  },
+  {
    "slug": "nordeste-ferias-janeiro-2-adultos-porto-seguro-portobello-park-passeios",
    "destino": "Porto Seguro",
    "titulo": "Porto Seguro no Portobello Park Hotel, com Trancoso, Arraial e Centro Histórico",
