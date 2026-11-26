@@ -37,6 +37,31 @@ def cod_txt(p):
     return f"#{p['cod']}" if p.get('cod') else ""
 
 
+def orc_num(p):
+    """Nº do orçamento no Infotravel, lido do token do link (ou do campo orcamentoNum)."""
+    if p.get("orcamentoNum"):
+        return str(p["orcamentoNum"])
+    import base64, re as _re
+    m = _re.search(r"token=([^&]+)", p.get("orcamento") or "")
+    if not m:
+        return ""
+    t = m.group(1)[:24]
+    try:
+        d = base64.urlsafe_b64decode(t + "=" * (-len(t) % 4)).decode("latin1")
+    except Exception:
+        return ""
+    m2 = _re.search(r"\d{6,8}", d)
+    return m2.group(0) if m2 else ""
+
+
+def cod_chips(p):
+    out = f'<span class="cod-pk">Código do pacote <b>{cod_txt(p)}</b></span>' if p.get('cod') else ''
+    n = orc_num(p)
+    if n:
+        out += f' <span class="cod-pk">Orçamento Nº <b>{n}</b></span>'
+    return out
+
+
 def msg_pacote(p):
     c = f" ({cod_txt(p)})" if p.get('cod') else ""
     return f"Oi! Vi no site o pacote{c} {p['titulo']} ({p['idaTxt'].split(' (')[0]} a {p['voltaTxt'].split(' (')[0]}) e quero saber mais."
@@ -857,7 +882,7 @@ def pagina_roteiro(p):
     body = f"""<body>{topo()}
 <main class="wrap"><a class="back" href="/">← Todos os pacotes</a>
 <section class="rt-hero" style="background-image:url('/{e(p['capa'])}')"><div class="in"><span class="chip">{e(p.get('etiqueta','ROTEIRO PERSONALIZADO'))}</span>{f'<span class="selo">{e(p["selo"])}</span>' if p.get('selo') else ''}
-<h1>{e(p['titulo'])}</h1><p>{e(p['chamada'])}</p>{f'<span class="cod-pk">Código do pacote <b>{cod_txt(p)}</b></span>' if p.get('cod') else ''}</div></section>
+<h1>{e(p['titulo'])}</h1><p>{e(p['chamada'])}</p>{cod_chips(p)}</div></section>
 <div class="rt-grid"><div>
 <div class="facts"><div class="fact"><b>{p['dias']} dias</b><span>{p['noites']} noites</span></div><div class="fact"><b>{e(p['datasCurto'])}</b><span>{e(p['ano'])}</span></div><div class="fact"><b>Saída</b><span>Porto Alegre</span></div></div>
 <div class="box"><h2>O roteiro inclui</h2><ul class="inc">{inc}</ul><p class="nao">{e(p.get('naoInclui',''))}</p></div></div>
@@ -895,7 +920,7 @@ def pagina(p):
 <main class="wrap"><a class="back" href="/">← Todos os pacotes</a>
 <div class="pk"><div class="media">{media}</div>
 <div><span class="chip bf">{'🖤💛 BLACK NOVEMBER' if p.get('black') else 'PACOTE'}</span>{selo}
-{f'<span class="cod-pk">Código do pacote <b>{cod_txt(p)}</b></span>' if p.get('cod') else ''}{seletor_opcoes(p)}<h1>{e(p['titulo'])}</h1><p class="lead">{e(p['chamada'])}</p>{nav_det(p)}
+{cod_chips(p)}{seletor_opcoes(p)}<h1>{e(p['titulo'])}</h1><p class="lead">{e(p['chamada'])}</p>{nav_det(p)}
 <div class="facts"><div class="fact"><b>{p['pessoas']}</b><span>{e(p.get('pessoasTxt') or 'pessoas')}</span></div><div class="fact"><b>{p['dias']} dias</b><span>{p['noites']} noites</span></div>{'<div class="fact"><b>Saída</b><span>Porto Alegre</span></div>' if p.get('voos') else '<div class="fact"><b>Só</b><span>hospedagem</span></div>'}</div>
 <div class="box datas"><h2>Datas</h2><p>📅 <span><b>{'Ida' if p.get('voos') else 'Check-in'}:</b> {e(p['idaTxt'])}</span></p><p>📅 <span><b>{'Retorno' if p.get('voos') else 'Check-out'}:</b> {e(p['voltaTxt'])}</span></p></div>
 <div class="box"><h2>O pacote inclui</h2><ul class="inc">{inc}</ul></div>
