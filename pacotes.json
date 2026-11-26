@@ -6,6 +6,500 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "nordeste-ferias-janeiro-2-adultos-porto-seguro-portobello-park-passeios",
+   "destino": "Porto Seguro",
+   "titulo": "Porto Seguro no Portobello Park Hotel, com Trancoso, Arraial e Centro Histórico",
+   "chamada": "Sete noites a 390 m da Praia de Taperapuã, com café da manhã e jantar no hotel e passeios ao Centro Histórico de Porto Seguro, a Trancoso e a Arraial d’Ajuda.",
+   "black": true,
+   "selo": "Black November · Meia pensão",
+   "foto": "34722367",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "2 adultos",
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-01-20",
+   "volta": "2027-01-27",
+   "idaTxt": "qua, 20 de jan",
+   "voltaTxt": "qua, 27 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (LATAM saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Portobello Park Hotel, apto Superior (MEIA PENSÃO: café da manhã e jantar)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "⛪",
+     "Passeio pela Cidade Histórica de Porto Seguro"
+    ],
+    [
+     "🌴",
+     "Passeio a Trancoso"
+    ],
+    [
+     "🏖️",
+     "Passeio a Arraial d’Ajuda"
+    ]
+   ],
+   "pix": "13.143,20",
+   "parcelas": 15,
+   "parcela": "942,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0MzkyNDd8MMOZMXnzqpRkb7L7rDp5Fok",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qua, 20 de jan",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 7h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "10:00",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "11:35",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "LA 3155",
+       "duracao": "1h35"
+      },
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "15:15",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "17:15",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "voo": "LA 4704",
+       "duracao": "2h"
+      }
+     ],
+     "conexoes": [
+      "Espera de 3h40 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 27 de jan",
+     "cia": "LATAM",
+     "resumo": "1 conexão em Brasília · 5h05",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "27/01",
+        "hora": "18:10",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "chegada": {
+        "data": "27/01",
+        "hora": "19:55",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "voo": "LA 4753",
+       "duracao": "1h45"
+      },
+      {
+       "saida": {
+        "data": "27/01",
+        "hora": "20:35",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "chegada": {
+        "data": "27/01",
+        "hora": "23:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "LA 3879",
+       "duracao": "2h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 40min em Brasília"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Portobello Park Hotel",
+    "regime": "Meia pensão",
+    "noites": 7,
+    "checkin": "20/01 (14h)",
+    "checkout": "27/01 (12h)",
+    "tarifa": "Cancelamento grátis até 20/12/2026",
+    "destaque": "A 390 m da Praia de Taperapuã",
+    "endereco": "Praia de Taperapuã · Porto Seguro (BA)",
+    "descricao": "Hotel a 390 metros da Praia de Taperapuã, a mais procurada de Porto Seguro, perto das melhores barracas de praia e restaurantes. Tem piscinas para adultos e crianças, playground aquático com toboágua, campo de futebol, quadras de tênis, vôlei e poliesportiva, salão de jogos, sauna e recreação diária com jogos, música e dança.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "MEIA PENSÃO: café da manhã + jantar",
+     "resumo": "Duas refeições por dia no restaurante do hotel. O almoço fica livre pros passeios e pras barracas de praia.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Jantar todos os dias no restaurante do hotel",
+      "Uso da estrutura: piscinas, toboágua, quadras, sauna e recreação"
+     ],
+     "naoInclui": [
+      "Almoço",
+      "Bebidas (inclusive no jantar), pagas à parte",
+      "Consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/4537/Property/615610.jpg",
+     "https://media.omnibees.com/Images/4537/Property/5244982.jpg",
+     "https://media.omnibees.com/Images/4537/Property/615600.jpg",
+     "https://media.omnibees.com/Images/4537/Property/615608.jpg",
+     "https://media.omnibees.com/Images/4537/Property/615612.jpg",
+     "https://media.omnibees.com/Images/4537/Property/615607.jpg",
+     "https://media.omnibees.com/Images/4537/Property/5244981.jpg",
+     "https://media.omnibees.com/Images/4537/Property/5770344.jpg",
+     "https://media.omnibees.com/Images/4537/Property/615602.jpg",
+     "https://media.omnibees.com/Images/4537/Property/5244978.jpg",
+     "https://media.omnibees.com/Images/4537/Property/5244985.jpg",
+     "https://media.omnibees.com/Images/4537/Property/5244983.jpg"
+    ],
+    "quarto": {
+     "nome": "Superior",
+     "descricao": "Apartamento amplo e recém-reformado, com piso frio, camas box e cortinas blackout.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Telefone",
+      "Minibar",
+      "Banheiro privativo"
+     ],
+     "fotos": []
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular entre o Aeroporto de Porto Seguro e o hotel, com city tour de cortesia.",
+     "info": [
+      "O horário da volta é informado no dia anterior"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "⛪",
+     "nome": "Cidade Histórica de Porto Seguro",
+     "quando": "Previsto pra 21/01",
+     "descricao": "Passeio pelo centro histórico, onde o Brasil começou: igrejas do século XVI, o Marco do Descobrimento e o mirante com vista pro mar.",
+     "info": [
+      "Passeio regular (compartilhado), saindo do hotel"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🌴",
+     "nome": "Trancoso",
+     "quando": "Previsto pra 22/01",
+     "descricao": "O Quadrado de Trancoso, com a igrejinha de São João Batista, as casinhas coloridas e as praias de falésia.",
+     "info": [
+      "Passeio regular (compartilhado), saindo do hotel",
+      "Refeições e bebidas pagos à parte"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏖️",
+     "nome": "Arraial d’Ajuda",
+     "quando": "Previsto pra 24/01",
+     "descricao": "Travessia de balsa até Arraial, com a Rua do Mucugê, a igreja de Nossa Senhora d’Ajuda e as praias.",
+     "info": [
+      "Passeio regular (compartilhado), saindo do hotel",
+      "Refeições e bebidas pagos à parte"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "14.116,11",
+     "por": "13.143,20",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 941,07 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "14.116,11",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 2,
+        "valor": "7.058,06",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 3,
+        "valor": "4.705,37",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 4,
+        "valor": "3.529,03",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 5,
+        "valor": "2.823,22",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 6,
+        "valor": "2.352,69",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 7,
+        "valor": "2.016,59",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 8,
+        "valor": "1.764,51",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 9,
+        "valor": "1.568,46",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 10,
+        "valor": "1.411,61",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 11,
+        "valor": "1.283,28",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 12,
+        "valor": "1.176,34",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 13,
+        "valor": "1.085,85",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 14,
+        "valor": "1.008,29",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 15,
+        "valor": "941,07",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.352,69 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "14.116,11",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 2,
+        "valor": "7.058,06",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 3,
+        "valor": "4.705,37",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 4,
+        "valor": "3.529,03",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 5,
+        "valor": "2.823,22",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 6,
+        "valor": "2.352,69",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 7,
+        "valor": "2.056,92",
+        "obs": "com acréscimo",
+        "total": "14.398,43"
+       },
+       {
+        "n": 8,
+        "valor": "1.808,63",
+        "obs": "com acréscimo",
+        "total": "14.469,01"
+       },
+       {
+        "n": 9,
+        "valor": "1.615,51",
+        "obs": "com acréscimo",
+        "total": "14.539,59"
+       },
+       {
+        "n": 10,
+        "valor": "1.461,02",
+        "obs": "com acréscimo",
+        "total": "14.610,17"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.352,69 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "14.116,11",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 2,
+        "valor": "7.058,06",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 3,
+        "valor": "4.705,37",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 4,
+        "valor": "3.529,03",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 5,
+        "valor": "2.823,22",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       },
+       {
+        "n": 6,
+        "valor": "2.352,69",
+        "obs": "sem acréscimo",
+        "total": "14.116,11"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 171,
+   "inicial": false,
+   "grupo": "nordeste-janeiro-2027-3-adultos",
+   "opcao": 11,
+   "opcaoNome": "2 ADULTOS · Porto Seguro · Portobello Park + Trancoso, Arraial e Centro Histórico (meia pensão)",
+   "comparar": true
+  },
+  {
    "slug": "nordeste-ferias-janeiro-2-adultos-porto-de-galinhas-marulhos-passeios",
    "destino": "Porto de Galinhas",
    "titulo": "Porto de Galinhas no Marulhos Resort, com Carneiros e Maragogi",
