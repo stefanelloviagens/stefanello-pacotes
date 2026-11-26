@@ -6,6 +6,434 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "rio-e-recife-janeiro-opcoes-natal-cabo-frio-green",
+   "destino": "Cabo Frio",
+   "titulo": "Natal em Cabo Frio no Green Hotéis",
+   "chamada": "Passa o Natal fora: quatro noites em Cabo Frio, de 23 a 27 de dezembro, a 5 minutos da Praia do Forte, com café da manhã e voo direto de Porto Alegre pro Rio.",
+   "black": true,
+   "selo": "Black November · 🎄 Natal fora de casa",
+   "foto": "https://media.infotravel.com.br/image/upload/c_crop,h_480,w_800/a172ce8bcb5ed8f600ad1f4fa8999c83.jpg",
+   "img": "",
+   "pessoas": 2,
+   "pessoasTxt": "1 adulto + 1 criança (7 anos)",
+   "dias": 5,
+   "noites": 4,
+   "ida": "2026-12-23",
+   "volta": "2026-12-27",
+   "idaTxt": "qua, 23 de dez",
+   "voltaTxt": "dom, 27 de dez",
+   "inclui": [
+    [
+     "🎄",
+     "Natal fora de casa: 23 a 27 de dezembro, com a noite de Natal em Cabo Frio"
+    ],
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL, voo direto saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Green Hotéis Cabo Frio, apto Standard (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto do Rio / hotel / aeroporto"
+    ],
+    [
+     "🛡️",
+     "Cobertura de cancelamento involuntário de viagem (até R$ 2.000)"
+    ]
+   ],
+   "pix": "5.463,46",
+   "parcelas": 15,
+   "parcela": "390,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-26",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NDEzMjV8MLWiYsHTDX2rFBVtXWzrCPc",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "qua, 23 de dez",
+     "cia": "GOL",
+     "resumo": "Voo direto · 1h55",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "23/12",
+        "hora": "10:10",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "23/12",
+        "hora": "12:05",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Aeroporto do Galeão"
+       },
+       "voo": "G3 2085",
+       "duracao": "1h55"
+      }
+     ],
+     "conexoes": []
+    },
+    {
+     "tipo": "Volta",
+     "data": "dom, 27 de dez",
+     "cia": "GOL",
+     "resumo": "Voo direto · 2h10",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "27/12",
+        "hora": "15:35",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Aeroporto do Galeão"
+       },
+       "chegada": {
+        "data": "27/12",
+        "hora": "17:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 2090",
+       "duracao": "2h10"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "Green Hotéis Cabo Frio",
+    "regime": "Café da manhã",
+    "noites": 4,
+    "checkin": "23/12",
+    "checkout": "27/12",
+    "tarifa": "Cancelamento grátis até 13/12/2026",
+    "destaque": "No centro, a 5 min da Praia do Forte",
+    "endereco": "Av. Teixeira e Souza, 1056 · Centro, Cabo Frio (RJ)",
+    "mapa": "Green Hoteis, Av. Teixeira e Souza 1056, Cabo Frio",
+    "descricao": "Hotel no centro de Cabo Frio, a 5 minutos de carro da Praia do Forte e da Ilha do Japonês. Tem piscina externa no terraço com vista da cidade, sauna, restaurante Green Gastrobar e Wi-Fi grátis. Os 102 quartos têm ar-condicionado, frigobar, TV LED, cofre e secador de cabelo.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "CAFÉ DA MANHÃ incluído",
+     "resumo": "Café da manhã todos os dias. Almoço e jantar ficam livres pra aproveitar os restaurantes da região.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Wi-Fi"
+     ],
+     "naoInclui": [
+      "Almoço e jantar",
+      "Bebidas e consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property425860.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property192686.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property192687.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property200169.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property200170.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property200165.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property437739.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property192689.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property192691.jpg",
+     "https://i.t4w.mobi/h/BR/1027418/1045914/1045914_6037Property437741.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard",
+     "descricao": "Apartamento com ar-condicionado, frigobar, TV LED com canais a cabo, cofre e secador de cabelo.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV LED",
+      "Wi-Fi grátis",
+      "Frigobar",
+      "Cofre",
+      "Secador de cabelo"
+     ],
+     "fotos": []
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto do Rio / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto do Galeão e o hotel em Cabo Frio, na ida e na volta.",
+     "info": [
+      "Na chegada, o recepcionista te espera no saguão do aeroporto com uma placa",
+      "O trajeto Rio x Cabo Frio leva cerca de 3h30, com uma parada de 15 a 20 minutos no caminho",
+      "Os horários do transfer são fixos e o da volta é informado antes"
+     ]
+    },
+    {
+     "tipo": "Seguro",
+     "icone": "🛡️",
+     "nome": "Cobertura de cancelamento involuntário de viagem",
+     "quando": "Desde a compra",
+     "descricao": "Se precisar cancelar a viagem por um motivo coberto (como doença ou acidente), tu recebe de volta até R$ 2.000 do que foi pago.",
+     "info": [
+      "Consulta com a gente a lista de motivos cobertos"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "5.844,42",
+     "por": "5.463,46",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 389,63 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.844,42",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 2,
+        "valor": "2.922,21",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 3,
+        "valor": "1.948,14",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 4,
+        "valor": "1.461,11",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 5,
+        "valor": "1.168,88",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 6,
+        "valor": "974,07",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 7,
+        "valor": "834,92",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 8,
+        "valor": "730,55",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 9,
+        "valor": "649,38",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 10,
+        "valor": "584,44",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 11,
+        "valor": "531,31",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 12,
+        "valor": "487,04",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 13,
+        "valor": "449,57",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 14,
+        "valor": "417,46",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 15,
+        "valor": "389,63",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 974,07 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.844,42",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 2,
+        "valor": "2.922,21",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 3,
+        "valor": "1.948,14",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 4,
+        "valor": "1.461,11",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 5,
+        "valor": "1.168,88",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 6,
+        "valor": "974,07",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 7,
+        "valor": "851,62",
+        "obs": "com acréscimo",
+        "total": "5.961,31"
+       },
+       {
+        "n": 8,
+        "valor": "748,82",
+        "obs": "com acréscimo",
+        "total": "5.990,53"
+       },
+       {
+        "n": 9,
+        "valor": "668,86",
+        "obs": "com acréscimo",
+        "total": "6.019,75"
+       },
+       {
+        "n": 10,
+        "valor": "604,90",
+        "obs": "com acréscimo",
+        "total": "6.048,97"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 974,07 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "5.844,42",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 2,
+        "valor": "2.922,21",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 3,
+        "valor": "1.948,14",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 4,
+        "valor": "1.461,11",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 5,
+        "valor": "1.168,88",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       },
+       {
+        "n": 6,
+        "valor": "974,07",
+        "obs": "sem acréscimo",
+        "total": "5.844,42"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 177,
+   "inicial": false,
+   "grupo": "veridiana-janeiro-2027",
+   "opcao": 3,
+   "opcaoNome": "🎄 NATAL · 1 ADULTO + 1 CRIANÇA · Cabo Frio · Green Hotéis, 23 a 27/12 (café da manhã)",
+   "comparar": true
+  },
+  {
    "slug": "rio-e-recife-janeiro-opcoes-porto-seguro-orquideas",
    "destino": "Porto Seguro",
    "titulo": "Porto Seguro no Orquídeas Praia Hotel, com City Tour e Trancoso",
@@ -499,7 +927,7 @@
    "cod": 176,
    "inicial": false,
    "grupo": "veridiana-janeiro-2027",
-   "opcao": 5,
+   "opcao": 6,
    "opcaoNome": "1 ADULTO + 1 CRIANÇA · Porto Seguro · Orquídeas Praia Hotel + City Tour e Trancoso (café da manhã)",
    "comparar": true
   },
@@ -1761,7 +2189,7 @@
    "cod": 174,
    "inicial": false,
    "grupo": "veridiana-janeiro-2027",
-   "opcao": 3,
+   "opcao": 4,
    "opcaoNome": "1 ADULTO + 1 CRIANÇA · Recife · El Aram Beach Boa Viagem (café da manhã)",
    "comparar": true
   },
@@ -2208,7 +2636,7 @@
    "cod": 175,
    "inicial": false,
    "grupo": "veridiana-janeiro-2027",
-   "opcao": 4,
+   "opcao": 5,
    "opcaoNome": "1 ADULTO + 1 CRIANÇA · Recife · El Aram + Porto de Galinhas e Maragogi (café da manhã)",
    "comparar": true
   },
