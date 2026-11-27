@@ -6,6 +6,455 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "porto-de-galinhas-muro-alto-porto-alto-resort-15-a-22-mar",
+   "destino": "Porto de Galinhas",
+   "titulo": "Porto de Galinhas: 7 noites pé na areia em Muro Alto",
+   "chamada": "Sete noites no Porto Alto Resort, pé na areia em Muro Alto: a praia mais incrível de Porto de Galinhas, com mar calmo e cristalino que vira uma piscina natural de água morna.",
+   "black": false,
+   "selo": "🏝️ Pé na areia em Muro Alto",
+   "foto": "https://media.omnibees.com/Images/19569/Property/1404453.jpg",
+   "img": "",
+   "pessoas": 2,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-03-15",
+   "volta": "2027-03-22",
+   "idaTxt": "seg, 15 de mar",
+   "voltaTxt": "seg, 22 de mar",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Porto Alto Resort, pé na areia em Muro Alto, apto Smart (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ]
+   ],
+   "pix": "8.333,01",
+   "parcelas": 15,
+   "parcela": "596,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-27",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NTAyNTN8MAE8fOhznUaHeM9HEU3I_pE",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "seg, 15 de mar",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 6h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "15/03",
+        "hora": "14:50",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "15/03",
+        "hora": "16:30",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1283",
+       "duracao": "1h40"
+      },
+      {
+       "saida": {
+        "data": "15/03",
+        "hora": "17:50",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "15/03",
+        "hora": "21:05",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife"
+       },
+       "voo": "G3 1618",
+       "duracao": "3h15"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h20 em Congonhas"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "seg, 22 de mar",
+     "cia": "GOL",
+     "resumo": "1 conexão no Rio (Galeão) · 6h55",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "22/03",
+        "hora": "10:50",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife"
+       },
+       "chegada": {
+        "data": "22/03",
+        "hora": "13:50",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Aeroporto do Galeão"
+       },
+       "voo": "G3 1881",
+       "duracao": "3h"
+      },
+      {
+       "saida": {
+        "data": "22/03",
+        "hora": "15:35",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Aeroporto do Galeão"
+       },
+       "chegada": {
+        "data": "22/03",
+        "hora": "17:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 2090",
+       "duracao": "2h10"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h45 no Galeão"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Porto Alto Resort (GAV Hotéis)",
+    "regime": "Café da manhã",
+    "noites": 7,
+    "checkin": "15/03",
+    "checkout": "22/03 (11h)",
+    "tarifa": "Cancelamento grátis até 24/02/2027",
+    "destaque": "🏝️ Pé na areia em Muro Alto: mar calmo, cristalino e quentinho, uma piscina natural protegida pelos arrecifes",
+    "endereco": "Estrada de Muro Alto, s/n, Lote 02 · Muro Alto, Ipojuca (PE)",
+    "descricao": "Resort pé na areia em frente à Praia de Muro Alto, a mais bonita e calma de Porto de Galinhas: os arrecifes seguram as ondas e formam uma enorme piscina natural de água morna e cristalina, perfeita pra criança. O resort tem piscina de borda infinita, área kids com piscina infantil e brinquedoteca, sala de jogos, recreação, academia, restaurante com pratos típicos e opções à la carte, pizzaria e hamburgueria.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "CAFÉ DA MANHÃ incluído",
+     "resumo": "Café da manhã todos os dias. Almoço e jantar ficam livres pra aproveitar a praia e os restaurantes da região.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Wi-Fi"
+     ],
+     "naoInclui": [
+      "Almoço e jantar",
+      "Bebidas e consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/19569/Property/1404453.jpg",
+     "https://media.omnibees.com/Images/19569/Property/1404454.jpg",
+     "https://media.omnibees.com/Images/19569/Property/1405596.jpg",
+     "https://media.omnibees.com/Images/19569/Property/1407216.jpeg",
+     "https://media.omnibees.com/Images/19569/Property/1407217.jpeg",
+     "https://media.omnibees.com/Images/19569/Property/1419792.jpg",
+     "https://media.omnibees.com/Images/19569/Property/5912148.jpg",
+     "https://media.omnibees.com/Images/19569/Property/5912149.jpg",
+     "https://media.omnibees.com/Images/19569/Property/5912151.jpg",
+     "https://media.omnibees.com/Images/19569/Property/1405595.jpg",
+     "https://media.omnibees.com/Images/19569/Property/5912142.jpg",
+     "https://media.omnibees.com/Images/19569/Property/1404450.jpg",
+     "https://media.omnibees.com/Images/19569/Property/5912139.jpg",
+     "https://media.omnibees.com/Images/19569/Property/5912146.jpg"
+    ],
+    "quarto": {
+     "nome": "Smart (vista para a área de lazer)",
+     "descricao": "Apartamento de 32 m² com quarto com cama queen e varanda, sala com sofá-cama e cozinha americana (micro-ondas, frigobar e utensílios). Perfeito pro casal, com espaço de sobra.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "Cozinha americana",
+      "Sofá-cama",
+      "TV 39\"",
+      "Wi-Fi grátis",
+      "Frigobar"
+     ],
+     "fotos": []
+    },
+    "mapa": "Porto Alto Resort GAV, Muro Alto, Ipojuca"
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto do Recife e o hotel em Porto de Galinhas, na ida e na volta.",
+     "info": [
+      "O trajeto Recife x Muro Alto leva cerca de 1 hora",
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "8.929,96",
+     "por": "8.333,01",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 595,33 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "8.929,96",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 2,
+        "valor": "4.464,98",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 3,
+        "valor": "2.976,65",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 4,
+        "valor": "2.232,49",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 5,
+        "valor": "1.785,99",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 6,
+        "valor": "1.488,33",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 7,
+        "valor": "1.275,71",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 8,
+        "valor": "1.116,25",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 9,
+        "valor": "992,22",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 10,
+        "valor": "893,00",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 11,
+        "valor": "811,81",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 12,
+        "valor": "744,16",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 13,
+        "valor": "686,92",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 14,
+        "valor": "637,85",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 15,
+        "valor": "595,33",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.488,33 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "8.929,96",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 2,
+        "valor": "4.464,98",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 3,
+        "valor": "2.976,65",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 4,
+        "valor": "2.232,49",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 5,
+        "valor": "1.785,99",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 6,
+        "valor": "1.488,33",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 7,
+        "valor": "1.301,22",
+        "obs": "com acréscimo",
+        "total": "9.108,56"
+       },
+       {
+        "n": 8,
+        "valor": "1.144,15",
+        "obs": "com acréscimo",
+        "total": "9.153,21"
+       },
+       {
+        "n": 9,
+        "valor": "1.021,98",
+        "obs": "com acréscimo",
+        "total": "9.197,86"
+       },
+       {
+        "n": 10,
+        "valor": "924,25",
+        "obs": "com acréscimo",
+        "total": "9.242,51"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.488,33 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "8.929,96",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 2,
+        "valor": "4.464,98",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 3,
+        "valor": "2.976,65",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 4,
+        "valor": "2.232,49",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 5,
+        "valor": "1.785,99",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       },
+       {
+        "n": 6,
+        "valor": "1.488,33",
+        "obs": "sem acréscimo",
+        "total": "8.929,96"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 187,
+   "inicial": true
+  },
+  {
    "slug": "porto-seguro-trancoso-arraial-porto-geraes-7-a-13-mar-black-november",
    "destino": "Porto Seguro",
    "titulo": "Bahia 3 em 1: Porto Seguro + Trancoso + Arraial d'Ajuda com Transfer GRÁTIS",
