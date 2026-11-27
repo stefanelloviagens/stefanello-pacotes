@@ -6,6 +6,1368 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "nordeste-fevereiro-cafe-da-manha-porto-seguro-brisa-da-praia",
+   "destino": "Porto Seguro",
+   "titulo": "Porto Seguro no Brisa da Praia Hotel, com café da manhã",
+   "chamada": "Cinco noites pé na areia na Praia de Taperapuã, de mar calmo e barracas com área kids, com café da manhã.",
+   "black": false,
+   "selo": "Café da manhã · Mar calmo",
+   "foto": "https://media.infotravel.com.br/image/upload/9508EA8EB9E5BDC6DC479CB3774EEA4E.jpg",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "2 adultos + 1 criança (7 anos)",
+   "dias": 6,
+   "noites": 5,
+   "ida": "2027-02-09",
+   "volta": "2027-02-14",
+   "idaTxt": "ter, 9 de fev",
+   "voltaTxt": "dom, 14 de fev",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Brisa da Praia Hotel, apto Standard (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ]
+   ],
+   "pix": "9.152,81",
+   "parcelas": 15,
+   "parcela": "655,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-27",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NDgxMzR8MPSRKFRpB60Ul0b2TlnGUTc",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "ter, 9 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 8h55",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "05:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "07:40",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Aeroporto de Guarulhos"
+       },
+       "voo": "G3 1241",
+       "duracao": "1h55"
+      },
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "12:45",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Aeroporto de Guarulhos"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "14:40",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "voo": "G3 1658",
+       "duracao": "1h55"
+      }
+     ],
+     "conexoes": [
+      "Espera de 5h05 em Guarulhos"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "dom, 14 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 6h05",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "12:35",
+        "iata": "BPS",
+        "cidade": "Porto Seguro",
+        "aeroporto": "Aeroporto de Porto Seguro"
+       },
+       "chegada": {
+        "data": "14/02",
+        "hora": "14:45",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1503",
+       "duracao": "2h10"
+      },
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "17:00",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "14/02",
+        "hora": "18:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1282",
+       "duracao": "1h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h15 em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Brisa da Praia Hotel",
+    "regime": "Café da manhã",
+    "noites": 5,
+    "checkin": "09/02",
+    "checkout": "14/02",
+    "tarifa": "Cancelamento grátis até 29/01/2027",
+    "endereco": "Av. Beira Mar, 1860 · Praia de Taperapuã, Porto Seguro (BA)",
+    "descricao": "Hotel pé na areia na Praia de Taperapuã, a orla das barracas mais animadas de Porto Seguro. Tem piscina, bar na piscina, restaurante, academia, sala de jogos, miniclube e área kids, Wi-Fi e recepção 24 horas.",
+    "fotos": [
+     "https://media.infotravel.com.br/image/upload/9508EA8EB9E5BDC6DC479CB3774EEA4E.jpg",
+     "https://i.travelapi.com/lodging/4000000/3910000/3908800/3908751/bd33686a_z.jpg",
+     "https://i.travelapi.com/lodging/4000000/3910000/3908800/3908751/8b004cee_z.jpg",
+     "https://i.travelapi.com/lodging/4000000/3910000/3908800/3908751/87784a6e_z.jpg",
+     "https://i.travelapi.com/lodging/4000000/3910000/3908800/3908751/9497bf01_z.jpg",
+     "https://i.travelapi.com/lodging/4000000/3910000/3908800/3908751/49af501f_z.jpg",
+     "https://i.travelapi.com/lodging/4000000/3910000/3908800/3908751/05002e4d_z.jpg",
+     "https://i.travelapi.com/lodging/4000000/3910000/3908800/3908751/9e4fc6e6_z.jpg",
+     "https://i.travelapi.com/lodging/4000000/3910000/3908800/3908751/131009c0_z.jpg",
+     "https://i.travelapi.com/lodging/4000000/3910000/3908800/3908751/530ba97f_z.jpg",
+     "https://i.travelapi.com/lodging/4000000/3910000/3908800/3908751/8130d8c9_z.jpg",
+     "https://i.travelapi.com/lodging/4000000/3910000/3908800/3908751/a3744b60_z.jpg",
+     "https://i.travelapi.com/lodging/4000000/3910000/3908800/3908751/11e4228a_z.jpg"
+    ],
+    "quarto": {
+     "nome": "Standard",
+     "descricao": "Quarto com 1 cama de casal e 1 de solteiro, varanda, ar-condicionado, TV a cabo, frigobar, cofre e secador de cabelo.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "TV a cabo",
+      "Frigobar",
+      "Cofre",
+      "Secador de cabelo",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/2813/RoomTypes/5904375.jpg",
+      "https://media.omnibees.com/Images/2813/RoomTypes/2239920.jpeg",
+      "https://media.omnibees.com/Images/2813/RoomTypes/2239899.jpg"
+     ]
+    },
+    "destaque": "Pé na areia na Praia de Taperapuã, de mar calmo",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "CAFÉ DA MANHÃ incluído",
+     "resumo": "Café da manhã todos os dias. Almoço e jantar ficam livres pra aproveitar a praia e os restaurantes da região.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Wi-Fi"
+     ],
+     "naoInclui": [
+      "Almoço e jantar",
+      "Bebidas e consumo no bar"
+     ]
+    },
+    "mapa": "Brisa da Praia Hotel, Av. Beira Mar 1860, Porto Seguro"
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto de Porto Seguro e o hotel, na ida e na volta (o receptivo inclui um City Tour de cortesia, opcional).",
+     "info": [
+      "Saída do aeroporto cerca de 40 minutos após o pouso",
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "9.816,91",
+     "por": "9.152,81",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 654,46 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "9.816,91",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 2,
+        "valor": "4.908,46",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 3,
+        "valor": "3.272,30",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 4,
+        "valor": "2.454,23",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 5,
+        "valor": "1.963,38",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 6,
+        "valor": "1.636,15",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 7,
+        "valor": "1.402,42",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 8,
+        "valor": "1.227,11",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 9,
+        "valor": "1.090,77",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 10,
+        "valor": "981,69",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 11,
+        "valor": "892,45",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 12,
+        "valor": "818,08",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 13,
+        "valor": "755,15",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 14,
+        "valor": "701,21",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 15,
+        "valor": "654,46",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.636,15 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "9.816,91",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 2,
+        "valor": "4.908,46",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 3,
+        "valor": "3.272,30",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 4,
+        "valor": "2.454,23",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 5,
+        "valor": "1.963,38",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 6,
+        "valor": "1.636,15",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 7,
+        "valor": "1.430,46",
+        "obs": "com acréscimo",
+        "total": "10.013,25"
+       },
+       {
+        "n": 8,
+        "valor": "1.257,79",
+        "obs": "com acréscimo",
+        "total": "10.062,33"
+       },
+       {
+        "n": 9,
+        "valor": "1.123,49",
+        "obs": "com acréscimo",
+        "total": "10.111,42"
+       },
+       {
+        "n": 10,
+        "valor": "1.016,05",
+        "obs": "com acréscimo",
+        "total": "10.160,50"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.636,15 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "9.816,91",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 2,
+        "valor": "4.908,46",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 3,
+        "valor": "3.272,30",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 4,
+        "valor": "2.454,23",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 5,
+        "valor": "1.963,38",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       },
+       {
+        "n": 6,
+        "valor": "1.636,15",
+        "obs": "sem acréscimo",
+        "total": "9.816,91"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 182,
+   "inicial": false,
+   "grupo": "sander-porto-seguro-fev-2027",
+   "opcao": 1,
+   "opcaoNome": "2 ADULTOS + 1 CRIANÇA · Porto Seguro · Brisa da Praia (café da manhã)",
+   "comparar": true
+  },
+  {
+   "slug": "nordeste-fevereiro-cafe-da-manha-porto-de-galinhas-marulhos",
+   "destino": "Porto de Galinhas",
+   "titulo": "Porto de Galinhas no Marulhos Resort, em Muro Alto, com café da manhã",
+   "chamada": "Cinco noites pé na areia em Muro Alto, a praia de \"mar de piscina\" de Porto de Galinhas, ideal pra criança, com café da manhã.",
+   "black": false,
+   "selo": "Café da manhã · Mar calmo",
+   "foto": "https://media.omnibees.com/Images/6022/Property/208784.jpg",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "2 adultos + 1 criança (7 anos)",
+   "dias": 6,
+   "noites": 5,
+   "ida": "2027-02-09",
+   "volta": "2027-02-14",
+   "idaTxt": "ter, 9 de fev",
+   "voltaTxt": "dom, 14 de fev",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Marulhos Resort by MAI, apto Superior (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ]
+   ],
+   "pix": "9.243,26",
+   "parcelas": 15,
+   "parcela": "661,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-27",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NDgyMDl8MPu3X3sbEASG2QDZyVE1Chk",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "ter, 9 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 6h30",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "05:45",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "07:40",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Aeroporto de Guarulhos"
+       },
+       "voo": "G3 1241",
+       "duracao": "1h55"
+      },
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "09:05",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Aeroporto de Guarulhos"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "12:15",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife"
+       },
+       "voo": "G3 1586",
+       "duracao": "3h10"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h25 em Guarulhos"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "dom, 14 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 7h30",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "12:55",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife"
+       },
+       "chegada": {
+        "data": "14/02",
+        "hora": "16:20",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1621",
+       "duracao": "3h25"
+      },
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "18:45",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "14/02",
+        "hora": "20:25",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1284",
+       "duracao": "1h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h25 em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Marulhos Resort by MAI",
+    "regime": "Café da manhã",
+    "noites": 5,
+    "checkin": "09/02 (14h)",
+    "checkout": "14/02 (12h)",
+    "tarifa": "Não reembolsável",
+    "destaque": "Pé na areia em Muro Alto, o \"mar de piscina\" de Porto de Galinhas",
+    "endereco": "Praia de Muro Alto · Porto de Galinhas, Ipojuca (PE)",
+    "descricao": "Resort pé na areia em frente à Praia de Muro Alto, com 40 mil m², cinco piscinas, restaurantes, bar, quadra poliesportiva, campo de futebol, tênis, kids club e salão de jogos. Fica a 6 km do centrinho de Porto de Galinhas e a 60 km do aeroporto do Recife.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "CAFÉ DA MANHÃ incluído",
+     "resumo": "Café da manhã todos os dias. Almoço e jantar ficam livres pra aproveitar a praia e os restaurantes da região.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Wi-Fi"
+     ],
+     "naoInclui": [
+      "Almoço e jantar",
+      "Bebidas e consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/6022/Property/208784.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208786.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208780.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208782.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208783.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208781.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208772.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208779.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208773.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208775.jpg",
+     "https://media.omnibees.com/Images/6022/Property/208788.jpg"
+    ],
+    "quarto": {
+     "nome": "Superior",
+     "descricao": "Apartamento de 35 m² com varanda, 1 cama de casal e 1 de solteiro.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "TV a cabo",
+      "Frigobar",
+      "Wi-Fi",
+      "Secador de cabelo",
+      "Banheiro privativo"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/6022/RoomTypes/1180345.jpg",
+      "https://media.omnibees.com/Images/6022/RoomTypes/1180346.jpeg",
+      "https://media.omnibees.com/Images/6022/RoomTypes/1180352.jpg"
+     ]
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto do Recife e o hotel em Porto de Galinhas, na ida e na volta.",
+     "info": [
+      "O trajeto Recife x Muro Alto leva cerca de 1 hora",
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "9.908,92",
+     "por": "9.243,26",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 660,59 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "9.908,92",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 2,
+        "valor": "4.954,46",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 3,
+        "valor": "3.302,97",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 4,
+        "valor": "2.477,23",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 5,
+        "valor": "1.981,78",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 6,
+        "valor": "1.651,49",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 7,
+        "valor": "1.415,56",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 8,
+        "valor": "1.238,62",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 9,
+        "valor": "1.100,99",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 10,
+        "valor": "990,89",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 11,
+        "valor": "900,81",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 12,
+        "valor": "825,74",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 13,
+        "valor": "762,22",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 14,
+        "valor": "707,78",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 15,
+        "valor": "660,59",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.651,49 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "9.908,92",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 2,
+        "valor": "4.954,46",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 3,
+        "valor": "3.302,97",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 4,
+        "valor": "2.477,23",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 5,
+        "valor": "1.981,78",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 6,
+        "valor": "1.651,49",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 7,
+        "valor": "1.443,87",
+        "obs": "com acréscimo",
+        "total": "10.107,10"
+       },
+       {
+        "n": 8,
+        "valor": "1.269,58",
+        "obs": "com acréscimo",
+        "total": "10.156,64"
+       },
+       {
+        "n": 9,
+        "valor": "1.134,02",
+        "obs": "com acréscimo",
+        "total": "10.206,19"
+       },
+       {
+        "n": 10,
+        "valor": "1.025,57",
+        "obs": "com acréscimo",
+        "total": "10.255,73"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.651,49 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "9.908,92",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 2,
+        "valor": "4.954,46",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 3,
+        "valor": "3.302,97",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 4,
+        "valor": "2.477,23",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 5,
+        "valor": "1.981,78",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       },
+       {
+        "n": 6,
+        "valor": "1.651,49",
+        "obs": "sem acréscimo",
+        "total": "9.908,92"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 183,
+   "inicial": false,
+   "grupo": "sander-porto-seguro-fev-2027",
+   "opcao": 2,
+   "opcaoNome": "2 ADULTOS + 1 CRIANÇA · Porto de Galinhas · Marulhos (Muro Alto) (café da manhã)",
+   "comparar": true
+  },
+  {
+   "slug": "nordeste-fevereiro-cafe-da-manha-maceio-acqua-prime",
+   "destino": "Maceió",
+   "titulo": "Maceió no Acqua Prime, em Ponta Verde, com café da manhã",
+   "chamada": "Cinco noites a uma quadra da Praia de Ponta Verde, de mar calmo protegido pelos arrecifes, com café da manhã e tudo a pé pela orla.",
+   "black": false,
+   "selo": "Café da manhã · Mar calmo",
+   "foto": "https://media.omnibees.com/Images/17144/Property/1036864.jpg",
+   "img": "",
+   "pessoas": 3,
+   "pessoasTxt": "2 adultos + 1 criança (7 anos)",
+   "dias": 6,
+   "noites": 5,
+   "ida": "2027-02-09",
+   "volta": "2027-02-14",
+   "idaTxt": "ter, 9 de fev",
+   "voltaTxt": "dom, 14 de fev",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (LATAM saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Acqua Prime, apto Prime Superior (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ]
+   ],
+   "pix": "9.842,97",
+   "parcelas": 15,
+   "parcela": "704,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-27",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NDc4NDJ8MHDQ_4jw3YeQzr2PoKp_mpQ",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "ter, 9 de fev",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 7h10",
+     "bagagem": [
+      "1 mala de mão (até 12 kg)",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "05:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "07:05",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Aeroporto de Guarulhos"
+       },
+       "voo": "LA 3479",
+       "duracao": "1h50"
+      },
+      {
+       "saida": {
+        "data": "09/02",
+        "hora": "09:30",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Aeroporto de Guarulhos"
+       },
+       "chegada": {
+        "data": "09/02",
+        "hora": "12:25",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto de Maceió"
+       },
+       "voo": "LA 3450",
+       "duracao": "2h55"
+      }
+     ],
+     "conexoes": [
+      "Espera de 2h25 em Guarulhos"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "dom, 14 de fev",
+     "cia": "LATAM",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 5h55",
+     "bagagem": [
+      "1 mala de mão (até 12 kg)",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "11:20",
+        "iata": "MCZ",
+        "cidade": "Maceió",
+        "aeroporto": "Aeroporto de Maceió"
+       },
+       "chegada": {
+        "data": "14/02",
+        "hora": "14:25",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Aeroporto de Guarulhos"
+       },
+       "voo": "LA 3447",
+       "duracao": "3h05"
+      },
+      {
+       "saida": {
+        "data": "14/02",
+        "hora": "15:30",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Aeroporto de Guarulhos"
+       },
+       "chegada": {
+        "data": "14/02",
+        "hora": "17:15",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "LA 3630",
+       "duracao": "1h45"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h05 em Guarulhos"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Acqua Prime",
+    "regime": "Café da manhã",
+    "noites": 5,
+    "checkin": "09/02",
+    "checkout": "14/02 (12h)",
+    "tarifa": "Cancelamento grátis até 09/01/2027",
+    "destaque": "A uma quadra da Praia de Ponta Verde, de mar calmo",
+    "endereco": "Rua Engenheiro Mário de Gusmão, 126 · Ponta Verde, Maceió (AL)",
+    "mapa": "Acqua Prime Hotel, Rua Engenheiro Mario de Gusmão 126, Maceió",
+    "descricao": "Hotel boutique da rede MME Hotéis, a uma quadra da Praia de Ponta Verde, no bairro mais nobre de Maceió. Arquitetura moderna, atendimento próximo, piscina, academia, espaço kids e salão de jogos. Pertinho da orla, dos bares e restaurantes: dá pra fazer tudo a pé.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "CAFÉ DA MANHÃ incluído",
+     "resumo": "Café da manhã todos os dias. Almoço e jantar ficam livres pra aproveitar a praia e os restaurantes da região.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Wi-Fi"
+     ],
+     "naoInclui": [
+      "Almoço e jantar",
+      "Bebidas e consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/17144/Property/1036864.jpg",
+     "https://media.omnibees.com/Images/17144/Property/5352066.jpg",
+     "https://media.omnibees.com/Images/17144/Property/5462752.jpg",
+     "https://media.omnibees.com/Images/17144/Property/1036866.jpg",
+     "https://media.omnibees.com/Images/17144/Property/1015109.jpg",
+     "https://media.omnibees.com/Images/17144/Property/1015112.jpg",
+     "https://media.omnibees.com/Images/17144/Property/1015114.jpg",
+     "https://media.omnibees.com/Images/17144/Property/1015067.jpg",
+     "https://media.omnibees.com/Images/17144/Property/1036883.jpg",
+     "https://media.omnibees.com/Images/17144/Property/1036898.jpg",
+     "https://media.omnibees.com/Images/17144/Property/5462765.jpg",
+     "https://media.omnibees.com/Images/17144/Property/1036879.jpg"
+    ],
+    "quarto": {
+     "nome": "Prime Superior",
+     "descricao": "Apartamento de 21 m² com 1 cama de casal e 1 de solteiro, para os 2 adultos e a criança.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV a cabo",
+      "Wi-Fi",
+      "Frigobar",
+      "Cofre",
+      "Secador de cabelo",
+      "Banheiro privativo"
+     ],
+     "fotos": []
+    }
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer entre o aeroporto de Maceió e o hotel em Ponta Verde, na ida e na volta.",
+     "info": [
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "10.555,96",
+     "por": "9.842,97",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 703,73 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "10.555,96",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 2,
+        "valor": "5.277,98",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 3,
+        "valor": "3.518,65",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 4,
+        "valor": "2.638,99",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 5,
+        "valor": "2.111,19",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 6,
+        "valor": "1.759,33",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 7,
+        "valor": "1.507,99",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 8,
+        "valor": "1.319,50",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 9,
+        "valor": "1.172,88",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 10,
+        "valor": "1.055,60",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 11,
+        "valor": "959,63",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 12,
+        "valor": "879,66",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 13,
+        "valor": "812,00",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 14,
+        "valor": "754,00",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 15,
+        "valor": "703,73",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.759,33 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "10.555,96",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 2,
+        "valor": "5.277,98",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 3,
+        "valor": "3.518,65",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 4,
+        "valor": "2.638,99",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 5,
+        "valor": "2.111,19",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 6,
+        "valor": "1.759,33",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 7,
+        "valor": "1.538,15",
+        "obs": "com acréscimo",
+        "total": "10.767,08"
+       },
+       {
+        "n": 8,
+        "valor": "1.352,48",
+        "obs": "com acréscimo",
+        "total": "10.819,86"
+       },
+       {
+        "n": 9,
+        "valor": "1.208,07",
+        "obs": "com acréscimo",
+        "total": "10.872,64"
+       },
+       {
+        "n": 10,
+        "valor": "1.092,54",
+        "obs": "com acréscimo",
+        "total": "10.925,42"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.759,33 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "10.555,96",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 2,
+        "valor": "5.277,98",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 3,
+        "valor": "3.518,65",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 4,
+        "valor": "2.638,99",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 5,
+        "valor": "2.111,19",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       },
+       {
+        "n": 6,
+        "valor": "1.759,33",
+        "obs": "sem acréscimo",
+        "total": "10.555,96"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 184,
+   "inicial": false,
+   "grupo": "sander-porto-seguro-fev-2027",
+   "opcao": 3,
+   "opcaoNome": "2 ADULTOS + 1 CRIANÇA · Maceió · Acqua Prime (Ponta Verde) (café da manhã)",
+   "comparar": true
+  },
+  {
    "slug": "porto-seguro-all-inclusive-fevereiro-opcoes",
    "destino": "Porto Seguro",
    "titulo": "Porto Seguro no Coroa Vermelha Beach All Inclusive com até 30% OFF",
@@ -460,7 +1822,7 @@
    "cod": 178,
    "inicial": false,
    "grupo": "sander-porto-seguro-fev-2027",
-   "opcao": 1,
+   "opcao": 4,
    "opcaoNome": "2 ADULTOS + 1 CRIANÇA · Coroa Vermelha Beach (all inclusive · até 30% OFF)",
    "comparar": true
   },
@@ -927,7 +2289,7 @@
    "cod": 179,
    "inicial": false,
    "grupo": "sander-porto-seguro-fev-2027",
-   "opcao": 2,
+   "opcao": 5,
    "opcaoNome": "2 ADULTOS + 1 CRIANÇA · Villaggio Arcobaleno (all inclusive premium · Fique 7, pague 6)",
    "comparar": true
   },
@@ -1393,7 +2755,7 @@
    "cod": 180,
    "inicial": false,
    "grupo": "sander-porto-seguro-fev-2027",
-   "opcao": 3,
+   "opcao": 6,
    "opcaoNome": "2 ADULTOS + 1 CRIANÇA · Nauticomar + Beach Club (all inclusive · até 35% OFF)",
    "comparar": true
   },
@@ -1856,7 +3218,7 @@
    "cod": 181,
    "inicial": false,
    "grupo": "sander-porto-seguro-fev-2027",
-   "opcao": 4,
+   "opcao": 7,
    "opcaoNome": "2 ADULTOS + 1 CRIANÇA · La Torre Resort (all inclusive)",
    "comparar": true
   },
