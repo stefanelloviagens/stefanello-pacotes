@@ -33,6 +33,14 @@ def wa_link(msg):
     return f"https://wa.me/{WA}?text=" + urllib.parse.quote(msg)
 
 
+
+def pixbox(p):
+    k = p.get("pixChave")
+    if not k:
+        return ""
+    return (f'<div class="pixk"><span>🔑 Chave PIX (e-mail)</span><b id="pixk">{e(k)}</b>'
+            f'<button type="button" onclick="navigator.clipboard.writeText(\'{e(k)}\').then(()=>{{this.textContent=\'Copiada ✓\';setTimeout(()=>this.textContent=\'Copiar\',2000)}})">Copiar</button></div>')
+
 def cod_txt(p):
     return f"#{p['cod']}" if p.get('cod') else ""
 
@@ -98,6 +106,7 @@ CSS = """
 .reemb{background:var(--sun);color:var(--ink);border-radius:14px;padding:12px 14px;margin:14px 0 4px;border:2px solid var(--ink)}
 .reemb b.t{display:block;font-family:Archivo,sans-serif;font-size:16px;line-height:1.25;margin-bottom:4px}.reemb p{margin:0;font-size:14px;line-height:1.45}
 .pay .reemb{margin:4px 0 14px}
+.pixk{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;background:#fff;border:2px dashed var(--ink);border-radius:14px;padding:12px 14px;margin:12px 0}.pixk span{font-size:13px;font-weight:700;width:100%}.pixk b{font-size:17px;word-break:break-all;flex:1;min-width:0}.pixk button{background:var(--ink);color:#fff;border:0;border-radius:999px;padding:8px 16px;font-weight:800;cursor:pointer}
 .pay ul{margin:12px 0 0 18px;opacity:.9;font-size:14.5px;display:grid;gap:4px}
 .nao{color:var(--muted);font-size:14px;margin-top:10px}
 .po{display:none;text-align:center;font-weight:700;margin-top:14px}
@@ -896,7 +905,7 @@ def pagina_roteiro(p):
 <section class="det" id="hotel"><h2>🏨 Hospedagem</h2><div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}{mapa_hotel(h)[0]}</p>{mapa_hotel(h)[1]}
 <div class="hfacts"><span><b>{h['noites']}</b> noites</span>{f'<span>🛏️ {e(h["acomodacao"])}</span>' if h.get('acomodacao') else ''}<span>Check-in {e(h['checkin'])}</span><span>Check-out {e(h['checkout'])}</span>{f'<span class="refs">🍽️ <b>{e(h["refeicoes"])}</b></span>' if h.get('refeicoes') else ''}</div><p>{e(h.get('descricao',''))}</p></div></div>{galeria(h.get('fotos', []), h['nome'], 'gh')}</section>
 {f'<section class="det" id="info"><div class="box"><h2>ℹ️ Informações importantes das visitas</h2><ul class="pg-info">{"".join(f"<li>{e(x)}</li>" for x in p["infoVisitas"])}</ul></div></section>' if p.get('infoVisitas') else ''}
-<section class="det" id="pagamento"><div class="pay"><h2>💳 Investimento</h2>{''.join(ops)}{reemb}<ul>{info}</ul></div>
+<section class="det" id="pagamento"><div class="pay"><h2>💳 Investimento</h2>{''.join(ops)}{pixbox(p)}{reemb}<ul>{info}</ul></div>
 <div class="ctas" style="margin-top:16px"><a class="btn btn-wa" data-wa="{e(p['slug'])}-fim" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero reservar</a></div>
 <p class="aviso">*Valores sujeitos a disponibilidade e alteração a qualquer momento. O valor só fica garantido na reserva.</p>
 <p class="po">Stefanello Viagens · 📲 WhatsApp bit.ly/stefanelloviagenswhats · 📸 instagram.com/stefanelloviagens<br><span style="font-weight:400">Roteiro completo: {e(url)}</span></p></section>
