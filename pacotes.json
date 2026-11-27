@@ -17725,12 +17725,6 @@
     ],
     "acomodacao": "Quartos duplos"
    },
-   "infoVisitas": [
-    "Grupo máximo de 40 pessoas por visita monitorada.",
-    "Chegar com pelo menos 10 minutos de antecedência no ponto inicial de cada visita.",
-    "Cadeirante ou pessoa com mobilidade reduzida: avise na reserva pra gente garantir a acessibilidade.",
-    "Não comparecer sem avisar com pelo menos 12 horas de antecedência cancela a visita, sem estorno."
-   ],
    "pagamento": {
     "opcoes": [
      {
@@ -17753,7 +17747,13 @@
    "reembolso": {
     "titulo": "Imprevistos acontecem: cancelamento com reembolso até 31/03/2027",
     "texto": "Se surgir um motivo sério que impeça sua ida (por exemplo, questões de saúde ou familiares), é possível cancelar até 31/03/2027 com reembolso integral. Como as vagas e as reservas do grupo são planejadas com antecedência, contamos com a sua ajuda para encontrar outra pessoa interessada em ir no seu lugar."
-   }
+   },
+   "notasInternas": [
+    "Grupo máximo de 40 pessoas por visita monitorada.",
+    "Chegar com pelo menos 10 minutos de antecedência no ponto inicial de cada visita.",
+    "Cadeirante ou pessoa com mobilidade reduzida: avise na reserva pra gente garantir a acessibilidade.",
+    "Não comparecer sem avisar com pelo menos 12 horas de antecedência cancela a visita, sem estorno."
+   ]
   },
   {
    "slug": "natal-praiamar-fique-7-pague-6-pipa-genipabu-cunhau-7-a-14-mai",
@@ -23025,12 +23025,6 @@
     ],
     "acomodacao": "Quartos duplos"
    },
-   "infoVisitas": [
-    "Grupo máximo de 40 pessoas por visita monitorada.",
-    "Chegar com pelo menos 10 minutos de antecedência no ponto inicial de cada visita.",
-    "Cadeirante ou pessoa com mobilidade reduzida: avise na reserva pra gente garantir a acessibilidade.",
-    "Não comparecer sem avisar com pelo menos 12 horas de antecedência cancela a visita, sem estorno."
-   ],
    "pagamento": {
     "opcoes": [
      {
@@ -23053,7 +23047,13 @@
    "reembolso": {
     "titulo": "Imprevistos acontecem: cancelamento com reembolso até 31/03/2027",
     "texto": "Se surgir um motivo sério que impeça sua ida (por exemplo, questões de saúde ou familiares), é possível cancelar até 31/03/2027 com reembolso integral. Como as vagas e as reservas do grupo são planejadas com antecedência, contamos com a sua ajuda para encontrar outra pessoa interessada em ir no seu lugar."
-   }
+   },
+   "notasInternas": [
+    "Grupo máximo de 40 pessoas por visita monitorada.",
+    "Chegar com pelo menos 10 minutos de antecedência no ponto inicial de cada visita.",
+    "Cadeirante ou pessoa com mobilidade reduzida: avise na reserva pra gente garantir a acessibilidade.",
+    "Não comparecer sem avisar com pelo menos 12 horas de antecedência cancela a visita, sem estorno."
+   ]
   },
   {
    "slug": "porto-seguro-arcobaleno-all-inclusive-12-a-19-fev-2-adultos-2-criancas-12-anos",
