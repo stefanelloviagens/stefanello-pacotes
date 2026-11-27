@@ -6,6 +6,461 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "rio-de-janeiro-windsor-copa-cristo-cha-do-forte-black-november-16-a-20-jan",
+   "destino": "Rio de Janeiro",
+   "titulo": "Rio de Janeiro no Windsor Copa com Cristo Redentor + Chá no Forte GRÁTIS",
+   "chamada": "Quatro noites em Copacabana com Cristo, Floresta da Tijuca, city tour e um chá da tarde no Forte de Copacabana de presente.",
+   "black": true,
+   "selo": "",
+   "img": "",
+   "foto": "10322305",
+   "pessoas": 2,
+   "dias": 5,
+   "noites": 4,
+   "ida": "2027-01-16",
+   "volta": "2027-01-20",
+   "idaTxt": "sáb, 16 de jan",
+   "voltaTxt": "qua, 20 de jan",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL direto de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Windsor Copa Hotel, a poucos passos da Praia de Copacabana (café da manhã)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ],
+    [
+     "⛪",
+     "Visita ao Cristo Redentor com ingresso"
+    ],
+    [
+     "🌳",
+     "Visita à Floresta da Tijuca"
+    ],
+    [
+     "🗺️",
+     "City tour panorâmico"
+    ],
+    [
+     "☕",
+     "Chá do Forte na Confeitaria Colombo do Forte de Copacabana GRÁTIS (sem transfer)"
+    ],
+    [
+     "🏛️",
+     "Museu Histórico do Exército no Forte de Copacabana (ingresso pago no local)"
+    ]
+   ],
+   "pix": "6.589,87",
+   "parcelas": 15,
+   "parcela": "469,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-27",
+   "inicial": true,
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NTA3ODV8MJ1z18NAw4d-fE1JM9hpLHo",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sáb, 16 de jan",
+     "cia": "GOL",
+     "resumo": "Voo direto · 1h55",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "16/01",
+        "hora": "05:00",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "16/01",
+        "hora": "06:55",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "voo": "G3 2093",
+       "duracao": "1h55"
+      }
+     ],
+     "conexoes": []
+    },
+    {
+     "tipo": "Volta",
+     "data": "qua, 20 de jan",
+     "cia": "GOL",
+     "resumo": "Voo direto · 2h15",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "20/01",
+        "hora": "21:25",
+        "iata": "GIG",
+        "cidade": "Rio de Janeiro",
+        "aeroporto": "Galeão"
+       },
+       "chegada": {
+        "data": "20/01",
+        "hora": "23:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 2092",
+       "duracao": "2h15"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "Windsor Copa Hotel",
+    "regime": "Café da manhã",
+    "noites": 4,
+    "checkin": "16/01",
+    "checkout": "20/01 (12h)",
+    "tarifa": "Cancelamento grátis até 12/01/2027",
+    "endereco": "Av. Nossa Senhora de Copacabana, 335 · Copacabana, Rio de Janeiro (RJ)",
+    "descricao": "Hotel da rede Windsor a poucos passos da Praia de Copacabana, com acesso fácil ao Leme, Ipanema e Leblon e pertinho do metrô e dos ônibus pro Centro. Tem restaurante com café da manhã caprichado, cardápio de pratos e sobremesas e academia. Em volta, comércio, bares e quiosques da orla.",
+    "fotos": [
+     "https://media.omnibees.com/Images/2014/Property/724694.jpg",
+     "https://media.omnibees.com/Images/2014/Property/1238801.jpg",
+     "https://media.omnibees.com/Images/2014/Property/896229.jpg",
+     "https://media.omnibees.com/Images/2014/Property/896231.jpg",
+     "https://media.omnibees.com/Images/2014/Property/123853.jpg",
+     "https://media.omnibees.com/Images/2014/Property/898976.jpg",
+     "https://media.omnibees.com/Images/2014/Property/898977.jpg",
+     "https://media.omnibees.com/Images/2014/Property/896228.jpg",
+     "https://media.omnibees.com/Images/2014/Property/724692.jpg"
+    ],
+    "quarto": {
+     "nome": "Superior com cama de casal",
+     "descricao": "Apartamento com vista para o bairro de Copacabana, cama king size, TV a cabo, frigobar, cofre eletrônico, ar-condicionado e janela antirruído.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Cama king size",
+      "TV a cabo",
+      "Frigobar",
+      "Cofre",
+      "Janela antirruído",
+      "Banheiro privativo"
+     ],
+     "fotos": []
+    },
+    "destaque": "A poucos passos da Praia de Copacabana e perto do metrô",
+    "mapa": "Windsor Copa Hotel, Av. Nossa Senhora de Copacabana 335, Rio de Janeiro"
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto → hotel → aeroporto",
+     "quando": "Na chegada e na volta",
+     "descricao": "Transfer em grupo (shuttle) do aeroporto do Galeão até o hotel em Copacabana, e de volta no último dia.",
+     "info": [
+      "Válido pra hotéis da Zona Sul e Centro (o Windsor Copa está incluso)",
+      "A equipe te espera no desembarque com uma placa no nome do titular",
+      "Saídas entre 8h e 21h, a cada 1h30"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "⛪",
+     "nome": "Cristo Redentor + Floresta da Tijuca + City Tour",
+     "quando": "Dia inteiro · todos os dias",
+     "descricao": "Subida de van ao Corcovado pela Floresta da Tijuca, com ingresso pro Cristo Redentor incluso. Depois, city tour panorâmico pelos cartões-postais do Rio.",
+     "info": [
+      "Ingresso do Cristo incluso",
+      "Passa pelo Maracanã, Sambódromo, Escadaria Selarón e Catedral Metropolitana",
+      "Busca e volta no hotel (Zona Sul e Centro)"
+     ],
+     "fotos": [
+      "https://images.pexels.com/photos/14996556/pexels-photo-14996556.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/33682178/pexels-photo-33682178.jpeg?auto=compress&cs=tinysrgb&w=1200"
+     ]
+    },
+    {
+     "tipo": "Experiência",
+     "icone": "☕",
+     "nome": "Chá do Forte na Confeitaria Colombo · GRÁTIS",
+     "quando": "Terça a sexta, das 10h às 19h",
+     "descricao": "Café da manhã ou da tarde na Confeitaria Colombo do Forte de Copacabana, de frente pro mar, pra 2 pessoas.",
+     "info": [
+      "Cesta com minibrioches, croissant, pão de queijo, torrada Petrópolis, bolo e queijadinha",
+      "Café, chá, chocolate quente ou café com leite + suco de laranja",
+      "Entrada no Forte: R$ 10 por pessoa, paga no local (dinheiro ou Pix)",
+      "Sem transfer: o Forte fica em Copacabana, perto do hotel"
+     ],
+     "fotos": [
+      "https://media.infotravel.com.br/image/upload/1F2BD0AED3FE05AFB0EBD4770A372DCC.jpg"
+     ]
+    },
+    {
+     "tipo": "Passeio",
+     "icone": "🏛️",
+     "nome": "Museu Histórico do Exército · Forte de Copacabana",
+     "quando": "No mesmo dia do chá, se quiser",
+     "descricao": "Visita ao museu dentro do Forte de Copacabana, na ponta da praia, com canhões, a história do forte e uma das vistas mais bonitas da orla.",
+     "info": [
+      "Ingresso não incluso, pago no local",
+      "Sem transfer: o Forte fica em Copacabana, perto do hotel"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "7.022,24",
+     "por": "6.589,87",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 468,15 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.022,24",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 2,
+        "valor": "3.511,12",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 3,
+        "valor": "2.340,75",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 4,
+        "valor": "1.755,56",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 5,
+        "valor": "1.404,45",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 6,
+        "valor": "1.170,37",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 7,
+        "valor": "1.003,18",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 8,
+        "valor": "877,78",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 9,
+        "valor": "780,25",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 10,
+        "valor": "702,22",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 11,
+        "valor": "638,39",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 12,
+        "valor": "585,19",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 13,
+        "valor": "540,17",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 14,
+        "valor": "501,59",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 15,
+        "valor": "468,15",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 1.170,37 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.022,24",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 2,
+        "valor": "3.511,12",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 3,
+        "valor": "2.340,75",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 4,
+        "valor": "1.755,56",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 5,
+        "valor": "1.404,45",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 6,
+        "valor": "1.170,37",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 7,
+        "valor": "1.023,24",
+        "obs": "com acréscimo",
+        "total": "7.162,68"
+       },
+       {
+        "n": 8,
+        "valor": "899,72",
+        "obs": "com acréscimo",
+        "total": "7.197,80"
+       },
+       {
+        "n": 9,
+        "valor": "803,66",
+        "obs": "com acréscimo",
+        "total": "7.232,91"
+       },
+       {
+        "n": 10,
+        "valor": "726,80",
+        "obs": "com acréscimo",
+        "total": "7.268,02"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 1.170,37 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "7.022,24",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 2,
+        "valor": "3.511,12",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 3,
+        "valor": "2.340,75",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 4,
+        "valor": "1.755,56",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 5,
+        "valor": "1.404,45",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       },
+       {
+        "n": 6,
+        "valor": "1.170,37",
+        "obs": "sem acréscimo",
+        "total": "7.022,24"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 188
+  },
+  {
    "slug": "porto-de-galinhas-muro-alto-porto-alto-resort-15-a-22-mar",
    "destino": "Porto de Galinhas",
    "titulo": "Porto de Galinhas: 7 noites pé na areia em Muro Alto",
