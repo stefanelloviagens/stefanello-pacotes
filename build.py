@@ -287,7 +287,7 @@ dialog.dmapa::backdrop{background:rgba(0,0,0,.6)}
 .bag li{background:#F2EDE2;border-radius:999px;padding:4px 10px;font-size:12.5px;font-weight:600}
 .hot h3,.quarto h3{font-size:22px;margin:4px 0}
 .hmeta{color:var(--muted);font-size:14px}
-.hfacts{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.hfacts{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.hfacts span.refs{background:#FFF1B8;border:2px solid #F2C200;color:#3a2e00;font-size:15px;padding:7px 14px}
 .hfacts span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13.5px}
 .hot p{max-width:70ch}
 .gal{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding:12px 0 6px;margin:0 -16px;padding-left:16px;padding-right:16px}
@@ -894,7 +894,7 @@ def pagina_roteiro(p):
 <section class="det" id="galeria"><h2>📸 Visitas monitoradas no Santuário</h2><p>{e(p.get('galeriaTxt',''))}</p>{galeria(p.get('galeria', []), 'Visita monitorada no Santuário Nacional', 'gv')}</section>
 <section class="det" id="voos"><h2>✈️ Voos</h2><div class="voos">{''.join(bloco_voo(v) for v in p['voos'])}</div><p class="aviso">Horários da cotação atual. A companhia pode alterar até o embarque; a gente te avisa qualquer mudança.</p></section>
 <section class="det" id="hotel"><h2>🏨 Hospedagem</h2><div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}{mapa_hotel(h)[0]}</p>{mapa_hotel(h)[1]}
-<div class="hfacts"><span><b>{h['noites']}</b> noites</span>{f'<span>🛏️ {e(h["acomodacao"])}</span>' if h.get('acomodacao') else ''}<span>Check-in {e(h['checkin'])}</span><span>Check-out {e(h['checkout'])}</span></div><p>{e(h.get('descricao',''))}</p></div></div>{galeria(h.get('fotos', []), h['nome'], 'gh')}</section>
+<div class="hfacts"><span><b>{h['noites']}</b> noites</span>{f'<span>🛏️ {e(h["acomodacao"])}</span>' if h.get('acomodacao') else ''}<span>Check-in {e(h['checkin'])}</span><span>Check-out {e(h['checkout'])}</span>{f'<span class="refs">🍽️ <b>{e(h["refeicoes"])}</b></span>' if h.get('refeicoes') else ''}</div><p>{e(h.get('descricao',''))}</p></div></div>{galeria(h.get('fotos', []), h['nome'], 'gh')}</section>
 {f'<section class="det" id="info"><div class="box"><h2>ℹ️ Informações importantes das visitas</h2><ul class="pg-info">{"".join(f"<li>{e(x)}</li>" for x in p["infoVisitas"])}</ul></div></section>' if p.get('infoVisitas') else ''}
 <section class="det" id="pagamento"><div class="pay"><h2>💳 Investimento</h2>{''.join(ops)}{reemb}<ul>{info}</ul></div>
 <div class="ctas" style="margin-top:16px"><a class="btn btn-wa" data-wa="{e(p['slug'])}-fim" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero reservar</a></div>
