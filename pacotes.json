@@ -17393,7 +17393,7 @@
    "black": false,
    "destino": "Aparecida (SP)",
    "titulo": "Aparecida: roteiro de fé com Visitas Monitoradas no Santuário Nacional",
-   "chamada": "Três dias em Aparecida com Jornada Bíblica Noturna, Trem do Devoto até o Porto Itaguaçu, Bondinho Aéreo e o circuito completo do Santuário, com refeições no hotel e voo direto de Porto Alegre pra Campinas.",
+   "chamada": "Três dias em Aparecida com Jornada Bíblica Noturna, Trem do Devoto até o Porto Itaguaçu, Bondinho Aéreo e o circuito completo do Santuário, com café, almoço e jantar na pousada e voo direto de Porto Alegre pra Campinas.",
    "etiqueta": "ROTEIRO PERSONALIZADO",
    "selo": "Visitas monitoradas",
    "capa": "img/aparecida/santuario-entrada.jpg",
@@ -17423,15 +17423,15 @@
     ],
     [
      "🏨",
-     "2 noites no Hotel Rainha dos Apóstolos, em quartos duplos"
+     "2 noites na Pousada do Bom Jesus, em quartos duplos"
     ],
     [
      "🍽️",
-     "Todas as refeições no próprio hotel (café da manhã, almoços e jantares)"
+     "Café da manhã, almoço e jantar incluídos na pousada"
     ],
     [
      "🚐",
-     "Transfers Campinas ⇄ Aparecida e hotel ⇄ Santuário"
+     "Transfers Campinas ⇄ Aparecida e pousada ⇄ Santuário"
     ],
     [
      "🌙",
@@ -17455,7 +17455,7 @@
     {
      "src": "video/aparecida-roteiro.mp4",
      "poster": "img/aparecida/aereo.jpg",
-     "titulo": "Aparecida: Santuário, Trem do Devoto, Caminho do Rosário e hotel"
+     "titulo": "Aparecida: Santuário, Trem do Devoto e Caminho do Rosário"
     },
     {
      "src": "video/aparecida-visitas-monitoradas.mp4",
@@ -17480,16 +17480,16 @@
       ],
       [
        "12h00",
-       "Almoço no Hotel Rainha dos Apóstolos",
+       "Almoço no Pousada do Bom Jesus",
        "Incluso"
       ],
       [
        "13h30",
-       "Check-in no Hotel Rainha dos Apóstolos"
+       "Check-in no Pousada do Bom Jesus"
       ],
       [
        "15h00",
-       "Transfer do hotel para o Santuário Nacional"
+       "Transfer da pousada para o Santuário Nacional"
       ],
       [
        "16h00",
@@ -17502,11 +17502,11 @@
       ],
       [
        "19h30",
-       "Transfer de retorno ao Hotel Rainha dos Apóstolos"
+       "Transfer de retorno ao Pousada do Bom Jesus"
       ],
       [
        "20h00",
-       "Jantar no Hotel Rainha dos Apóstolos",
+       "Jantar no Pousada do Bom Jesus",
        "Incluso"
       ]
      ]
@@ -17527,16 +17527,16 @@
       ],
       [
        "10h15",
-       "Retorno no Trem do Devoto para o hotel"
+       "Retorno no Trem do Devoto para a pousada"
       ],
       [
        "12h00",
-       "Almoço no Hotel Rainha dos Apóstolos",
+       "Almoço no Pousada do Bom Jesus",
        "Incluso"
       ],
       [
        "14h30",
-       "Traslado do hotel para o Santuário Nacional"
+       "Traslado da pousada para o Santuário Nacional"
       ],
       [
        "15h00",
@@ -17548,11 +17548,11 @@
       ],
       [
        "17h45",
-       "Traslado de retorno ao Hotel Rainha dos Apóstolos"
+       "Traslado de retorno ao Pousada do Bom Jesus"
       ],
       [
        "19h00",
-       "Jantar no Hotel Rainha dos Apóstolos",
+       "Jantar no Pousada do Bom Jesus",
        "Incluso"
       ]
      ]
@@ -17574,12 +17574,12 @@
       ],
       [
        "12h30",
-       "Almoço no Hotel Rainha dos Apóstolos",
+       "Almoço no Pousada do Bom Jesus",
        "Incluso"
       ],
       [
        "14h00",
-       "Check-out no Hotel Rainha dos Apóstolos"
+       "Check-out no Pousada do Bom Jesus"
       ],
       [
        "15h00",
@@ -17702,21 +17702,26 @@
     }
    ],
    "hotel": {
-    "nome": "Hotel Rainha dos Apóstolos",
-    "regime": "",
+    "nome": "Pousada do Bom Jesus",
+    "regime": "Café da manhã, almoço e jantar",
     "noites": 2,
-    "checkin": "14/05 (13h30)",
-    "checkout": "16/05 (14h)",
-    "endereco": "Av. Isaac Ferreira Encarnação, 523 · Aparecida (SP)",
-    "descricao": "Hotel a cerca de 15 minutos a pé da Basílica do Santuário Nacional, com restaurante, jardim, Wi-Fi, recepção 24 horas e quartos com ar-condicionado, frigobar, cofre e TV. A hospedagem é em quartos duplos.",
+    "checkin": "14/05 (a partir das 14h)",
+    "checkout": "16/05 (até 12h)",
+    "endereco": "Rua Barão do Rio Branco, 412 · Centro, Aparecida (SP)",
+    "mapa": "Pousada do Bom Jesus, Rua Barão do Rio Branco 412, Aparecida",
+    "descricao": "Pousada no antigo Seminário Bom Jesus, um prédio histórico de tijolinhos cercado de jardins, bosques e capelas, no Centro de Aparecida, a menos de 2 km do Santuário Nacional. Os apartamentos são mais amplos que os convencionais, com ar-condicionado, frigobar, TV com canais a cabo, Wi-Fi e secador de cabelo. Tem restaurante com buffet, recepção 24 horas, capelas internas e externas e traslado para o Santuário. A hospedagem é em quartos duplos, com café da manhã, almoço e jantar incluídos.",
     "fotos": [
-     "/img/aparecida/hotel-quarto.jpg",
-     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/4447835a.jpg?impolicy=fcrop&w=1200&h=800",
-     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/efd4bc60.jpg?impolicy=fcrop&w=1200&h=800",
-     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/e73dfc59.jpg?impolicy=fcrop&w=1200&h=800",
-     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/147bb9a7.jpg?impolicy=fcrop&w=1200&h=800",
-     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/9da0286a.jpg?impolicy=fcrop&w=1200&h=800",
-     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/237ed7d7.jpg?impolicy=fcrop&w=1200&h=800"
+     "https://www.pousadadobomjesus.com/source/files/c/104/Area_Externa_-_vertical_-_POUSADA_1-718177_900-1600-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/102/Area_Externa_-_vertical_-_POUSADA_7-961039_576-1024-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/107/Area_Externa_-_vertical_-_POUSADA_6-094044_900-1600-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/115/IMG_3441-966865_3744-5616-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/105/Area_Externa_-_vertical_-_POUSADA_9-402230_576-1024-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/101/Area_Externa_-_vertical_-_POUSADA_5_editada-107360_428-796-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/106/Area_Externa_-_vertical_-_POUSADA_3-111252_900-1600-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/103/Area_Externa_-_vertical_-_POUSADA_2-806436_900-1600-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/114/IMG_3355-328795_3744-5616-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/324/duplo-599304_5988-3992-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/370/banheiro-606682_836-557-0-0.jpg"
     ],
     "acomodacao": "Quartos duplos"
    },
@@ -17731,17 +17736,17 @@
      {
       "rotulo": "À vista",
       "valor": "1x de R$ 2.500,00",
-      "obs": "por pessoa, pagamento até 10/12"
+      "obs": "por pessoa, no PIX ou dinheiro, até 10/12"
      },
      {
       "rotulo": "Parcelado",
       "valor": "4x de R$ 675,00",
-      "obs": "por pessoa (total R$ 2.700,00)"
+      "obs": "por pessoa (total R$ 2.700,00), no PIX, dinheiro ou cartão de crédito: 10/12, 10/01, 10/02 e 10/03"
      }
     ],
     "info": [
      "Valores por pessoa.",
-     "Refeições inclusas, todas no próprio hotel.",
+     "Café da manhã, almoço e jantar inclusos na pousada.",
      "Total de vagas ainda a ser definido, inicialmente focado em 15 vagas."
     ]
    },
@@ -22688,7 +22693,7 @@
    "black": false,
    "destino": "Aparecida (SP)",
    "titulo": "Aparecida: roteiro de fé com Visitas Monitoradas no Santuário Nacional",
-   "chamada": "Três dias em Aparecida com Jornada Bíblica Noturna, Trem do Devoto até o Porto Itaguaçu, Bondinho Aéreo e o circuito completo do Santuário, com refeições no hotel e voo direto de Porto Alegre pra Campinas.",
+   "chamada": "Três dias em Aparecida com Jornada Bíblica Noturna, Trem do Devoto até o Porto Itaguaçu, Bondinho Aéreo e o circuito completo do Santuário, com café, almoço e jantar na pousada e voo direto de Porto Alegre pra Campinas.",
    "etiqueta": "ROTEIRO PERSONALIZADO",
    "selo": "Visitas monitoradas",
    "capa": "img/aparecida/santuario-entrada.jpg",
@@ -22718,15 +22723,15 @@
     ],
     [
      "🏨",
-     "2 noites no Hotel Rainha dos Apóstolos, em quartos duplos"
+     "2 noites na Pousada do Bom Jesus, em quartos duplos"
     ],
     [
      "🍽️",
-     "Todas as refeições no próprio hotel (café da manhã, almoços e jantares)"
+     "Café da manhã, almoço e jantar incluídos na pousada"
     ],
     [
      "🚐",
-     "Transfers Campinas ⇄ Aparecida e hotel ⇄ Santuário"
+     "Transfers Campinas ⇄ Aparecida e pousada ⇄ Santuário"
     ],
     [
      "🌙",
@@ -22750,7 +22755,7 @@
     {
      "src": "video/aparecida-roteiro.mp4",
      "poster": "img/aparecida/aereo.jpg",
-     "titulo": "Aparecida: Santuário, Trem do Devoto, Caminho do Rosário e hotel"
+     "titulo": "Aparecida: Santuário, Trem do Devoto e Caminho do Rosário"
     },
     {
      "src": "video/aparecida-visitas-monitoradas.mp4",
@@ -22775,16 +22780,16 @@
       ],
       [
        "12h00",
-       "Almoço no Hotel Rainha dos Apóstolos",
+       "Almoço no Pousada do Bom Jesus",
        "Incluso"
       ],
       [
        "13h30",
-       "Check-in no Hotel Rainha dos Apóstolos"
+       "Check-in no Pousada do Bom Jesus"
       ],
       [
        "15h00",
-       "Transfer do hotel para o Santuário Nacional"
+       "Transfer da pousada para o Santuário Nacional"
       ],
       [
        "16h00",
@@ -22797,11 +22802,11 @@
       ],
       [
        "19h30",
-       "Transfer de retorno ao Hotel Rainha dos Apóstolos"
+       "Transfer de retorno ao Pousada do Bom Jesus"
       ],
       [
        "20h00",
-       "Jantar no Hotel Rainha dos Apóstolos",
+       "Jantar no Pousada do Bom Jesus",
        "Incluso"
       ]
      ]
@@ -22822,16 +22827,16 @@
       ],
       [
        "10h15",
-       "Retorno no Trem do Devoto para o hotel"
+       "Retorno no Trem do Devoto para a pousada"
       ],
       [
        "12h00",
-       "Almoço no Hotel Rainha dos Apóstolos",
+       "Almoço no Pousada do Bom Jesus",
        "Incluso"
       ],
       [
        "14h30",
-       "Traslado do hotel para o Santuário Nacional"
+       "Traslado da pousada para o Santuário Nacional"
       ],
       [
        "15h00",
@@ -22843,11 +22848,11 @@
       ],
       [
        "17h45",
-       "Traslado de retorno ao Hotel Rainha dos Apóstolos"
+       "Traslado de retorno ao Pousada do Bom Jesus"
       ],
       [
        "19h00",
-       "Jantar no Hotel Rainha dos Apóstolos",
+       "Jantar no Pousada do Bom Jesus",
        "Incluso"
       ]
      ]
@@ -22869,12 +22874,12 @@
       ],
       [
        "12h30",
-       "Almoço no Hotel Rainha dos Apóstolos",
+       "Almoço no Pousada do Bom Jesus",
        "Incluso"
       ],
       [
        "14h00",
-       "Check-out no Hotel Rainha dos Apóstolos"
+       "Check-out no Pousada do Bom Jesus"
       ],
       [
        "15h00",
@@ -22997,21 +23002,26 @@
     }
    ],
    "hotel": {
-    "nome": "Hotel Rainha dos Apóstolos",
-    "regime": "",
+    "nome": "Pousada do Bom Jesus",
+    "regime": "Café da manhã, almoço e jantar",
     "noites": 2,
-    "checkin": "14/05 (13h30)",
-    "checkout": "16/05 (14h)",
-    "endereco": "Av. Isaac Ferreira Encarnação, 523 · Aparecida (SP)",
-    "descricao": "Hotel a cerca de 15 minutos a pé da Basílica do Santuário Nacional, com restaurante, jardim, Wi-Fi, recepção 24 horas e quartos com ar-condicionado, frigobar, cofre e TV. A hospedagem é em quartos duplos.",
+    "checkin": "14/05 (a partir das 14h)",
+    "checkout": "16/05 (até 12h)",
+    "endereco": "Rua Barão do Rio Branco, 412 · Centro, Aparecida (SP)",
+    "mapa": "Pousada do Bom Jesus, Rua Barão do Rio Branco 412, Aparecida",
+    "descricao": "Pousada no antigo Seminário Bom Jesus, um prédio histórico de tijolinhos cercado de jardins, bosques e capelas, no Centro de Aparecida, a menos de 2 km do Santuário Nacional. Os apartamentos são mais amplos que os convencionais, com ar-condicionado, frigobar, TV com canais a cabo, Wi-Fi e secador de cabelo. Tem restaurante com buffet, recepção 24 horas, capelas internas e externas e traslado para o Santuário. A hospedagem é em quartos duplos, com café da manhã, almoço e jantar incluídos.",
     "fotos": [
-     "/img/aparecida/hotel-quarto.jpg",
-     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/4447835a.jpg?impolicy=fcrop&w=1200&h=800",
-     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/efd4bc60.jpg?impolicy=fcrop&w=1200&h=800",
-     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/e73dfc59.jpg?impolicy=fcrop&w=1200&h=800",
-     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/147bb9a7.jpg?impolicy=fcrop&w=1200&h=800",
-     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/9da0286a.jpg?impolicy=fcrop&w=1200&h=800",
-     "https://images.trvl-media.com/lodging/73000000/72430000/72420600/72420597/237ed7d7.jpg?impolicy=fcrop&w=1200&h=800"
+     "https://www.pousadadobomjesus.com/source/files/c/104/Area_Externa_-_vertical_-_POUSADA_1-718177_900-1600-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/102/Area_Externa_-_vertical_-_POUSADA_7-961039_576-1024-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/107/Area_Externa_-_vertical_-_POUSADA_6-094044_900-1600-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/115/IMG_3441-966865_3744-5616-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/105/Area_Externa_-_vertical_-_POUSADA_9-402230_576-1024-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/101/Area_Externa_-_vertical_-_POUSADA_5_editada-107360_428-796-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/106/Area_Externa_-_vertical_-_POUSADA_3-111252_900-1600-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/103/Area_Externa_-_vertical_-_POUSADA_2-806436_900-1600-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/114/IMG_3355-328795_3744-5616-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/324/duplo-599304_5988-3992-0-0.jpg",
+     "https://www.pousadadobomjesus.com/source/files/c/370/banheiro-606682_836-557-0-0.jpg"
     ],
     "acomodacao": "Quartos duplos"
    },
@@ -23026,17 +23036,17 @@
      {
       "rotulo": "À vista",
       "valor": "1x de R$ 2.500,00",
-      "obs": "por pessoa, pagamento até 10/12"
+      "obs": "por pessoa, no PIX ou dinheiro, até 10/12"
      },
      {
       "rotulo": "Parcelado",
       "valor": "4x de R$ 675,00",
-      "obs": "por pessoa (total R$ 2.700,00)"
+      "obs": "por pessoa (total R$ 2.700,00), no PIX, dinheiro ou cartão de crédito: 10/12, 10/01, 10/02 e 10/03"
      }
     ],
     "info": [
      "Valores por pessoa.",
-     "Refeições inclusas, todas no próprio hotel.",
+     "Café da manhã, almoço e jantar inclusos na pousada.",
      "Total de vagas ainda a ser definido, inicialmente focado em 15 vagas."
     ]
    },
