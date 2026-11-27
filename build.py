@@ -895,7 +895,7 @@ def pagina_roteiro(p):
 <section class="det" id="voos"><h2>✈️ Voos</h2><div class="voos">{''.join(bloco_voo(v) for v in p['voos'])}</div><p class="aviso">Horários da cotação atual. A companhia pode alterar até o embarque; a gente te avisa qualquer mudança.</p></section>
 <section class="det" id="hotel"><h2>🏨 Hospedagem</h2><div class="hot"><div><h3>{e(h['nome'])}</h3><p class="hmeta">{e(h.get('endereco',''))}{mapa_hotel(h)[0]}</p>{mapa_hotel(h)[1]}
 <div class="hfacts"><span><b>{h['noites']}</b> noites</span>{f'<span>🛏️ {e(h["acomodacao"])}</span>' if h.get('acomodacao') else ''}<span>Check-in {e(h['checkin'])}</span><span>Check-out {e(h['checkout'])}</span></div><p>{e(h.get('descricao',''))}</p></div></div>{galeria(h.get('fotos', []), h['nome'], 'gh')}</section>
-<section class="det" id="info"><div class="box"><h2>ℹ️ Informações importantes das visitas</h2><ul class="pg-info">{''.join(f"<li>{e(x)}</li>" for x in p.get('infoVisitas', []))}</ul></div></section>
+{f'<section class="det" id="info"><div class="box"><h2>ℹ️ Informações importantes das visitas</h2><ul class="pg-info">{"".join(f"<li>{e(x)}</li>" for x in p["infoVisitas"])}</ul></div></section>' if p.get('infoVisitas') else ''}
 <section class="det" id="pagamento"><div class="pay"><h2>💳 Investimento</h2>{''.join(ops)}{reemb}<ul>{info}</ul></div>
 <div class="ctas" style="margin-top:16px"><a class="btn btn-wa" data-wa="{e(p['slug'])}-fim" href="{e(wa_link(msg))}" target="_blank" rel="noopener">{WA_ICON}Quero reservar</a></div>
 <p class="aviso">*Valores sujeitos a disponibilidade e alteração a qualquer momento. O valor só fica garantido na reserva.</p>
