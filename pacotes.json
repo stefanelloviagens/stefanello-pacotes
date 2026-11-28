@@ -6,6 +6,460 @@
  "site": "https://pacotes.stefanelloviagens.com.br",
  "pacotes": [
   {
+   "slug": "porto-de-galinhas-ou-porto-seguro-fevereiro-familia-opcoes-porto-2-life",
+   "destino": "Porto de Galinhas",
+   "titulo": "Porto de Galinhas em família: Porto 2 Life Resort em Muro Alto, com pensão completa",
+   "chamada": "Sete noites no Porto 2 Life Resort, na Praia de Muro Alto, a mais calma e cristalina de Porto de Galinhas, pra família de 4, com café da manhã, almoço e jantar incluídos.",
+   "black": false,
+   "selo": "🏝️ Praia de Muro Alto",
+   "foto": "https://media.omnibees.com/Images/22409/Property/2200105.jpg",
+   "img": "",
+   "pessoas": 4,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-02-12",
+   "volta": "2027-02-19",
+   "idaTxt": "sex, 12 de fev",
+   "voltaTxt": "sex, 19 de fev",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (GOL saindo de Porto Alegre)"
+    ],
+    [
+     "🏨",
+     "Porto 2 Life Resort, na Praia de Muro Alto, apto Smart (pensão completa: café, almoço e jantar)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ]
+   ],
+   "pix": "15.873,89",
+   "parcelas": 15,
+   "parcela": "1.134,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-27",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NTgwODF8MClOwUiO9zpmtod74WeA_6A",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sex, 12 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão em Brasília · 6h10",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "12/02",
+        "hora": "05:05",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "12/02",
+        "hora": "07:35",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "voo": "G3 1797",
+       "duracao": "2h30"
+      },
+      {
+       "saida": {
+        "data": "12/02",
+        "hora": "08:35",
+        "iata": "BSB",
+        "cidade": "Brasília",
+        "aeroporto": "Aeroporto de Brasília"
+       },
+       "chegada": {
+        "data": "12/02",
+        "hora": "11:15",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife"
+       },
+       "voo": "G3 1700",
+       "duracao": "2h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h em Brasília"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sex, 19 de fev",
+     "cia": "GOL",
+     "resumo": "1 conexão em São Paulo (Congonhas) · 6h05",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "19/02",
+        "hora": "11:25",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife"
+       },
+       "chegada": {
+        "data": "19/02",
+        "hora": "14:50",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "voo": "G3 1615",
+       "duracao": "3h25"
+      },
+      {
+       "saida": {
+        "data": "19/02",
+        "hora": "15:50",
+        "iata": "CGH",
+        "cidade": "São Paulo",
+        "aeroporto": "Congonhas"
+       },
+       "chegada": {
+        "data": "19/02",
+        "hora": "17:30",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "G3 1278",
+       "duracao": "1h40"
+      }
+     ],
+     "conexoes": [
+      "Espera de 1h em Congonhas"
+     ]
+    }
+   ],
+   "hotel": {
+    "nome": "Porto 2 Life Resort (GAV Hotéis)",
+    "regime": "Pensão completa",
+    "noites": 7,
+    "checkin": "12/02 (14h)",
+    "checkout": "19/02 (11h)",
+    "tarifa": "Cancelamento até 27/01/2027",
+    "destaque": "🏝️ Na Praia de Muro Alto: mar calmo, cristalino e quentinho, uma piscina natural protegida pelos arrecifes",
+    "endereco": "Muro Alto, Porto de Galinhas · Ipojuca (PE)",
+    "descricao": "Resort novo na Praia de Muro Alto, a mais bonita e calma de Porto de Galinhas: os arrecifes seguram as ondas e formam uma enorme piscina natural de água morna e cristalina, perfeita pra criança. São mais de 15 piscinas (uma aquecida), playground kids com tobogã, brinquedoteca, boliche, cinema, karaokê, salão de jogos e jogos eletrônicos, quadras de tênis, poliesportiva e de areia, minigolfe, sushibar, patisserie, bares e restaurantes.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "PENSÃO COMPLETA incluída",
+     "resumo": "Café da manhã, almoço e jantar todos os dias no resort.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Almoço todos os dias",
+      "Jantar todos os dias",
+      "Wi-Fi"
+     ],
+     "naoInclui": [
+      "Bebidas e consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/22409/Property/2200105.jpg",
+     "https://media.omnibees.com/Images/22409/Property/5912183.jpg",
+     "https://media.omnibees.com/Images/22409/Property/2200097.jpg",
+     "https://media.omnibees.com/Images/22409/Property/2200100.jpg",
+     "https://media.omnibees.com/Images/22409/Property/2200098.jpg",
+     "https://media.omnibees.com/Images/22409/Property/2200107.jpg",
+     "https://media.omnibees.com/Images/22409/Property/5912226.jpg",
+     "https://media.omnibees.com/Images/22409/Property/5912169.jpg",
+     "https://media.omnibees.com/Images/22409/Property/5912176.jpg",
+     "https://media.omnibees.com/Images/22409/Property/5912171.jpg",
+     "https://media.omnibees.com/Images/22409/Property/5912177.jpg",
+     "https://media.omnibees.com/Images/22409/Property/2200102.jpg"
+    ],
+    "quarto": {
+     "nome": "Smart (vista para a área de lazer)",
+     "descricao": "Apartamento Smart com vista para a área de lazer, acomoda a família: os 2 adultos e as 2 crianças.",
+     "comodidades": [
+      "Ar-condicionado",
+      "TV",
+      "Wi-Fi grátis",
+      "Frigobar"
+     ],
+     "fotos": [
+      "https://media.omnibees.com/Images/22409/Property/2200101.jpg",
+      "https://media.omnibees.com/Images/22409/Property/5912168.jpg"
+     ]
+    },
+    "mapa": "Porto 2 Life Resort GAV, Muro Alto, Ipojuca",
+    "refeicoes": "Pensão completa: café da manhã, almoço e jantar inclusos"
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto do Recife e o hotel em Porto de Galinhas, na ida e na volta.",
+     "info": [
+      "O trajeto Recife x Muro Alto leva cerca de 1 hora",
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "16.999,95",
+     "por": "15.873,89",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.133,33 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.999,95",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 2,
+        "valor": "8.499,98",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 3,
+        "valor": "5.666,65",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 4,
+        "valor": "4.249,99",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 5,
+        "valor": "3.399,99",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 6,
+        "valor": "2.833,33",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 7,
+        "valor": "2.428,56",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 8,
+        "valor": "2.124,99",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 9,
+        "valor": "1.888,88",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 10,
+        "valor": "1.700,00",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 11,
+        "valor": "1.545,45",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 12,
+        "valor": "1.416,66",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 13,
+        "valor": "1.307,69",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 14,
+        "valor": "1.214,28",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 15,
+        "valor": "1.133,33",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.833,33 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.999,95",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 2,
+        "valor": "8.499,98",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 3,
+        "valor": "5.666,65",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 4,
+        "valor": "4.249,99",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 5,
+        "valor": "3.399,99",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 6,
+        "valor": "2.833,33",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 7,
+        "valor": "2.477,14",
+        "obs": "com acréscimo",
+        "total": "17.339,95"
+       },
+       {
+        "n": 8,
+        "valor": "2.178,12",
+        "obs": "com acréscimo",
+        "total": "17.424,95"
+       },
+       {
+        "n": 9,
+        "valor": "1.945,55",
+        "obs": "com acréscimo",
+        "total": "17.509,95"
+       },
+       {
+        "n": 10,
+        "valor": "1.759,49",
+        "obs": "com acréscimo",
+        "total": "17.594,95"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.833,33 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "16.999,95",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 2,
+        "valor": "8.499,98",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 3,
+        "valor": "5.666,65",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 4,
+        "valor": "4.249,99",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 5,
+        "valor": "3.399,99",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       },
+       {
+        "n": 6,
+        "valor": "2.833,33",
+        "obs": "sem acréscimo",
+        "total": "16.999,95"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 193,
+   "inicial": false,
+   "pessoasTxt": "2 adultos + 2 crianças (13 e 9 anos)",
+   "opcao": 2,
+   "opcaoNome": "Porto de Galinhas · Porto 2 Life Resort, Muro Alto (pensão completa) · 12 a 19/02",
+   "grupo": "gabriela-nordeste-fev-2027",
+   "comparar": true
+  },
+  {
    "slug": "porto-de-galinhas-ou-porto-seguro-fevereiro-familia-opcoes",
    "destino": "Porto de Galinhas",
    "titulo": "Porto de Galinhas em família: 7 noites pé na areia em Muro Alto, com meia pensão",
@@ -936,7 +1390,7 @@
    },
    "cod": 192,
    "inicial": false,
-   "opcao": 2,
+   "opcao": 3,
    "opcaoNome": "Porto Seguro · Resort Arcobaleno (all inclusive premium) · 12 a 19/02",
    "grupo": "gabriela-nordeste-fev-2027",
    "comparar": true
