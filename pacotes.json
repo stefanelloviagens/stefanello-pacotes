@@ -8,6 +8,442 @@
   {
    "slug": "porto-de-galinhas-ou-porto-seguro-fevereiro-familia-opcoes",
    "destino": "Porto de Galinhas",
+   "titulo": "Porto de Galinhas em família: 7 noites pé na areia em Muro Alto, com pensão completa",
+   "chamada": "Sete noites no Porto Alto Resort, pé na areia na Praia de Muro Alto, pra família de 4: mar calmo e cristalino, piscina natural de água morna e café da manhã, almoço e jantar incluídos.",
+   "black": false,
+   "selo": "🏝️ Pé na areia em Muro Alto",
+   "foto": "https://media.omnibees.com/Images/19569/Property/1404453.jpg",
+   "img": "",
+   "pessoas": 4,
+   "dias": 8,
+   "noites": 7,
+   "ida": "2027-02-27",
+   "volta": "2027-03-06",
+   "idaTxt": "sáb, 27 de fev",
+   "voltaTxt": "sáb, 6 de mar",
+   "inclui": [
+    [
+     "✈️",
+     "Passagens aéreas de ida e volta (Azul saindo de Porto Alegre, volta em voo direto)"
+    ],
+    [
+     "🏨",
+     "Porto Alto Resort, pé na areia em Muro Alto, apto Smart (pensão completa: café, almoço e jantar)"
+    ],
+    [
+     "🚐",
+     "Transfer aeroporto / hotel / aeroporto"
+    ]
+   ],
+   "pix": "14.061,18",
+   "parcelas": 15,
+   "parcela": "1.006,00",
+   "outrasDatas": "",
+   "publicado": "2026-11-27",
+   "orcamento": "https://premium.infotravel.com.br/orcamento-web/pt/link?token=MXxDQVRJfDY0NTgyNDR8METxSvkPEO-oR11lm2bau-o",
+   "voos": [
+    {
+     "tipo": "Ida",
+     "data": "sáb, 27 de fev",
+     "cia": "Azul",
+     "resumo": "1 conexão em São Paulo (Guarulhos) · 8h35",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "27/02",
+        "hora": "08:40",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "chegada": {
+        "data": "27/02",
+        "hora": "10:25",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "voo": "AD 2854",
+       "duracao": "1h45"
+      },
+      {
+       "saida": {
+        "data": "27/02",
+        "hora": "14:10",
+        "iata": "GRU",
+        "cidade": "São Paulo",
+        "aeroporto": "Guarulhos"
+       },
+       "chegada": {
+        "data": "27/02",
+        "hora": "17:15",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife"
+       },
+       "voo": "AD 2959",
+       "duracao": "3h05"
+      }
+     ],
+     "conexoes": [
+      "Espera de 3h45 em Guarulhos"
+     ]
+    },
+    {
+     "tipo": "Volta",
+     "data": "sáb, 6 de mar",
+     "cia": "Azul",
+     "resumo": "Voo direto · 4h30",
+     "bagagem": [
+      "1 mala de mão",
+      "1 item pessoal"
+     ],
+     "trechos": [
+      {
+       "saida": {
+        "data": "06/03",
+        "hora": "17:25",
+        "iata": "REC",
+        "cidade": "Recife",
+        "aeroporto": "Aeroporto do Recife"
+       },
+       "chegada": {
+        "data": "06/03",
+        "hora": "21:55",
+        "iata": "POA",
+        "cidade": "Porto Alegre",
+        "aeroporto": "Aeroporto Salgado Filho"
+       },
+       "voo": "AD 4150",
+       "duracao": "4h30"
+      }
+     ],
+     "conexoes": []
+    }
+   ],
+   "hotel": {
+    "nome": "Porto Alto Resort (GAV Hotéis)",
+    "regime": "Pensão completa",
+    "noites": 7,
+    "checkin": "27/02",
+    "checkout": "06/03 (11h)",
+    "tarifa": "Não reembolsável",
+    "destaque": "🏝️ Pé na areia em Muro Alto: mar calmo, cristalino e quentinho, uma piscina natural protegida pelos arrecifes",
+    "endereco": "Estrada de Muro Alto, s/n, Lote 02 · Muro Alto, Ipojuca (PE)",
+    "descricao": "Resort pé na areia em frente à Praia de Muro Alto, a mais bonita e calma de Porto de Galinhas: os arrecifes seguram as ondas e formam uma enorme piscina natural de água morna e cristalina, perfeita pra criança. O resort tem piscina de borda infinita, área kids com piscina infantil e brinquedoteca, sala de jogos, recreação, academia, restaurante com pratos típicos e opções à la carte, pizzaria e hamburgueria.",
+    "regimeDetalhe": {
+     "ai": false,
+     "titulo": "PENSÃO COMPLETA incluída",
+     "resumo": "Café da manhã, almoço e jantar todos os dias no resort.",
+     "inclui": [
+      "Café da manhã todos os dias",
+      "Almoço todos os dias",
+      "Jantar todos os dias",
+      "Wi-Fi"
+     ],
+     "naoInclui": [
+      "Bebidas e consumo no bar"
+     ]
+    },
+    "fotos": [
+     "https://media.omnibees.com/Images/19569/Property/1404453.jpg",
+     "https://media.omnibees.com/Images/19569/Property/1404454.jpg",
+     "https://media.omnibees.com/Images/19569/Property/1405596.jpg",
+     "https://media.omnibees.com/Images/19569/Property/1407216.jpeg",
+     "https://media.omnibees.com/Images/19569/Property/1407217.jpeg",
+     "https://media.omnibees.com/Images/19569/Property/1419792.jpg",
+     "https://media.omnibees.com/Images/19569/Property/5912148.jpg",
+     "https://media.omnibees.com/Images/19569/Property/5912149.jpg",
+     "https://media.omnibees.com/Images/19569/Property/5912151.jpg",
+     "https://media.omnibees.com/Images/19569/Property/1405595.jpg",
+     "https://media.omnibees.com/Images/19569/Property/5912142.jpg",
+     "https://media.omnibees.com/Images/19569/Property/1404450.jpg",
+     "https://media.omnibees.com/Images/19569/Property/5912139.jpg",
+     "https://media.omnibees.com/Images/19569/Property/5912146.jpg"
+    ],
+    "quarto": {
+     "nome": "Smart (vista externa)",
+     "descricao": "Apartamento de 32 m² com quarto com cama queen e varanda, sala com sofá-cama e cozinha americana (micro-ondas, frigobar e utensílios). Acomoda a família: os 2 adultos e as 2 crianças.",
+     "comodidades": [
+      "Ar-condicionado",
+      "Varanda",
+      "Cozinha americana",
+      "Sofá-cama",
+      "TV 39\"",
+      "Wi-Fi grátis",
+      "Frigobar"
+     ],
+     "fotos": []
+    },
+    "mapa": "Porto Alto Resort GAV, Muro Alto, Ipojuca",
+    "refeicoes": "Pensão completa: café da manhã, almoço e jantar inclusos"
+   },
+   "servicos": [
+    {
+     "tipo": "Transfer",
+     "icone": "🚐",
+     "nome": "Transfer aeroporto / hotel / aeroporto",
+     "quando": "Na chegada e na saída",
+     "descricao": "Transfer regular (compartilhado) entre o Aeroporto do Recife e o hotel em Porto de Galinhas, na ida e na volta.",
+     "info": [
+      "O trajeto Recife x Muro Alto leva cerca de 1 hora",
+      "O horário da volta é informado no dia anterior"
+     ]
+    }
+   ],
+   "pagamento": {
+    "pix": {
+     "de": "15.079,55",
+     "por": "14.061,18",
+     "texto": "Desconto à vista sobre aéreo, hospedagem e serviços. Pagamento por PIX (QR Code) ou depósito."
+    },
+    "cartoes": [
+     {
+      "nome": "Visa e Mastercard",
+      "resumo": "Até 15x de R$ 1.005,30 sem acréscimo",
+      "bandeiras": [
+       "Visa",
+       "Mastercard"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "15.079,55",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 2,
+        "valor": "7.539,78",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 3,
+        "valor": "5.026,52",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 4,
+        "valor": "3.769,89",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 5,
+        "valor": "3.015,91",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 6,
+        "valor": "2.513,26",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 7,
+        "valor": "2.154,22",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 8,
+        "valor": "1.884,94",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 9,
+        "valor": "1.675,51",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 10,
+        "valor": "1.507,96",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 11,
+        "valor": "1.370,87",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 12,
+        "valor": "1.256,63",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 13,
+        "valor": "1.159,97",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 14,
+        "valor": "1.077,11",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 15,
+        "valor": "1.005,30",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       }
+      ]
+     },
+     {
+      "nome": "Amex e Elo",
+      "resumo": "Até 6x de R$ 2.513,26 sem acréscimo ou até 10x com acréscimo",
+      "bandeiras": [
+       "Amex",
+       "Elo"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "15.079,55",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 2,
+        "valor": "7.539,78",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 3,
+        "valor": "5.026,52",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 4,
+        "valor": "3.769,89",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 5,
+        "valor": "3.015,91",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 6,
+        "valor": "2.513,26",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 7,
+        "valor": "2.197,31",
+        "obs": "com acréscimo",
+        "total": "15.381,14"
+       },
+       {
+        "n": 8,
+        "valor": "1.932,07",
+        "obs": "com acréscimo",
+        "total": "15.456,54"
+       },
+       {
+        "n": 9,
+        "valor": "1.725,77",
+        "obs": "com acréscimo",
+        "total": "15.531,94"
+       },
+       {
+        "n": 10,
+        "valor": "1.560,73",
+        "obs": "com acréscimo",
+        "total": "15.607,33"
+       }
+      ]
+     },
+     {
+      "nome": "Hipercard e Diners",
+      "resumo": "Até 6x de R$ 2.513,26 sem acréscimo",
+      "bandeiras": [
+       "Hipercard",
+       "Diners"
+      ],
+      "parcelas": [
+       {
+        "n": 1,
+        "valor": "15.079,55",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 2,
+        "valor": "7.539,78",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 3,
+        "valor": "5.026,52",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 4,
+        "valor": "3.769,89",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 5,
+        "valor": "3.015,91",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       },
+       {
+        "n": 6,
+        "valor": "2.513,26",
+        "obs": "sem acréscimo",
+        "total": "15.079,55"
+       }
+      ]
+     }
+    ],
+    "outras": [
+     {
+      "icone": "🏦",
+      "nome": "Financiamento (Boleto)",
+      "resumo": "Entrada + 14x sem juros",
+      "texto": "Pelo Multicrédito ou Santander."
+     }
+    ],
+    "info": [
+     "Parcela mínima de R$ 99,00 em qualquer forma de pagamento.",
+     "Na compra só de passagem aérea, o parcelamento é em até 6x sem juros.",
+     "Atraso no pagamento gera multa e juros sobre a parcela, além de negativação nos órgãos de proteção ao crédito."
+    ]
+   },
+   "cod": 194,
+   "inicial": false,
+   "pessoasTxt": "2 adultos + 2 crianças (13 e 9 anos)",
+   "opcao": 1,
+   "opcaoNome": "Porto de Galinhas · Porto Alto Resort, Muro Alto (pensão completa) · 27/02 a 06/03",
+   "grupo": "gabriela-nordeste-fev-2027",
+   "comparar": true
+  },
+  {
+   "slug": "porto-de-galinhas-ou-porto-seguro-fevereiro-familia-opcoes-porto-2-life",
+   "destino": "Porto de Galinhas",
    "titulo": "Porto de Galinhas em família: Porto 2 Life Resort em Muro Alto, com pensão completa",
    "chamada": "Sete noites no Porto 2 Life Resort, na Praia de Muro Alto, a mais calma e cristalina de Porto de Galinhas, pra família de 4, com café da manhã, almoço e jantar incluídos.",
    "black": false,
@@ -454,7 +890,7 @@
    "cod": 193,
    "inicial": false,
    "pessoasTxt": "2 adultos + 2 crianças (13 e 9 anos)",
-   "opcao": 1,
+   "opcao": 2,
    "opcaoNome": "Porto de Galinhas · Porto 2 Life Resort, Muro Alto (pensão completa) · 12 a 19/02",
    "grupo": "gabriela-nordeste-fev-2027",
    "comparar": true
@@ -934,7 +1370,7 @@
    },
    "cod": 192,
    "inicial": false,
-   "opcao": 2,
+   "opcao": 3,
    "opcaoNome": "Porto Seguro · Resort Arcobaleno (all inclusive premium) · 12 a 19/02",
    "grupo": "gabriela-nordeste-fev-2027",
    "comparar": true
